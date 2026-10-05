@@ -34,15 +34,14 @@ node site_generator.mjs              # data/*.json から docs/ にサイトを�
 
 ## 自動更新と公開
 
-`run_all.bat` が 収集 → サイト生成 → git commit/push を行います。タスクスケジューラに登録して毎日実行します(例は下記)。
+`run_all.bat` が 収集 → サイト生成 → git commit/push を行います。タスクスケジューラで毎日18:00に実行しています(タスク名 `EarningsSummary_Evening`、PCが落ちていた場合は起動後に実行)。
 GitHub の Settings → Pages で「Deploy from a branch」→ `main` / `/docs` を指定すると公開されます。
 
 ```
-schtasks /Create /TN EarningsSummary_Morning /TR "D:\ClaudeCodeDir\earnings_summary\run_all.bat" /SC DAILY /ST 07:30
 schtasks /Create /TN EarningsSummary_Evening /TR "D:\ClaudeCodeDir\earnings_summary\run_all.bat" /SC DAILY /ST 18:00
 ```
 
-朝は米国の前日分と日本の前営業日分、夕方は日本の当日分(15時以降に開示)が反映されます。
+18:00の実行で、日本の当日分(15時以降に開示)と米国の前営業日分が反映されます。
 
 ## データソース
 
