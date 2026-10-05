@@ -156,14 +156,29 @@ export function externalFactors(c, market) {
 
 // ---------- 評価 (数値から機械的に決める。LLMには判定させない) ----------
 
+// 株探の前年比表記を解釈する: "+11.0" / "-3.8" / "3.8 倍" / "黒転" / "赤縮" など。"-" や欠損は null
+export function parseJpYoy(y) {
+  if (y == null) return null;
+  const s = String(y).replace(/\s+/g, '');
+  if (/^(黒転|黒拡)/.test(s)) return { kind: 'up', pct: null };
+  if (/^(赤転|赤拡)/.test(s)) return { kind: 'down', pct: null };
+  if (/^(赤縮|黒縮)/.test(s)) return { kind: 'neutral', pct: null };
+  const times = s.match(/^([+-]?[\d.]+)倍$/);
+  if (times) return { kind: 'pct', pct: (Number(times[1]) - 1) * 100 };
+  if (/^[+-]?[\d.]+$/.test(s)) return { kind: 'pct', pct: Number(s) };
+  return null;
+}
+
+// 営業益の前年比を優先し、解釈できない("-" など)ときだけ経常益を使う
+export const jpProfitYoy = (info) => parseJpYoy(info.yoy?.['営業益']) ?? parseJpYoy(info.yoy?.['経常益']);
+
 export function jpVerdict(info) {
-  const y = info.yoy['営業益'] ?? info.yoy['経常益'];
-  if (y == null) return '中立';
-  if (/^(黒転|黒拡)/.test(y)) return '良い';
-  if (/^(赤転|赤拡)/.test(y)) return '悪い';
-  const n = Number(y);
-  if (Number.isNaN(n)) return '中立';
-  return n >= 5 ? '良い' : n <= -5 ? '悪い' : '中立';
+  const y = jpProfitYoy(info);
+  if (!y) return '中立';
+  if (y.kind === 'up') return '良い';
+  if (y.kind === 'down') return '悪い';
+  if (y.kind === 'neutral') return '中立';
+  return y.pct >= 5 ? '良い' : y.pct <= -5 ? '悪い' : '中立';
 }
 
 export function usVerdict(row) {
@@ -181,13 +196,12 @@ function fmtJpFig(info, key) {
 }
 
 function jpCandidates(report) {
-  const stars = new Set(report.jp.schedule.items.filter((i) => i.star).map((i) => `${i.date}|${i.code}`));
   const out = [];
   for (const r of report.jp.results) {
     for (const i of r.items) {
       if (i.kind !== '決算' || !i.info?.narrative || !i.info.period) continue;
-      const y = i.info.yoy['営業益'] ?? i.info.yoy['経常益'] ?? '';
-      const big = /^(黒転|赤転|黒拡|赤拡)/.test(y) || Math.abs(Number(y)) >= 30;
+      const y = jpProfitYoy(i.info);
+      const big = y?.kind === 'up' || y?.kind === 'down' || Math.abs(y?.pct ?? 0) >= 30;
       out.push({
         market: 'JP',
         key: `${CACHE_VERSION}:JP:${i.code}:${i.info.period}`,
@@ -198,7 +212,8 @@ function jpCandidates(report) {
         url: i.url,
         industry: i.industry ?? null,
         verdict: jpVerdict(i.info),
-        score: (stars.has(`${r.date}|${i.code}`) ? 3 : 0) + (big ? 2 : 0),
+        // ★ は収集時に結果の各社へ付けておく (予定表は表示期間に絞られ、前営業日分が残らないため)
+        score: (i.star ? 3 : 0) + (big ? 2 : 0),
         figures: ['売上高', '営業益', '経常益', '最終益'].map((k) => `${k}: ${fmtJpFig(i.info, k)}`).join(' / '),
         material: null, // 後で決算短信の定性情報を取得 (取れなければ株探の解説文)
         fallbackMaterial: i.info.narrative,
@@ -215,6 +230,7 @@ function usCandidates(report) {
       if (!row.epsActual) continue;
       const sur = Math.abs(Number(String(row.surprise ?? '').replace(/[^0-9.-]/g, '')) || 0);
       out.push({
+        bigSurprise: sur >= 10,
         market: 'US',
         key: `${CACHE_VERSION}:US:${row.symbol}:${row.quarter}`,
         code: row.symbol,
@@ -226,7 +242,7 @@ function usCandidates(report) {
         sector: row.fin?.sector ?? null,
         usIndustry: row.fin?.industry ?? null,
         verdict: usVerdict(row),
-        score: (sur >= 10 ? 1e11 : 0) + row.marketCap, // 大きなサプライズ → 時価総額順
+        marketCap: row.marketCap,
         figures:
           `EPS 実績 ${row.epsActual} / 予想 ${row.epsForecast ?? '-'} / サプライズ ${row.surprise ?? '-'}%` +
           (row.fin?.cur?.rev ? ` / 売上高 ${(row.fin.cur.rev / 1e9).toFixed(2)}B USD` : ''),
@@ -235,7 +251,8 @@ function usCandidates(report) {
       });
     }
   }
-  return out.sort((a, b) => b.score - a.score);
+  // サプライズ ±10% 以上を必ず先に、その中は時価総額順 (時価総額の大小でサプライズ優先が崩れないよう2段階で比較)
+  return out.sort((a, b) => Number(b.bigSurprise) - Number(a.bigSurprise) || b.marketCap - a.marketCap);
 }
 
 // ---------- 日本の材料: TDnet 決算短信 XBRL の定性情報 ----------
@@ -276,9 +293,10 @@ function extractBusinessReview(html) {
     .map((l) => l.trim())
     .filter(Boolean);
   // 目次 (…… を含む行) を飛ばし、本文の見出し「（１）…経営成績…」から次の「（２）」の手前まで
-  const start = lines.findIndex((l) => /^[（(]１[）)].*経営成績/.test(l) && !/…/.test(l));
+  // 見出しの数字は全角・半角どちらもある ("（１）" / "(1)")
+  const start = lines.findIndex((l) => /^[（(][1１][）)].*経営成績/.test(l) && !/…/.test(l));
   if (start < 0) return null;
-  let end = lines.findIndex((l, i) => i > start && /^[（(]２[）)]/.test(l));
+  let end = lines.findIndex((l, i) => i > start && /^[（(][2２][）)]/.test(l));
   if (end < 0) end = Math.min(lines.length, start + 60);
   return lines.slice(start + 1, end).join('\n').slice(0, 4000);
 }

@@ -934,5 +934,9 @@
  "ODC": {
   "sector": "Basic Materials",
   "industry": "Specialty Chemicals"
+ },
+ "AEHR": {
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials"
  }
 }

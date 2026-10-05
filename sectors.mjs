@@ -6,7 +6,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { externalFactors, jpVerdict, usVerdict } from './reasons.mjs';
+import { externalFactors, jpProfitYoy, jpVerdict, usVerdict } from './reasons.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DB_FILE = join(ROOT, 'data', 'earnings_db.json');
@@ -193,8 +193,8 @@ const median = (xs) => {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 };
 
-// 日本: 営業益(無ければ経常益)の前年比。黒転/赤転などは数値化できないので中央値から除く
-const jpGrowth = (r) => num(/^[+-]?[\d.]+$/.test(r.yoy?.['営業益'] ?? '') ? r.yoy['営業益'] : r.yoy?.['経常益']);
+// 日本: 営業益(無ければ経常益)の前年比。"3.8 倍" は +280% に換算し、黒転/赤転などは数値化できないので中央値から除く
+const jpGrowth = (r) => jpProfitYoy(r)?.pct ?? null;
 
 function judge(n, score, marketAdj) {
   const composite = Math.max(-1, Math.min(1, score + marketAdj));
@@ -259,11 +259,11 @@ export function annotateSchedule(report, usSectors) {
   const jpBy = new Map(report.sectors.JP.map((s) => [s.industry, s]));
   const usBy = new Map(report.sectors.US.map((s) => [s.industry, s]));
   for (const i of report.jp.schedule.items) i.outlook = jpBy.get(i.industry)?.judgement ?? null;
-  for (const day of report.us.schedule) {
-    for (const r of day.rows) {
-      r.sector = usSectors[r.symbol]?.sector ?? null;
-      r.outlook = usBy.get(r.sector)?.judgement ?? null;
-    }
+  // 1週間の予定に加え、本日/前営業日の「発表前」の行にも付ける (同じ表で表示しているため)
+  const usRows = [...report.us.schedule.flatMap((d) => d.rows), ...report.us.results.flatMap((d) => d.rows.filter((r) => !r.epsActual))];
+  for (const r of usRows) {
+    r.sector = usSectors[r.symbol]?.sector ?? null;
+    r.outlook = usBy.get(r.sector)?.judgement ?? null;
   }
   for (const [market, list] of [['JP', report.sectors.JP], ['US', report.sectors.US]]) {
     for (const s of list) {

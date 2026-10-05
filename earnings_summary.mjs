@@ -151,15 +151,25 @@ async function fetchJpNewsRange(from, to, maxPages = 300) {
   return items;
 }
 
-async function fetchJpNewsFor(date, maxPages = 25) {
+// 本日と前営業日の決算速報を1回のページ送りで取る。
+// 前営業日は「本日より前で決算速報があった直近の日」とし、祝日・連休をまたいでも正しく遡れるようにする
+async function fetchJpRecent(today, maxPages = 60) {
   const items = [];
+  let prev = null;
   for (let page = 1; page <= maxPages; page++) {
     const rows = parseKabutanNews(await fetchText(`${KABUTAN}/news/?category=3&page=${page}`));
     if (rows.length === 0) break;
-    items.push(...rows.filter((r) => r.date === date));
-    if (rows.some((r) => r.date < date)) break;
+    items.push(...rows);
+    // 一覧は新しい順なので、最初に現れた本日より前の日付が前営業日
+    prev ??= rows.map((r) => r.date).find((d) => d < today) ?? null;
+    if (prev && rows.some((r) => r.date < prev)) break;
   }
-  return items.sort((a, b) => a.time.localeCompare(b.time));
+  const byTime = (a, b) => a.time.localeCompare(b.time);
+  return {
+    prev,
+    prevItems: prev ? items.filter((r) => r.date === prev).sort(byTime) : [],
+    todayItems: items.filter((r) => r.date === today).sort(byTime),
+  };
 }
 
 const UNIT_TO_YEN = { 千円: 1e3, 百万円: 1e6, 億円: 1e8, 円: 1 };
@@ -389,18 +399,32 @@ async function fetchUsDay(ymd) {
     .sort((a, b) => b.marketCap - a.marketCap);
 }
 
+// 米国の前営業日: 祝日 (Thanksgiving など) は発表が0件になるため、発表がある直近の平日まで遡る
+async function findUsPrevDay(today, maxBack = 5) {
+  let date = prevBusinessDay(today);
+  const first = date;
+  for (let i = 0; i < maxBack; i++, date = prevBusinessDay(date)) {
+    try {
+      const rows = await fetchUsDay(date);
+      if (rows.length) return { date, rows };
+    } catch (err) {
+      return { date, rows: null, error: err.message };
+    }
+  }
+  return { date: first, rows: [] };
+}
+
 async function fetchUsDays(dates) {
   const results = new Map();
   const errors = [];
-  await Promise.all(
-    dates.map(async (d) => {
-      try {
-        results.set(d, await fetchUsDay(d));
-      } catch (err) {
-        errors.push(err.message);
-      }
-    }),
-  );
+  // バックフィルでは数百日分になるため、同時リクエスト数を絞る (Nasdaq のレート制限対策)
+  await mapLimit(dates, 4, async (d) => {
+    try {
+      results.set(d, await fetchUsDay(d));
+    } catch (err) {
+      errors.push(err.message);
+    }
+  });
   return { results, errors };
 }
 
@@ -625,20 +649,31 @@ function renderUsSchedule(schedule) {
 export async function collectReport(opts) {
   const jpToday = opts.date ?? todayIn('Asia/Tokyo');
   const usToday = opts.date ?? todayIn('America/New_York');
-  const jpPrev = prevBusinessDay(jpToday);
-  const usPrev = prevBusinessDay(usToday);
   const jpWindow = range(jpToday, opts.days + 1); // 本日を含む
   const usWindow = range(addDays(usToday, 1), opts.days).filter(isWeekday);
   const usTodayDates = isWeekday(usToday) ? [usToday] : [];
 
   const safe = (p) => p.then((value) => ({ value }), (err) => ({ error: err.message }));
-  const [jpPrevNews, jpTodayNews, jpSched, us, session] = await Promise.all([
-    safe(fetchJpNewsFor(jpPrev).then(enrichJpResults)),
-    safe(fetchJpNewsFor(jpToday).then(enrichJpResults)),
+  const [jpNews, jpSched, us, usPrevDay, session] = await Promise.all([
+    safe(fetchJpRecent(jpToday)),
     fetchJpSchedule(jpToday),
-    fetchUsDays([usPrev, ...usTodayDates, ...usWindow]),
+    fetchUsDays([...usTodayDates, ...usWindow]),
+    findUsPrevDay(usToday),
     yahooSession(),
   ]);
+  const jpPrev = jpNews.value?.prev ?? prevBusinessDay(jpToday);
+  const usPrev = usPrevDay.date;
+  if (usPrevDay.rows) us.results.set(usPrev, usPrevDay.rows);
+  if (usPrevDay.error) us.errors.push(usPrevDay.error);
+
+  const jpPrevNews = jpNews.error ? jpNews : { value: jpNews.value.prevItems };
+  const jpTodayNews = jpNews.error ? jpNews : { value: jpNews.value.todayItems };
+  if (!jpNews.error) await enrichJpResults([...jpPrevNews.value, ...jpTodayNews.value]);
+
+  // ★(注目決算)は予定表を表示期間に絞る前に結果の各社へ付けておく (前営業日分が消えるため)
+  const starKeys = new Set(jpSched.items.filter((i) => i.star).map((i) => `${i.date}|${i.code}`));
+  for (const item of jpPrevNews.value ?? []) item.star = starKeys.has(`${jpPrev}|${item.code}`);
+  for (const item of jpTodayNews.value ?? []) item.star = starKeys.has(`${jpToday}|${item.code}`);
 
   const usResultDates = [usPrev, ...usTodayDates].filter((d) => us.results.has(d));
   await enrichUsRows(usResultDates.map((d) => us.results.get(d)), opts.usDetail, session);
@@ -682,7 +717,8 @@ export async function collectReport(opts) {
 
   // 個別銘柄の数値と理由づけを DB に保持し、DB からセクターごとの見通しを判定する
   const usSectors = await resolveUsSectors(
-    [...report.us.results.flatMap((r) => r.rows.filter((x) => x.epsActual)), ...report.us.schedule.flatMap((d) => d.rows)],
+    // 発表済み・発表前・1週間の予定のすべての行 (発表前の行にもセクター見通しを表示するため)
+    [...report.us.results.flatMap((r) => r.rows), ...report.us.schedule.flatMap((d) => d.rows)],
     session,
   );
   const db = await updateDb(report, usSectors);
