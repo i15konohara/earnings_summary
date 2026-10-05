@@ -5,6 +5,7 @@
 - 前営業日 / 本日の決算概要(売上高・営業利益などの数値付き)
 - 本日から1週間の決算予定(全件)
 - 決算が良かった/悪かった理由を「個別要因」「外部要因」に分けて整理(OpenRouter無料モデル + 市況ルール)
+- 個別銘柄の数値・理由づけを `data/earnings_db.json` に蓄積し、セクターごとに決算が良さそうかを判定(`sectors.html`)
 
 設計の詳細は [design_document.md](design_document.md) を参照してください。
 
@@ -28,7 +29,7 @@ node earnings_summary.mjs --json     # data/YYYY-MM-DD.json も保存 (サイト
 node site_generator.mjs              # data/*.json から docs/ にサイトを生成
 ```
 
-オプション: `--date YYYY-MM-DD` / `--days 7` / `--us-detail 40` / `--no-save` / `--json` / `--no-reasons` / `--reason-max 25`
+オプション: `--date YYYY-MM-DD` / `--days 7` / `--us-detail 40` / `--no-save` / `--json` / `--no-reasons` / `--reason-max 25` / `--sector-days 60` / `--backfill N`(過去N日分を数値のみDBに取り込む)
 サイト生成: `--base-url https://USER.github.io/REPO` (sitemap.xml / robots.txt 用)
 
 ## 自動更新と公開

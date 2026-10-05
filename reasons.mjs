@@ -156,7 +156,7 @@ export function externalFactors(c, market) {
 
 // ---------- 評価 (数値から機械的に決める。LLMには判定させない) ----------
 
-function jpVerdict(info) {
+export function jpVerdict(info) {
   const y = info.yoy['営業益'] ?? info.yoy['経常益'];
   if (y == null) return '中立';
   if (/^(黒転|黒拡)/.test(y)) return '良い';
@@ -166,7 +166,7 @@ function jpVerdict(info) {
   return n >= 5 ? '良い' : n <= -5 ? '悪い' : '中立';
 }
 
-function usVerdict(row) {
+export function usVerdict(row) {
   const s = Number(String(row.surprise ?? '').replace(/[^0-9.-]/g, ''));
   if (row.surprise == null || Number.isNaN(s)) return '中立';
   return s >= 2 ? '良い' : s <= -2 ? '悪い' : '中立';

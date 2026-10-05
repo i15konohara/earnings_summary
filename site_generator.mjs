@@ -116,7 +116,10 @@ function jpScheduleHtml(s) {
       daySchedule(
         d,
         day.length,
-        table(['コード', '会社名', '市場', '業種', '種別', '注目'], day.map((i) => [i.code, i.name, i.market, i.industry, i.kind, i.star ? '★' : ''])),
+        table(
+          ['コード', '会社名', '市場', '業種', '種別', '注目', 'セクター見通し'],
+          day.map((i) => [i.code, i.name, i.market, i.industry, i.kind, i.star ? '★' : '', outlookCell(i.outlook)]),
+        ),
       ),
     );
   }
@@ -127,8 +130,89 @@ function jpScheduleHtml(s) {
 
 function usScheduleTable(rows) {
   return table(
-    ['銘柄', '会社名', '時価総額', '時間', '四半期', 'EPS予想'],
-    rows.map((r) => [r.symbol, r.name, fmtCap(r.marketCap), TIME_LABEL[r.time] ?? r.time, r.quarter, r.epsForecast ?? '-']),
+    ['銘柄', '会社名', '時価総額', '時間', '四半期', 'EPS予想', 'セクター', 'セクター見通し'],
+    rows.map((r) => [
+      r.symbol,
+      r.name,
+      fmtCap(r.marketCap),
+      TIME_LABEL[r.time] ?? r.time,
+      r.quarter,
+      r.epsForecast ?? '-',
+      r.sector ?? '-',
+      outlookCell(r.outlook),
+    ]),
+  );
+}
+
+// ---------- セクター判定 ----------
+
+const OUTLOOK_CLASS = { 良さそう: 'up', 悪そう: 'down', まちまち: '', データ不足: 'muted' };
+
+function outlookCell(outlook) {
+  if (!outlook) return '-';
+  return { html: `<span class="badge ${OUTLOOK_CLASS[outlook] ?? ''}">${esc(outlook)}</span>` };
+}
+
+const fmtSigned = (v, unit = '%') => (v == null ? '-' : `${v >= 0 ? '+' : ''}${v.toFixed(1)}${unit}`);
+
+function sectorTable(list, mkt) {
+  if (!list?.length) return '<p class="note">集計できる決算データがまだありません。</p>';
+  return table(
+    ['セクター', '判定', '社数', '良い / 中立 / 悪い', mkt === 'JP' ? '営業益前年比(中央値)' : 'EPSサプライズ(中央値)', '市況', '今後1週間の予定', '主な要因(AI抽出)'],
+    list.map((s) => [
+      s.industry,
+      outlookCell(s.judgement),
+      { html: esc(s.n), cls: 'num' },
+      { html: `<span class="up">${s.good}</span> / ${s.neutral} / <span class="down">${s.bad}</span>`, cls: 'num' },
+      { html: esc(fmtSigned(s.medianGrowth)), cls: `num ${s.medianGrowth > 0 ? 'up' : s.medianGrowth < 0 ? 'down' : ''}` },
+      {
+        html: s.market.length
+          ? s.market.map((e) => `<span class="${e.effect === '追い風' ? 'up' : 'down'}">${esc(e.effect)}</span> <small>${esc(e.change)}</small>`).join('<br>')
+          : '-',
+      },
+      {
+        html: s.upcoming?.length ? `${s.upcoming.length}社<br><small>${esc(s.upcoming.slice(0, 5).join('、'))}${s.upcoming.length > 5 ? ' ほか' : ''}</small>` : '-',
+        cls: 'wrap',
+      },
+      {
+        html: s.factors.length ? s.factors.slice(0, 3).map((f) => `${esc(f.factor)} <small class="note">(${esc(f.name)})</small>`).join('<br>') : '-',
+        cls: 'wrap',
+      },
+    ]),
+  );
+}
+
+function sectorsBody(report) {
+  const s = report.sectors;
+  if (!s) return '<p class="note">セクター判定のデータがありません。</p>';
+  return [
+    '<h2>セクター別の決算判定</h2>',
+    `<p class="note">直近${s.windowDays}日(${esc(s.from)}〜${esc(s.asOf)})に発表された決算を業種ごとに集計し、そのセクターの決算が良さそうかを判定しています。</p>`,
+    `<ul class="note method">
+<li>各社の評価: 日本は営業益(無ければ経常益)の前年比 ±5%、米国はEPSサプライズ ±2% で「良い / 悪い / 中立」</li>
+<li>スコア = (良い社数 − 悪い社数) ÷ 社数 に、業種と市況(約3か月の変化)のルールで追い風なら +0.15、逆風なら −0.15</li>
+<li>スコア +0.25 以上で「良さそう」、−0.25 以下で「悪そう」、その間は「まちまち」。3社未満は「データ不足」</li>
+<li>過去の決算からの傾向であり、これから発表する個別企業の結果を保証するものではありません。</li>
+</ul>`,
+    section('🇯🇵 日本 (東証33業種)', sectorTable(s.JP, 'JP'), 'h3'),
+    section('🇺🇸 米国 (Yahoo Finance のセクター、時価総額10億ドル以上)', sectorTable(s.US, 'US'), 'h3'),
+  ].join('\n');
+}
+
+// トップページ用の短い要約
+function sectorDigest(report) {
+  const s = report.sectors;
+  if (!s) return '';
+  const pick = (list, j) => list.filter((x) => x.judgement === j).map((x) => x.industry);
+  const line = (flag, list) => {
+    const good = pick(list, '良さそう');
+    const bad = pick(list, '悪そう');
+    return `<li>${flag} 良さそう: <span class="up">${esc(good.join('、') || 'なし')}</span> / 悪そう: <span class="down">${esc(bad.join('、') || 'なし')}</span></li>`;
+  };
+  return section(
+    'セクター判定 (直近の決算傾向)',
+    `<ul class="digest">${line('🇯🇵', s.JP)}${line('🇺🇸', s.US)}</ul><p class="note">詳細は <a href="sectors.html">セクター判定</a> のページにあります。</p>`,
+    'h3',
   );
 }
 
@@ -236,6 +320,7 @@ function renderNav(prefix) {
     ['index.html', 'トップ'],
     ['jp.html', '🇯🇵 日本'],
     ['us.html', '🇺🇸 米国'],
+    ['sectors.html', 'セクター判定'],
     ['archive.html', 'アーカイブ'],
   ]
     .map(([href, name]) => `<a href="${prefix}${href}">${name}</a>`)
@@ -322,6 +407,7 @@ function buildPages(latest, all, baseUrl) {
         updated(latest),
         statCards(latest),
         `<p class="note">決算予定の全件リストは <a href="jp.html">日本</a> / <a href="us.html">米国</a> のページにあります。</p>`,
+        sectorDigest(latest),
         jpBody(latest, false),
         usBody(latest, false),
       ].join('\n'),
@@ -329,6 +415,14 @@ function buildPages(latest, all, baseUrl) {
   );
   pages.set('jp.html', renderPage({ title: `日本の決算 | ${SITE_TITLE}`, description: desc('日本'), body: [updated(latest), jpBody(latest, true)].join('\n') }));
   pages.set('us.html', renderPage({ title: `米国の決算 | ${SITE_TITLE}`, description: desc('米国'), body: [updated(latest), usBody(latest, true)].join('\n') }));
+  pages.set(
+    'sectors.html',
+    renderPage({
+      title: `セクター判定 | ${SITE_TITLE}`,
+      description: `日本・米国のセクター別に、直近の決算が良さそうかを判定 (${latest.date} 時点)`,
+      body: [updated(latest), sectorsBody(latest)].join('\n'),
+    }),
+  );
 
   const items = all
     .map((r) => `<li><a href="archive/${esc(r.date)}.html">${esc(label(r.date))}</a></li>`)
@@ -344,12 +438,12 @@ function buildPages(latest, all, baseUrl) {
         title: `${r.date} の決算 | ${SITE_TITLE}`,
         description: `${r.date} 時点の日本・米国の決算サマリー`,
         prefix: '../',
-        body: [updated(r), jpBody(r, true), usBody(r, true)].join('\n'),
+        body: [updated(r), jpBody(r, true), usBody(r, true), sectorsBody(r)].join('\n'),
       }),
     );
   }
 
-  const urls = ['index.html', 'jp.html', 'us.html', 'archive.html', ...all.map((r) => `archive/${r.date}.html`)].map((p) => `${baseUrl}/${p}`);
+  const urls = ['index.html', 'jp.html', 'us.html', 'sectors.html', 'archive.html', ...all.map((r) => `archive/${r.date}.html`)].map((p) => `${baseUrl}/${p}`);
   pages.set(
     'sitemap.xml',
     ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', ...urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`), '</urlset>'].join('\n'),
@@ -450,6 +544,10 @@ details.reason > summary { cursor: pointer; font-size: 0.9rem; }
 details.reason ul { margin: 4px 0; padding-left: 20px; font-size: 0.88rem; }
 details.reason blockquote { margin: 2px 0 6px; padding-left: 10px; border-left: 3px solid var(--border); color: var(--muted); font-size: 0.82rem; }
 .reason-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 4px 20px; }
+.badge.muted { color: var(--muted); }
+td.wrap { white-space: normal; min-width: 12em; max-width: 22em; }
+ul.method { padding-left: 20px; }
+ul.digest { padding-left: 20px; margin: 4px 0; }
 .badge { display: inline-block; padding: 0 8px; border-radius: 999px; border: 1px solid currentColor; font-size: 0.75rem; font-weight: 600; }
 .ad-slot {
   max-width: 1100px;

@@ -8,7 +8,8 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { inflateRawSync } from 'node:zlib';
-import { generateReasons, marketLine } from './reasons.mjs';
+import { fetchMarket, generateReasons, marketLine } from './reasons.mjs';
+import { annotateSchedule, resolveJpIndustries, resolveUsSectors, sectorOutlook, updateDb } from './sectors.mjs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) earnings-summary/2.0';
 const KABUTAN = 'https://kabutan.jp';
@@ -18,7 +19,7 @@ const NASDAQ = 'https://api.nasdaq.com/api/calendar/earnings';
 // ---------- 引数 ----------
 
 function parseArgs(argv) {
-  const opts = { date: null, days: 7, usDetail: 40, save: true, json: false, reasons: true, reasonMax: 25 };
+  const opts = { date: null, days: 7, usDetail: 40, save: true, json: false, reasons: true, reasonMax: 25, sectorDays: 60, backfill: 0 };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--date') opts.date = argv[++i];
@@ -28,8 +29,10 @@ function parseArgs(argv) {
     else if (a === '--json') opts.json = true;
     else if (a === '--no-reasons') opts.reasons = false;
     else if (a === '--reason-max') opts.reasonMax = Number(argv[++i]);
+    else if (a === '--sector-days') opts.sectorDays = Number(argv[++i]);
+    else if (a === '--backfill') opts.backfill = Number(argv[++i]);
     else if (a === '-h' || a === '--help') {
-      console.log('node earnings_summary.mjs [--date YYYY-MM-DD] [--days 7] [--us-detail 40] [--no-save] [--json] [--no-reasons] [--reason-max 25]');
+      console.log('node earnings_summary.mjs [--date YYYY-MM-DD] [--days 7] [--us-detail 40] [--no-save] [--json] [--no-reasons] [--reason-max 25] [--sector-days 60] [--backfill N]');
       process.exit(0);
     }
   }
@@ -134,6 +137,18 @@ function parseKabutanNews(html) {
     url: `${KABUTAN}${decodeEntities(m[4])}`,
     title: decodeEntities(m[5]),
   }));
+}
+
+// from〜to の決算速報を1回のページ送りでまとめて取る (バックフィル用)
+async function fetchJpNewsRange(from, to, maxPages = 300) {
+  const items = [];
+  for (let page = 1; page <= maxPages; page++) {
+    const rows = parseKabutanNews(await fetchText(`${KABUTAN}/news/?category=3&page=${page}`));
+    if (rows.length === 0) break;
+    items.push(...rows.filter((r) => r.date >= from && r.date <= to));
+    if (rows.some((r) => r.date < from)) break;
+  }
+  return items;
 }
 
 async function fetchJpNewsFor(date, maxPages = 25) {
@@ -628,11 +643,15 @@ export async function collectReport(opts) {
   const usResultDates = [usPrev, ...usTodayDates].filter((d) => us.results.has(d));
   await enrichUsRows(usResultDates.map((d) => us.results.get(d)), opts.usDetail, session);
 
-  // 日本の決算各社に JPX の業種を付ける (理由づけの外部要因に使う)
-  const industryByCode = new Map(jpSched.items.map((i) => [i.code, i.industry]));
-  for (const res of [jpPrevNews, jpTodayNews]) {
-    for (const item of res.value ?? []) item.industry = industryByCode.get(item.code) ?? null;
-  }
+  // 日本の決算各社に業種を付ける (JPX の予定表を優先し、無ければ株探の銘柄ページ)
+  const industryByCode = new Map(jpSched.items.filter((i) => i.industry).map((i) => [i.code, i.industry]));
+  const jpItems = [...(jpPrevNews.value ?? []), ...(jpTodayNews.value ?? [])];
+  const jpIndustries = await resolveJpIndustries(
+    [...jpItems.map((i) => i.code), ...jpSched.items.filter((i) => !i.industry).map((i) => i.code)].filter((c) => !industryByCode.has(c)),
+    industryByCode,
+  );
+  for (const item of jpItems) item.industry = industryByCode.get(item.code) ?? jpIndustries[item.code] ?? null;
+  for (const item of jpSched.items) item.industry ||= jpIndustries[item.code] ?? '';
   // JPX の一覧は数か月分あるため、保存は表示する期間だけに絞る (data/*.json の肥大化防止)
   const windowSet = new Set(jpWindow);
   jpSched.items = jpSched.items.filter((i) => windowSet.has(i.date));
@@ -660,7 +679,48 @@ export async function collectReport(opts) {
     },
   };
   if (opts.reasons) await generateReasons(report, { max: opts.reasonMax });
+
+  // 個別銘柄の数値と理由づけを DB に保持し、DB からセクターごとの見通しを判定する
+  const usSectors = await resolveUsSectors(
+    [...report.us.results.flatMap((r) => r.rows.filter((x) => x.epsActual)), ...report.us.schedule.flatMap((d) => d.rows)],
+    session,
+  );
+  const db = await updateDb(report, usSectors);
+  report.market ??= await fetchMarket();
+  report.sectors = sectorOutlook(db, report.market, jpToday, opts.sectorDays);
+  annotateSchedule(report, usSectors);
   return report;
+}
+
+// 過去 N 日分の決算(数値のみ、LLMは使わない)を DB に取り込む
+async function runBackfill(opts) {
+  const today = opts.date ?? todayIn('Asia/Tokyo');
+  const from = addDays(today, -opts.backfill);
+  const dates = range(from, opts.backfill + 1).filter(isWeekday);
+  console.error(`[backfill] ${from} 〜 ${today} (${dates.length}営業日) を取り込みます`);
+
+  const jpNews = (await fetchJpNewsRange(from, today)).filter((i) => i.kind === '決算');
+  console.error(`[backfill] 日本: 決算速報 ${jpNews.length} 件の記事を取得中...`);
+  await enrichJpResults(jpNews);
+  const jpxIndustry = new Map((await fetchJpSchedule(today)).items.filter((i) => i.industry).map((i) => [i.code, i.industry]));
+  const jpIndustries = await resolveJpIndustries(jpNews.map((i) => i.code).filter((c) => !jpxIndustry.has(c)), jpxIndustry, { max: 2000 });
+  for (const item of jpNews) item.industry = jpxIndustry.get(item.code) ?? jpIndustries[item.code] ?? null;
+
+  const session = await yahooSession();
+  const us = await fetchUsDays(dates);
+  const usDays = dates.filter((d) => us.results.has(d));
+  console.error(`[backfill] 米国: ${usDays.length} 日分の財務データを取得中...`);
+  await enrichUsRows(usDays.map((d) => us.results.get(d)), opts.usDetail, session);
+  const usSectors = await resolveUsSectors(usDays.flatMap((d) => us.results.get(d).filter((r) => r.epsActual)), session, { max: 2000 });
+
+  const pseudo = {
+    jp: { results: dates.map((d) => ({ date: d, items: jpNews.filter((i) => i.date === d) })) },
+    us: { results: usDays.map((d) => ({ date: d, rows: us.results.get(d) })) },
+    reasons: [],
+  };
+  const db = await updateDb(pseudo, usSectors);
+  const count = (m) => Object.values(db).filter((r) => r.market === m).length;
+  console.error(`[backfill] 完了: DB 日本 ${count('JP')} 件 / 米国 ${count('US')} 件`);
 }
 
 export function renderMarkdown(report) {
@@ -678,7 +738,24 @@ export function renderMarkdown(report) {
   md.push(...renderUsSchedule(report.us.schedule));
   for (const e of report.us.errors) md.push(`_取得エラー: ${e}_`, '');
   md.push(...renderReasonsMd(report));
+  md.push(...renderSectorsMd(report));
   return md.join('\n');
+}
+
+function renderSectorsMd(report) {
+  const s = report.sectors;
+  if (!s) return [];
+  const out = ['## セクター判定', '', `_直近${s.windowDays}日(${s.from}〜${s.asOf})の決算を業種ごとに集計した傾向です。_`, ''];
+  for (const [flag, list, growth] of [['🇯🇵 日本', s.JP, '営業益前年比'], ['🇺🇸 米国', s.US, 'EPSサプライズ']]) {
+    out.push(`### ${flag}`, '', `| セクター | 判定 | 社数 | 良/中/悪 | ${growth}(中央値) | 市況 | 今後1週間の予定 |`, '| --- | --- | --- | --- | --- | --- | --- |');
+    for (const x of list) {
+      const g = x.medianGrowth == null ? '-' : `${x.medianGrowth >= 0 ? '+' : ''}${x.medianGrowth.toFixed(1)}%`;
+      const mkt = x.market.map((e) => `${e.effect}(${e.change})`).join(' ') || '-';
+      out.push(`| ${x.industry} | ${x.judgement} | ${x.n} | ${x.good}/${x.neutral}/${x.bad} | ${g} | ${mkt} | ${x.upcoming?.length ?? 0}社 |`);
+    }
+    out.push('');
+  }
+  return out;
 }
 
 function renderReasonsMd(report) {
@@ -705,6 +782,10 @@ export { label, isWeekday, fmtJpCell, fmtUsFin, fmtCap, fmtSurprise, TIME_LABEL,
 
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
+  if (opts.backfill > 0) {
+    await runBackfill(opts);
+    return;
+  }
   const report = await collectReport(opts);
   const text = renderMarkdown(report);
   console.log(text);
