@@ -8,6 +8,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { inflateRawSync } from 'node:zlib';
+import { generateReasons, marketLine } from './reasons.mjs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) earnings-summary/2.0';
 const KABUTAN = 'https://kabutan.jp';
@@ -17,7 +18,7 @@ const NASDAQ = 'https://api.nasdaq.com/api/calendar/earnings';
 // ---------- 引数 ----------
 
 function parseArgs(argv) {
-  const opts = { date: null, days: 7, usDetail: 40, save: true, json: false };
+  const opts = { date: null, days: 7, usDetail: 40, save: true, json: false, reasons: true, reasonMax: 25 };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--date') opts.date = argv[++i];
@@ -25,8 +26,10 @@ function parseArgs(argv) {
     else if (a === '--us-detail') opts.usDetail = Number(argv[++i]);
     else if (a === '--no-save') opts.save = false;
     else if (a === '--json') opts.json = true;
+    else if (a === '--no-reasons') opts.reasons = false;
+    else if (a === '--reason-max') opts.reasonMax = Number(argv[++i]);
     else if (a === '-h' || a === '--help') {
-      console.log('node earnings_summary.mjs [--date YYYY-MM-DD] [--days 7] [--us-detail 40] [--no-save] [--json]');
+      console.log('node earnings_summary.mjs [--date YYYY-MM-DD] [--days 7] [--us-detail 40] [--no-save] [--json] [--no-reasons] [--reason-max 25]');
       process.exit(0);
     }
   }
@@ -159,6 +162,17 @@ function parseKabutanArticle(html) {
   if (nameIdx >= 0 && tokens[nameIdx + 1]) info.name = tokens[nameIdx + 1].replace(/【.*?】/g, '');
 
   const head = tokens.findIndex((t) => t.endsWith('【実績】'));
+
+  // 理由づけ用の材料: 株探の解説文 + 会社側の【修正の理由】
+  const bodyStart = tokens.findIndex((t) => t.startsWith('決算短信'));
+  const bodyEnd = tokens.indexOf('株探ニュース', bodyStart + 1);
+  const reasonIdx = tokens.findIndex((t) => t.includes('【修正の理由】'));
+  const reasonEnd = head > reasonIdx ? head : reasonIdx + 6;
+  const parts = [];
+  if (bodyStart >= 0 && bodyEnd > bodyStart) parts.push(tokens.slice(bodyStart + 1, bodyEnd).join(' '));
+  if (reasonIdx >= 0) parts.push(`会社側の説明: ${tokens.slice(reasonIdx + 1, reasonEnd).join(' ').replace(/»続く/g, '')}`);
+  info.narrative = parts.join('\n').slice(0, 2500);
+
   if (head < 0) return info;
   const start = tokens.indexOf('決算期', head);
   if (start < 0) return info;
@@ -398,16 +412,20 @@ async function fetchUsFinancials(row, session) {
   const headers = { Cookie: session.cookie };
   const cur = {};
   const prev = {};
+  const profile = {};
 
-  // 直近四半期 (発表直後は売上・純利益のみのことが多い)
+  // 直近四半期 (発表直後は売上・純利益のみのことが多い) と業種 (理由づけの外部要因に使う)
   try {
     const j = JSON.parse(
       await fetchText(
-        `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${sym}?modules=incomeStatementHistoryQuarterly&crumb=${encodeURIComponent(session.crumb)}`,
+        `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${sym}?modules=incomeStatementHistoryQuarterly,assetProfile&crumb=${encodeURIComponent(session.crumb)}`,
         headers,
       ),
     );
-    const list = j.quoteSummary?.result?.[0]?.incomeStatementHistoryQuarterly?.incomeStatementHistory ?? [];
+    const result = j.quoteSummary?.result?.[0];
+    profile.sector = result?.assetProfile?.sector ?? null;
+    profile.industry = result?.assetProfile?.industry ?? null;
+    const list = result?.incomeStatementHistoryQuarterly?.incomeStatementHistory ?? [];
     const q = list.find((e) => ymOf(e.endDate?.fmt ?? '') === target);
     if (q) {
       cur.rev = q.totalRevenue?.raw ?? null;
@@ -441,7 +459,7 @@ async function fetchUsFinancials(row, session) {
   }
   // Yahoo は未反映の項目を 0 で返すことがあるため欠損扱いにする
   for (const o of [cur, prev]) for (const k of Object.keys(o)) if (o[k] === 0) o[k] = null;
-  return { cur, prev };
+  return { cur, prev, ...profile };
 }
 
 async function enrichUsRows(rowsByDate, limit, session) {
@@ -610,7 +628,16 @@ export async function collectReport(opts) {
   const usResultDates = [usPrev, ...usTodayDates].filter((d) => us.results.has(d));
   await enrichUsRows(usResultDates.map((d) => us.results.get(d)), opts.usDetail, session);
 
-  return {
+  // 日本の決算各社に JPX の業種を付ける (理由づけの外部要因に使う)
+  const industryByCode = new Map(jpSched.items.map((i) => [i.code, i.industry]));
+  for (const res of [jpPrevNews, jpTodayNews]) {
+    for (const item of res.value ?? []) item.industry = industryByCode.get(item.code) ?? null;
+  }
+  // JPX の一覧は数か月分あるため、保存は表示する期間だけに絞る (data/*.json の肥大化防止)
+  const windowSet = new Set(jpWindow);
+  jpSched.items = jpSched.items.filter((i) => windowSet.has(i.date));
+
+  const report = {
     generatedAt: new Date().toISOString(),
     date: jpToday,
     usDetail: opts.usDetail,
@@ -632,6 +659,8 @@ export async function collectReport(opts) {
       errors: us.errors,
     },
   };
+  if (opts.reasons) await generateReasons(report, { max: opts.reasonMax });
+  return report;
 }
 
 export function renderMarkdown(report) {
@@ -648,14 +677,29 @@ export function renderMarkdown(report) {
   md.push(`_${US_FIN_NOTE(report.usDetail)}_`, '');
   md.push(...renderUsSchedule(report.us.schedule));
   for (const e of report.us.errors) md.push(`_取得エラー: ${e}_`, '');
+  md.push(...renderReasonsMd(report));
   return md.join('\n');
+}
+
+function renderReasonsMd(report) {
+  if (!report.reasons?.length) return [];
+  const out = ['## 決算の理由づけ (AIによる自動整理)', '', '_要因はAIが決算短信・ニュース見出しから抜き出し、引用を確認できたものだけを載せています。「市況データからの推定」は業種と下記の市況実測値から機械的に判定しています。誤りを含む可能性があります。_', ''];
+  out.push(...report.market.map((m) => `- ${marketLine(m)}`), '');
+  for (const r of report.reasons) {
+    out.push(`### ${r.name} (${r.code}) ${r.period} — ${r.verdict}`, '', r.summary, '');
+    for (const i of r.individual) out.push(`- 個別要因: ${i.factor} (「${i.evidence}」)`);
+    for (const e of r.cited ?? []) out.push(`- 外部要因: ${e.factor} (「${e.evidence}」)`);
+    for (const e of r.external) out.push(`- 外部要因(市況データからの推定): ${e.effect} ${e.change} — ${e.reason}`);
+    out.push('');
+  }
+  return out;
 }
 
 export const US_FIN_NOTE = (n) =>
   `売上高・営業利益・純利益はYahoo Finance由来で、発表直後は営業利益が未反映(-)のことがあります。財務詳細は時価総額上位${n}社/日まで取得。`;
 
 // 再利用する整形ヘルパー (サイト生成用)
-export { label, isWeekday, fmtJpCell, fmtUsFin, fmtCap, fmtSurprise, TIME_LABEL };
+export { label, isWeekday, fmtJpCell, fmtUsFin, fmtCap, fmtSurprise, TIME_LABEL, unzip };
 
 // ---------- main ----------
 

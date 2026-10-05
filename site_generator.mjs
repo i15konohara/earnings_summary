@@ -10,6 +10,7 @@ import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TIME_LABEL, US_FIN_NOTE, fmtCap, fmtJpCell, fmtSurprise, fmtUsFin, label } from './earnings_summary.mjs';
+import { fmtChg } from './reasons.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(ROOT, 'data');
@@ -168,6 +169,63 @@ function usScheduleHtml(report) {
   return section('決算発表予定 (翌営業日から1週間・全件)', parts.join('\n'), 'h3');
 }
 
+// ---------- 決算の理由づけ ----------
+
+function marketTable(market) {
+  return table(
+    ['指標', '現在値', '直近1週間', '直近約3か月'],
+    market.map((m) => [
+      m.label,
+      { html: esc(`${m.last.toLocaleString('en-US', { maximumFractionDigits: 2 })}${m.unit}`), cls: 'num' },
+      { html: esc(fmtChg(m, m.chg1w)), cls: `num ${m.chg1w >= 0 ? 'up' : 'down'}` },
+      { html: esc(fmtChg(m, m.chg3m)), cls: `num ${m.chg3m >= 0 ? 'up' : 'down'}` },
+    ]),
+  );
+}
+
+const VERDICT_CLASS = { 良い: 'up', 悪い: 'down', 中立: '' };
+
+const SOURCE_LABEL = { tdnet: '決算短信', kabutan: '株探の解説文', news: 'ニュース見出し' };
+
+const quotedList = (list) => list.map((i) => `<li>${esc(i.factor)}<blockquote>${esc(i.evidence)}</blockquote></li>`).join('');
+
+function reasonCard(r) {
+  const src = SOURCE_LABEL[r.source] ?? '材料';
+  const individual = r.individual.length
+    ? `<ul>${quotedList(r.individual)}</ul>`
+    : `<p class="note">${esc(src)}から確認できる個別要因はありませんでした。</p>`;
+  const cited = r.cited ?? [];
+  const marketItems = r.external
+    .map((e) => `<li><span class="${e.effect === '追い風' ? 'up' : 'down'}">${esc(e.effect)}</span> ${esc(e.change)} — ${esc(e.reason)} <small class="note">(市況データからの推定)</small></li>`)
+    .join('');
+  const external =
+    cited.length || r.external.length
+      ? `<ul>${quotedList(cited)}${marketItems}</ul>`
+      : '<p class="note">該当する外部要因はありませんでした。</p>';
+  return `<details class="reason">
+<summary><span class="badge ${VERDICT_CLASS[r.verdict] ?? ''}">${esc(r.verdict)}</span> ${esc(r.name)} (${esc(r.code)}) ${esc(r.period)} — ${esc(r.summary)}</summary>
+<p class="note">${r.industry ? `${esc(r.industry)} / ` : ''}${esc(r.figures)} / ${link(r.url, '出典')}</p>
+<div class="reason-grid">
+<div><h4>個別要因 <small>(${esc(src)}から引用)</small></h4>${individual}</div>
+<div><h4>外部要因</h4>${external}</div>
+</div>
+</details>`;
+}
+
+function reasonsHtml(report, mkt) {
+  const list = (report.reasons ?? []).filter((r) => r.market === mkt);
+  if (!list.length) return '';
+  return section(
+    '決算の理由づけ (AIによる自動整理)',
+    [
+      '<p class="note">AIが決算短信(日本)・ニュース見出し(米国)から要因を抜き出し、原文に引用が実在するものだけを載せています。「市況データからの推定」は、業種と下の市況実測値(約3か月の変化)から機械的に判定したものです。誤りを含む可能性があり、投資判断の根拠にはしないでください。</p>',
+      marketTable(report.market ?? []),
+      ...list.map(reasonCard),
+    ].join('\n'),
+    'h3',
+  );
+}
+
 const usNoteHtml = (report) =>
   `<p class="note">${esc(report.yahooConnected ? US_FIN_NOTE(report.usDetail) : 'Yahoo Finance に接続できなかったため、売上高・営業利益は表示していません。')}</p>`;
 
@@ -235,10 +293,21 @@ function statCards(report) {
 }
 
 const jpBody = (report, withSchedule) =>
-  [`<h2>🇯🇵 日本</h2>`, ...report.jp.results.map(jpResultsHtml), ...(withSchedule ? [jpScheduleHtml(report.jp.schedule)] : [])].join('\n');
+  [
+    `<h2>🇯🇵 日本</h2>`,
+    ...report.jp.results.map(jpResultsHtml),
+    reasonsHtml(report, 'JP'),
+    ...(withSchedule ? [jpScheduleHtml(report.jp.schedule)] : []),
+  ].join('\n');
 
 const usBody = (report, withSchedule) =>
-  [`<h2>🇺🇸 米国</h2>`, ...report.us.results.map(usResultsHtml), usNoteHtml(report), ...(withSchedule ? [usScheduleHtml(report)] : [])].join('\n');
+  [
+    `<h2>🇺🇸 米国</h2>`,
+    ...report.us.results.map(usResultsHtml),
+    usNoteHtml(report),
+    reasonsHtml(report, 'US'),
+    ...(withSchedule ? [usScheduleHtml(report)] : []),
+  ].join('\n');
 
 function buildPages(latest, all, baseUrl) {
   const pages = new Map();
@@ -376,6 +445,12 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 details.day { margin: 12px 0; }
 details.day > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .archive-list { columns: 2; padding-left: 20px; }
+details.reason { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 8px 14px; margin: 8px 0; }
+details.reason > summary { cursor: pointer; font-size: 0.9rem; }
+details.reason ul { margin: 4px 0; padding-left: 20px; font-size: 0.88rem; }
+details.reason blockquote { margin: 2px 0 6px; padding-left: 10px; border-left: 3px solid var(--border); color: var(--muted); font-size: 0.82rem; }
+.reason-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 4px 20px; }
+.badge { display: inline-block; padding: 0 8px; border-radius: 999px; border: 1px solid currentColor; font-size: 0.75rem; font-weight: 600; }
 .ad-slot {
   max-width: 1100px;
   margin: 16px auto;

@@ -4,6 +4,21 @@
 
 - 前営業日 / 本日の決算概要(売上高・営業利益などの数値付き)
 - 本日から1週間の決算予定(全件)
+- 決算が良かった/悪かった理由を「個別要因」「外部要因」に分けて整理(OpenRouter無料モデル + 市況ルール)
+
+設計の詳細は [design_document.md](design_document.md) を参照してください。
+
+## 理由づけの設定
+
+OpenRouter のAPIキーを `.env` に設定します(git管理外)。`.env` が無い場合は `..\news_summarizer\.env` を流用します。
+
+```
+OPENROUTER_API_KEY=sk-or-v1-...
+OPENROUTER_MODEL=nvidia/nemotron-3.5-lightning:free
+OPENROUTER_FALLBACK_MODELS=          # 任意。カンマ区切りで代替モデル
+```
+
+無料枠は同じキーを使う news_summarizer と共有です。上限に達した回は理由づけの新規生成をスキップし、次回実行に回します。
 
 ## 使い方
 
@@ -13,7 +28,7 @@ node earnings_summary.mjs --json     # data/YYYY-MM-DD.json も保存 (サイト
 node site_generator.mjs              # data/*.json から docs/ にサイトを生成
 ```
 
-オプション: `--date YYYY-MM-DD` / `--days 7` / `--us-detail 40` / `--no-save` / `--json`
+オプション: `--date YYYY-MM-DD` / `--days 7` / `--us-detail 40` / `--no-save` / `--json` / `--no-reasons` / `--reason-max 25`
 サイト生成: `--base-url https://USER.github.io/REPO` (sitemap.xml / robots.txt 用)
 
 ## 自動更新と公開

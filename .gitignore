@@ -1,3 +1,4 @@
 run_all.log
 output/
 node_modules/
+.env
