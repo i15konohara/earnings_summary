@@ -88,6 +88,7 @@ details.reason blockquote { margin: 2px 0 6px; padding-left: 10px; border-left: 
 .reason-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 4px 20px; }
 .badge.muted { color: var(--muted); }
 td.wrap { white-space: normal; min-width: 12em; max-width: 22em; }
+td.points { max-width: 46em; font-size: 0.82rem; }
 ul.method { padding-left: 20px; }
 ul.digest { padding-left: 20px; margin: 4px 0; }
 .badge { display: inline-block; padding: 0 8px; border-radius: 999px; border: 1px solid currentColor; font-size: 0.75rem; font-weight: 600; }

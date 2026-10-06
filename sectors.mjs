@@ -20,7 +20,7 @@ const MIN_COMPANIES = 3; // これ未満の業種は判定しない
 const JUDGE_THRESHOLD = 0.25;
 const MARKET_WEIGHT = 0.15; // 市況の追い風/逆風1件あたりの補正
 
-async function loadJson(path, fallback) {
+export async function loadJson(path, fallback) {
   try {
     return JSON.parse(await readFile(path, 'utf8'));
   } catch {
@@ -28,11 +28,11 @@ async function loadJson(path, fallback) {
   }
 }
 
-const saveJson = (path, data) => writeFile(path, JSON.stringify(data, null, 1), 'utf8');
+export const saveJson = (path, data) => writeFile(path, JSON.stringify(data, null, 1), 'utf8');
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function mapLimit(items, limit, fn) {
+export async function mapLimit(items, limit, fn) {
   let next = 0;
   await Promise.all(
     Array.from({ length: Math.min(limit, items.length) }, async () => {
@@ -124,6 +124,7 @@ function jpRecord(item, date) {
     values: item.info.values,
     yoy: item.info.yoy,
     verdict: jpVerdict(item.info),
+    star: Boolean(item.star),
   };
 }
 

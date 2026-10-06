@@ -199,6 +199,68 @@ function sectorsBody(report) {
   ].join('\n');
 }
 
+// ---------- 注目銘柄 ----------
+
+const PICK_CLASS = { 期待: 'up', 好決算: 'up', 警戒: 'down', 不振: 'down' };
+
+function pickTable(list, tag, { upcoming = false } = {}) {
+  if (!list?.length) return '<p class="note">該当する銘柄はありません。</p>';
+  return table(
+    [upcoming ? '発表予定日' : '発表日', 'コード', '会社名', '判定', '根拠(これまでの決算内容)'],
+    list.map((p) => [
+      p.date,
+      p.code,
+      { html: link(p.url, p.name) },
+      { html: `<span class="badge ${PICK_CLASS[tag] ?? ''}">${esc(tag)}</span>` },
+      { html: p.points.map(esc).join('<br>'), cls: 'wrap points' },
+    ]),
+  );
+}
+
+function picksBody(report) {
+  const p = report.picks;
+  if (!p) return '<p class="note">注目銘柄のデータがありません。</p>';
+  const market = (flag, m) => {
+    const up = p.upcoming[m];
+    const rc = p.recent[m];
+    return [
+      `<h3>${flag}</h3>`,
+      `<h4>今後1週間に発表: 期待 <small class="note">(評価できた ${up.evaluated} 社から)</small></h4>`,
+      pickTable(up.expect, '期待', { upcoming: true }),
+      '<h4>今後1週間に発表: 警戒</h4>',
+      pickTable(up.warn, '警戒', { upcoming: true }),
+      `<h4>直近${p.recentDays}日の好決算</h4>`,
+      pickTable(rc.good, '好決算'),
+      `<h4>直近${p.recentDays}日の不振</h4>`,
+      pickTable(rc.bad, '不振'),
+    ].join('\n');
+  };
+  return [
+    '<h2>注目の個別銘柄</h2>',
+    `<ul class="note method">
+<li>今後1週間に発表する銘柄: 日本は直近2四半期の営業益(銀行などは経常益)の前年比、米国は直近4四半期のEPSサプライズの実績に、セクター判定(良さそう +0.3 / 悪そう −0.3)を加えて「期待 / 警戒」を判定</li>
+<li>直近${p.recentDays}日の決算: 決算DBから、増益率・サプライズ・売上規模・セクター判定などで「好決算 / 不振」の上位を選定(米国は時価総額10億ドル以上)</li>
+<li>出典: 株探(日本の四半期業績)、Nasdaq(米国のEPSサプライズ)、本サイトの決算DB。過去の決算からの機械的な選定で、今後の結果や株価を保証するものではなく、投資の推奨でもありません。</li>
+</ul>`,
+    market('🇯🇵 日本', 'JP'),
+    market('🇺🇸 米国', 'US'),
+  ].join('\n');
+}
+
+function picksDigest(report) {
+  const p = report.picks;
+  if (!p) return '';
+  const names = (list) => esc(list.slice(0, 5).map((x) => `${x.name}(${x.date.slice(5)})`).join('、') || 'なし');
+  return section(
+    '今週の注目銘柄 (これまでの決算から)',
+    `<ul class="digest">
+<li>🇯🇵 期待: <span class="up">${names(p.upcoming.JP.expect)}</span></li>
+<li>🇺🇸 期待: <span class="up">${names(p.upcoming.US.expect)}</span></li>
+</ul><p class="note">根拠と警戒銘柄・直近の好決算は <a href="picks.html">注目銘柄</a> のページにあります。</p>`,
+    'h3',
+  );
+}
+
 // トップページ用の短い要約
 function sectorDigest(report) {
   const s = report.sectors;
@@ -320,6 +382,7 @@ function renderNav(prefix) {
     ['index.html', 'トップ'],
     ['jp.html', '🇯🇵 日本'],
     ['us.html', '🇺🇸 米国'],
+    ['picks.html', '注目銘柄'],
     ['sectors.html', 'セクター判定'],
     ['archive.html', 'アーカイブ'],
   ]
@@ -407,6 +470,7 @@ function buildPages(latest, all, baseUrl) {
         updated(latest),
         statCards(latest),
         `<p class="note">決算予定の全件リストは <a href="jp.html">日本</a> / <a href="us.html">米国</a> のページにあります。</p>`,
+        picksDigest(latest),
         sectorDigest(latest),
         jpBody(latest, false),
         usBody(latest, false),
@@ -415,6 +479,14 @@ function buildPages(latest, all, baseUrl) {
   );
   pages.set('jp.html', renderPage({ title: `日本の決算 | ${SITE_TITLE}`, description: desc('日本'), body: [updated(latest), jpBody(latest, true)].join('\n') }));
   pages.set('us.html', renderPage({ title: `米国の決算 | ${SITE_TITLE}`, description: desc('米国'), body: [updated(latest), usBody(latest, true)].join('\n') }));
+  pages.set(
+    'picks.html',
+    renderPage({
+      title: `注目銘柄 | ${SITE_TITLE}`,
+      description: `これまでの決算内容から選んだ日本・米国の注目銘柄 (${latest.date} 時点)`,
+      body: [updated(latest), picksBody(latest)].join('\n'),
+    }),
+  );
   pages.set(
     'sectors.html',
     renderPage({
@@ -438,12 +510,12 @@ function buildPages(latest, all, baseUrl) {
         title: `${r.date} の決算 | ${SITE_TITLE}`,
         description: `${r.date} 時点の日本・米国の決算サマリー`,
         prefix: '../',
-        body: [updated(r), jpBody(r, true), usBody(r, true), sectorsBody(r)].join('\n'),
+        body: [updated(r), jpBody(r, true), usBody(r, true), picksBody(r), sectorsBody(r)].join('\n'),
       }),
     );
   }
 
-  const urls = ['index.html', 'jp.html', 'us.html', 'sectors.html', 'archive.html', ...all.map((r) => `archive/${r.date}.html`)].map((p) => `${baseUrl}/${p}`);
+  const urls = ['index.html', 'jp.html', 'us.html', 'picks.html', 'sectors.html', 'archive.html', ...all.map((r) => `archive/${r.date}.html`)].map((p) => `${baseUrl}/${p}`);
   pages.set(
     'sitemap.xml',
     ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', ...urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`), '</urlset>'].join('\n'),
@@ -546,6 +618,7 @@ details.reason blockquote { margin: 2px 0 6px; padding-left: 10px; border-left: 
 .reason-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 4px 20px; }
 .badge.muted { color: var(--muted); }
 td.wrap { white-space: normal; min-width: 12em; max-width: 22em; }
+td.points { max-width: 46em; font-size: 0.82rem; }
 ul.method { padding-left: 20px; }
 ul.digest { padding-left: 20px; margin: 4px 0; }
 .badge { display: inline-block; padding: 0 8px; border-radius: 999px; border: 1px solid currentColor; font-size: 0.75rem; font-weight: 600; }

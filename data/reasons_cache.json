@@ -599,5 +599,155 @@
   "summary": "個別要因: 種苗事業の販売数量変動、施設材事業の価格転嫁効果、投資有価証券売却益の計上 / 外部要因: 天候の影響、中東情勢の影響、園芸農薬需要の変動",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-06T11:51:29.917Z"
+ },
+ "v3:JP:5243:25.12-08": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "kabutan",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:14:57.815Z"
+ },
+ "v3:JP:2726:26.03-08": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "kabutan",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:09.411Z"
+ },
+ "v3:JP:8011:26.03-08": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "kabutan",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:17.221Z"
+ },
+ "v3:JP:3396:26.03-08": {
+  "individual": [
+   {
+    "factor": "下期の大幅な利益減少",
+    "evidence": "9-2月期の連結経常利益は前年同期比70.6％減の6500万円に大きく落ち込む計算になる"
+   },
+   {
+    "factor": "2Qの売上営業利益率の悪化",
+    "evidence": "6-8月期(2Q)の連結経常利益は前年同期比14.2％減の2億4700万円に減り、売上営業利益率は前年同期の3.1％→2.7％に悪化した"
+   },
+   {
+    "factor": "上期の据え置き通期計画",
+    "evidence": "会社側が発表した上期実績と据え置いた通期計画に基づいて"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "下期の利益予想の大幅な減少",
+    "evidence": "9-2月期(下期)の連結経常利益は前年同期比70.6％減の6500万円に大きく落ち込む計算になる"
+   }
+  ],
+  "external": [],
+  "source": "kabutan",
+  "summary": "個別要因: 下期の大幅な利益減少、2Qの売上営業利益率の悪化、上期の据え置き通期計画 / 外部要因: 下期の利益予想の大幅な減少",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:26.530Z"
+ },
+ "v3:JP:6496:26.06-08": {
+  "individual": [
+   {
+    "factor": "販売数量の減少",
+    "evidence": "6-11月期(上期)計画の10.3億円に対する進捗率は43.0％にとどまり"
+   },
+   {
+    "factor": "利益率の悪化",
+    "evidence": "6-8月期(1Q)の売上営業利益率は前年同期の5.5％→3.5％に悪化した"
+   },
+   {
+    "factor": "特定事業の不振",
+    "evidence": "5年平均の46.4％も下回った"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向の悪化",
+    "evidence": "27年5月期第1四半期(6-8月)の連結経常利益は前年同期比24.4％減の4.4億円に減り"
+   }
+  ],
+  "external": [],
+  "source": "kabutan",
+  "summary": "個別要因: 販売数量の減少、利益率の悪化、特定事業の不振 / 外部要因: 需要動向の悪化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:36.037Z"
+ },
+ "v3:JP:6469:26.03-08": {
+  "individual": [
+   {
+    "factor": "大型案件の受注",
+    "evidence": "直近3ヵ月の実績である6-8月期(2Q)の連結経常利益は前年同期比2.5倍の5.4億円に急拡大"
+   },
+   {
+    "factor": "値上げ",
+    "evidence": "売上営業利益率は前年同期の6.7％→13.2％に急改善"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要の拡大",
+    "evidence": "直近3ヵ月の実績である6-8月期(2Q)の連結経常利益は前年同期比2.5倍の5.4億円に急拡大"
+   }
+  ],
+  "external": [],
+  "source": "kabutan",
+  "summary": "個別要因: 大型案件の受注、値上げ / 外部要因: 需要の拡大",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:45.559Z"
+ },
+ "v3:JP:2734:25.12-08": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "kabutan",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:15:53.968Z"
+ },
+ "v3:JP:2659:26.03-08": {
+  "individual": [
+   {
+    "factor": "販売単価の向上",
+    "evidence": "売上営業利益率は前年同期の7.3％→7.9％に改善した"
+   },
+   {
+    "factor": "大型案件の好調",
+    "evidence": "6-8月期(2Q)の連結経常利益は前年同期比11.7％増の53.2億円に伸びた"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向の好調",
+    "evidence": "27年2月期第2四半期累計(3-8月)の連結経常利益は前年同期比12.2％増の102億円に伸びた"
+   }
+  ],
+  "external": [],
+  "source": "kabutan",
+  "summary": "個別要因: 販売単価の向上、大型案件の好調 / 外部要因: 需要動向の好調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:16:13.047Z"
+ },
+ "v3:JP:1377:26.06-08": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "需要動向の変化",
+    "evidence": "6-8月期(1Q)の売上営業利益率は前年同期の19.4%→13.7%に低下"
+   }
+  ],
+  "external": [],
+  "source": "kabutan",
+  "summary": "外部要因: 需要動向の変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:16:30.226Z"
  }
 }

@@ -10,6 +10,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { inflateRawSync } from 'node:zlib';
 import { fetchMarket, generateReasons, marketLine } from './reasons.mjs';
 import { annotateSchedule, resolveJpIndustries, resolveUsSectors, sectorOutlook, updateDb } from './sectors.mjs';
+import { buildPicks } from './picks.mjs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) earnings-summary/2.0';
 const KABUTAN = 'https://kabutan.jp';
@@ -725,6 +726,8 @@ export async function collectReport(opts) {
   report.market ??= await fetchMarket();
   report.sectors = sectorOutlook(db, report.market, jpToday, opts.sectorDays);
   annotateSchedule(report, usSectors);
+  // これまでの決算内容から注目銘柄を選ぶ (直近の好決算・不振、今後1週間の期待・警戒)
+  report.picks = await buildPicks(report, db);
   return report;
 }
 
@@ -775,7 +778,28 @@ export function renderMarkdown(report) {
   for (const e of report.us.errors) md.push(`_取得エラー: ${e}_`, '');
   md.push(...renderReasonsMd(report));
   md.push(...renderSectorsMd(report));
+  md.push(...renderPicksMd(report));
   return md.join('\n');
+}
+
+function renderPicksMd(report) {
+  const p = report.picks;
+  if (!p) return [];
+  const out = ['## 注目の個別銘柄', '', '_これまでの決算内容からの機械的な選定です。投資の推奨ではありません。_', ''];
+  const list = (title, items) => {
+    out.push(`#### ${title}`, '');
+    if (!items.length) out.push('_該当なし_');
+    for (const x of items) out.push(`- **${x.name} (${x.code})** ${x.date} — ${x.points.join(' / ')}`);
+    out.push('');
+  };
+  for (const [flag, m] of [['🇯🇵 日本', 'JP'], ['🇺🇸 米国', 'US']]) {
+    out.push(`### ${flag}`, '');
+    list('今後1週間に発表: 期待', p.upcoming[m].expect);
+    list('今後1週間に発表: 警戒', p.upcoming[m].warn);
+    list(`直近${p.recentDays}日の好決算`, p.recent[m].good);
+    list(`直近${p.recentDays}日の不振`, p.recent[m].bad);
+  }
+  return out;
 }
 
 function renderSectorsMd(report) {
