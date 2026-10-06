@@ -938,5 +938,45 @@
  "AEHR": {
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials"
+ },
+ "JPM": {
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified"
+ },
+ "JNJ": {
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General"
+ },
+ "GS": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets"
+ },
+ "UNH": {
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans"
+ },
+ "WFC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified"
+ },
+ "DPZ": {
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants"
+ },
+ "AZZ": {
+  "sector": "Industrials",
+  "industry": "Specialty Business Services"
+ },
+ "FBK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "C": {
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified"
+ },
+ "ACI": {
+  "sector": "Consumer Defensive",
+  "industry": "Grocery Stores"
  }
 }
