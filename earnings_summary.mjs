@@ -7,9 +7,9 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { inflateRawSync } from 'node:zlib';
 import { fetchMarket, generateReasons, marketLine } from './reasons.mjs';
-import { annotateSchedule, resolveJpIndustries, resolveUsSectors, sectorOutlook, updateDb } from './sectors.mjs';
+import { earningsItem, listEarnings, unzip } from './tdnet.mjs';
+import { annotateSchedule, loadDb, resolveJpIndustries, resolveUsSectors, sectorOutlook, updateDb } from './sectors.mjs';
 import { buildPicks } from './picks.mjs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) earnings-summary/2.0';
@@ -256,39 +256,58 @@ function fmtJpCell(info, key) {
 }
 
 async function enrichJpResults(items) {
+  let failed = 0;
   await mapLimit(items, 6, async (item) => {
     if (item.kind !== '決算') return;
     try {
       item.info = parseKabutanArticle(await fetchText(item.url));
     } catch {
       item.info = null;
+      failed++;
     }
   });
+  // 取得に失敗した記事は黙って捨てず、件数を出す (数値は TDnet の決算短信から補完する)
+  if (failed) console.error(`[jp] 株探の決算記事 ${failed} 件の取得に失敗しました (TDnet で補完します)`);
   return items;
 }
 
-// ---------- 日本: 決算予定 (JPX Excel + 株探の注目★) ----------
-
-function unzip(buf) {
-  const eocd = buf.lastIndexOf(Buffer.from([0x50, 0x4b, 0x05, 0x06]));
-  const count = buf.readUInt16LE(eocd + 10);
-  let p = buf.readUInt32LE(eocd + 16);
-  const files = new Map();
-  for (let n = 0; n < count; n++) {
-    const method = buf.readUInt16LE(p + 10);
-    const size = buf.readUInt32LE(p + 20);
-    const nameLen = buf.readUInt16LE(p + 28);
-    const extraLen = buf.readUInt16LE(p + 30);
-    const commentLen = buf.readUInt16LE(p + 32);
-    const local = buf.readUInt32LE(p + 42);
-    const name = buf.toString('utf8', p + 46, p + 46 + nameLen);
-    const dataStart = local + 30 + buf.readUInt16LE(local + 26) + buf.readUInt16LE(local + 28);
-    const raw = buf.subarray(dataStart, dataStart + size);
-    files.set(name, method === 8 ? inflateRawSync(raw) : raw);
-    p += 46 + nameLen + extraLen + commentLen;
+// 株探に決算記事が無い/数値表を読めなかった会社を、TDnet の決算短信(XBRL)で補う。
+// skipCodes: 同じ回の別の日付にすでに載っている会社 (夜間開示で株探とTDnetの日付がずれるため)
+async function supplementWithTdnet(date, items, skipCodes = new Set()) {
+  let docs;
+  try {
+    docs = [...(await listEarnings(date)).values()];
+  } catch (err) {
+    console.error(`[jp] TDnet一覧の取得に失敗: ${err.message}`);
+    return { added: 0, fixed: 0 };
   }
-  return files;
+  const byCode = new Map(items.filter((i) => i.kind === '決算').map((i) => [i.code, i]));
+  const targets = docs.filter((d) => !byCode.get(d.code)?.info?.period && !(skipCodes.has(d.code) && !byCode.has(d.code)));
+  let added = 0;
+  let fixed = 0;
+  await mapLimit(targets, 4, async (doc) => {
+    try {
+      const it = await earningsItem(doc, date);
+      if (!it) return;
+      const existing = byCode.get(doc.code);
+      if (existing) {
+        existing.info = { ...it.info, narrative: existing.info?.narrative ?? null };
+        existing.source = 'tdnet';
+        fixed++;
+      } else {
+        items.push(it);
+        added++;
+      }
+    } catch {
+      /* XBRL が消えている(約1か月で削除)などは諦める */
+    }
+  });
+  items.sort((a, b) => a.time.localeCompare(b.time));
+  if (added || fixed) console.error(`[jp] ${date}: TDnet から ${added} 社を追加、${fixed} 社の数値を補完`);
+  return { added, fixed };
 }
+
+// ---------- 日本: 決算予定 (JPX Excel + 株探の注目★) ----------
 
 function parseXlsxRows(buf) {
   const files = unzip(buf);
@@ -667,9 +686,16 @@ export async function collectReport(opts) {
   if (usPrevDay.rows) us.results.set(usPrev, usPrevDay.rows);
   if (usPrevDay.error) us.errors.push(usPrevDay.error);
 
-  const jpPrevNews = jpNews.error ? jpNews : { value: jpNews.value.prevItems };
-  const jpTodayNews = jpNews.error ? jpNews : { value: jpNews.value.todayItems };
-  if (!jpNews.error) await enrichJpResults([...jpPrevNews.value, ...jpTodayNews.value]);
+  const jpPrevNews = { value: jpNews.value?.prevItems ?? [] };
+  const jpTodayNews = { value: jpNews.value?.todayItems ?? [] };
+  if (jpNews.error) console.error(`[jp] 株探の決算速報を取得できませんでした: ${jpNews.error} (TDnet のみで集計します)`);
+  await enrichJpResults([...jpPrevNews.value, ...jpTodayNews.value]);
+  // 株探の一覧は約35ページまでしか遡れず、繁忙日は途中で切れる。TDnet の決算短信を正として抜けを補う
+  // 重複防止に使うのは「決算」記事の会社だけ (業績修正の記事しか無い会社は、決算短信から追加する)
+  const seenCodes = new Set([...jpPrevNews.value, ...jpTodayNews.value].filter((i) => i.kind === '決算').map((i) => i.code));
+  await supplementWithTdnet(jpPrev, jpPrevNews.value, seenCodes);
+  await supplementWithTdnet(jpToday, jpTodayNews.value, seenCodes);
+  for (const n of [jpPrevNews, jpTodayNews]) if (jpNews.error && !n.value.length) n.error = jpNews.error;
 
   // ★(注目決算)は予定表を表示期間に絞る前に結果の各社へ付けておく (前営業日分が消えるため)
   const starKeys = new Set(jpSched.items.filter((i) => i.star).map((i) => `${i.date}|${i.code}`));
@@ -722,6 +748,15 @@ export async function collectReport(opts) {
     [...report.us.results.flatMap((r) => r.rows), ...report.us.schedule.flatMap((d) => d.rows)],
     session,
   );
+  // 実行が止まっていた日や、Nasdaq への実績反映が遅れた会社など、直近のDBの抜けを埋める
+  await catchUpDb({
+    jpFrom: addDays(jpToday, -14),
+    jpBefore: jpPrev,
+    usFrom: addDays(usToday, -10),
+    usBefore: usPrev,
+    session,
+    usDetail: opts.usDetail,
+  });
   const db = await updateDb(report, usSectors);
   report.market ??= await fetchMarket();
   report.sectors = sectorOutlook(db, report.market, jpToday, opts.sectorDays);
@@ -731,6 +766,72 @@ export async function collectReport(opts) {
   return report;
 }
 
+// 直近の DB の抜けを埋める (数値のみ、LLMは使わない)。
+//   日本: TDnet の決算短信のうち、DB の前後3日に同じ会社が無いもの
+//   米国: Nasdaq で実績が出ているのに、DB の前後3日に同じ銘柄が無いもの (実績の反映が遅れた会社など)
+const CATCH_UP_MAX_JP = 300;
+
+async function catchUpDb({ jpFrom, jpBefore, usFrom, usBefore, session, usDetail }) {
+  const db = await loadDb();
+  const datesBy = new Map();
+  for (const r of Object.values(db)) {
+    const k = `${r.market}:${r.code}`;
+    if (!datesBy.has(k)) datesBy.set(k, []);
+    datesBy.get(k).push(new Date(`${r.date}T00:00:00Z`).getTime());
+  }
+  const inDb = (market, code, d) => (datesBy.get(`${market}:${code}`) ?? []).some((t) => Math.abs(t - new Date(`${d}T00:00:00Z`).getTime()) <= 3 * 864e5);
+
+  // 日本
+  const jpDates = [];
+  for (let d = jpFrom; d < jpBefore; d = addDays(d, 1)) if (isWeekday(d)) jpDates.push(d);
+  const jpResults = [];
+  let budget = CATCH_UP_MAX_JP;
+  for (const d of jpDates) {
+    let docs = [];
+    try {
+      docs = [...(await listEarnings(d)).values()].filter((doc) => !inDb('JP', doc.code, d)).slice(0, budget);
+    } catch {
+      continue;
+    }
+    budget -= docs.length;
+    const items = [];
+    await mapLimit(docs, 4, async (doc) => {
+      try {
+        const it = await earningsItem(doc, d);
+        if (it) items.push(it);
+      } catch {
+        /* XBRL 削除済みなど */
+      }
+    });
+    if (items.length) jpResults.push({ date: d, items });
+    if (budget <= 0) break;
+  }
+  const jpItems = jpResults.flatMap((r) => r.items);
+  if (jpItems.length) {
+    const industries = await resolveJpIndustries(jpItems.map((i) => i.code));
+    for (const i of jpItems) i.industry = industries[i.code] ?? null;
+  }
+
+  // 米国
+  const usDates = [];
+  for (let d = usFrom; d < usBefore; d = addDays(d, 1)) if (isWeekday(d)) usDates.push(d);
+  const us = await fetchUsDays(usDates);
+  const usResults = usDates
+    .filter((d) => us.results.has(d))
+    .map((d) => ({ date: d, rows: us.results.get(d).filter((r) => r.epsActual && !inDb('US', r.symbol, d)) }))
+    .filter((r) => r.rows.length);
+  let usSectors = {};
+  if (usResults.length) {
+    await enrichUsRows(usResults.map((r) => r.rows), usDetail, session);
+    usSectors = await resolveUsSectors(usResults.flatMap((r) => r.rows), session);
+  }
+
+  const usCount = usResults.reduce((s, r) => s + r.rows.length, 0);
+  if (!jpItems.length && !usCount) return;
+  await updateDb({ jp: { results: jpResults }, us: { results: usResults }, reasons: [] }, usSectors);
+  console.error(`[catch-up] DB の抜けを補完: 日本 ${jpItems.length} 社 / 米国 ${usCount} 社`);
+}
+
 // 過去 N 日分の決算(数値のみ、LLMは使わない)を DB に取り込む
 async function runBackfill(opts) {
   const today = opts.date ?? todayIn('Asia/Tokyo');
@@ -738,9 +839,14 @@ async function runBackfill(opts) {
   const dates = range(from, opts.backfill + 1).filter(isWeekday);
   console.error(`[backfill] ${from} 〜 ${today} (${dates.length}営業日) を取り込みます`);
 
-  const jpNews = (await fetchJpNewsRange(from, today)).filter((i) => i.kind === '決算');
-  console.error(`[backfill] 日本: 決算速報 ${jpNews.length} 件の記事を取得中...`);
-  await enrichJpResults(jpNews);
+  const kabutanNews = (await fetchJpNewsRange(from, today)).filter((i) => i.kind === '決算');
+  console.error(`[backfill] 日本: 決算速報 ${kabutanNews.length} 件の記事を取得中...`);
+  await enrichJpResults(kabutanNews);
+  // 株探の一覧は約35ページまでしか遡れないため、TDnet の決算短信で日ごとに補う (TDnet は約1か月分)
+  const byDate = new Map(dates.map((d) => [d, kabutanNews.filter((i) => i.date === d)]));
+  const seen = new Set(kabutanNews.map((i) => i.code));
+  for (const d of dates) await supplementWithTdnet(d, byDate.get(d), seen);
+  const jpNews = [...byDate.values()].flat();
   const jpxIndustry = new Map((await fetchJpSchedule(today)).items.filter((i) => i.industry).map((i) => [i.code, i.industry]));
   const jpIndustries = await resolveJpIndustries(jpNews.map((i) => i.code).filter((c) => !jpxIndustry.has(c)), jpxIndustry, { max: 2000 });
   for (const item of jpNews) item.industry = jpxIndustry.get(item.code) ?? jpIndustries[item.code] ?? null;
@@ -836,7 +942,7 @@ export const US_FIN_NOTE = (n) =>
   `売上高・営業利益・純利益はYahoo Finance由来で、発表直後は営業利益が未反映(-)のことがあります。財務詳細は時価総額上位${n}社/日まで取得。`;
 
 // 再利用する整形ヘルパー (サイト生成用)
-export { label, isWeekday, fmtJpCell, fmtUsFin, fmtCap, fmtSurprise, TIME_LABEL, unzip };
+export { label, isWeekday, fmtJpCell, fmtUsFin, fmtCap, fmtSurprise, TIME_LABEL, parseKabutanArticle, parseKabutanNews, supplementWithTdnet };
 
 // ---------- main ----------
 

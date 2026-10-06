@@ -11369,5 +11369,3795 @@
     "net": 596
    }
   ]
+ },
+ "JP:3177": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2616,
+    "op": 213,
+    "ordinary": 223,
+    "net": 139
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2550,
+    "op": 155,
+    "ordinary": 165,
+    "net": 102
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2816,
+    "op": 246,
+    "ordinary": 280,
+    "net": 79
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2711,
+    "op": 209,
+    "ordinary": 234,
+    "net": 143
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2755,
+    "op": 197,
+    "ordinary": 213,
+    "net": 128
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2801,
+    "op": 190,
+    "ordinary": 204,
+    "net": 130
+   },
+   {
+    "label": "25.12-02",
+    "sales": 3131,
+    "op": 348,
+    "ordinary": 382,
+    "net": 91
+   },
+   {
+    "label": "26.03-05",
+    "sales": 3122,
+    "op": 409,
+    "ordinary": 420,
+    "net": 257
+   }
+  ]
+ },
+ "JP:323A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.12-02",
+    "sales": 247,
+    "op": 20,
+    "ordinary": 14,
+    "net": 23
+   },
+   {
+    "label": "25.03-05",
+    "sales": 245,
+    "op": 16,
+    "ordinary": 15,
+    "net": 15
+   },
+   {
+    "label": "25.06-08",
+    "sales": 243,
+    "op": 4,
+    "ordinary": 4,
+    "net": 2
+   },
+   {
+    "label": "25.09-11",
+    "sales": 297,
+    "op": 28,
+    "ordinary": 29,
+    "net": 29
+   },
+   {
+    "label": "25.12-02",
+    "sales": 283,
+    "op": -18,
+    "ordinary": -18,
+    "net": -33
+   },
+   {
+    "label": "26.03-05",
+    "sales": 386,
+    "op": -5,
+    "ordinary": -7,
+    "net": 3
+   }
+  ]
+ },
+ "JP:3181": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1795,
+    "op": 64,
+    "ordinary": 63,
+    "net": 42
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2010,
+    "op": 99,
+    "ordinary": 122,
+    "net": 83
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2311,
+    "op": 130,
+    "ordinary": 143,
+    "net": 94
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2195,
+    "op": 161,
+    "ordinary": 160,
+    "net": 105
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2199,
+    "op": 16,
+    "ordinary": 38,
+    "net": 23
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2277,
+    "op": 115,
+    "ordinary": 128,
+    "net": 87
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2659,
+    "op": 215,
+    "ordinary": 220,
+    "net": 143
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2441,
+    "op": 221,
+    "ordinary": 227,
+    "net": 148
+   }
+  ]
+ },
+ "JP:3280": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1415,
+    "op": -47,
+    "ordinary": -86,
+    "net": -74
+   },
+   {
+    "label": "24.09-11",
+    "sales": 5440,
+    "op": 440,
+    "ordinary": 382,
+    "net": 273
+   },
+   {
+    "label": "24.12-02",
+    "sales": 9029,
+    "op": 1387,
+    "ordinary": 1350,
+    "net": 944
+   },
+   {
+    "label": "25.03-05",
+    "sales": 8869,
+    "op": 1361,
+    "ordinary": 1308,
+    "net": 931
+   },
+   {
+    "label": "25.06-08",
+    "sales": 5829,
+    "op": 186,
+    "ordinary": 203,
+    "net": 115
+   },
+   {
+    "label": "25.09-11",
+    "sales": 4887,
+    "op": 571,
+    "ordinary": 520,
+    "net": 393
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2728,
+    "op": -23,
+    "ordinary": -69,
+    "net": -19
+   },
+   {
+    "label": "26.03-05",
+    "sales": 3414,
+    "op": -48,
+    "ordinary": -108,
+    "net": -74
+   }
+  ]
+ },
+ "JP:3387": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 38181,
+    "op": 2094,
+    "ordinary": 1837,
+    "net": 1340
+   },
+   {
+    "label": "24.09-11",
+    "sales": 38936,
+    "op": 2287,
+    "ordinary": 2148,
+    "net": 1543
+   },
+   {
+    "label": "24.12-02",
+    "sales": 40951,
+    "op": 1370,
+    "ordinary": 1090,
+    "net": 855
+   },
+   {
+    "label": "25.03-05",
+    "sales": 41814,
+    "op": 3048,
+    "ordinary": 2992,
+    "net": 2088
+   },
+   {
+    "label": "25.06-08",
+    "sales": 41390,
+    "op": 1892,
+    "ordinary": 2140,
+    "net": 1107
+   },
+   {
+    "label": "25.09-11",
+    "sales": 40364,
+    "op": 1669,
+    "ordinary": 1595,
+    "net": 1116
+   },
+   {
+    "label": "25.12-02",
+    "sales": 41881,
+    "op": 1335,
+    "ordinary": 1134,
+    "net": 366
+   },
+   {
+    "label": "26.03-05",
+    "sales": 43277,
+    "op": 3378,
+    "ordinary": 3221,
+    "net": 2217
+   }
+  ]
+ },
+ "JP:339A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "25.03-05",
+    "sales": 1544,
+    "op": 370,
+    "ordinary": 353,
+    "net": 237
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1429,
+    "op": 456,
+    "ordinary": 440,
+    "net": 296
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1681,
+    "op": 477,
+    "ordinary": 458,
+    "net": 317
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1660,
+    "op": 481,
+    "ordinary": 468,
+    "net": 331
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1534,
+    "op": 316,
+    "ordinary": 298,
+    "net": 193
+   }
+  ]
+ },
+ "JP:340A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "25.03-05",
+    "sales": 348,
+    "op": 56,
+    "ordinary": 42,
+    "net": 69
+   },
+   {
+    "label": "25.06-08",
+    "sales": 332,
+    "op": 60,
+    "ordinary": 73,
+    "net": 50
+   },
+   {
+    "label": "25.09-11",
+    "sales": 351,
+    "op": 57,
+    "ordinary": 51,
+    "net": 35
+   },
+   {
+    "label": "25.12-02",
+    "sales": 405,
+    "op": 92,
+    "ordinary": 95,
+    "net": 65
+   },
+   {
+    "label": "26.03-05",
+    "sales": 412,
+    "op": 80,
+    "ordinary": 88,
+    "net": 77
+   }
+  ]
+ },
+ "JP:3536": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2752,
+    "op": -3,
+    "ordinary": -24,
+    "net": 142
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2708,
+    "op": 16,
+    "ordinary": -30,
+    "net": -50
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3327,
+    "op": 33,
+    "ordinary": -20,
+    "net": -50
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3219,
+    "op": 106,
+    "ordinary": 76,
+    "net": 71
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2880,
+    "op": 9,
+    "ordinary": -23,
+    "net": 250
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3024,
+    "op": 91,
+    "ordinary": 41,
+    "net": 30
+   },
+   {
+    "label": "25.12-02",
+    "sales": 3358,
+    "op": 5,
+    "ordinary": -44,
+    "net": -50
+   },
+   {
+    "label": "26.03-05",
+    "sales": 3148,
+    "op": 118,
+    "ordinary": 58,
+    "net": 282
+   }
+  ]
+ },
+ "JP:3543": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 12008,
+    "op": 2345,
+    "ordinary": 2281,
+    "net": 1555
+   },
+   {
+    "label": "24.09-11",
+    "sales": 11607,
+    "op": 2242,
+    "ordinary": 2108,
+    "net": 1436
+   },
+   {
+    "label": "24.12-02",
+    "sales": 12392,
+    "op": 2122,
+    "ordinary": 2114,
+    "net": 1386
+   },
+   {
+    "label": "25.03-05",
+    "sales": 13676,
+    "op": 2291,
+    "ordinary": 2290,
+    "net": 1535
+   },
+   {
+    "label": "25.06-08",
+    "sales": 14853,
+    "op": 2408,
+    "ordinary": 2369,
+    "net": 1638
+   },
+   {
+    "label": "25.09-11",
+    "sales": 13874,
+    "op": 2302,
+    "ordinary": 2262,
+    "net": 1538
+   },
+   {
+    "label": "25.12-02",
+    "sales": 14822,
+    "op": 2423,
+    "ordinary": 2411,
+    "net": 1750
+   },
+   {
+    "label": "26.03-05",
+    "sales": 15413,
+    "op": 2646,
+    "ordinary": 2590,
+    "net": 1761
+   }
+  ]
+ },
+ "JP:3560": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1536,
+    "op": -142,
+    "ordinary": -146,
+    "net": -74
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3336,
+    "op": 849,
+    "ordinary": 888,
+    "net": 614
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2408,
+    "op": 172,
+    "ordinary": 170,
+    "net": 117
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1121,
+    "op": -297,
+    "ordinary": -302,
+    "net": -211
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1812,
+    "op": -108,
+    "ordinary": -105,
+    "net": -72
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3958,
+    "op": 1094,
+    "ordinary": 1105,
+    "net": 765
+   },
+   {
+    "label": "25.12-02",
+    "sales": 3107,
+    "op": 639,
+    "ordinary": 643,
+    "net": 445
+   },
+   {
+    "label": "26.03-05",
+    "sales": 963,
+    "op": -545,
+    "ordinary": -542,
+    "net": -372
+   }
+  ]
+ },
+ "JP:3562": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 3633,
+    "op": 334,
+    "ordinary": 337,
+    "net": 141
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3428,
+    "op": 158,
+    "ordinary": 157,
+    "net": 75
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3957,
+    "op": 402,
+    "ordinary": 399,
+    "net": 278
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3769,
+    "op": 148,
+    "ordinary": 220,
+    "net": 42
+   },
+   {
+    "label": "25.06-08",
+    "sales": 3886,
+    "op": 442,
+    "ordinary": 440,
+    "net": 282
+   },
+   {
+    "label": "25.09-11",
+    "sales": 4663,
+    "op": 119,
+    "ordinary": 109,
+    "net": -92
+   },
+   {
+    "label": "25.12-02",
+    "sales": 5211,
+    "op": 621,
+    "ordinary": 624,
+    "net": 481
+   },
+   {
+    "label": "26.03-05",
+    "sales": 4743,
+    "op": 177,
+    "ordinary": 147,
+    "net": 26
+   }
+  ]
+ },
+ "JP:3608": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 35935,
+    "op": -1239,
+    "ordinary": -1275,
+    "net": -1337
+   },
+   {
+    "label": "24.09-11",
+    "sales": 40821,
+    "op": 2399,
+    "ordinary": 2642,
+    "net": 950
+   },
+   {
+    "label": "24.12-02",
+    "sales": 40555,
+    "op": -542,
+    "ordinary": -399,
+    "net": 15071
+   },
+   {
+    "label": "25.03-05",
+    "sales": 35605,
+    "op": 1514,
+    "ordinary": 1916,
+    "net": 1966
+   },
+   {
+    "label": "25.06-08",
+    "sales": 30562,
+    "op": -874,
+    "ordinary": -583,
+    "net": -653
+   },
+   {
+    "label": "25.09-11",
+    "sales": 50444,
+    "op": 3063,
+    "ordinary": 3623,
+    "net": 1971
+   },
+   {
+    "label": "25.12-02",
+    "sales": 50474,
+    "op": 622,
+    "ordinary": 484,
+    "net": 509
+   },
+   {
+    "label": "26.03-05",
+    "sales": 46279,
+    "op": 2512,
+    "ordinary": 3316,
+    "net": 2102
+   }
+  ]
+ },
+ "JP:365A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "25.06-08",
+    "sales": 2472,
+    "op": 187,
+    "ordinary": 477,
+    "net": 276
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3072,
+    "op": 147,
+    "ordinary": 735,
+    "net": 426
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2554,
+    "op": 149,
+    "ordinary": 172,
+    "net": 161
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2518,
+    "op": 76,
+    "ordinary": 293,
+    "net": 185
+   }
+  ]
+ },
+ "JP:3678": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 25944,
+    "op": 621,
+    "ordinary": 544,
+    "net": 277
+   },
+   {
+    "label": "24.09-11",
+    "sales": 24385,
+    "op": 595,
+    "ordinary": 607,
+    "net": 391
+   },
+   {
+    "label": "24.12-02",
+    "sales": 26472,
+    "op": 784,
+    "ordinary": 719,
+    "net": 451
+   },
+   {
+    "label": "25.03-05",
+    "sales": 26011,
+    "op": 654,
+    "ordinary": 669,
+    "net": 818
+   },
+   {
+    "label": "25.06-08",
+    "sales": 27853,
+    "op": 745,
+    "ordinary": 770,
+    "net": 508
+   },
+   {
+    "label": "25.09-11",
+    "sales": 26644,
+    "op": 509,
+    "ordinary": 533,
+    "net": 306
+   },
+   {
+    "label": "25.12-02",
+    "sales": 28029,
+    "op": 545,
+    "ordinary": 576,
+    "net": 186
+   },
+   {
+    "label": "26.03-05",
+    "sales": 27074,
+    "op": 440,
+    "ordinary": 203,
+    "net": 129
+   }
+  ]
+ },
+ "JP:3760": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2971,
+    "op": 129,
+    "ordinary": 365,
+    "net": 370
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3392,
+    "op": 200,
+    "ordinary": 86,
+    "net": 26
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3801,
+    "op": 557,
+    "ordinary": 594,
+    "net": 589
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3805,
+    "op": 247,
+    "ordinary": 86,
+    "net": -739
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2627,
+    "op": -565,
+    "ordinary": -393,
+    "net": -285
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2977,
+    "op": -357,
+    "ordinary": -347,
+    "net": -2821
+   },
+   {
+    "label": "25.12-02",
+    "sales": 3146,
+    "op": -87,
+    "ordinary": -112,
+    "net": -300
+   },
+   {
+    "label": "26.03-05",
+    "sales": 3252,
+    "op": 401,
+    "ordinary": 316,
+    "net": 607
+   }
+  ]
+ },
+ "JP:3892": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2951,
+    "op": 263,
+    "ordinary": 309,
+    "net": 212
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3015,
+    "op": 374,
+    "ordinary": 388,
+    "net": 271
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2712,
+    "op": 257,
+    "ordinary": 298,
+    "net": 198
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2844,
+    "op": 138,
+    "ordinary": 152,
+    "net": 117
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2762,
+    "op": 222,
+    "ordinary": 278,
+    "net": 222
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2869,
+    "op": 281,
+    "ordinary": 300,
+    "net": 207
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2637,
+    "op": 214,
+    "ordinary": 270,
+    "net": 189
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2953,
+    "op": 223,
+    "ordinary": 244,
+    "net": 203
+   }
+  ]
+ },
+ "JP:3922": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1967,
+    "op": 474,
+    "ordinary": 471,
+    "net": 314
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2093,
+    "op": 638,
+    "ordinary": 639,
+    "net": 374
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2018,
+    "op": 281,
+    "ordinary": 279,
+    "net": 110
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2305,
+    "op": 883,
+    "ordinary": 884,
+    "net": 572
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2369,
+    "op": 1009,
+    "ordinary": 1001,
+    "net": 700
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2534,
+    "op": 1098,
+    "ordinary": 1100,
+    "net": 750
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2338,
+    "op": 632,
+    "ordinary": 626,
+    "net": 375
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2527,
+    "op": 880,
+    "ordinary": 899,
+    "net": 604
+   }
+  ]
+ },
+ "JP:3967": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1778,
+    "op": 36,
+    "ordinary": 21,
+    "net": -25
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1841,
+    "op": 111,
+    "ordinary": 103,
+    "net": 53
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2082,
+    "op": 43,
+    "ordinary": 30,
+    "net": -819
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1892,
+    "op": 44,
+    "ordinary": 32,
+    "net": 8
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2227,
+    "op": 48,
+    "ordinary": 23,
+    "net": 5
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2448,
+    "op": 1,
+    "ordinary": -12,
+    "net": -1
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2391,
+    "op": 338,
+    "ordinary": 303,
+    "net": -180
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2110,
+    "op": 65,
+    "ordinary": 56,
+    "net": -68
+   }
+  ]
+ },
+ "JP:3987": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 609,
+    "op": -4,
+    "ordinary": -9,
+    "net": -69
+   },
+   {
+    "label": "24.09-11",
+    "sales": 535,
+    "op": -36,
+    "ordinary": -37,
+    "net": -52
+   },
+   {
+    "label": "24.12-02",
+    "sales": 876,
+    "op": 80,
+    "ordinary": 86,
+    "net": 71
+   },
+   {
+    "label": "25.03-05",
+    "sales": 619,
+    "op": -33,
+    "ordinary": -35,
+    "net": -76
+   },
+   {
+    "label": "25.06-08",
+    "sales": 973,
+    "op": 38,
+    "ordinary": 39,
+    "net": 22
+   },
+   {
+    "label": "25.09-11",
+    "sales": 582,
+    "op": -26,
+    "ordinary": -21,
+    "net": -28
+   },
+   {
+    "label": "25.12-02",
+    "sales": 579,
+    "op": 28,
+    "ordinary": 31,
+    "net": 26
+   },
+   {
+    "label": "26.03-05",
+    "sales": 425,
+    "op": -121,
+    "ordinary": -120,
+    "net": -27
+   }
+  ]
+ },
+ "JP:3991": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1206,
+    "op": 457,
+    "ordinary": 453,
+    "net": 345
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1226,
+    "op": 437,
+    "ordinary": 430,
+    "net": 281
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1251,
+    "op": 487,
+    "ordinary": 485,
+    "net": 297
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1225,
+    "op": 454,
+    "ordinary": 456,
+    "net": 288
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1206,
+    "op": 266,
+    "ordinary": 273,
+    "net": 217
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1184,
+    "op": 335,
+    "ordinary": 332,
+    "net": 211
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1148,
+    "op": 227,
+    "ordinary": 228,
+    "net": 134
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1097,
+    "op": 138,
+    "ordinary": 134,
+    "net": 1033
+   }
+  ]
+ },
+ "JP:4057": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 631,
+    "op": 16,
+    "ordinary": 15,
+    "net": 12
+   },
+   {
+    "label": "24.09-11",
+    "sales": 735,
+    "op": 89,
+    "ordinary": 87,
+    "net": 67
+   },
+   {
+    "label": "24.12-02",
+    "sales": 687,
+    "op": 49,
+    "ordinary": 48,
+    "net": 33
+   },
+   {
+    "label": "25.03-05",
+    "sales": 811,
+    "op": 42,
+    "ordinary": 40,
+    "net": 25
+   },
+   {
+    "label": "25.06-08",
+    "sales": 736,
+    "op": 44,
+    "ordinary": 43,
+    "net": 26
+   },
+   {
+    "label": "25.09-11",
+    "sales": 663,
+    "op": 1,
+    "ordinary": 0,
+    "net": 1
+   },
+   {
+    "label": "25.12-02",
+    "sales": 713,
+    "op": 29,
+    "ordinary": 27,
+    "net": 17
+   },
+   {
+    "label": "26.03-05",
+    "sales": 750,
+    "op": -10,
+    "ordinary": -16,
+    "net": -10
+   }
+  ]
+ },
+ "JP:4076": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1644,
+    "op": 79,
+    "ordinary": 80,
+    "net": 54
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1720,
+    "op": 147,
+    "ordinary": 160,
+    "net": 108
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1822,
+    "op": 194,
+    "ordinary": 202,
+    "net": 137
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1818,
+    "op": 135,
+    "ordinary": 143,
+    "net": 128
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1874,
+    "op": 182,
+    "ordinary": 182,
+    "net": 154
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1879,
+    "op": 168,
+    "ordinary": 178,
+    "net": 119
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1964,
+    "op": 196,
+    "ordinary": 210,
+    "net": 142
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2057,
+    "op": 139,
+    "ordinary": 155,
+    "net": 175
+   }
+  ]
+ },
+ "JP:4397": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1142,
+    "op": -55,
+    "ordinary": -53,
+    "net": -146
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1147,
+    "op": 51,
+    "ordinary": 51,
+    "net": 37
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1172,
+    "op": 83,
+    "ordinary": 87,
+    "net": 73
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1237,
+    "op": 134,
+    "ordinary": 134,
+    "net": 115
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1366,
+    "op": 1,
+    "ordinary": 5,
+    "net": 137
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1411,
+    "op": 109,
+    "ordinary": 109,
+    "net": 77
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1470,
+    "op": 123,
+    "ordinary": 123,
+    "net": 80
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1551,
+    "op": 199,
+    "ordinary": 197,
+    "net": 137
+   }
+  ]
+ },
+ "JP:4429": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2263,
+    "op": 76,
+    "ordinary": 77,
+    "net": 62
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2289,
+    "op": 84,
+    "ordinary": 85,
+    "net": 67
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2445,
+    "op": 151,
+    "ordinary": 145,
+    "net": 111
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2872,
+    "op": 129,
+    "ordinary": 97,
+    "net": 74
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2254,
+    "op": 38,
+    "ordinary": 41,
+    "net": 35
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2945,
+    "op": 129,
+    "ordinary": 135,
+    "net": 102
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2821,
+    "op": 80,
+    "ordinary": 84,
+    "net": 52
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2840,
+    "op": 125,
+    "ordinary": 127,
+    "net": 92
+   }
+  ]
+ },
+ "JP:4432": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 7755,
+    "op": 2551,
+    "ordinary": 2589,
+    "net": 1849
+   },
+   {
+    "label": "24.09-11",
+    "sales": 6735,
+    "op": 1572,
+    "ordinary": 1557,
+    "net": 1105
+   },
+   {
+    "label": "24.12-02",
+    "sales": 7098,
+    "op": 1680,
+    "ordinary": 1702,
+    "net": 1227
+   },
+   {
+    "label": "25.03-05",
+    "sales": 7314,
+    "op": 2097,
+    "ordinary": 2088,
+    "net": 1466
+   },
+   {
+    "label": "25.06-08",
+    "sales": 7398,
+    "op": 2011,
+    "ordinary": 2056,
+    "net": 1472
+   },
+   {
+    "label": "25.09-11",
+    "sales": 7790,
+    "op": 2103,
+    "ordinary": 2073,
+    "net": 1484
+   },
+   {
+    "label": "25.12-02",
+    "sales": 8443,
+    "op": 2778,
+    "ordinary": 2870,
+    "net": 2078
+   },
+   {
+    "label": "26.03-05",
+    "sales": 7806,
+    "op": 2167,
+    "ordinary": 2178,
+    "net": 1559
+   }
+  ]
+ },
+ "JP:464A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 350,
+    "op": -228,
+    "ordinary": -265,
+    "net": -1903
+   },
+   {
+    "label": "24.09-11",
+    "sales": 894,
+    "op": 234,
+    "ordinary": 175,
+    "net": 175
+   },
+   {
+    "label": "24.12-02",
+    "sales": 593,
+    "op": -28,
+    "ordinary": -105,
+    "net": -105
+   },
+   {
+    "label": "25.03-05",
+    "sales": 844,
+    "op": 107,
+    "ordinary": -15,
+    "net": -15
+   },
+   {
+    "label": "25.06-08",
+    "sales": 425,
+    "op": -410,
+    "ordinary": -485,
+    "net": -487
+   },
+   {
+    "label": "25.09-11",
+    "sales": 490,
+    "op": -493,
+    "ordinary": 260,
+    "net": 260
+   },
+   {
+    "label": "25.12-02",
+    "sales": 696,
+    "op": -547,
+    "ordinary": 43,
+    "net": 40
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2192,
+    "op": 617,
+    "ordinary": 1348,
+    "net": 1339
+   }
+  ]
+ },
+ "JP:4668": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 6659,
+    "op": 810,
+    "ordinary": 889,
+    "net": 426
+   },
+   {
+    "label": "24.09-11",
+    "sales": 5698,
+    "op": 409,
+    "ordinary": 443,
+    "net": 318
+   },
+   {
+    "label": "24.12-02",
+    "sales": 6534,
+    "op": 1064,
+    "ordinary": 1097,
+    "net": 691
+   },
+   {
+    "label": "25.03-05",
+    "sales": 5348,
+    "op": -350,
+    "ordinary": -341,
+    "net": -270
+   },
+   {
+    "label": "25.06-08",
+    "sales": 7247,
+    "op": 568,
+    "ordinary": 669,
+    "net": 988
+   },
+   {
+    "label": "25.09-11",
+    "sales": 6027,
+    "op": 496,
+    "ordinary": 531,
+    "net": 336
+   },
+   {
+    "label": "25.12-02",
+    "sales": 6874,
+    "op": 963,
+    "ordinary": 1021,
+    "net": 630
+   },
+   {
+    "label": "26.03-05",
+    "sales": 5608,
+    "op": -630,
+    "ordinary": -626,
+    "net": -536
+   }
+  ]
+ },
+ "JP:4673": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2041,
+    "op": -105,
+    "ordinary": -79,
+    "net": -75
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3009,
+    "op": 267,
+    "ordinary": 292,
+    "net": 228
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2189,
+    "op": 52,
+    "ordinary": 71,
+    "net": 37
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3038,
+    "op": 232,
+    "ordinary": 256,
+    "net": 276
+   },
+   {
+    "label": "25.06-08",
+    "sales": 3745,
+    "op": 314,
+    "ordinary": 344,
+    "net": 223
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3736,
+    "op": 67,
+    "ordinary": 66,
+    "net": 84
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2856,
+    "op": 669,
+    "ordinary": 675,
+    "net": 453
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2516,
+    "op": 452,
+    "ordinary": 458,
+    "net": 307
+   }
+  ]
+ },
+ "JP:505A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "25.12-02",
+    "sales": 2479,
+    "op": 684,
+    "ordinary": 666,
+    "net": 467
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2831,
+    "op": 633,
+    "ordinary": 625,
+    "net": 452
+   }
+  ]
+ },
+ "JP:5129": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1048,
+    "op": -285,
+    "ordinary": -280,
+    "net": -195
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1010,
+    "op": -369,
+    "ordinary": -370,
+    "net": -260
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1209,
+    "op": -158,
+    "ordinary": -149,
+    "net": -106
+   },
+   {
+    "label": "25.03-05",
+    "sales": 871,
+    "op": -617,
+    "ordinary": -619,
+    "net": -833
+   },
+   {
+    "label": "25.06-08",
+    "sales": 890,
+    "op": -585,
+    "ordinary": -581,
+    "net": -918
+   },
+   {
+    "label": "25.09-11",
+    "sales": 790,
+    "op": -659,
+    "ordinary": -659,
+    "net": -647
+   },
+   {
+    "label": "25.12-02",
+    "sales": 773,
+    "op": -614,
+    "ordinary": -609,
+    "net": -600
+   },
+   {
+    "label": "26.03-05",
+    "sales": 793,
+    "op": -605,
+    "ordinary": -605,
+    "net": -595
+   }
+  ]
+ },
+ "JP:523A": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "26.03-05",
+    "sales": 2014,
+    "op": 187,
+    "ordinary": 165,
+    "net": 204
+   }
+  ]
+ },
+ "JP:5246": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 649,
+    "op": -37,
+    "ordinary": -53,
+    "net": -77
+   },
+   {
+    "label": "24.09-11",
+    "sales": 688,
+    "op": -53,
+    "ordinary": -72,
+    "net": -94
+   },
+   {
+    "label": "24.12-02",
+    "sales": 715,
+    "op": -13,
+    "ordinary": -24,
+    "net": -51
+   },
+   {
+    "label": "25.03-05",
+    "sales": 975,
+    "op": 30,
+    "ordinary": 15,
+    "net": -400
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1031,
+    "op": -153,
+    "ordinary": -170,
+    "net": -171
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1174,
+    "op": -79,
+    "ordinary": -122,
+    "net": -78
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1291,
+    "op": 119,
+    "ordinary": 105,
+    "net": 100
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1508,
+    "op": 208,
+    "ordinary": 193,
+    "net": 197
+   }
+  ]
+ },
+ "JP:5250": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 215,
+    "op": 58,
+    "ordinary": 58,
+    "net": 42
+   },
+   {
+    "label": "24.09-11",
+    "sales": 225,
+    "op": 57,
+    "ordinary": 57,
+    "net": 40
+   },
+   {
+    "label": "24.12-02",
+    "sales": 223,
+    "op": 40,
+    "ordinary": 40,
+    "net": 28
+   },
+   {
+    "label": "25.03-05",
+    "sales": 209,
+    "op": 28,
+    "ordinary": 29,
+    "net": 20
+   },
+   {
+    "label": "25.06-08",
+    "sales": 209,
+    "op": 34,
+    "ordinary": 34,
+    "net": 24
+   },
+   {
+    "label": "25.09-11",
+    "sales": 246,
+    "op": 41,
+    "ordinary": 41,
+    "net": 35
+   },
+   {
+    "label": "25.12-02",
+    "sales": 232,
+    "op": 36,
+    "ordinary": 37,
+    "net": 27
+   },
+   {
+    "label": "26.03-05",
+    "sales": 238,
+    "op": 27,
+    "ordinary": 27,
+    "net": 20
+   }
+  ]
+ },
+ "JP:5578": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2777,
+    "op": 135,
+    "ordinary": 154,
+    "net": 98
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2964,
+    "op": 68,
+    "ordinary": 46,
+    "net": -12
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3599,
+    "op": 204,
+    "ordinary": 226,
+    "net": 96
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3752,
+    "op": 289,
+    "ordinary": 296,
+    "net": 164
+   },
+   {
+    "label": "25.06-08",
+    "sales": 3837,
+    "op": 268,
+    "ordinary": 209,
+    "net": 197
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3896,
+    "op": 261,
+    "ordinary": 271,
+    "net": 124
+   },
+   {
+    "label": "25.12-02",
+    "sales": 4052,
+    "op": 337,
+    "ordinary": 341,
+    "net": 198
+   },
+   {
+    "label": "26.03-05",
+    "sales": 4197,
+    "op": 310,
+    "ordinary": 315,
+    "net": 206
+   }
+  ]
+ },
+ "JP:5885": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1249,
+    "op": 176,
+    "ordinary": 164,
+    "net": 113
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2746,
+    "op": 322,
+    "ordinary": 333,
+    "net": 231
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1444,
+    "op": 201,
+    "ordinary": 180,
+    "net": 124
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1191,
+    "op": 140,
+    "ordinary": 119,
+    "net": 68
+   },
+   {
+    "label": "25.06-08",
+    "sales": 948,
+    "op": 166,
+    "ordinary": 198,
+    "net": 135
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2135,
+    "op": 447,
+    "ordinary": 451,
+    "net": 313
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1576,
+    "op": 198,
+    "ordinary": 204,
+    "net": 141
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2290,
+    "op": 306,
+    "ordinary": 317,
+    "net": 197
+   }
+  ]
+ },
+ "JP:5967": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1475,
+    "op": 35,
+    "ordinary": 10,
+    "net": -20
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2072,
+    "op": 479,
+    "ordinary": 579,
+    "net": 478
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1685,
+    "op": 48,
+    "ordinary": 85,
+    "net": 34
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2359,
+    "op": 440,
+    "ordinary": 417,
+    "net": 295
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1424,
+    "op": 181,
+    "ordinary": 231,
+    "net": 151
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1983,
+    "op": 310,
+    "ordinary": 320,
+    "net": 226
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1797,
+    "op": 232,
+    "ordinary": 259,
+    "net": 233
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2655,
+    "op": 641,
+    "ordinary": 663,
+    "net": 479
+   }
+  ]
+ },
+ "JP:6047": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1573,
+    "op": 170,
+    "ordinary": -64,
+    "net": -222
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1502,
+    "op": 196,
+    "ordinary": 153,
+    "net": 158
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1555,
+    "op": 227,
+    "ordinary": 302,
+    "net": 268
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1468,
+    "op": -18,
+    "ordinary": -66,
+    "net": -126
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1678,
+    "op": 39,
+    "ordinary": 10,
+    "net": -24
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1601,
+    "op": 31,
+    "ordinary": 151,
+    "net": 111
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1707,
+    "op": 167,
+    "ordinary": 189,
+    "net": 117
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1455,
+    "op": -51,
+    "ordinary": 4,
+    "net": -215
+   }
+  ]
+ },
+ "JP:6086": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 7404,
+    "op": 580,
+    "ordinary": 585,
+    "net": 371
+   },
+   {
+    "label": "24.09-11",
+    "sales": 6757,
+    "op": 497,
+    "ordinary": 496,
+    "net": 315
+   },
+   {
+    "label": "24.12-02",
+    "sales": 5784,
+    "op": 116,
+    "ordinary": 116,
+    "net": 117
+   },
+   {
+    "label": "25.03-05",
+    "sales": 6744,
+    "op": 445,
+    "ordinary": 472,
+    "net": 305
+   },
+   {
+    "label": "25.06-08",
+    "sales": 8655,
+    "op": 712,
+    "ordinary": 723,
+    "net": 463
+   },
+   {
+    "label": "25.09-11",
+    "sales": 7846,
+    "op": 586,
+    "ordinary": 585,
+    "net": 372
+   },
+   {
+    "label": "25.12-02",
+    "sales": 6701,
+    "op": 114,
+    "ordinary": 117,
+    "net": 99
+   },
+   {
+    "label": "26.03-05",
+    "sales": 7565,
+    "op": 498,
+    "ordinary": 497,
+    "net": 362
+   }
+  ]
+ },
+ "JP:6183": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 35224,
+    "op": 2210,
+    "ordinary": 2107,
+    "net": 1337
+   },
+   {
+    "label": "24.09-11",
+    "sales": 35903,
+    "op": 2556,
+    "ordinary": 2476,
+    "net": 1657
+   },
+   {
+    "label": "24.12-02",
+    "sales": 35664,
+    "op": 4221,
+    "ordinary": 4091,
+    "net": 3322
+   },
+   {
+    "label": "25.03-05",
+    "sales": 36605,
+    "op": 2889,
+    "ordinary": 2787,
+    "net": 1856
+   },
+   {
+    "label": "25.06-08",
+    "sales": 36538,
+    "op": 3025,
+    "ordinary": 2980,
+    "net": 1967
+   },
+   {
+    "label": "25.09-11",
+    "sales": 36317,
+    "op": 3522,
+    "ordinary": 3427,
+    "net": 2295
+   },
+   {
+    "label": "25.12-02",
+    "sales": 36366,
+    "op": 3216,
+    "ordinary": 3096,
+    "net": 2063
+   },
+   {
+    "label": "26.03-05",
+    "sales": 36701,
+    "op": 3213,
+    "ordinary": 3090,
+    "net": 2268
+   }
+  ]
+ },
+ "JP:6505": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 8166,
+    "op": 27,
+    "ordinary": 140,
+    "net": 97
+   },
+   {
+    "label": "24.09-11",
+    "sales": 10849,
+    "op": 735,
+    "ordinary": 847,
+    "net": 703
+   },
+   {
+    "label": "24.12-02",
+    "sales": 10017,
+    "op": 525,
+    "ordinary": 712,
+    "net": 462
+   },
+   {
+    "label": "25.03-05",
+    "sales": 11507,
+    "op": 1097,
+    "ordinary": 885,
+    "net": 866
+   },
+   {
+    "label": "25.06-08",
+    "sales": 8409,
+    "op": 367,
+    "ordinary": 533,
+    "net": 465
+   },
+   {
+    "label": "25.09-11",
+    "sales": 9770,
+    "op": 310,
+    "ordinary": 363,
+    "net": 400
+   },
+   {
+    "label": "25.12-02",
+    "sales": 10782,
+    "op": 1218,
+    "ordinary": 1345,
+    "net": 986
+   },
+   {
+    "label": "26.03-05",
+    "sales": 11519,
+    "op": 1216,
+    "ordinary": 1279,
+    "net": 1125
+   }
+  ]
+ },
+ "JP:6552": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 807,
+    "op": -108,
+    "ordinary": -106,
+    "net": -126
+   },
+   {
+    "label": "24.09-11",
+    "sales": 863,
+    "op": -66,
+    "ordinary": -68,
+    "net": -60
+   },
+   {
+    "label": "24.12-02",
+    "sales": 856,
+    "op": -43,
+    "ordinary": -45,
+    "net": -63
+   },
+   {
+    "label": "25.03-05",
+    "sales": 925,
+    "op": 21,
+    "ordinary": 12,
+    "net": 14
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1002,
+    "op": 2,
+    "ordinary": 11,
+    "net": 2
+   },
+   {
+    "label": "25.09-11",
+    "sales": 960,
+    "op": 52,
+    "ordinary": 56,
+    "net": 30
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1171,
+    "op": 134,
+    "ordinary": 135,
+    "net": 112
+   },
+   {
+    "label": "26.03-05",
+    "sales": 914,
+    "op": -87,
+    "ordinary": -86,
+    "net": -119
+   }
+  ]
+ },
+ "JP:6558": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 860,
+    "op": 1,
+    "ordinary": -1,
+    "net": -27
+   },
+   {
+    "label": "24.09-11",
+    "sales": 708,
+    "op": -25,
+    "ordinary": -28,
+    "net": -52
+   },
+   {
+    "label": "24.12-02",
+    "sales": 772,
+    "op": -84,
+    "ordinary": -87,
+    "net": -107
+   },
+   {
+    "label": "25.03-05",
+    "sales": 700,
+    "op": -105,
+    "ordinary": -111,
+    "net": -130
+   },
+   {
+    "label": "25.06-08",
+    "sales": 653,
+    "op": -97,
+    "ordinary": -100,
+    "net": -88
+   },
+   {
+    "label": "25.09-11",
+    "sales": 735,
+    "op": -88,
+    "ordinary": -92,
+    "net": -79
+   },
+   {
+    "label": "25.12-02",
+    "sales": 694,
+    "op": -34,
+    "ordinary": -38,
+    "net": -24
+   },
+   {
+    "label": "26.03-05",
+    "sales": 720,
+    "op": -53,
+    "ordinary": -61,
+    "net": -71
+   }
+  ]
+ },
+ "JP:6634": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 559,
+    "op": -68,
+    "ordinary": -69,
+    "net": -68
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1086,
+    "op": 18,
+    "ordinary": 34,
+    "net": -18
+   },
+   {
+    "label": "24.12-02",
+    "sales": 645,
+    "op": -26,
+    "ordinary": -14,
+    "net": -23
+   },
+   {
+    "label": "25.03-05",
+    "sales": 651,
+    "op": -39,
+    "ordinary": -40,
+    "net": -1211
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1106,
+    "op": -33,
+    "ordinary": -62,
+    "net": 186
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1160,
+    "op": -125,
+    "ordinary": -134,
+    "net": 320
+   },
+   {
+    "label": "25.12-02",
+    "sales": 683,
+    "op": -347,
+    "ordinary": -513,
+    "net": -490
+   },
+   {
+    "label": "26.03-05",
+    "sales": 817,
+    "op": -223,
+    "ordinary": -909,
+    "net": -927
+   }
+  ]
+ },
+ "JP:6897": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2258,
+    "op": -160,
+    "ordinary": -162,
+    "net": -104
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2236,
+    "op": -48,
+    "ordinary": -19,
+    "net": 13
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3366,
+    "op": 402,
+    "ordinary": 389,
+    "net": 107
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2037,
+    "op": -351,
+    "ordinary": -360,
+    "net": -360
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2211,
+    "op": -48,
+    "ordinary": -69,
+    "net": -72
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2299,
+    "op": -26,
+    "ordinary": -35,
+    "net": -39
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2451,
+    "op": -430,
+    "ordinary": -432,
+    "net": -747
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2449,
+    "op": 76,
+    "ordinary": 90,
+    "net": 65
+   }
+  ]
+ },
+ "JP:7373": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2859,
+    "op": 597,
+    "ordinary": 592,
+    "net": 492
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3023,
+    "op": 668,
+    "ordinary": 691,
+    "net": 415
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3223,
+    "op": 809,
+    "ordinary": 794,
+    "net": 456
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3396,
+    "op": 828,
+    "ordinary": 825,
+    "net": 498
+   },
+   {
+    "label": "25.06-08",
+    "sales": 3627,
+    "op": 797,
+    "ordinary": 883,
+    "net": 585
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3719,
+    "op": 835,
+    "ordinary": 827,
+    "net": 464
+   },
+   {
+    "label": "25.12-02",
+    "sales": 3529,
+    "op": 685,
+    "ordinary": 679,
+    "net": 368
+   },
+   {
+    "label": "26.03-05",
+    "sales": 3604,
+    "op": 330,
+    "ordinary": 358,
+    "net": 163
+   }
+  ]
+ },
+ "JP:7453": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 165978,
+    "op": 13666,
+    "ordinary": 12451,
+    "net": 8059
+   },
+   {
+    "label": "24.09-11",
+    "sales": 197690,
+    "op": 21957,
+    "ordinary": 21290,
+    "net": 14955
+   },
+   {
+    "label": "24.12-02",
+    "sales": 184333,
+    "op": 14148,
+    "ordinary": 13297,
+    "net": 10527
+   },
+   {
+    "label": "25.03-05",
+    "sales": 209070,
+    "op": 23301,
+    "ordinary": 23239,
+    "net": 18109
+   },
+   {
+    "label": "25.06-08",
+    "sales": 193536,
+    "op": 14434,
+    "ordinary": 14475,
+    "net": 7255
+   },
+   {
+    "label": "25.09-11",
+    "sales": 228227,
+    "op": 28383,
+    "ordinary": 29121,
+    "net": 22047
+   },
+   {
+    "label": "25.12-02",
+    "sales": 210322,
+    "op": 16662,
+    "ordinary": 17752,
+    "net": 12215
+   },
+   {
+    "label": "26.03-05",
+    "sales": 252239,
+    "op": 35777,
+    "ordinary": 35523,
+    "net": 24291
+   }
+  ]
+ },
+ "JP:7581": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 61272,
+    "op": 4798,
+    "ordinary": 5014,
+    "net": 2973
+   },
+   {
+    "label": "24.09-11",
+    "sales": 61275,
+    "op": 3918,
+    "ordinary": 4062,
+    "net": 2655
+   },
+   {
+    "label": "24.12-02",
+    "sales": 60297,
+    "op": 2267,
+    "ordinary": 2416,
+    "net": 2014
+   },
+   {
+    "label": "25.03-05",
+    "sales": 66767,
+    "op": 4423,
+    "ordinary": 4416,
+    "net": 3115
+   },
+   {
+    "label": "25.06-08",
+    "sales": 68375,
+    "op": 4891,
+    "ordinary": 4911,
+    "net": 3380
+   },
+   {
+    "label": "25.09-11",
+    "sales": 70285,
+    "op": 4660,
+    "ordinary": 4735,
+    "net": 3091
+   },
+   {
+    "label": "25.12-02",
+    "sales": 72569,
+    "op": 3994,
+    "ordinary": 4097,
+    "net": 2544
+   },
+   {
+    "label": "26.03-05",
+    "sales": 78478,
+    "op": 4673,
+    "ordinary": 4778,
+    "net": 3068
+   }
+  ]
+ },
+ "JP:7599": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 125093,
+    "op": 5634,
+    "ordinary": 5289,
+    "net": 3584
+   },
+   {
+    "label": "24.09-11",
+    "sales": 130864,
+    "op": 4975,
+    "ordinary": 4921,
+    "net": 3316
+   },
+   {
+    "label": "24.12-02",
+    "sales": 116163,
+    "op": 4832,
+    "ordinary": 4591,
+    "net": 3646
+   },
+   {
+    "label": "25.03-05",
+    "sales": 138184,
+    "op": 3775,
+    "ordinary": 3457,
+    "net": 2191
+   },
+   {
+    "label": "25.06-08",
+    "sales": 134923,
+    "op": 4718,
+    "ordinary": 4298,
+    "net": 2972
+   },
+   {
+    "label": "25.09-11",
+    "sales": 148396,
+    "op": 6021,
+    "ordinary": 5682,
+    "net": 3923
+   },
+   {
+    "label": "25.12-02",
+    "sales": 141271,
+    "op": 5695,
+    "ordinary": 5171,
+    "net": 2828
+   },
+   {
+    "label": "26.03-05",
+    "sales": 159614,
+    "op": 4356,
+    "ordinary": 3907,
+    "net": 2673
+   }
+  ]
+ },
+ "JP:7601": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 3192,
+    "op": 155,
+    "ordinary": 161,
+    "net": 180
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2943,
+    "op": 101,
+    "ordinary": 97,
+    "net": 71
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2857,
+    "op": 46,
+    "ordinary": 47,
+    "net": 41
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2970,
+    "op": 78,
+    "ordinary": 91,
+    "net": 56
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2988,
+    "op": 149,
+    "ordinary": 153,
+    "net": 120
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2902,
+    "op": 58,
+    "ordinary": 33,
+    "net": -3
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2794,
+    "op": 17,
+    "ordinary": 28,
+    "net": -39
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2939,
+    "op": 66,
+    "ordinary": 66,
+    "net": 55
+   }
+  ]
+ },
+ "JP:7608": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 3513,
+    "op": 293,
+    "ordinary": 281,
+    "net": 195
+   },
+   {
+    "label": "24.09-11",
+    "sales": 3337,
+    "op": 399,
+    "ordinary": 409,
+    "net": 287
+   },
+   {
+    "label": "24.12-02",
+    "sales": 3613,
+    "op": 245,
+    "ordinary": 262,
+    "net": 225
+   },
+   {
+    "label": "25.03-05",
+    "sales": 3492,
+    "op": 412,
+    "ordinary": 395,
+    "net": 282
+   },
+   {
+    "label": "25.06-08",
+    "sales": 4109,
+    "op": 595,
+    "ordinary": 615,
+    "net": 427
+   },
+   {
+    "label": "25.09-11",
+    "sales": 3756,
+    "op": 412,
+    "ordinary": 455,
+    "net": 317
+   },
+   {
+    "label": "25.12-02",
+    "sales": 4875,
+    "op": 440,
+    "ordinary": 417,
+    "net": 307
+   },
+   {
+    "label": "26.03-05",
+    "sales": 4314,
+    "op": 427,
+    "ordinary": 473,
+    "net": 332
+   }
+  ]
+ },
+ "JP:7805": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2137,
+    "op": 79,
+    "ordinary": 82,
+    "net": 27
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2443,
+    "op": 211,
+    "ordinary": 212,
+    "net": 138
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2054,
+    "op": 41,
+    "ordinary": 41,
+    "net": 94
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2420,
+    "op": 198,
+    "ordinary": 197,
+    "net": 124
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2296,
+    "op": 113,
+    "ordinary": 115,
+    "net": 77
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2472,
+    "op": 243,
+    "ordinary": 244,
+    "net": 172
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2102,
+    "op": 76,
+    "ordinary": 76,
+    "net": 44
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2322,
+    "op": 148,
+    "ordinary": 145,
+    "net": 90
+   }
+  ]
+ },
+ "JP:7847": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 915,
+    "op": 198,
+    "ordinary": 127,
+    "net": 88
+   },
+   {
+    "label": "24.09-11",
+    "sales": 769,
+    "op": 141,
+    "ordinary": 197,
+    "net": 134
+   },
+   {
+    "label": "24.12-02",
+    "sales": 628,
+    "op": 68,
+    "ordinary": 71,
+    "net": 43
+   },
+   {
+    "label": "25.03-05",
+    "sales": 647,
+    "op": 33,
+    "ordinary": -9,
+    "net": -7
+   },
+   {
+    "label": "25.06-08",
+    "sales": 666,
+    "op": 5,
+    "ordinary": 40,
+    "net": 24
+   },
+   {
+    "label": "25.09-11",
+    "sales": 763,
+    "op": 105,
+    "ordinary": 171,
+    "net": 121
+   },
+   {
+    "label": "25.12-02",
+    "sales": 635,
+    "op": 13,
+    "ordinary": 13,
+    "net": 6
+   },
+   {
+    "label": "26.03-05",
+    "sales": 970,
+    "op": 193,
+    "ordinary": 214,
+    "net": 154
+   }
+  ]
+ },
+ "JP:7879": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 16343,
+    "op": 29,
+    "ordinary": 42,
+    "net": -291
+   },
+   {
+    "label": "24.09-11",
+    "sales": 17734,
+    "op": -245,
+    "ordinary": -59,
+    "net": -2676
+   },
+   {
+    "label": "24.12-02",
+    "sales": 15864,
+    "op": -83,
+    "ordinary": -139,
+    "net": -201
+   },
+   {
+    "label": "25.03-05",
+    "sales": 16131,
+    "op": 115,
+    "ordinary": 39,
+    "net": -166
+   },
+   {
+    "label": "25.06-08",
+    "sales": 15353,
+    "op": -29,
+    "ordinary": 75,
+    "net": -105
+   },
+   {
+    "label": "25.09-11",
+    "sales": 17338,
+    "op": -50,
+    "ordinary": -4,
+    "net": -357
+   },
+   {
+    "label": "25.12-02",
+    "sales": 15175,
+    "op": -267,
+    "ordinary": -451,
+    "net": -314
+   },
+   {
+    "label": "26.03-05",
+    "sales": 16741,
+    "op": -74,
+    "ordinary": -162,
+    "net": 545
+   }
+  ]
+ },
+ "JP:8143": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 453,
+    "op": -125,
+    "ordinary": -116,
+    "net": -118
+   },
+   {
+    "label": "24.09-11",
+    "sales": 525,
+    "op": -55,
+    "ordinary": -49,
+    "net": -30
+   },
+   {
+    "label": "24.12-02",
+    "sales": 519,
+    "op": -71,
+    "ordinary": -62,
+    "net": -72
+   },
+   {
+    "label": "25.03-05",
+    "sales": 478,
+    "op": -71,
+    "ordinary": -70,
+    "net": -72
+   },
+   {
+    "label": "25.06-08",
+    "sales": 440,
+    "op": -101,
+    "ordinary": -91,
+    "net": -93
+   },
+   {
+    "label": "25.09-11",
+    "sales": 486,
+    "op": -53,
+    "ordinary": -48,
+    "net": -50
+   },
+   {
+    "label": "25.12-02",
+    "sales": 469,
+    "op": -50,
+    "ordinary": -40,
+    "net": -44
+   },
+   {
+    "label": "26.03-05",
+    "sales": 455,
+    "op": -66,
+    "ordinary": -64,
+    "net": 14
+   }
+  ]
+ },
+ "JP:8237": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 12384,
+    "op": 1646,
+    "ordinary": 1652,
+    "net": 1044
+   },
+   {
+    "label": "24.09-11",
+    "sales": 11960,
+    "op": 784,
+    "ordinary": 738,
+    "net": 304
+   },
+   {
+    "label": "24.12-02",
+    "sales": 12042,
+    "op": 919,
+    "ordinary": 966,
+    "net": 311
+   },
+   {
+    "label": "25.03-05",
+    "sales": 11423,
+    "op": 487,
+    "ordinary": 475,
+    "net": 240
+   },
+   {
+    "label": "25.06-08",
+    "sales": 11059,
+    "op": 518,
+    "ordinary": 593,
+    "net": -449
+   },
+   {
+    "label": "25.09-11",
+    "sales": 11333,
+    "op": 820,
+    "ordinary": 740,
+    "net": 805
+   },
+   {
+    "label": "25.12-02",
+    "sales": 11891,
+    "op": 811,
+    "ordinary": 792,
+    "net": 1596
+   },
+   {
+    "label": "26.03-05",
+    "sales": 12095,
+    "op": 661,
+    "ordinary": 601,
+    "net": 375
+   }
+  ]
+ },
+ "JP:8260": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 5701,
+    "op": 216,
+    "ordinary": -1,
+    "net": 5
+   },
+   {
+    "label": "24.09-11",
+    "sales": 5066,
+    "op": 66,
+    "ordinary": 65,
+    "net": 29
+   },
+   {
+    "label": "24.12-02",
+    "sales": 6164,
+    "op": 540,
+    "ordinary": 491,
+    "net": 769
+   },
+   {
+    "label": "25.03-05",
+    "sales": 5103,
+    "op": 121,
+    "ordinary": 96,
+    "net": 115
+   },
+   {
+    "label": "25.06-08",
+    "sales": 5407,
+    "op": 86,
+    "ordinary": 54,
+    "net": 32
+   },
+   {
+    "label": "25.09-11",
+    "sales": 4789,
+    "op": -63,
+    "ordinary": -108,
+    "net": -105
+   },
+   {
+    "label": "25.12-02",
+    "sales": 5984,
+    "op": 471,
+    "ordinary": 430,
+    "net": 449
+   },
+   {
+    "label": "26.03-05",
+    "sales": 4984,
+    "op": 96,
+    "ordinary": 2,
+    "net": 11
+   }
+  ]
+ },
+ "JP:9168": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1902,
+    "op": 464,
+    "ordinary": 456,
+    "net": 321
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1925,
+    "op": 473,
+    "ordinary": 466,
+    "net": 321
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2175,
+    "op": 666,
+    "ordinary": 639,
+    "net": 514
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2207,
+    "op": 492,
+    "ordinary": 487,
+    "net": 348
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2154,
+    "op": 501,
+    "ordinary": 499,
+    "net": 358
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2020,
+    "op": 370,
+    "ordinary": 366,
+    "net": 261
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2040,
+    "op": 340,
+    "ordinary": 339,
+    "net": 279
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2116,
+    "op": 240,
+    "ordinary": 234,
+    "net": 205
+   }
+  ]
+ },
+ "JP:9264": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 2091,
+    "op": 93,
+    "ordinary": -47,
+    "net": -108
+   },
+   {
+    "label": "24.09-11",
+    "sales": 2544,
+    "op": 212,
+    "ordinary": 214,
+    "net": 132
+   },
+   {
+    "label": "24.12-02",
+    "sales": 2730,
+    "op": 280,
+    "ordinary": 299,
+    "net": 188
+   },
+   {
+    "label": "25.03-05",
+    "sales": 2350,
+    "op": 192,
+    "ordinary": 164,
+    "net": 78
+   },
+   {
+    "label": "25.06-08",
+    "sales": 2490,
+    "op": 227,
+    "ordinary": 309,
+    "net": 175
+   },
+   {
+    "label": "25.09-11",
+    "sales": 2761,
+    "op": 216,
+    "ordinary": 214,
+    "net": 138
+   },
+   {
+    "label": "25.12-02",
+    "sales": 2544,
+    "op": 170,
+    "ordinary": 183,
+    "net": 112
+   },
+   {
+    "label": "26.03-05",
+    "sales": 2509,
+    "op": 205,
+    "ordinary": 250,
+    "net": 165
+   }
+  ]
+ },
+ "JP:9331": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1124,
+    "op": -95,
+    "ordinary": -108,
+    "net": -144
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1164,
+    "op": -143,
+    "ordinary": -145,
+    "net": -147
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1126,
+    "op": -130,
+    "ordinary": -129,
+    "net": -132
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1157,
+    "op": -89,
+    "ordinary": -92,
+    "net": -92
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1141,
+    "op": -20,
+    "ordinary": -20,
+    "net": -22
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1128,
+    "op": 19,
+    "ordinary": 18,
+    "net": 12
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1121,
+    "op": 5,
+    "ordinary": 2,
+    "net": -34
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1110,
+    "op": 11,
+    "ordinary": 8,
+    "net": 9
+   }
+  ]
+ },
+ "JP:9418": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 91217,
+    "op": 5577,
+    "ordinary": 5315,
+    "net": 2343
+   },
+   {
+    "label": "24.09-11",
+    "sales": 91928,
+    "op": 8251,
+    "ordinary": 8277,
+    "net": 4567
+   },
+   {
+    "label": "24.12-02",
+    "sales": 94854,
+    "op": 8351,
+    "ordinary": 8338,
+    "net": 4869
+   },
+   {
+    "label": "25.03-05",
+    "sales": 96656,
+    "op": 7604,
+    "ordinary": 7337,
+    "net": 4131
+   },
+   {
+    "label": "25.06-08",
+    "sales": 106970,
+    "op": 7365,
+    "ordinary": 6948,
+    "net": 4828
+   },
+   {
+    "label": "25.09-11",
+    "sales": 104673,
+    "op": 8766,
+    "ordinary": 8221,
+    "net": 4533
+   },
+   {
+    "label": "25.12-02",
+    "sales": 108150,
+    "op": 9350,
+    "ordinary": 8866,
+    "net": 5351
+   },
+   {
+    "label": "26.03-05",
+    "sales": 119497,
+    "op": 7117,
+    "ordinary": 6641,
+    "net": 3035
+   }
+  ]
+ },
+ "JP:9560": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 1274,
+    "op": 80,
+    "ordinary": 82,
+    "net": 73
+   },
+   {
+    "label": "24.09-11",
+    "sales": 1421,
+    "op": 445,
+    "ordinary": 445,
+    "net": 327
+   },
+   {
+    "label": "24.12-02",
+    "sales": 1388,
+    "op": 355,
+    "ordinary": 358,
+    "net": 260
+   },
+   {
+    "label": "25.03-05",
+    "sales": 1419,
+    "op": 245,
+    "ordinary": 245,
+    "net": 179
+   },
+   {
+    "label": "25.06-08",
+    "sales": 1519,
+    "op": 157,
+    "ordinary": 159,
+    "net": 122
+   },
+   {
+    "label": "25.09-11",
+    "sales": 1676,
+    "op": 448,
+    "ordinary": 450,
+    "net": 309
+   },
+   {
+    "label": "25.12-02",
+    "sales": 1656,
+    "op": 253,
+    "ordinary": 256,
+    "net": 176
+   },
+   {
+    "label": "26.03-05",
+    "sales": 1809,
+    "op": 352,
+    "ordinary": 354,
+    "net": 241
+   }
+  ]
+ },
+ "JP:9837": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 11876,
+    "op": 670,
+    "ordinary": 720,
+    "net": 526
+   },
+   {
+    "label": "24.09-11",
+    "sales": 12912,
+    "op": 715,
+    "ordinary": 718,
+    "net": 653
+   },
+   {
+    "label": "24.12-02",
+    "sales": 12161,
+    "op": 617,
+    "ordinary": 689,
+    "net": 601
+   },
+   {
+    "label": "25.03-05",
+    "sales": 13644,
+    "op": 951,
+    "ordinary": 1022,
+    "net": 1745
+   },
+   {
+    "label": "25.06-08",
+    "sales": 14790,
+    "op": 813,
+    "ordinary": 933,
+    "net": 667
+   },
+   {
+    "label": "25.09-11",
+    "sales": 16272,
+    "op": 952,
+    "ordinary": 980,
+    "net": -97
+   },
+   {
+    "label": "25.12-02",
+    "sales": 16681,
+    "op": 1038,
+    "ordinary": 1046,
+    "net": 660
+   },
+   {
+    "label": "26.03-05",
+    "sales": 16387,
+    "op": 1020,
+    "ordinary": 1116,
+    "net": 985
+   }
+  ]
+ },
+ "JP:9601": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 20104,
+    "op": 369,
+    "ordinary": -3152,
+    "net": -593
+   },
+   {
+    "label": "24.09-11",
+    "sales": 19833,
+    "op": -641,
+    "ordinary": -1048,
+    "net": -337
+   },
+   {
+    "label": "24.12-02",
+    "sales": 24554,
+    "op": 1590,
+    "ordinary": 1696,
+    "net": 354
+   },
+   {
+    "label": "25.03-05",
+    "sales": 21657,
+    "op": 1091,
+    "ordinary": 872,
+    "net": 1507
+   },
+   {
+    "label": "25.06-08",
+    "sales": 27972,
+    "op": 3158,
+    "ordinary": 3492,
+    "net": 2613
+   },
+   {
+    "label": "25.09-11",
+    "sales": 25127,
+    "op": 1247,
+    "ordinary": 1246,
+    "net": 844
+   },
+   {
+    "label": "25.12-02",
+    "sales": 23493,
+    "op": 677,
+    "ordinary": 735,
+    "net": 272
+   },
+   {
+    "label": "26.03-05",
+    "sales": 24138,
+    "op": 1729,
+    "ordinary": 1651,
+    "net": -281
+   }
+  ]
+ },
+ "JP:9993": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.06-08",
+    "sales": 25989,
+    "op": -274,
+    "ordinary": -52,
+    "net": -870
+   },
+   {
+    "label": "24.09-11",
+    "sales": 24927,
+    "op": -354,
+    "ordinary": -377,
+    "net": -295
+   },
+   {
+    "label": "24.12-02",
+    "sales": 26673,
+    "op": 215,
+    "ordinary": 245,
+    "net": -1266
+   },
+   {
+    "label": "25.03-05",
+    "sales": 26063,
+    "op": 249,
+    "ordinary": 264,
+    "net": 171
+   },
+   {
+    "label": "25.06-08",
+    "sales": 27020,
+    "op": 346,
+    "ordinary": 386,
+    "net": 584
+   },
+   {
+    "label": "25.09-11",
+    "sales": 25554,
+    "op": 104,
+    "ordinary": 128,
+    "net": 105
+   },
+   {
+    "label": "25.12-02",
+    "sales": 26768,
+    "op": 441,
+    "ordinary": 451,
+    "net": 518
+   },
+   {
+    "label": "26.03-05",
+    "sales": 24871,
+    "op": 217,
+    "ordinary": 274,
+    "net": 298
+   }
+  ]
+ },
+ "JP:2408": {
+  "fetchedAt": "2026-10-07",
+  "quarters": [
+   {
+    "label": "24.07-09",
+    "sales": 617,
+    "op": 65,
+    "ordinary": 68,
+    "net": 53
+   },
+   {
+    "label": "24.10-12",
+    "sales": 659,
+    "op": 122,
+    "ordinary": 126,
+    "net": 72
+   },
+   {
+    "label": "25.01-03",
+    "sales": 649,
+    "op": 88,
+    "ordinary": 91,
+    "net": 62
+   },
+   {
+    "label": "25.04-06",
+    "sales": 664,
+    "op": 76,
+    "ordinary": 80,
+    "net": 55
+   },
+   {
+    "label": "25.07-09",
+    "sales": 682,
+    "op": 83,
+    "ordinary": 89,
+    "net": 62
+   },
+   {
+    "label": "25.10-12",
+    "sales": 741,
+    "op": 193,
+    "ordinary": 200,
+    "net": 156
+   },
+   {
+    "label": "26.01-03",
+    "sales": 713,
+    "op": 124,
+    "ordinary": 129,
+    "net": 187
+   },
+   {
+    "label": "26.04-06",
+    "sales": 740,
+    "op": 122,
+    "ordinary": 131,
+    "net": 91
+   }
+  ]
  }
 }

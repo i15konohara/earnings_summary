@@ -978,5 +978,9 @@
  "ACI": {
   "sector": "Consumer Defensive",
   "industry": "Grocery Stores"
+ },
+ "CMND": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology"
  }
 }

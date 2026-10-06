@@ -7,7 +7,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { unzip } from './earnings_summary.mjs';
+import { fetchXbrlFiles, listEarnings } from './tdnet.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const CACHE_FILE = join(ROOT, 'data', 'reasons_cache.json');
@@ -199,7 +199,8 @@ function jpCandidates(report) {
   const out = [];
   for (const r of report.jp.results) {
     for (const i of r.items) {
-      if (i.kind !== '決算' || !i.info?.narrative || !i.info.period) continue;
+      // TDnet から補完した会社は株探の解説文が無いが、材料(決算短信)は取れるので対象にする
+      if (i.kind !== '決算' || !i.info?.period || (!i.info.narrative && i.source !== 'tdnet')) continue;
       const y = jpProfitYoy(i.info);
       const big = y?.kind === 'up' || y?.kind === 'down' || Math.abs(y?.pct ?? 0) >= 30;
       out.push({
@@ -257,30 +258,6 @@ function usCandidates(report) {
 
 // ---------- 日本の材料: TDnet 決算短信 XBRL の定性情報 ----------
 
-const tdnetIndexCache = new Map();
-
-// その日の決算短信の XBRL(zip) URL をコード別に引く (やのしん TDnet WEB-API)
-async function tdnetIndex(ymd) {
-  if (!tdnetIndexCache.has(ymd)) {
-    tdnetIndexCache.set(
-      ymd,
-      (async () => {
-        const res = await fetch(`https://webapi.yanoshin.jp/webapi/tdnet/list/${ymd.replace(/-/g, '')}.json?limit=2000`, {
-          headers: { 'User-Agent': UA },
-        });
-        if (!res.ok) throw new Error(`TDnet一覧 HTTP ${res.status}`);
-        const map = new Map();
-        for (const { Tdnet: t } of (await res.json()).items ?? []) {
-          if (!t?.url_xbrl || !/決算短信/.test(t.title) || /訂正/.test(t.title)) continue;
-          map.set(String(t.company_code).slice(0, 4), t.url_xbrl.replace(/^.*?\?(https?:)/, '$1'));
-        }
-        return map;
-      })(),
-    );
-  }
-  return tdnetIndexCache.get(ymd);
-}
-
 // 定性情報 (qualitative.htm) から「経営成績の概況」の本文を取り出す
 function extractBusinessReview(html) {
   const lines = html
@@ -301,13 +278,18 @@ function extractBusinessReview(html) {
   return lines.slice(start + 1, end).join('\n').slice(0, 4000);
 }
 
+const prevDay = (ymd) => new Date(new Date(`${ymd}T00:00:00Z`).getTime() - 864e5).toISOString().slice(0, 10);
+
 async function fetchJpMaterial(code, ymd) {
   try {
-    const url = (await tdnetIndex(ymd)).get(code);
-    if (!url) return null;
-    const res = await fetch(url, { headers: { 'User-Agent': UA } });
-    if (!res.ok) return null;
-    const files = unzip(Buffer.from(await res.arrayBuffer()));
+    // 夜間の開示は株探の記事が翌日付になるため、前日の一覧も探す
+    let doc = null;
+    for (const d of [ymd, prevDay(ymd), prevDay(prevDay(ymd)), prevDay(prevDay(prevDay(ymd)))]) {
+      doc = (await listEarnings(d)).get(code);
+      if (doc) break;
+    }
+    if (!doc) return null;
+    const files = await fetchXbrlFiles(doc.xbrlUrl);
     const name = [...files.keys()].find((k) => /qualitative\.htm$/i.test(k));
     return name ? extractBusinessReview(files.get(name).toString('utf8')) : null;
   } catch {

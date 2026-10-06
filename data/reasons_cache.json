@@ -749,5 +749,40 @@
   "summary": "外部要因: 需要動向の変化",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-06T23:16:30.226Z"
+ },
+ "v3:JP:9444:26.08.08期末(四半期)": {
+  "individual": [
+   {
+    "factor": "携帯販売促進活動",
+    "evidence": "積極的な販売促進活動を実施"
+   },
+   {
+    "factor": "入居率向上努力",
+    "evidence": "管理物件の定期清掃やメンテナンスを引き続き行う"
+   },
+   {
+    "factor": "ゴルフレッスン施設閉業",
+    "evidence": "2026年７月31日をもって、ゴルフリークスの運営は閉業いたしました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "MNP競争激化",
+    "evidence": "各通信事業者間のMNP競争が活況を呈"
+   },
+   {
+    "factor": "スマホ価格高騰",
+    "evidence": "スマートフォンの高機能化に伴う価格高騰"
+   },
+   {
+    "factor": "中東情勢・自然災害",
+    "evidence": "中東情勢や自然災害の影響"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 携帯販売促進活動、入居率向上努力、ゴルフレッスン施設閉業 / 外部要因: MNP競争激化、スマホ価格高騰、中東情勢・自然災害",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-06T23:49:08.093Z"
  }
 }

@@ -154,9 +154,11 @@ function usRecord(row, date, sector) {
   };
 }
 
+export const loadDb = () => loadJson(DB_FILE, {});
+
 // report の決算結果と理由づけを DB に反映する
 export async function updateDb(report, usSectors) {
-  const db = await loadJson(DB_FILE, {});
+  const db = await loadDb();
   const now = new Date().toISOString();
   const reasonsByKey = new Map((report.reasons ?? []).map((r) => [`${r.market}:${r.code}:${r.period}`, r]));
   const upsert = (rec) => {
@@ -244,7 +246,9 @@ export function sectorOutlook(db, marketData, asOf, windowDays = 60) {
   for (const market of ['JP', 'US']) {
     const groups = new Map();
     for (const r of Object.values(db)) {
+      // 数値を読めなかった決算 (決算があった記録のみ) は良し悪しを判定できないので集計しない
       if (r.market !== market || !r.industry || r.date < from || r.date > asOf) continue;
+      if (market === 'JP' && !Object.keys(r.values ?? {}).length) continue;
       if (!groups.has(r.industry)) groups.set(r.industry, []);
       groups.get(r.industry).push(r);
     }
