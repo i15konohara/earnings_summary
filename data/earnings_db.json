@@ -12643,7 +12643,7 @@
   },
   "verdict": "悪い",
   "reasons": null,
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:2659:26.03-08": {
@@ -12690,7 +12690,7 @@
    "source": "kabutan",
    "summary": "個別要因: 販売単価の向上、大型案件の好調 / 外部要因: 需要動向の好調"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:5243:25.12-08": {
@@ -12717,7 +12717,7 @@
   },
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": true
  },
  "JP:3396:26.03-08": {
@@ -12768,7 +12768,7 @@
    "source": "kabutan",
    "summary": "個別要因: 下期の大幅な利益減少、2Qの売上営業利益率の悪化、上期の据え置き通期計画 / 外部要因: 下期の利益予想の大幅な減少"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:2726:26.03-08": {
@@ -12795,7 +12795,7 @@
   },
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": true
  },
  "JP:6496:26.06-08": {
@@ -12846,7 +12846,7 @@
    "source": "kabutan",
    "summary": "個別要因: 販売数量の減少、利益率の悪化、特定事業の不振 / 外部要因: 需要動向の悪化"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:1377:26.06-08": {
@@ -12884,7 +12884,7 @@
    "source": "kabutan",
    "summary": "外部要因: 需要動向の変化"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:6469:26.03-08": {
@@ -12931,7 +12931,7 @@
    "source": "kabutan",
    "summary": "個別要因: 大型案件の受注、値上げ / 外部要因: 需要の拡大"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "JP:2734:25.12-08": {
@@ -12958,7 +12958,7 @@
   },
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-06T23:49:13.929Z",
+  "updatedAt": "2026-10-07T09:04:46.729Z",
   "star": false
  },
  "US:AEHR:Aug/2026": {
@@ -13368,6 +13368,738 @@
    "source": "tdnet",
    "summary": "個別要因: 携帯販売促進活動、入居率向上努力、ゴルフレッスン施設閉業 / 外部要因: MNP競争激化、スマホ価格高騰、中東情勢・自然災害"
   },
-  "updatedAt": "2026-10-06T23:49:13.929Z"
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:6255:2026.08": {
+  "key": "JP:6255:2026.08",
+  "market": "JP",
+  "code": "6255",
+  "name": "エヌ・ピー・シー",
+  "industry": "機械",
+  "period": "2026.08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070012",
+  "title": "エヌピーシー、今期経常は61％増益、1円増配へ",
+  "values": {
+   "売上高": 5811000000,
+   "営業益": 846000000,
+   "経常益": 880000000,
+   "最終益": 481000000
+  },
+  "yoy": {
+   "売上高": "-37.3",
+   "営業益": "-55.9",
+   "経常益": "-54.2",
+   "最終益": "-63.7"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "国内大型案件の遅延",
+     "evidence": "国内大型案件では一部装置の現地作業に時間を要して期末までに完了せず"
+    },
+    {
+     "factor": "米国主要顧客の改造案件期ずれ",
+     "evidence": "米国主要顧客においては設備移設案件が優先され、改造案件が一部来期へ期ずれ"
+    },
+    {
+     "factor": "材料費削減による利益確保",
+     "evidence": "新技術や開発要素を含む案件において原価に占める割合の高い材料費を削減"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "政策影響による設置量減少",
+     "evidence": "政策の影響などで太陽光パネルの設置量こそ前年と比べて減少したものの"
+    },
+    {
+     "factor": "補助金等行政支援の変化",
+     "evidence": "行政からの支援も行われており、リサイクル事業へ参入を検討する企業が増えています"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 国内大型案件の遅延、米国主要顧客の改造案件期ずれ、材料費削減による利益確保 / 外部要因: 政策影響による設置量減少、補助金等行政支援の変化"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:6093:26.03-08": {
+  "key": "JP:6093:26.03-08",
+  "market": "JP",
+  "code": "6093",
+  "name": "ミトラグループ",
+  "industry": "サービス業",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070011",
+  "title": "ミトラＧ、上期経常が2％減益で着地・6-8月期も52％減益",
+  "values": {
+   "売上高": 2605000000,
+   "営業益": 159000000,
+   "経常益": 155000000,
+   "最終益": 120000000
+  },
+  "yoy": {
+   "売上高": "+10.0",
+   "営業益": "0.0",
+   "経常益": "-1.9",
+   "最終益": "-4.8"
+  },
+  "verdict": "中立",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:2918:26.03-08": {
+  "key": "JP:2918:26.03-08",
+  "market": "JP",
+  "code": "2918",
+  "name": "わらべや日洋ホールディングス",
+  "industry": "食料品",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070008",
+  "title": "わらべ日洋、今期経常を一転18％減益に下方修正",
+  "values": {
+   "売上高": 120853000000,
+   "営業益": 3969000000,
+   "経常益": 4203000000,
+   "最終益": 2638000000
+  },
+  "yoy": {
+   "売上高": "+1.0",
+   "営業益": "-25.0",
+   "経常益": "-19.7",
+   "最終益": "-34.1"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:3391:26.03-08": {
+  "key": "JP:3391:26.03-08",
+  "market": "JP",
+  "code": "3391",
+  "name": "ツルハホールディングス",
+  "industry": "小売業",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070005",
+  "title": "ツルハＨＤ、上期経常が90％増益で着地・6-8月期も93％増益",
+  "values": {
+   "売上高": 1275514000000,
+   "営業益": 54770000000,
+   "経常益": 54850000000,
+   "最終益": 30252000000
+  },
+  "yoy": {
+   "売上高": "2.3 倍",
+   "営業益": "+92.6",
+   "経常益": "+90.3",
+   "最終益": "+48.5"
+  },
+  "verdict": "良い",
+  "star": true,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "商品政策の一体化",
+     "evidence": "商品政策や仕入運用の一体化"
+    },
+    {
+     "factor": "店舗網の拡充",
+     "evidence": "全国に広がる店舗網を活かしたドミナントの強化"
+    },
+    {
+     "factor": "調剤需要の取り込み",
+     "evidence": "調剤分野の需要取り込みが進み"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "市場規模の拡大",
+     "evidence": "市場規模は引き続き拡大傾向にあります"
+    },
+    {
+     "factor": "高齢化に伴う需要増",
+     "evidence": "高齢化の進展に伴う医療需要の増加"
+    },
+    {
+     "factor": "競争環境の激化",
+     "evidence": "競争環境は引き続き激化しております"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 商品政策の一体化、店舗網の拡充、調剤需要の取り込み / 外部要因: 市場規模の拡大、高齢化に伴う需要増、競争環境の激化"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:2670:26.03-08": {
+  "key": "JP:2670:26.03-08",
+  "market": "JP",
+  "code": "2670",
+  "name": "エービーシー・マート",
+  "industry": "小売業",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070004",
+  "title": "ＡＢＣマート、今期経常を4％上方修正・最高益予想を上乗せ",
+  "values": {
+   "売上高": 202298000000,
+   "営業益": 36131000000,
+   "経常益": 37971000000,
+   "最終益": 25931000000
+  },
+  "yoy": {
+   "売上高": "+6.4",
+   "営業益": "+7.4",
+   "経常益": "+5.7",
+   "最終益": "+6.6"
+  },
+  "verdict": "良い",
+  "star": true,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "店舗拡大",
+     "evidence": "国内外合わせて23店舗の新規出店"
+    },
+    {
+     "factor": "商品ラインナップ拡充",
+     "evidence": "ハンズフリーのサンダルやブーツへ商品の多角化"
+    },
+    {
+     "factor": "既存店売上増",
+     "evidence": "インバウンド売上が好調だったことから、既存店は前年同期比4.5％増"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "為替変動",
+     "evidence": "海外の業績につきましては、前年同期と比べ、為替がいずれの通貨に対しても円安に進行しました"
+    },
+    {
+     "factor": "地政学リスク",
+     "evidence": "貿易摩擦や中東情勢等による地政学リスクの長期化"
+    },
+    {
+     "factor": "インバウンド需要",
+     "evidence": "インバウンド需要の増加"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 店舗拡大、商品ラインナップ拡充、既存店売上増 / 外部要因: 為替変動、地政学リスク、インバウンド需要"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:9846:26.03-08": {
+  "key": "JP:9846:26.03-08",
+  "market": "JP",
+  "code": "9846",
+  "name": "天満屋ストア",
+  "industry": "小売業",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070003",
+  "title": "天満屋ス、上期経常は一転14％減益で下振れ着地",
+  "values": {
+   "売上高": 30016000000,
+   "営業益": 954000000,
+   "経常益": 970000000,
+   "最終益": 691000000
+  },
+  "yoy": {
+   "売上高": "+1.6",
+   "営業益": "-10.8",
+   "経常益": "-14.1",
+   "最終益": "+14.8"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:5932:26.06-08": {
+  "key": "JP:5932:26.06-08",
+  "market": "JP",
+  "code": "5932",
+  "name": "三協立山",
+  "industry": "金属製品",
+  "period": "26.06-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070002",
+  "title": "三協立山、6-8月期(1Q)経常は黒字浮上・通期計画を超過",
+  "values": {
+   "売上高": 97268000000,
+   "営業益": 2641000000,
+   "経常益": 2428000000,
+   "最終益": 1571000000
+  },
+  "yoy": {
+   "売上高": "+13.3",
+   "営業益": "黒転",
+   "経常益": "黒転",
+   "最終益": "黒転"
+  },
+  "verdict": "良い",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:8166:26.03-08": {
+  "key": "JP:8166:26.03-08",
+  "market": "JP",
+  "code": "8166",
+  "name": "タカキュー",
+  "industry": "小売業",
+  "period": "26.03-08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070001",
+  "title": "タカキュー、上期経常が赤字転落で着地・6-8月期は赤字拡大",
+  "values": {
+   "売上高": 3851000000,
+   "営業益": -239000000,
+   "経常益": -201000000,
+   "最終益": -283000000
+  },
+  "yoy": {
+   "売上高": "-10.0",
+   "営業益": "赤転",
+   "経常益": "赤転",
+   "最終益": "赤転"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "セットアップ提案の強化",
+     "evidence": "セットアップスタイルが全体の業績を下支え"
+    },
+    {
+     "factor": "EC事業の収益構造改革",
+     "evidence": "不採算ECサイトの休止、セール販売期間の見直し"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "衣料品に対する買い控え傾向",
+     "evidence": "物価高騰に伴う生活コストの増加により消費マインドの低迷"
+    },
+    {
+     "factor": "天候不順の影響",
+     "evidence": "天候不順等の影響も重なり客数が減少"
+    },
+    {
+     "factor": "インバウンド消費の質的変化",
+     "evidence": "インバウンド消費の質的変化（購買行動の厳選化等）の影響"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: セットアップ提案の強化、EC事業の収益構造改革 / 外部要因: 衣料品に対する買い控え傾向、天候不順の影響、インバウンド消費の質的変化"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "JP:428A:2026.08": {
+  "key": "JP:428A:2026.08",
+  "market": "JP",
+  "code": "428A",
+  "name": "サイプレス・ホールディングス",
+  "industry": "小売業",
+  "period": "2026.08",
+  "date": "2026-10-07",
+  "url": "https://kabutan.jp/news/?&b=k202610070013",
+  "title": "サイプレス、今期最終は4％減益、2円増配へ",
+  "values": {
+   "売上高": 12878000000,
+   "営業益": 851000000,
+   "経常益": 738000000,
+   "最終益": 767000000
+  },
+  "yoy": {
+   "売上高": "+14.1",
+   "営業益": "+11.2",
+   "経常益": "+14.1",
+   "最終益": "+75.9"
+  },
+  "verdict": "良い",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:STZ:Aug/2026": {
+  "key": "US:STZ:Aug/2026",
+  "market": "US",
+  "code": "STZ",
+  "name": "Constellation Brands Inc",
+  "industry": "Consumer Defensive",
+  "subIndustry": "Beverages - Brewers",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 19350904800,
+  "eps": "$3.63",
+  "epsForecast": "$3.62",
+  "surprise": null,
+  "rev": 2633000000,
+  "op": null,
+  "net": 565800000,
+  "revYoY": 6.1265618702136235,
+  "opYoY": null,
+  "netYoY": 21.416309012875537,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の減少",
+     "evidence": "Modelo And Corona Lose Volume"
+    },
+    {
+     "factor": "原材料価格上昇",
+     "evidence": "FOMC minutes ahead; Constellation Brands reports"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利上昇",
+     "evidence": "FOMC minutes ahead; Constellation Brands reports"
+    },
+    {
+     "factor": "需要動向の変化",
+     "evidence": "Modelo And Corona Lose Volume"
+    },
+    {
+     "factor": "景気後退懸念",
+     "evidence": "FOMC minutes ahead; Constellation Brands reports"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 販売数量の減少、原材料価格上昇 / 外部要因: 金利上昇、需要動向の変化、景気後退懸念"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:RPM:Aug/2026": {
+  "key": "US:RPM:Aug/2026",
+  "market": "US",
+  "code": "RPM",
+  "name": "RPM International Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Specialty Chemicals",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 12173756400,
+  "eps": "$1.88",
+  "epsForecast": "$1.95",
+  "surprise": null,
+  "rev": 2215593000,
+  "op": null,
+  "net": 256357000,
+  "revYoY": 4.818466578008774,
+  "opYoY": null,
+  "netYoY": 12.632411414511985,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の増加",
+     "evidence": "Quarterly Revenue Meets Street Views"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 販売数量の増加"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:LW:Aug/2026": {
+  "key": "US:LW:Aug/2026",
+  "market": "US",
+  "code": "LW",
+  "name": "Lamb Weston Holdings, Inc.",
+  "industry": "Consumer Defensive",
+  "subIndustry": "Packaged Foods",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 6127528400,
+  "eps": "$0.74",
+  "epsForecast": "$0.59",
+  "surprise": null,
+  "rev": 1670300000,
+  "op": null,
+  "net": 29100000,
+  "revYoY": 0.6629301512686072,
+  "opYoY": null,
+  "netYoY": -54.74339035769829,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "原価低減",
+     "evidence": "Cost initiatives offset margin compression"
+    },
+    {
+     "factor": "販売数量増加",
+     "evidence": "Higher North America volume"
+    },
+    {
+     "factor": "販管費抑制",
+     "evidence": "Cost-saving efforts are paying off"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 原価低減、販売数量増加、販管費抑制"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:PENG:Aug/2026": {
+  "key": "US:PENG:Aug/2026",
+  "market": "US",
+  "code": "PENG",
+  "name": "Penguin Solutions, Inc.",
+  "industry": "Technology",
+  "subIndustry": "Information Technology Services",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 3110944260,
+  "eps": "$0.30",
+  "epsForecast": "$0.61",
+  "surprise": null,
+  "rev": 566685000,
+  "op": null,
+  "net": 81267000,
+  "revYoY": 67.69698332751345,
+  "opYoY": null,
+  "netYoY": 761.7007740430495,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "新規CFO就任",
+     "evidence": "Names Stephen Cumming as CFO"
+    },
+    {
+     "factor": "AI需要によるメモリ事業好調",
+     "evidence": "Memory Business Soars on AI Demand"
+    },
+    {
+     "factor": "財務体制強化",
+     "evidence": "Appoints Stephen Cumming as Senior Vice President and Chief Financial Officer to"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "AI需要の高まり",
+     "evidence": "Memory Business Soars on AI Demand"
+    },
+    {
+     "factor": "経営陣の変更",
+     "evidence": "Names Stephen Cumming as CFO"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 新規CFO就任、AI需要によるメモリ事業好調、財務体制強化 / 外部要因: AI需要の高まり、経営陣の変更"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:NEOG:Aug/2026": {
+  "key": "US:NEOG:Aug/2026",
+  "market": "US",
+  "code": "NEOG",
+  "name": "Neogen Corporation",
+  "industry": "Healthcare",
+  "subIndustry": "Medical Devices",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 2837559040,
+  "eps": "$0.02",
+  "epsForecast": "$0.04",
+  "surprise": null,
+  "rev": 222800000,
+  "op": null,
+  "net": -11900000,
+  "revYoY": 6.506556272079315,
+  "opYoY": null,
+  "netYoY": -132.74808740161814,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の増加",
+     "evidence": "Strong Sales"
+    },
+    {
+     "factor": "新規出店",
+     "evidence": "Strategic Collaboration with Hinalea Imaging"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "規制・環境変化",
+     "evidence": "Digital Food Safety Systems"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 販売数量の増加、新規出店 / 外部要因: 規制・環境変化"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:WS:Aug/2026": {
+  "key": "US:WS:Aug/2026",
+  "market": "US",
+  "code": "WS",
+  "name": "Worthington Steel, Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Steel",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 1993031680,
+  "eps": "N/A",
+  "epsForecast": "$1.16",
+  "surprise": null,
+  "rev": 2726600000,
+  "op": null,
+  "net": null,
+  "revYoY": 212.36109519990833,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:APOG:Aug/2026": {
+  "key": "US:APOG:Aug/2026",
+  "market": "US",
+  "code": "APOG",
+  "name": "Apogee Enterprises, Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Building Products & Equipment",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 744163390,
+  "eps": "$0.98",
+  "epsForecast": "$0.59",
+  "surprise": null,
+  "rev": 391135000,
+  "op": null,
+  "net": 22380000,
+  "revYoY": 9.196413116914298,
+  "opYoY": null,
+  "netYoY": -5.365977419764049,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の増加",
+     "evidence": "sales rise"
+    },
+    {
+     "factor": "値上げ",
+     "evidence": "price increase"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 販売数量の増加、値上げ"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:SAR:Aug/2026": {
+  "key": "US:SAR:Aug/2026",
+  "market": "US",
+  "code": "SAR",
+  "name": "Saratoga Investment Corp",
+  "industry": "Financial Services",
+  "subIndustry": "Asset Management",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 267104016,
+  "eps": "$0.58",
+  "epsForecast": "$0.47",
+  "surprise": null,
+  "rev": 31169220,
+  "op": null,
+  "net": -6661180,
+  "revYoY": 102.54703585432183,
+  "opYoY": null,
+  "netYoY": -150.14010019469129,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の減少",
+     "evidence": "Net Investment Income Falls"
+    }
+   ],
+   "cited": [],
+   "external": [
+    {
+     "metric": "sp500",
+     "effect": "追い風",
+     "reason": "株式市場の上昇は売買・運用関連の収入を押し上げる",
+     "change": "S&P500 約3か月 +4.5%"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 販売数量の減少 / 外部要因: S&P500 約3か月 +4.5%(追い風)"
+  },
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:AXIL:Aug/2026": {
+  "key": "US:AXIL:Aug/2026",
+  "market": "US",
+  "code": "AXIL",
+  "name": "AXIL Brands, Inc.",
+  "industry": "Technology",
+  "subIndustry": "Consumer Electronics",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 41550128,
+  "eps": "$0.04",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 6090380,
+  "op": null,
+  "net": 421950,
+  "revYoY": -11.169977384033004,
+  "opYoY": null,
+  "netYoY": 26.221230413947005,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
+ },
+ "US:ARTW:Aug/2026": {
+  "key": "US:ARTW:Aug/2026",
+  "market": "US",
+  "code": "ARTW",
+  "name": "Art's-Way Manufacturing Co., Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Farm & Heavy Construction Machinery",
+  "period": "Aug/2026",
+  "date": "2026-10-06",
+  "marketCap": 17164574,
+  "eps": "$0.05",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-07T09:04:46.729Z"
  }
 }

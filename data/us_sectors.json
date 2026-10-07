@@ -982,5 +982,49 @@
  "CMND": {
   "sector": "Healthcare",
   "industry": "Biotechnology"
+ },
+ "APOG": {
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment"
+ },
+ "SAR": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "AXIL": {
+  "sector": "Technology",
+  "industry": "Consumer Electronics"
+ },
+ "ARTW": {
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery"
+ },
+ "ASML": {
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials"
+ },
+ "BLK": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "MS": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets"
+ },
+ "FAST": {
+  "sector": "Industrials",
+  "industry": "Industrial Distribution"
+ },
+ "STT": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "HOMB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BAC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified"
  }
 }

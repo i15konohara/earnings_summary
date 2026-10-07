@@ -15159,5 +15159,236 @@
     "net": 91
    }
   ]
+ },
+ "US:ASML": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/15/2026",
+    "eps": 8.81,
+    "consensus": 7.98,
+    "surprise": 10.4
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/15/2026",
+    "eps": 8.37,
+    "consensus": 7.72,
+    "surprise": 8.42
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/28/2026",
+    "eps": 8.55,
+    "consensus": 9.01,
+    "surprise": -5.11
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/15/2025",
+    "eps": 6.41,
+    "consensus": 6.27,
+    "surprise": 2.23
+   }
+  ]
+ },
+ "US:BAC": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/14/2026",
+    "eps": 1.21,
+    "consensus": 1.13,
+    "surprise": 7.08
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/15/2026",
+    "eps": 1.11,
+    "consensus": 1,
+    "surprise": 11
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/14/2026",
+    "eps": 0.98,
+    "consensus": 0.96,
+    "surprise": 2.08
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/15/2025",
+    "eps": 1.06,
+    "consensus": 0.94,
+    "surprise": 12.77
+   }
+  ]
+ },
+ "US:MS": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/15/2026",
+    "eps": 3.46,
+    "consensus": 2.89,
+    "surprise": 19.72
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/15/2026",
+    "eps": 3.43,
+    "consensus": 3.06,
+    "surprise": 12.09
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/15/2026",
+    "eps": 2.68,
+    "consensus": 2.41,
+    "surprise": 11.2
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/15/2025",
+    "eps": 2.8,
+    "consensus": 2.08,
+    "surprise": 34.62
+   }
+  ]
+ },
+ "US:FAST": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/14/2026",
+    "eps": 0.33,
+    "consensus": 0.33,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/13/2026",
+    "eps": 0.3,
+    "consensus": 0.3,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 0.26,
+    "consensus": 0.26,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/13/2025",
+    "eps": 0.29,
+    "consensus": 0.3,
+    "surprise": -3.33
+   }
+  ]
+ },
+ "US:BLK": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/15/2026",
+    "eps": 13.91,
+    "consensus": 12.67,
+    "surprise": 9.79
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/14/2026",
+    "eps": 12.53,
+    "consensus": 11.46,
+    "surprise": 9.34
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/15/2026",
+    "eps": 13.16,
+    "consensus": 12.39,
+    "surprise": 6.21
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/14/2025",
+    "eps": 11.55,
+    "consensus": 11.19,
+    "surprise": 3.22
+   }
+  ]
+ },
+ "US:STT": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/16/2026",
+    "eps": 3.65,
+    "consensus": 3.3,
+    "surprise": 10.61
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/17/2026",
+    "eps": 2.84,
+    "consensus": 2.6,
+    "surprise": 9.23
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/16/2026",
+    "eps": 2.97,
+    "consensus": 2.82,
+    "surprise": 5.32
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/17/2025",
+    "eps": 2.78,
+    "consensus": 2.62,
+    "surprise": 6.11
+   }
+  ]
+ },
+ "US:HOMB": {
+  "fetchedAt": "2026-10-07",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/15/2026",
+    "eps": 0.64,
+    "consensus": 0.62,
+    "surprise": 3.23
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/15/2026",
+    "eps": 0.6,
+    "consensus": 0.6,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/14/2026",
+    "eps": 0.6,
+    "consensus": 0.6,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/15/2025",
+    "eps": 0.61,
+    "consensus": 0.6,
+    "surprise": 1.67
+   }
+  ]
  }
 }

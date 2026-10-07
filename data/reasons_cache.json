@@ -784,5 +784,324 @@
   "summary": "個別要因: 携帯販売促進活動、入居率向上努力、ゴルフレッスン施設閉業 / 外部要因: MNP競争激化、スマホ価格高騰、中東情勢・自然災害",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-06T23:49:08.093Z"
+ },
+ "v3:JP:3391:26.03-08": {
+  "individual": [
+   {
+    "factor": "商品政策の一体化",
+    "evidence": "商品政策や仕入運用の一体化"
+   },
+   {
+    "factor": "店舗網の拡充",
+    "evidence": "全国に広がる店舗網を活かしたドミナントの強化"
+   },
+   {
+    "factor": "調剤需要の取り込み",
+    "evidence": "調剤分野の需要取り込みが進み"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "市場規模の拡大",
+    "evidence": "市場規模は引き続き拡大傾向にあります"
+   },
+   {
+    "factor": "高齢化に伴う需要増",
+    "evidence": "高齢化の進展に伴う医療需要の増加"
+   },
+   {
+    "factor": "競争環境の激化",
+    "evidence": "競争環境は引き続き激化しております"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 商品政策の一体化、店舗網の拡充、調剤需要の取り込み / 外部要因: 市場規模の拡大、高齢化に伴う需要増、競争環境の激化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:00:16.444Z"
+ },
+ "v3:JP:2670:26.03-08": {
+  "individual": [
+   {
+    "factor": "店舗拡大",
+    "evidence": "国内外合わせて23店舗の新規出店"
+   },
+   {
+    "factor": "商品ラインナップ拡充",
+    "evidence": "ハンズフリーのサンダルやブーツへ商品の多角化"
+   },
+   {
+    "factor": "既存店売上増",
+    "evidence": "インバウンド売上が好調だったことから、既存店は前年同期比4.5％増"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替変動",
+    "evidence": "海外の業績につきましては、前年同期と比べ、為替がいずれの通貨に対しても円安に進行しました"
+   },
+   {
+    "factor": "地政学リスク",
+    "evidence": "貿易摩擦や中東情勢等による地政学リスクの長期化"
+   },
+   {
+    "factor": "インバウンド需要",
+    "evidence": "インバウンド需要の増加"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 店舗拡大、商品ラインナップ拡充、既存店売上増 / 外部要因: 為替変動、地政学リスク、インバウンド需要",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:00:27.076Z"
+ },
+ "v3:JP:6255:2026.08": {
+  "individual": [
+   {
+    "factor": "国内大型案件の遅延",
+    "evidence": "国内大型案件では一部装置の現地作業に時間を要して期末までに完了せず"
+   },
+   {
+    "factor": "米国主要顧客の改造案件期ずれ",
+    "evidence": "米国主要顧客においては設備移設案件が優先され、改造案件が一部来期へ期ずれ"
+   },
+   {
+    "factor": "材料費削減による利益確保",
+    "evidence": "新技術や開発要素を含む案件において原価に占める割合の高い材料費を削減"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "政策影響による設置量減少",
+    "evidence": "政策の影響などで太陽光パネルの設置量こそ前年と比べて減少したものの"
+   },
+   {
+    "factor": "補助金等行政支援の変化",
+    "evidence": "行政からの支援も行われており、リサイクル事業へ参入を検討する企業が増えています"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 国内大型案件の遅延、米国主要顧客の改造案件期ずれ、材料費削減による利益確保 / 外部要因: 政策影響による設置量減少、補助金等行政支援の変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:00:42.309Z"
+ },
+ "v3:JP:5932:26.06-08": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "tdnet",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:01:01.747Z"
+ },
+ "v3:JP:8166:26.03-08": {
+  "individual": [
+   {
+    "factor": "セットアップ提案の強化",
+    "evidence": "セットアップスタイルが全体の業績を下支え"
+   },
+   {
+    "factor": "EC事業の収益構造改革",
+    "evidence": "不採算ECサイトの休止、セール販売期間の見直し"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "衣料品に対する買い控え傾向",
+    "evidence": "物価高騰に伴う生活コストの増加により消費マインドの低迷"
+   },
+   {
+    "factor": "天候不順の影響",
+    "evidence": "天候不順等の影響も重なり客数が減少"
+   },
+   {
+    "factor": "インバウンド消費の質的変化",
+    "evidence": "インバウンド消費の質的変化（購買行動の厳選化等）の影響"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: セットアップ提案の強化、EC事業の収益構造改革 / 外部要因: 衣料品に対する買い控え傾向、天候不順の影響、インバウンド消費の質的変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:01:35.485Z"
+ },
+ "v3:US:STZ:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の減少",
+    "evidence": "Modelo And Corona Lose Volume"
+   },
+   {
+    "factor": "原材料価格上昇",
+    "evidence": "FOMC minutes ahead; Constellation Brands reports"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利上昇",
+    "evidence": "FOMC minutes ahead; Constellation Brands reports"
+   },
+   {
+    "factor": "需要動向の変化",
+    "evidence": "Modelo And Corona Lose Volume"
+   },
+   {
+    "factor": "景気後退懸念",
+    "evidence": "FOMC minutes ahead; Constellation Brands reports"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の減少、原材料価格上昇 / 外部要因: 金利上昇、需要動向の変化、景気後退懸念",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:02:07.182Z"
+ },
+ "v3:US:RPM:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Quarterly Revenue Meets Street Views"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:02:36.646Z"
+ },
+ "v3:US:LW:Aug/2026": {
+  "individual": [
+   {
+    "factor": "原価低減",
+    "evidence": "Cost initiatives offset margin compression"
+   },
+   {
+    "factor": "販売数量増加",
+    "evidence": "Higher North America volume"
+   },
+   {
+    "factor": "販管費抑制",
+    "evidence": "Cost-saving efforts are paying off"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 原価低減、販売数量増加、販管費抑制",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:02:57.479Z"
+ },
+ "v3:US:PENG:Aug/2026": {
+  "individual": [
+   {
+    "factor": "新規CFO就任",
+    "evidence": "Names Stephen Cumming as CFO"
+   },
+   {
+    "factor": "AI需要によるメモリ事業好調",
+    "evidence": "Memory Business Soars on AI Demand"
+   },
+   {
+    "factor": "財務体制強化",
+    "evidence": "Appoints Stephen Cumming as Senior Vice President and Chief Financial Officer to"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AI需要の高まり",
+    "evidence": "Memory Business Soars on AI Demand"
+   },
+   {
+    "factor": "経営陣の変更",
+    "evidence": "Names Stephen Cumming as CFO"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規CFO就任、AI需要によるメモリ事業好調、財務体制強化 / 外部要因: AI需要の高まり、経営陣の変更",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:03:14.159Z"
+ },
+ "v3:US:NEOG:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Strong Sales"
+   },
+   {
+    "factor": "新規出店",
+    "evidence": "Strategic Collaboration with Hinalea Imaging"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "規制・環境変化",
+    "evidence": "Digital Food Safety Systems"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加、新規出店 / 外部要因: 規制・環境変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:03:32.390Z"
+ },
+ "v3:US:WS:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:03:46.174Z"
+ },
+ "v3:US:APOG:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "sales rise"
+   },
+   {
+    "factor": "値上げ",
+    "evidence": "price increase"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加、値上げ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:04:11.312Z"
+ },
+ "v3:US:SAR:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の減少",
+    "evidence": "Net Investment Income Falls"
+   }
+  ],
+  "cited": [],
+  "external": [
+   {
+    "metric": "sp500",
+    "effect": "追い風",
+    "reason": "株式市場の上昇は売買・運用関連の収入を押し上げる",
+    "change": "S&P500 約3か月 +4.5%"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 販売数量の減少 / 外部要因: S&P500 約3か月 +4.5%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:04:30.990Z"
+ },
+ "v3:US:AXIL:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-07T09:04:39.715Z"
  }
 }
