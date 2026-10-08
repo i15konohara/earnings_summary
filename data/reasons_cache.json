@@ -1103,5 +1103,429 @@
   "summary": "材料から要因を特定できませんでした",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-07T09:04:39.715Z"
+ },
+ "v3:JP:6323:26.03-08": {
+  "individual": [
+   {
+    "factor": "半導体製造設備需要の拡大",
+    "evidence": "半導体製造設備への投資は積極的に行われました"
+   },
+   {
+    "factor": "データセンター市場の急激な成長",
+    "evidence": "データセンター市場は急激に成長したことにより"
+   },
+   {
+    "factor": "生成AI需要の拡大",
+    "evidence": "生成AIの需要拡大及び半導体関連の需要は、引き続き拡大していくものと見込まれます"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替の影響",
+    "evidence": "経常利益は為替の影響も受け"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 半導体製造設備需要の拡大、データセンター市場の急激な成長、生成AI需要の拡大 / 外部要因: 為替の影響",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:03:21.562Z"
+ },
+ "v3:JP:3382:26.03-08": {
+  "individual": [
+   {
+    "factor": "国内事業の客単価向上",
+    "evidence": "客単価が上昇し、既存店売上は前年同期を上回った"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替影響による収益増",
+    "evidence": "為替影響により営業収益は3,110億円増加した"
+   },
+   {
+    "factor": "北米ガソリン市況の好調",
+    "evidence": "ガソリンについては市況変動の影響により収益は前年同期を上回った"
+   },
+   {
+    "factor": "北米低所得者層の消費抑制",
+    "evidence": "低所得者層を中心に消費の抑制傾向が見られた"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 国内事業の客単価向上 / 外部要因: 為替影響による収益増、北米ガソリン市況の好調、北米低所得者層の消費抑制",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:06:12.671Z"
+ },
+ "v3:JP:7649:26.03-08": {
+  "individual": [
+   {
+    "factor": "既存店の競争力強化",
+    "evidence": "92店舗の改装を実施"
+   },
+   {
+    "factor": "新規出店とエリア展開",
+    "evidence": "60店舗の新規出店を推進"
+   },
+   {
+    "factor": "人的生産性の向上",
+    "evidence": "人員の適正配置を進め"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "原材料価格の上昇",
+    "evidence": "原油・原材料価格の上昇"
+   },
+   {
+    "factor": "消費者の節約志向",
+    "evidence": "消費者の節約志向の継続"
+   },
+   {
+    "factor": "薬価・調剤報酬改定",
+    "evidence": "薬価・調剤報酬改定"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 既存店の競争力強化、新規出店とエリア展開、人的生産性の向上 / 外部要因: 原材料価格の上昇、消費者の節約志向、薬価・調剤報酬改定",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:06:23.544Z"
+ },
+ "v3:JP:8278:26.03-08": {
+  "individual": [
+   {
+    "factor": "販売費及び一般管理費の縮減",
+    "evidence": "販売費及び一般管理費前年同期比2.7％減"
+   },
+   {
+    "factor": "移動スーパーの販売ルート拡大",
+    "evidence": "累計で100店舗、車両台数151台、826ルート"
+   },
+   {
+    "factor": "店舗改装・スクラップ＆ビルドの推進",
+    "evidence": "改装店舗売上高前年同期比5.2％増"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "資源高や供給制約",
+    "evidence": "中東情勢に起因する資源高や供給制約"
+   },
+   {
+    "factor": "消費者の節約志向の高さ",
+    "evidence": "消費者の節約志向は依然として高い状況にあるために低価格訴求や付加価値提案による競争が一段と激しさを増しました"
+   },
+   {
+    "factor": "人件費や物流費・エネルギー単価の上昇",
+    "evidence": "人件費や物流費・エネルギー単価の上昇"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売費及び一般管理費の縮減、移動スーパーの販売ルート拡大、店舗改装・スクラップ＆ビルドの推進 / 外部要因: 資源高や供給制約、消費者の節約志向の高さ、人件費や物流費・エネルギー単価の上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:07:10.298Z"
+ },
+ "v3:JP:4728:2026.08": {
+  "individual": [
+   {
+    "factor": "大型開発プロジェクトの急停止",
+    "evidence": "海外の大手ゲーム会社との家庭用ゲーム機向けソフトの大型開発プロジェクトが2026年２月末に急な一時停止（再開時期未定）となり、開発リソースに大規模な稼働の空きが"
+   },
+   {
+    "factor": "教育関連コンテンツの反動減",
+    "evidence": "前期の収益に大きく貢献した教育関連のコンテンツ開発が前期中に終了したことによる反動減等で収益が減少しました。"
+   },
+   {
+    "factor": "スマートフォンゲームのサービス終了",
+    "evidence": "運営業務関連の売上は前期を下回りました。新規開発後リリースからこれまで運営に携わってきたスマートフォンゲーム１件が、2026年４月にサービス終了を迎えたことなど"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "大手ゲーム会社の方針転換",
+    "evidence": "海外の大手ゲーム会社との開発プロジェクトが、同社の方針転換により、2026年２月末に急な停止（再開時期未定）となりました。"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 大型開発プロジェクトの急停止、教育関連コンテンツの反動減、スマートフォンゲームのサービス終了 / 外部要因: 大手ゲーム会社の方針転換",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:07:22.012Z"
+ },
+ "v3:JP:3490:26.03-08": {
+  "individual": [
+   {
+    "factor": "主力物件の積極的な取得",
+    "evidence": "主力である一棟収益不動産の取得に注力"
+   },
+   {
+    "factor": "独自ネットワークによる優良物件確保",
+    "evidence": "独自の仕入ネットワークを活かした優良物件の確保"
+   },
+   {
+    "factor": "徹底したコストコントロール",
+    "evidence": "徹底したコストコントロールによるバリューアップ"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "賃貸需要の底堅さ",
+    "evidence": "都市部を中心とした賃貸需要は底堅く"
+   },
+   {
+    "factor": "インフレヘッジ需要の高さ",
+    "evidence": "インフレヘッジとしての不動産投資への意欲は依然として高い水準を維持"
+   },
+   {
+    "factor": "リフォーム工事費用の高騰",
+    "evidence": "リフォーム工事費用の高騰"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 主力物件の積極的な取得、独自ネットワークによる優良物件確保、徹底したコストコントロール / 外部要因: 賃貸需要の底堅さ、インフレヘッジ需要の高さ、リフォーム工事費用の高騰",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:07:38.367Z"
+ },
+ "v3:JP:9720:25.12-08": {
+  "individual": [
+   {
+    "factor": "宿泊需要の回復",
+    "evidence": "宿泊部門1,608,258千円（前年同四半期比6.2％増）"
+   },
+   {
+    "factor": "レストラン需要の拡大",
+    "evidence": "レストラン部門1,197,432千円（前年同四半期比10.7％増）"
+   },
+   {
+    "factor": "宴会需要の堅調さ",
+    "evidence": "宴会部門1,688,989千円（前年同四半期比3.9％増）"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 宿泊需要の回復、レストラン需要の拡大、宴会需要の堅調さ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:09:24.341Z"
+ },
+ "v3:JP:4361:25.12-08": {
+  "individual": [
+   {
+    "factor": "輸出拡大",
+    "evidence": "主要地域向け輸出を積極的に拡大したことにより売上が増加"
+   },
+   {
+    "factor": "円安効果",
+    "evidence": "円安進行も採算改善に寄与"
+   },
+   {
+    "factor": "国内自動車生産回復",
+    "evidence": "国内自動車生産が回復基調となり、関連薬品の需要は底堅く推移"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "地政学リスク",
+    "evidence": "ロシア・ウクライナ戦争の長期化に加え、中東情勢の緊張が継続"
+   },
+   {
+    "factor": "原油価格高止まり",
+    "evidence": "原油価格は高止まりの状態が続き"
+   },
+   {
+    "factor": "為替変動",
+    "evidence": "米国では関税政策の影響による物価上昇が続き"
+   }
+  ],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "逆風",
+    "reason": "原油高は燃料・原料コストを押し上げる",
+    "change": "WTI原油 約3か月 +28.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 輸出拡大、円安効果、国内自動車生産回復 / 外部要因: 地政学リスク、原油価格高止まり、為替変動、WTI原油 約3か月 +28.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:09:42.016Z"
+ },
+ "v3:JP:4763:26.03-08": {
+  "individual": [
+   {
+    "factor": "新規連結子会社化",
+    "evidence": "2026年８月、システム受託開発及びSES事業を展開する株式会社リンクテックを連結子会社化いたしました"
+   },
+   {
+    "factor": "既存事業の好調",
+    "evidence": "主要なクリエイティブ分野（日本）及び医療分野を中心に、業績は順調に推移いたしました"
+   },
+   {
+    "factor": "高橋書店グループの連結子会社化効果",
+    "evidence": "前連結会計年度に連結子会社化した高橋書店グループについても、業績が順調に推移したことにより、売上高、営業利益、経常利益において過去最高の業績を実現いたしました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の堅調",
+    "evidence": "インバウンド需要も堅調に推移し"
+   },
+   {
+    "factor": "生成AI等の先端技術活用進展",
+    "evidence": "生成AIをはじめとする先端技術の活用が進展し"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 新規連結子会社化、既存事業の好調、高橋書店グループの連結子会社化効果 / 外部要因: インバウンド需要の堅調、生成AI等の先端技術活用進展",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:09:54.840Z"
+ },
+ "v3:JP:2408:26.01-09": {
+  "individual": [
+   {
+    "factor": "デジタルシフト対応",
+    "evidence": "採用管理ツール「アルパコネクト」のカスタマーサクセス体制を強化"
+   },
+   {
+    "factor": "事業拡大",
+    "evidence": "転職支援サービス「しごと計画学校」で拠点の拡大"
+   },
+   {
+    "factor": "外国人材領域の拡大",
+    "evidence": "受入対象国の拡大や入国後講習拠点の追加により受入体制を整備"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "人手不足の深刻化",
+    "evidence": "深刻化する人手不足に加え"
+   },
+   {
+    "factor": "原油価格・物価上昇",
+    "evidence": "エネルギー・原油価格の高止まりや物価上昇の継続"
+   },
+   {
+    "factor": "為替動向",
+    "evidence": "為替動向"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: デジタルシフト対応、事業拡大、外国人材領域の拡大 / 外部要因: 人手不足の深刻化、原油価格・物価上昇、為替動向",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:10.655Z"
+ },
+ "v3:JP:7487:26.06-08": {
+  "individual": [
+   {
+    "factor": "販売価格の適正化",
+    "evidence": "販売価格の適正化を推進したことなどから、前年同期に比べ、売上高、利益面ともに大きく上回りました。"
+   },
+   {
+    "factor": "需要の増加",
+    "evidence": "中東情勢に伴う在庫調整の影響を受け、一部で販売の鈍化がみられたものの、その影響は軽微にとどまりました。国内外で急拡大するAI／データセンター関連においては、需要"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "地政学リスク",
+    "evidence": "中東情勢に伴う在庫調整の影響を受け"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売価格の適正化、需要の増加 / 外部要因: 地政学リスク",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:22.874Z"
+ },
+ "v3:US:LEVI:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:28.657Z"
+ },
+ "v3:US:APLD:Aug/2026": {
+  "individual": [
+   {
+    "factor": "原価上昇",
+    "evidence": "Higher Costs"
+   },
+   {
+    "factor": "販売数量",
+    "evidence": "Revenues Beat"
+   },
+   {
+    "factor": "大型案件",
+    "evidence": "AI Factory Expansion"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "セクター売り",
+    "evidence": "Data Center Names Sell Off With Yields Higher"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 原価上昇、販売数量、大型案件 / 外部要因: セクター売り",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:38.571Z"
+ },
+ "v3:US:RELL:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Strong Sales"
+   },
+   {
+    "factor": "値上げ",
+    "evidence": "Revenue Increase"
+   },
+   {
+    "factor": "大型案件",
+    "evidence": "Strong First Quarter Results"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向",
+    "evidence": "Revenue Increase"
+   },
+   {
+    "factor": "景気の回復",
+    "evidence": "Strong First Quarter Results"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加、値上げ、大型案件 / 外部要因: 需要動向、景気の回復",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:49.413Z"
+ },
+ "v3:US:RGP:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:10:57.437Z"
+ },
+ "v3:US:SMXT:Jun/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-08T18:12:38.366Z"
  }
 }

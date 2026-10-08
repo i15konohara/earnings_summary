@@ -1026,5 +1026,117 @@
  "BAC": {
   "sector": "Financial Services",
   "industry": "Banks - Diversified"
+ },
+ "RELL": {
+  "sector": "Technology",
+  "industry": "Electronic Components"
+ },
+ "RGP": {
+  "sector": "Industrials",
+  "industry": "Consulting Services"
+ },
+ "LFS": {
+  "sector": "Communication Services",
+  "industry": "Entertainment"
+ },
+ "SMXT": {
+  "sector": "Technology",
+  "industry": "Solar"
+ },
+ "TSM": {
+  "sector": "Technology",
+  "industry": "Semiconductors"
+ },
+ "BNY": {
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified"
+ },
+ "USB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "PLD": {
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial"
+ },
+ "SCHW": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets"
+ },
+ "MRSH": {
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers"
+ },
+ "PNC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "INFY": {
+  "sector": "Technology",
+  "industry": "Information Technology Services"
+ },
+ "IBKR": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets"
+ },
+ "ERIC": {
+  "sector": "Technology",
+  "industry": "Communication Equipment"
+ },
+ "JBHT": {
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics"
+ },
+ "SNA": {
+  "sector": "Industrials",
+  "industry": "Tools & Accessories"
+ },
+ "WIT": {
+  "sector": "Technology",
+  "industry": "Information Technology Services"
+ },
+ "AA": {
+  "sector": "Basic Materials",
+  "industry": "Aluminum"
+ },
+ "FHN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CMC": {
+  "sector": "Industrials",
+  "industry": "Metal Fabrication"
+ },
+ "INDB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CNS": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "SFNC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "LBRT": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services"
+ },
+ "MAN": {
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services"
+ },
+ "WAFD": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "WABC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "VLGEA": {
+  "sector": "Consumer Defensive",
+  "industry": "Grocery Stores"
  }
 }
