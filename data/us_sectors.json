@@ -1138,5 +1138,69 @@
  "VLGEA": {
   "sector": "Consumer Defensive",
   "industry": "Grocery Stores"
+ },
+ "PKE": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense"
+ },
+ "HELE": {
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products"
+ },
+ "TLRY": {
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic"
+ },
+ "ANGO": {
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies"
+ },
+ "RYDE": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "BYRN": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense"
+ },
+ "HDB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "TRV": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "IBN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "PGR": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "MTB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CFG": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "RF": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BANF": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "RBCAA": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "TFC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
  }
 }

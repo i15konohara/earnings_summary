@@ -1527,5 +1527,548 @@
   "summary": "材料から要因を特定できませんでした",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-08T18:12:38.366Z"
+ },
+ "v3:JP:9982:26.03-08": {
+  "individual": [
+   {
+    "factor": "調達コスト上昇",
+    "evidence": "フェリーや航空便などの代替輸送が増加したことで調達コストが上昇"
+   },
+   {
+    "factor": "人件費増加",
+    "evidence": "従業員の処遇改善に伴う人件費の増加"
+   },
+   {
+    "factor": "国内物流経費増加",
+    "evidence": "国内の物流経費の増加"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替変動",
+    "evidence": "円安の進行"
+   },
+   {
+    "factor": "原材料高騰",
+    "evidence": "原材料の高騰"
+   },
+   {
+    "factor": "自然災害",
+    "evidence": "度重なる自然災害の影響"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 調達コスト上昇、人件費増加、国内物流経費増加 / 外部要因: 為替変動、原材料高騰、自然災害",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:03:05.266Z"
+ },
+ "v3:JP:2747:26.03-08": {
+  "individual": [
+   {
+    "factor": "賞与引当金の増加",
+    "evidence": "賞与引当金繰入額が同5百万円増加"
+   },
+   {
+    "factor": "店舗改装等による設備投資",
+    "evidence": "店舗改装において、手に取りやすく、買い回りしやすい店舗づくり"
+   },
+   {
+    "factor": "dポイント導入に伴うコスト",
+    "evidence": "お客様のお支払い時の利便性を高めること、若年層及びファミリー顧客層の新規獲得"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "物価上昇による消費者の節約志向",
+    "evidence": "食料品をはじめとする物価上昇により消費者の生活防衛意識は根強く"
+   },
+   {
+    "factor": "原材料・エネルギー・物流費の上昇",
+    "evidence": "原材料価格、エネルギー価格、物流費及び人件費等の上昇が継続"
+   },
+   {
+    "factor": "為替相場及び資源価格の変動",
+    "evidence": "主要国の通商政策や金融政策の動向、為替相場及び資源価格の変動"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 賞与引当金の増加、店舗改装等による設備投資、dポイント導入に伴うコスト / 外部要因: 物価上昇による消費者の節約志向、原材料・エネルギー・物流費の上昇、為替相場及び資源価格の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:03:41.813Z"
+ },
+ "v3:JP:7713:26.06-08": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "好調に推移いたしました"
+   },
+   {
+    "factor": "高付加価値製品の販売増加",
+    "evidence": "高付加価値製品の販売増加による増益"
+   },
+   {
+    "factor": "グローバル生産体制の強化",
+    "evidence": "供給力の向上"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要拡大",
+    "evidence": "生成AIやAIデータセンター関連の活発な設備投資"
+   },
+   {
+    "factor": "海外地域向けの需要好調",
+    "evidence": "海外地域向けの需要は好調に推移"
+   },
+   {
+    "factor": "為替や原材料価格の変動",
+    "evidence": "原材料価格やエネルギー価格の変動"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売数量の増加、高付加価値製品の販売増加、グローバル生産体制の強化 / 外部要因: 需要拡大、海外地域向けの需要好調、為替や原材料価格の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:04:26.492Z"
+ },
+ "v3:JP:4443:26.06-08": {
+  "individual": [
+   {
+    "factor": "広告宣伝費率の低下",
+    "evidence": "広告宣伝費率の低下"
+   },
+   {
+    "factor": "人件費率の低下",
+    "evidence": "人件費率の低下"
+   },
+   {
+    "factor": "「Bill One」の好調な推移",
+    "evidence": "Bill Oneが好調に推移した"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AI市場の拡大",
+    "evidence": "AIを活用したグローバルでの業務改革市場の規模は、2025年の約0.4兆ドルから2030年には約1.7兆ドルに拡大すると予測されています"
+   },
+   {
+    "factor": "国内AI市場の拡大",
+    "evidence": "国内AI市場の規模は、2025年の約2.3兆円から2029年には約6.8兆円に拡大すると予測されています"
+   },
+   {
+    "factor": "名刺管理サービス市場の拡大",
+    "evidence": "同市場は2013年から2024年の間で約21倍に拡大しています"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 広告宣伝費率の低下、人件費率の低下、「Bill One」の好調な推移 / 外部要因: AI市場の拡大、国内AI市場の拡大、名刺管理サービス市場の拡大",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:05:04.273Z"
+ },
+ "v3:JP:8185:26.03-08": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "原材料費の高騰",
+    "evidence": "原材料費の高騰"
+   },
+   {
+    "factor": "消費者の節約志向",
+    "evidence": "消費者の節約志向"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "外部要因: 原材料費の高騰、消費者の節約志向",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:05:38.588Z"
+ },
+ "v3:JP:6264:2026.08": {
+  "individual": [
+   {
+    "factor": "半導体分野の需要拡大",
+    "evidence": "半導体分野におきましては、ＡＩ用途の需要拡大を背景にロジックファウンダリや先端ＤＲＡＭ向けの設備投資が活発に行われた"
+   },
+   {
+    "factor": "増産体制の強化",
+    "evidence": "増産要請に段階的に応えてきている状況です。人員の増強および外注の確保に加えて鋳造設備や熱処理設備の増強を始めました"
+   },
+   {
+    "factor": "原価率の改善",
+    "evidence": "設備稼働率の上昇により原価率が改善し、棚卸資産が増加したうえで受注損失引当金及び棚卸評価損が60百万円減少したことにより、利益率は改善いたしました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "中国向け設備投資の継続",
+    "evidence": "中国向けの設備投資も高水準が続いております"
+   },
+   {
+    "factor": "半導体製造装置市場の急拡大",
+    "evidence": "2026年に入ってからは、半導体製造装置市場の急激な市場拡大が始まりました"
+   },
+   {
+    "factor": "G8およびG6LED投資の再開",
+    "evidence": "ＦＰＤ分野におきましては、Ｇ８およびＧ６ＯＬＥＤ投資が再開し、好調に推移いたしました"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 半導体分野の需要拡大、増産体制の強化、原価率の改善 / 外部要因: 中国向け設備投資の継続、半導体製造装置市場の急拡大、G8およびG6LED投資の再開",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:06:16.970Z"
+ },
+ "v3:JP:6136:25.12-08": {
+  "individual": [
+   {
+    "factor": "販売価格改定効果",
+    "evidence": "販売価格改定効果"
+   },
+   {
+    "factor": "材料価格上昇の反映時期との差異",
+    "evidence": "材料価格上昇の反映時期との差異"
+   },
+   {
+    "factor": "半導体関連需要の拡大",
+    "evidence": "半導体関連やデータセンター向け需要が拡大"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替相場（円安）",
+    "evidence": "為替が円安に推移したことによる押し上げ効果"
+   },
+   {
+    "factor": "需要環境の堅調さ",
+    "evidence": "需要環境は堅調に推移"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売価格改定効果、材料価格上昇の反映時期との差異、半導体関連需要の拡大 / 外部要因: 為替相場（円安）、需要環境の堅調さ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:06:39.345Z"
+ },
+ "v3:JP:2687:26.03-08": {
+  "individual": [
+   {
+    "factor": "人件費増加",
+    "evidence": "人員体制の強化"
+   },
+   {
+    "factor": "広告宣伝費増加",
+    "evidence": "認知度向上及び集客力強化を目的とした施策"
+   },
+   {
+    "factor": "消耗品費増加",
+    "evidence": "原材料価格の高止まり"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の拡大",
+    "evidence": "インバウンド需要の拡大による人流の活発化"
+   },
+   {
+    "factor": "イベント開催の活発化",
+    "evidence": "大型テーマパークや商業施設、アリーナ施設等でのイベント開催"
+   },
+   {
+    "factor": "天候不順",
+    "evidence": "豪雨をはじめとする天候不順"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 人件費増加、広告宣伝費増加、消耗品費増加 / 外部要因: インバウンド需要の拡大、イベント開催の活発化、天候不順",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:06:54.941Z"
+ },
+ "v3:JP:137A:26.06-08": {
+  "individual": [
+   {
+    "factor": "販管費の増加",
+    "evidence": "人件費の増加"
+   },
+   {
+    "factor": "デジタル化への対応",
+    "evidence": "不動産売買に関する契約書の電子化"
+   },
+   {
+    "factor": "業務効率化の遅れ",
+    "evidence": "慢性的な人手不足"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替変動",
+    "evidence": "円安による建築資材の高騰"
+   },
+   {
+    "factor": "金利上昇",
+    "evidence": "住宅ローン金利の上昇"
+   },
+   {
+    "factor": "原材料価格上昇",
+    "evidence": "不安定な国際情勢や為替変動等の影響により、継続的な原材料価格や光熱費の上昇"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販管費の増加、デジタル化への対応、業務効率化の遅れ / 外部要因: 為替変動、金利上昇、原材料価格上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:07:07.008Z"
+ },
+ "v3:JP:2999:2026.08": {
+  "individual": [
+   {
+    "factor": "販売件数の増加",
+    "evidence": "販売件数が前年度を上回って推移いたしました"
+   },
+   {
+    "factor": "質の高い土地の仕入強化",
+    "evidence": "質の高い土地の仕入強化"
+   },
+   {
+    "factor": "販売活動の効率化",
+    "evidence": "販売活動の効率化"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "建築費・人件費の高止まり",
+    "evidence": "建築費・人件費の高止まりを背景に販売価格の上昇が続く"
+   },
+   {
+    "factor": "家計の実質賃金伸び悩み",
+    "evidence": "家計の実質賃金は伸び悩む方向にあり"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売件数の増加、質の高い土地の仕入強化、販売活動の効率化 / 外部要因: 建築費・人件費の高止まり、家計の実質賃金伸び悩み",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:07:17.932Z"
+ },
+ "v3:JP:7673:26.06-08": {
+  "individual": [
+   {
+    "factor": "太陽光発電設備案件の前倒し受注",
+    "evidence": "太陽光発電設備案件の前倒し受注及び日常取引の増加により"
+   },
+   {
+    "factor": "FTTH案件の前倒し受注",
+    "evidence": "FTTH案件の前倒し受注、屋内通信設備案件及び防災行政無線案件の好調な受注並びに日常取引の増加により"
+   },
+   {
+    "factor": "消防通信設備案件及びCATV局加入者用通信機器の販売好調",
+    "evidence": "消防通信設備案件及びCATV局加入者用通信機器の販売が好調に推移し"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "資源価格の上昇による影響",
+    "evidence": "ウクライナにおける紛争や中東情勢の悪化により原油等資源価格の上昇から"
+   },
+   {
+    "factor": "デジタル田園都市国家構想に基づく通信インフラ整備の進展",
+    "evidence": "デジタル田園都市国家構想に基づいた通信インフラ基盤の整備が進められ"
+   },
+   {
+    "factor": "地方自治体の防災システムデジタル化関連需要",
+    "evidence": "防災行政無線は、地方自治体防災システムのデジタル化が終息局面となるも、初期にデジタル化を完了した地方自治体の経年劣化によるリプレイスや、一部無線帯域のサービス終"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 太陽光発電設備案件の前倒し受注、FTTH案件の前倒し受注、消防通信設備案件及びCATV局加入者用通信機器の販売好調 / 外部要因: 資源価格の上昇による影響、デジタル田園都市国家構想に基づく通信インフラ整備の進展、地方自治体の防災システムデジタル化関連需要",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:07:37.049Z"
+ },
+ "v3:JP:8008:26.03-08": {
+  "individual": [
+   {
+    "factor": "MD改革・チャネル戦略",
+    "evidence": "MD改革の深化やチャネル戦略が奏功"
+   },
+   {
+    "factor": "品揃え拡充",
+    "evidence": "品揃えの拡充に取り組んだ結果"
+   },
+   {
+    "factor": "退職給付制度改定",
+    "evidence": "退職給付制度の改定に伴う一時的な費用の減少"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "個人消費の持ち直し",
+    "evidence": "個人消費に持ち直しの動きが見られた"
+   },
+   {
+    "factor": "富裕層需要の堅調",
+    "evidence": "富裕層を中心に高額品需要が堅調に推移"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: MD改革・チャネル戦略、品揃え拡充、退職給付制度改定 / 外部要因: 個人消費の持ち直し、富裕層需要の堅調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:07:46.722Z"
+ },
+ "v3:US:TLRY:Aug/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の減少",
+    "evidence": "Shrinking Cannabis Sales"
+   },
+   {
+    "factor": "販管費の増加",
+    "evidence": "Record Revenue and BrewDog's"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "市場環境の悪化",
+    "evidence": "Cannabis Sales; Canopy Growth and Aurora Cannabis Ease"
+   },
+   {
+    "factor": "競合他社の動向",
+    "evidence": "Canopy Growth and Aurora Cannabis Ease"
+   },
+   {
+    "factor": "需要動向の変化",
+    "evidence": "Shrinking Cannabis Sales"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の減少、販管費の増加 / 外部要因: 市場環境の悪化、競合他社の動向、需要動向の変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:09:31.076Z"
+ },
+ "v3:US:ANGO:Aug/2026": {
+  "individual": [
+   {
+    "factor": "新商品の成長",
+    "evidence": "Med Tech Growth"
+   },
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Revenues Up Y/Y"
+   },
+   {
+    "factor": "経営陣の交代",
+    "evidence": "Names Eric Honroth as Chief Executive"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新商品の成長、販売数量の増加、経営陣の交代",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:09:42.252Z"
+ },
+ "v3:US:BYRN:Aug/2026": {
+  "individual": [
+   {
+    "factor": "マーケティング活動の強化",
+    "evidence": "Marketing Initiatives Offset Revenue Decline"
+   },
+   {
+    "factor": "利益率の改善",
+    "evidence": "Margin Improvements and Marketing Initiatives Offset Revenue Decline"
+   },
+   {
+    "factor": "販売費用の適正化",
+    "evidence": "Margin Improvements and Marketing Initiatives Offset Revenue Decline"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要の減少",
+    "evidence": "Revenue Decline"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: マーケティング活動の強化、利益率の改善、販売費用の適正化 / 外部要因: 需要の減少",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:09:50.993Z"
+ },
+ "v3:US:PEP:Sep/2026": {
+  "individual": [
+   {
+    "factor": "値上げ",
+    "evidence": "Low Bar"
+   },
+   {
+    "factor": "販管費の抑制",
+    "evidence": "Sector Update: Consumer Stocks Mixed Friday Afternoon"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向の変化",
+    "evidence": "Sector Update: Consumer Stocks Mixed Friday Afternoon"
+   },
+   {
+    "factor": "アナリスト評価の調整",
+    "evidence": "Deutsche Bank Says North America Segment Remains Work in Progress"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 値上げ、販管費の抑制 / 外部要因: 需要動向の変化、アナリスト評価の調整",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:10:03.450Z"
+ },
+ "v3:US:NG:Aug/2026": {
+  "individual": [
+   {
+    "factor": "新規出店",
+    "evidence": "Donlin Gold Consolidation"
+   },
+   {
+    "factor": "大型案件",
+    "evidence": "Advancing the Path To Development"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規出店、大型案件",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:10:15.784Z"
+ },
+ "v3:US:NRIX:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:10:26.514Z"
+ },
+ "v3:US:PKE:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:10:31.620Z"
+ },
+ "v3:US:RYDE:Jun/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-09T18:10:37.888Z"
  }
 }
