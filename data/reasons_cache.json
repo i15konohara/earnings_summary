@@ -2070,5 +2070,86 @@
   "summary": "材料から要因を特定できませんでした",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-09T18:10:37.888Z"
+ },
+ "v3:JP:8127:2026.08": {
+  "individual": [
+   {
+    "factor": "販売費及び一般管理費の抑制不足",
+    "evidence": "販売費及び一般管理費は111億５千６百万円（前年同期比0.1％減）"
+   },
+   {
+    "factor": "商品力の強化と供給体制の構築",
+    "evidence": "直貿・直流による調達枠の拡大を進めており、ベトナムにおける新規直貿工場の開拓"
+   },
+   {
+    "factor": "既存顧客の活性化と新規顧客獲得",
+    "evidence": "中期ビジョン「Yamato 2026」では10年後を視野に、既顧客の活性化を大前提としながらも、次の世代の潜在顧客獲得により比重を置いた戦略"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "資源価格の高騰と円安",
+    "evidence": "原油価格をはじめとする資源価格の高騰や円安を背景とする物価高"
+   },
+   {
+    "factor": "地政学リスクと国際情勢の不透明化",
+    "evidence": "欧州・中東情勢をはじめとする地政学リスクや米国の経済政策の動向等、国際情勢や金融市場はますます複雑化し"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売費及び一般管理費の抑制不足、商品力の強化と供給体制の構築、既存顧客の活性化と新規顧客獲得 / 外部要因: 資源価格の高騰と円安、地政学リスクと国際情勢の不透明化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-10T18:02:49.899Z"
+ },
+ "v3:US:HOVR:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-10T18:02:56.862Z"
+ },
+ "v3:US:DAL:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "逆風",
+    "reason": "原油高は燃料・原料コストを押し上げる",
+    "change": "WTI原油 約3か月 +17.5%"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: WTI原油 約3か月 +17.5%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-10T18:03:05.080Z"
+ },
+ "v3:US:TORO:Jun/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "追い風",
+    "reason": "原油高は販売価格と採算を押し上げる",
+    "change": "WTI原油 約3か月 +17.5%"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: WTI原油 約3か月 +17.5%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-10T18:03:10.627Z"
+ },
+ "v3:US:ARTW:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-10T18:03:32.331Z"
  }
 }

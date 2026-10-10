@@ -1202,5 +1202,21 @@
  "TFC": {
   "sector": "Financial Services",
   "industry": "Banks - Regional"
+ },
+ "HIFS": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "GLDG": {
+  "sector": "Basic Materials",
+  "industry": "Gold"
+ },
+ "TORO": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream"
+ },
+ "HOVR": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense"
  }
 }
