@@ -23818,5 +23818,763 @@
  "JP:8984": {
   "fetchedAt": "2026-10-12",
   "quarters": []
+ },
+ "JP:3226": {
+  "fetchedAt": "2026-10-13",
+  "quarters": []
+ },
+ "JP:5933": {
+  "fetchedAt": "2026-10-13",
+  "quarters": [
+   {
+    "label": "24.07-09",
+    "sales": 16293,
+    "op": 763,
+    "ordinary": 701,
+    "net": 359
+   },
+   {
+    "label": "24.10-12",
+    "sales": 16375,
+    "op": 730,
+    "ordinary": 1167,
+    "net": 746
+   },
+   {
+    "label": "25.01-03",
+    "sales": 14404,
+    "op": 153,
+    "ordinary": 37,
+    "net": 184
+   },
+   {
+    "label": "25.04-06",
+    "sales": 15415,
+    "op": 643,
+    "ordinary": 614,
+    "net": 399
+   },
+   {
+    "label": "25.07-09",
+    "sales": 16333,
+    "op": 613,
+    "ordinary": 807,
+    "net": 519
+   },
+   {
+    "label": "25.10-12",
+    "sales": 16527,
+    "op": 895,
+    "ordinary": 1209,
+    "net": 717
+   },
+   {
+    "label": "26.01-03",
+    "sales": 14357,
+    "op": 61,
+    "ordinary": 147,
+    "net": 118
+   },
+   {
+    "label": "26.04-06",
+    "sales": 16395,
+    "op": 782,
+    "ordinary": 770,
+    "net": 469
+   }
+  ]
+ },
+ "JP:5990": {
+  "fetchedAt": "2026-10-13",
+  "quarters": [
+   {
+    "label": "24.07-09",
+    "sales": 1459,
+    "op": 158,
+    "ordinary": 147,
+    "net": 99
+   },
+   {
+    "label": "24.10-12",
+    "sales": 1228,
+    "op": 78,
+    "ordinary": 78,
+    "net": -432
+   },
+   {
+    "label": "25.01-03",
+    "sales": 1268,
+    "op": 41,
+    "ordinary": 43,
+    "net": 20
+   },
+   {
+    "label": "25.04-06",
+    "sales": 1395,
+    "op": 84,
+    "ordinary": 92,
+    "net": 67
+   },
+   {
+    "label": "25.07-09",
+    "sales": 1361,
+    "op": 120,
+    "ordinary": 122,
+    "net": 81
+   },
+   {
+    "label": "25.10-12",
+    "sales": 1508,
+    "op": 54,
+    "ordinary": 57,
+    "net": 34
+   },
+   {
+    "label": "26.01-03",
+    "sales": 1173,
+    "op": 29,
+    "ordinary": 29,
+    "net": 16
+   },
+   {
+    "label": "26.04-06",
+    "sales": 1638,
+    "op": 70,
+    "ordinary": 77,
+    "net": -67
+   }
+  ]
+ },
+ "JP:3466": {
+  "fetchedAt": "2026-10-13",
+  "quarters": []
+ },
+ "JP:8968": {
+  "fetchedAt": "2026-10-13",
+  "quarters": []
+ },
+ "US:FITB": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/17/2026",
+    "eps": 1.02,
+    "consensus": 0.98,
+    "surprise": 4.08
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/17/2026",
+    "eps": 0.83,
+    "consensus": 0.84,
+    "surprise": -1.19
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 1.08,
+    "consensus": 1,
+    "surprise": 8
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/17/2025",
+    "eps": 0.93,
+    "consensus": 0.87,
+    "surprise": 6.9
+   }
+  ]
+ },
+ "US:STLD": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 3.8,
+    "consensus": 3.67,
+    "surprise": 3.54
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 2.78,
+    "consensus": 2.79,
+    "surprise": -0.36
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/26/2026",
+    "eps": 1.82,
+    "consensus": 1.72,
+    "surprise": 5.81
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 2.74,
+    "consensus": 2.66,
+    "surprise": 3.01
+   }
+  ]
+ },
+ "US:WRB": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 1.27,
+    "consensus": 1.09,
+    "surprise": 16.51
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/21/2026",
+    "eps": 1.3,
+    "consensus": 1.13,
+    "surprise": 15.04
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/26/2026",
+    "eps": 1.13,
+    "consensus": 1.14,
+    "surprise": -0.88
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 1.1,
+    "consensus": 1.07,
+    "surprise": 2.8
+   }
+  ]
+ },
+ "US:PAC": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/14/2026",
+    "eps": 2.8,
+    "consensus": 3.17,
+    "surprise": -11.67
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 3.63,
+    "consensus": 3.54,
+    "surprise": 2.54
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/23/2026",
+    "eps": 1.97,
+    "consensus": 3.08,
+    "surprise": -36.04
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 2.86,
+    "consensus": 2.96,
+    "surprise": -3.38
+   }
+  ]
+ },
+ "US:SMMT": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": -0.28,
+    "consensus": -0.26,
+    "surprise": -7.69
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/30/2026",
+    "eps": -0.24,
+    "consensus": -0.33,
+    "surprise": 27.27
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/23/2026",
+    "eps": -0.29,
+    "consensus": -0.22,
+    "surprise": -31.82
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": -0.31,
+    "consensus": -0.14,
+    "surprise": -121.43
+   }
+  ]
+ },
+ "US:CCK": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 2.49,
+    "consensus": 2.15,
+    "surprise": 15.81
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/27/2026",
+    "eps": 1.86,
+    "consensus": 1.75,
+    "surprise": 6.29
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/4/2026",
+    "eps": 1.74,
+    "consensus": 1.69,
+    "surprise": 2.96
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 2.24,
+    "consensus": 1.98,
+    "surprise": 13.13
+   }
+  ]
+ },
+ "US:AGNC": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 0.4,
+    "consensus": 0.38,
+    "surprise": 5.26
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 0.42,
+    "consensus": 0.36,
+    "surprise": 16.67
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/26/2026",
+    "eps": 0.35,
+    "consensus": 0.37,
+    "surprise": -5.41
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 0.35,
+    "consensus": 0.38,
+    "surprise": -7.89
+   }
+  ]
+ },
+ "US:WTFC": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 3.3,
+    "consensus": 3.15,
+    "surprise": 4.76
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 3.22,
+    "consensus": 2.96,
+    "surprise": 8.78
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 3.15,
+    "consensus": 2.93,
+    "surprise": 7.51
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 3.06,
+    "consensus": 2.63,
+    "surprise": 16.35
+   }
+  ]
+ },
+ "US:ZION": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 1.74,
+    "consensus": 1.57,
+    "surprise": 10.83
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 1.56,
+    "consensus": 1.43,
+    "surprise": 9.09
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 1.75,
+    "consensus": 1.57,
+    "surprise": 11.46
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 1.54,
+    "consensus": 1.19,
+    "surprise": 29.41
+   }
+  ]
+ },
+ "US:WAL": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/21/2026",
+    "eps": 2.22,
+    "consensus": 2.33,
+    "surprise": -4.72
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/21/2026",
+    "eps": 2.22,
+    "consensus": 1.48,
+    "surprise": 50
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/26/2026",
+    "eps": 2.59,
+    "consensus": 2.4,
+    "surprise": 7.92
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/21/2025",
+    "eps": 2.28,
+    "consensus": 2.11,
+    "surprise": 8.06
+   }
+  ]
+ },
+ "US:CLF": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": -0.2,
+    "consensus": -0.21,
+    "surprise": 4.76
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": -0.4,
+    "consensus": -0.44,
+    "surprise": 9.09
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/9/2026",
+    "eps": -0.43,
+    "consensus": -0.62,
+    "surprise": 30.65
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": -0.45,
+    "consensus": -0.48,
+    "surprise": 6.25
+   }
+  ]
+ },
+ "US:FNB": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/16/2026",
+    "eps": 0.42,
+    "consensus": 0.42,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/16/2026",
+    "eps": 0.38,
+    "consensus": 0.38,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 0.5,
+    "consensus": 0.41,
+    "surprise": 21.95
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/16/2025",
+    "eps": 0.41,
+    "consensus": 0.37,
+    "surprise": 10.81
+   }
+  ]
+ },
+ "US:BOKF": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 2.59,
+    "consensus": 2.56,
+    "surprise": 1.17
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 2.58,
+    "consensus": 2.3,
+    "surprise": 12.17
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/16/2026",
+    "eps": 2.48,
+    "consensus": 2.13,
+    "surprise": 16.43
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 2.22,
+    "consensus": 2.1,
+    "surprise": 5.71
+   }
+  ]
+ },
+ "US:RLI": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/22/2026",
+    "eps": 0.83,
+    "consensus": 0.71,
+    "surprise": 16.9
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/22/2026",
+    "eps": 0.83,
+    "consensus": 0.85,
+    "surprise": -2.35
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/21/2026",
+    "eps": 0.94,
+    "consensus": 0.76,
+    "surprise": 23.68
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 0.83,
+    "consensus": 0.62,
+    "surprise": 33.87
+   }
+  ]
+ },
+ "US:SFBS": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/20/2026",
+    "eps": 0.79,
+    "consensus": 0.79,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 0.77,
+    "consensus": 0.76,
+    "surprise": 1.32
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/20/2026",
+    "eps": 0.79,
+    "consensus": 0.69,
+    "surprise": 14.49
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 0.65,
+    "consensus": 0.69,
+    "surprise": -5.8
+   }
+  ]
+ },
+ "US:CLBK": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/30/2026",
+    "eps": 0.15,
+    "consensus": 0.05,
+    "surprise": 200
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/20/2026",
+    "eps": 0.07,
+    "consensus": 0.07,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/2/2026",
+    "eps": 0.07,
+    "consensus": 0.07,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 0.07,
+    "consensus": 0.06,
+    "surprise": 16.67
+   }
+  ]
+ },
+ "US:AERO": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/13/2026",
+    "eps": -0.4,
+    "consensus": -0.37,
+    "surprise": -8.11
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/22/2026",
+    "eps": 0.07,
+    "consensus": 0.07,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/17/2026",
+    "eps": 0.75,
+    "consensus": 0.46,
+    "surprise": 63.04
+   }
+  ]
+ },
+ "US:DX": {
+  "fetchedAt": "2026-10-13",
+  "surprises": []
+ },
+ "US:KARO": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "May 2026",
+    "date": "7/15/2026",
+    "eps": 0.59,
+    "consensus": 0.51,
+    "surprise": 15.69
+   },
+   {
+    "quarter": "Feb 2026",
+    "date": "5/13/2026",
+    "eps": 0.44,
+    "consensus": 0.51,
+    "surprise": -13.73
+   },
+   {
+    "quarter": "Nov 2025",
+    "date": "1/20/2026",
+    "eps": 0.49,
+    "consensus": 0.44,
+    "surprise": 11.36
+   },
+   {
+    "quarter": "Aug 2025",
+    "date": "10/14/2025",
+    "eps": 0.47,
+    "consensus": 0.46,
+    "surprise": 2.17
+   }
+  ]
+ },
+ "US:HBT": {
+  "fetchedAt": "2026-10-13",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/27/2026",
+    "eps": 0.78,
+    "consensus": 0.74,
+    "surprise": 5.41
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/27/2026",
+    "eps": 0.68,
+    "consensus": 0.62,
+    "surprise": 9.68
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/26/2026",
+    "eps": 0.64,
+    "consensus": 0.64,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/20/2025",
+    "eps": 0.65,
+    "consensus": 0.62,
+    "surprise": 4.84
+   }
+  ]
  }
 }

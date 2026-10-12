@@ -1218,5 +1218,89 @@
  "HOVR": {
   "sector": "Industrials",
   "industry": "Aerospace & Defense"
+ },
+ "CCEL": {
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities"
+ },
+ "FITB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "WRB": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "STLD": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "PAC": {
+  "sector": "Industrials",
+  "industry": "Airports & Air Services"
+ },
+ "CCK": {
+  "sector": "Consumer Cyclical",
+  "industry": "Packaging & Containers"
+ },
+ "SMMT": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology"
+ },
+ "AGNC": {
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage"
+ },
+ "WTFC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "ZION": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BOKF": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "FNB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CLF": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "RLI": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "WAL": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CLBK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "SFBS": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "DX": {
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage"
+ },
+ "AERO": {
+  "sector": "Industrials",
+  "industry": "Airlines"
+ },
+ "KARO": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "HBT": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
  }
 }
