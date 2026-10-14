@@ -2571,5 +2571,581 @@
   "summary": "個別要因: 賃貸開発事業の売上拡大、建築請負事業の受注増加、資材価格上昇への対応 / 外部要因: 個人消費の持ち直し、設備投資の回復",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-13T18:04:26.683Z"
+ },
+ "v3:JP:7453:2026.08": {
+  "individual": [
+   {
+    "factor": "生産体制の内製化",
+    "evidence": "生産体制の内製化による原価低減"
+   },
+   {
+    "factor": "季節プロモーション施策",
+    "evidence": "「無印良品週間」などの季節プロモーション施策が奏功"
+   },
+   {
+    "factor": "海外事業の出店拡大",
+    "evidence": "海外事業の売上が伸長したことにより"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "円安影響",
+    "evidence": "円安影響も寄与した"
+   },
+   {
+    "factor": "為替差益",
+    "evidence": "為替差益"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 生産体制の内製化、季節プロモーション施策、海外事業の出店拡大 / 外部要因: 円安影響、為替差益",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:02:47.128Z"
+ },
+ "v3:JP:464A:26.06-08": {
+  "individual": [
+   {
+    "factor": "衛星打上げ成功",
+    "evidence": "小型SAR衛星QPS-SAR13号機「ミクラ－Ⅰ」、18号機「スサノオ－Ⅱ」の打上げに成功"
+   },
+   {
+    "factor": "商用運用開始",
+    "evidence": "商用運用に向けて初期運用中"
+   },
+   {
+    "factor": "官需拡大",
+    "evidence": "防衛省が2027年度予算で過去最大の８兆8,908億円を計上"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "宇宙基本計画",
+    "evidence": "国内の宇宙産業において、市場規模８兆円を目標とする宇宙基本計画"
+   },
+   {
+    "factor": "宇宙戦略基金",
+    "evidence": "総額１兆円規模の宇宙戦略基金"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 衛星打上げ成功、商用運用開始、官需拡大 / 外部要因: 宇宙基本計画、宇宙戦略基金",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:02:53.623Z"
+ },
+ "v3:JP:4057:26.06-08": {
+  "individual": [
+   {
+    "factor": "システム受託開発の稼働不足",
+    "evidence": "稼働が想定を下回り、売上は計画値を下回って推移いたしました"
+   },
+   {
+    "factor": "大型案件の見積もり修正",
+    "evidence": "EBISUMART Enterprise案件において、見積り総工数が大幅に増加することが判明したため進捗率の修正を行った"
+   },
+   {
+    "factor": "広告運用のパートナー委託化",
+    "evidence": "広告運用代行サービスについて、生産性を考慮し、2026年５月期第２四半期からパートナー企業に委託する取次業務として実施しており"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金融資本市場の変動",
+    "evidence": "金融資本市場の変動の影響などにも引き続き十分注意する必要があり"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: システム受託開発の稼働不足、大型案件の見積もり修正、広告運用のパートナー委託化 / 外部要因: 金融資本市場の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:01.080Z"
+ },
+ "v3:JP:2882:26.03-08": {
+  "individual": [
+   {
+    "factor": "新商品の発売と販促活動",
+    "evidence": "全国ＣＭの出稿やプレゼントキャンペーン「春の大阪王将祭り」の実施により、中華カテゴリーの拡販に努めた"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の増加",
+    "evidence": "外食市場につきましては、インバウンド需要の増加に加えて、価格改定による客単価上昇が続き"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 新商品の発売と販促活動 / 外部要因: インバウンド需要の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:08.543Z"
+ },
+ "v3:JP:3536:2026.08": {
+  "individual": [
+   {
+    "factor": "新規出店",
+    "evidence": "国内外のブランドを問わず、使い勝手の良い生活雑貨と世界中のコスメティックが融合したビューティーライフスタイルショップアレックスコンフォートモラージュ柏を千葉県に"
+   },
+   {
+    "factor": "新規出店",
+    "evidence": "日本最大級のスタンディングバーチェーンである「お酒の美術館」のフランチャイズ店舗、お酒の美術館学園都市駅店を出店"
+   },
+   {
+    "factor": "新規出店",
+    "evidence": "中古車販売を行う「カーマッチ」のフランチャイズ店舗、カーマッチ神戸長田店を出店"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "訪日外国人観光客の増加",
+    "evidence": "訪日外国人観光客の増加によるインバウンド需要は堅調に推移し、空港免税店や観光地向けの販売が伸長"
+   },
+   {
+    "factor": "ハイボール需要の拡大",
+    "evidence": "ハイボール需要の拡大を背景として、一般家庭向けの低価格ウイスキーの販売も好調に推移"
+   },
+   {
+    "factor": "円安",
+    "evidence": "円安による仕入価格等の上昇で販売価格を見直したウイスキーやブランデーの販売が苦戦"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 新規出店、新規出店、新規出店 / 外部要因: 訪日外国人観光客の増加、ハイボール需要の拡大、円安",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:16.979Z"
+ },
+ "v3:JP:3177:26.03-08": {
+  "individual": [
+   {
+    "factor": "店舗展開の拡大",
+    "evidence": "複数店舗の継続的な出店を支える仕組みと体制の整備"
+   },
+   {
+    "factor": "経年劣化した既存店舗の改修",
+    "evidence": "経年劣化した既存店舗の改修に取り組んだ"
+   },
+   {
+    "factor": "事業・業態の選択と集中",
+    "evidence": "経営資源を重点的に投入する事業・業態の選択と集中を進めた"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "地政学リスクと原油価格の変動",
+    "evidence": "中東情勢をはじめとする地政学的リスクや、それに伴う原油価格の変動"
+   },
+   {
+    "factor": "物価上昇",
+    "evidence": "物価上昇が継続する中"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 店舗展開の拡大、経年劣化した既存店舗の改修、事業・業態の選択と集中 / 外部要因: 地政学リスクと原油価格の変動、物価上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:25.570Z"
+ },
+ "v3:JP:6897:26.03-08": {
+  "individual": [
+   {
+    "factor": "B2B事業の売上拡大",
+    "evidence": "新規販路の開拓により収益性の高いB２B事業の売上が伸長したことにより"
+   },
+   {
+    "factor": "固定費の変動費化と経費削減",
+    "evidence": "固定費の変動費化を進めたことに加え、物流費などの経費削減を進めた結果"
+   },
+   {
+    "factor": "家電製品事業の黒字転換",
+    "evidence": "業務用販売チャネルでの大幅な伸長と家庭用冷蔵庫・洗濯機事業の縮小に伴う売上高の減少を補完"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "国際情勢の不安定化",
+    "evidence": "中東情勢をはじめとする国際情勢の不安定化や為替市場の変動等もあり"
+   },
+   {
+    "factor": "個人消費の回復基調",
+    "evidence": "雇用・所得環境の改善等を背景に、個人消費に持ち直しの動きがみられる"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: B2B事業の売上拡大、固定費の変動費化と経費削減、家電製品事業の黒字転換 / 外部要因: 国際情勢の不安定化、個人消費の回復基調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:33.772Z"
+ },
+ "v3:JP:3181:26.03-08": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "主要商材であるファッション・ホビー・工具の販売が順調に推移し、前年同期を大きく上回った"
+   },
+   {
+    "factor": "一般経費のコスト削減",
+    "evidence": "一般経費のコスト削減などにより、営業利益・経常利益ともに前年同期を大きく上回った"
+   },
+   {
+    "factor": "特別利益の計上",
+    "evidence": "営業権譲渡による特別利益を21百万円計上しております"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要の拡大",
+    "evidence": "生活防衛意識の高まりや循環経済への関心拡大を背景に、市場規模は拡大基調にある"
+   },
+   {
+    "factor": "人件費や金利の上昇",
+    "evidence": "人件費や金利の上昇といった厳しい経営環境が続く"
+   },
+   {
+    "factor": "地政学的リスク",
+    "evidence": "中東情勢をはじめとする地政学的リスクや原材料・エネルギー価格の動向"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販売数量の増加、一般経費のコスト削減、特別利益の計上 / 外部要因: 需要の拡大、人件費や金利の上昇、地政学的リスク",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:41.306Z"
+ },
+ "v3:JP:7847:26.03-08": {
+  "individual": [
+   {
+    "factor": "自社ブランドシャフトの販売数量増加",
+    "evidence": "自社ブランドシャフトの販売数量が当初の想定を上回ることとなりました"
+   },
+   {
+    "factor": "外資系クラブメーカーからの受注好調",
+    "evidence": "外資系クラブメーカーからの受注が好調に推移したこと"
+   },
+   {
+    "factor": "為替相場の変動",
+    "evidence": "為替相場における変動もプラスに寄与したこと"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替相場の変動",
+    "evidence": "為替相場における変動もプラスに寄与したこと"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 自社ブランドシャフトの販売数量増加、外資系クラブメーカーからの受注好調、為替相場の変動 / 外部要因: 為替相場の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:47.216Z"
+ },
+ "v3:JP:4673:25.12-08": {
+  "individual": [
+   {
+    "factor": "事業の維持管理業務の注力",
+    "evidence": "当社グループは80年以上に亘って培ってきた技術を活かした調査、点検、診断、解析、対策工法検討・設計等の維持管理業務や予防保全業務に注力しています。"
+   },
+   {
+    "factor": "自然災害・防災関連等の業務择大",
+    "evidence": "地質リスクマネジメント技術を活かした提案力をもって、国土強靭化推進業務をはじめとする自然災害・防災関連等の業務"
+   },
+   {
+    "factor": "インフラメンテナンス業務の择大",
+    "evidence": "道路・下水道維持管理をはじめとするインフラメンテナンス業務"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "国土強靛化実施中期計画の閣議決定",
+    "evidence": "2025年６月に「第１次国土強靛化実施中期計画」が閣議決定されました。"
+   },
+   {
+    "factor": "国内公共事業の底堅い環境",
+    "evidence": "国内公共事業を取り巻く環境は底堅く推移するものと予想されます。"
+   },
+   {
+    "factor": "再生可能エネルギー等関連業務の择大",
+    "evidence": "再生可能エネルギーや海洋資源開発等の関連業務"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 事業の維持管理業務の注力、自然災害・防災関連等の業務择大、インフラメンテナンス業務の择大 / 外部要因: 国土強靛化実施中期計画の閣議決定、国内公共事業の底堅い環境、再生可能エネルギー等関連業務の择大",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:03:57.897Z"
+ },
+ "v3:JP:3065:26.03-08": {
+  "individual": [
+   {
+    "factor": "店舗数減少",
+    "evidence": "店舗展開につきましては、閉店が１店舗となった結果"
+   },
+   {
+    "factor": "人件費上昇",
+    "evidence": "人手不足等による人件費の上昇"
+   },
+   {
+    "factor": "什器備品高騰",
+    "evidence": "ナフサ不足による什器・備品の高騰"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "原材料価格高騰",
+    "evidence": "原材料だけではなくナフサ不足による什器・備品の高騰"
+   },
+   {
+    "factor": "エネルギーコスト高止まり",
+    "evidence": "エネルギーコストの高止まり"
+   },
+   {
+    "factor": "天候不順",
+    "evidence": "天候不順による来客数の減少"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 店舗数減少、人件費上昇、什器備品高騰 / 外部要因: 原材料価格高騰、エネルギーコスト高止まり、天候不順",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:04:05.600Z"
+ },
+ "v3:JP:3560:2026.08": {
+  "individual": [
+   {
+    "factor": "新商品・コラボ拡充",
+    "evidence": "「ONE PIECE magazine」や「たまごっち」等の多種多様なコラボレーションが実現した"
+   },
+   {
+    "factor": "販路拡大",
+    "evidence": "Amazonや楽天市場など外部ECサイトでの取扱を拡充した"
+   },
+   {
+    "factor": "アプリ新規サービス",
+    "evidence": "デジタル版「LIFEのBOOK」として「ほぼ日手帳アプリ」サービスを開始した"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 新商品・コラボ拡充、販路拡大、アプリ新規サービス",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:04:13.262Z"
+ },
+ "v3:JP:3168:2026.08": {
+  "individual": [
+   {
+    "factor": "利鞘の改善",
+    "evidence": "利鞘の改善"
+   },
+   {
+    "factor": "北米市場の需要取り込み",
+    "evidence": "米国子会社CMX Metals社における北米市場の需要取り込み"
+   },
+   {
+    "factor": "品目の見直し",
+    "evidence": "取り扱い品目の見直し"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "銅価格の高騰",
+    "evidence": "銅価格の高騰"
+   },
+   {
+    "factor": "為替相場の円安",
+    "evidence": "為替相場は同5.3％円安に推移したことにより"
+   },
+   {
+    "factor": "地政学リスク",
+    "evidence": "増大する地政学リスク"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 利鞘の改善、北米市場の需要取り込み、品目の見直し / 外部要因: 銅価格の高騰、為替相場の円安、地政学リスク",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:04:19.935Z"
+ },
+ "v3:US:UNH:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新規出店",
+    "evidence": "ISG Event to Focus on Enterprise Transformations that Deliver AI Success"
+   },
+   {
+    "factor": "原価低減",
+    "evidence": "Centene's Gold Card Push Could Ease Costs - But Will Savings Follow?"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "規制",
+    "evidence": "Centene's Gold Card Push Could Ease Costs - But Will Savings Follow?"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規出店、原価低減 / 外部要因: 規制",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:04:59.329Z"
+ },
+ "v3:US:GS:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新規出店",
+    "evidence": "Nextiva Honored by Goldman Sachs for Entrepreneurship"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AIブーム",
+    "evidence": "The AI Boom Is Supercharging Wall Street’s Profits"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規出店 / 外部要因: AIブーム",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:06.249Z"
+ },
+ "v3:US:JPM:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新規パートナー拡大",
+    "evidence": "JPMorgan rounds up partners"
+   },
+   {
+    "factor": "消費者銀行と投資部門の強み",
+    "evidence": "Consumer Banking and Investment Strength Offset Margin Pressures"
+   }
+  ],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.64pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 新規パートナー拡大、消費者銀行と投資部門の強み / 外部要因: 米10年金利 約3か月 +0.64pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:13.153Z"
+ },
+ "v3:US:JNJ:Sep/2026": {
+  "individual": [
+   {
+    "factor": "医療機器売上の好調",
+    "evidence": "Medical Device Sales Miss Wall Street Forecasts"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 医療機器売上の好調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:18.418Z"
+ },
+ "v3:US:WFC:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.64pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.64pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:23.183Z"
+ },
+ "v3:US:C:Sep/2026": {
+  "individual": [
+   {
+    "factor": "投資銀行業績の好調",
+    "evidence": "Strong Investment Banking And Wealth Management Revenue"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AI関連利益の増加",
+    "evidence": "The AI Boom Is Supercharging Wall Street’s Profits"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.64pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 投資銀行業績の好調 / 外部要因: AI関連利益の増加、米10年金利 約3か月 +0.64pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:28.215Z"
+ },
+ "v3:US:DPZ:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:34.789Z"
+ },
+ "v3:US:ACI:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:40.205Z"
+ },
+ "v3:US:AZZ:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:49.920Z"
+ },
+ "v3:US:UNTY:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.64pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.64pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:05:59.062Z"
+ },
+ "v3:US:NUCL:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "追い風",
+    "reason": "原油高は販売価格と採算を押し上げる",
+    "change": "WTI原油 約3か月 +21.5%"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: WTI原油 約3か月 +21.5%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-14T18:06:04.096Z"
  }
 }

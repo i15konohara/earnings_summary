@@ -1490,5 +1490,317 @@
  "MBWM": {
   "sector": "Financial Services",
   "industry": "Banks - Regional"
+ },
+ "UNTY": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "NUCL": {
+  "sector": "Energy",
+  "industry": "Uranium"
+ },
+ "FNGR": {
+  "sector": "Communication Services",
+  "industry": "Telecom Services"
+ },
+ "BMRA": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices"
+ },
+ "TGL": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "TSLA": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers"
+ },
+ "LRCX": {
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials"
+ },
+ "META": {
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information"
+ },
+ "SAP": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "TXN": {
+  "sector": "Technology",
+  "industry": "Semiconductors"
+ },
+ "TMO": {
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research"
+ },
+ "IBM": {
+  "sector": "Technology",
+  "industry": "Information Technology Services"
+ },
+ "ABT": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices"
+ },
+ "DHR": {
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research"
+ },
+ "NEE": {
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric"
+ },
+ "T": {
+  "sector": "Communication Services",
+  "industry": "Telecom Services"
+ },
+ "CME": {
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges"
+ },
+ "ELV": {
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans"
+ },
+ "CSX": {
+  "sector": "Industrials",
+  "industry": "Railroads"
+ },
+ "MCO": {
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges"
+ },
+ "URI": {
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services"
+ },
+ "WAB": {
+  "sector": "Industrials",
+  "industry": "Railroads"
+ },
+ "WCN": {
+  "sector": "Industrials",
+  "industry": "Waste Management"
+ },
+ "NTRS": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "RS": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "PKG": {
+  "sector": "Consumer Cyclical",
+  "industry": "Packaging & Containers"
+ },
+ "LUV": {
+  "sector": "Industrials",
+  "industry": "Airlines"
+ },
+ "CCI": {
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty"
+ },
+ "MEDP": {
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research"
+ },
+ "ROL": {
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services"
+ },
+ "PNFP": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CACI": {
+  "sector": "Technology",
+  "industry": "Information Technology Services"
+ },
+ "GGG": {
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery"
+ },
+ "GL": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Life"
+ },
+ "SEIC": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "ELS": {
+  "sector": "Real Estate",
+  "industry": "REIT - Residential"
+ },
+ "SSB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "KNX": {
+  "sector": "Industrials",
+  "industry": "Trucking"
+ },
+ "MOH": {
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans"
+ },
+ "EGP": {
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial"
+ },
+ "ONB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "ESI": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals"
+ },
+ "FR": {
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial"
+ },
+ "HXL": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense"
+ },
+ "FAF": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty"
+ },
+ "EPRT": {
+  "sector": "Real Estate",
+  "industry": "REIT - Retail"
+ },
+ "LAD": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships"
+ },
+ "WH": {
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging"
+ },
+ "SON": {
+  "sector": "Consumer Cyclical",
+  "industry": "Packaging & Containers"
+ },
+ "UNF": {
+  "sector": "Industrials",
+  "industry": "Specialty Business Services"
+ },
+ "OII": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services"
+ },
+ "FULT": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CATY": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CVBF": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "SLG": {
+  "sector": "Real Estate",
+  "industry": "REIT - Office"
+ },
+ "WSBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BKU": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "QS": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts"
+ },
+ "MHO": {
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction"
+ },
+ "KALU": {
+  "sector": "Basic Materials",
+  "industry": "Aluminum"
+ },
+ "FRME": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BANR": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "WDFC": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals"
+ },
+ "BBT": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "OFG": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "EFSC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "EPAC": {
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery"
+ },
+ "NTST": {
+  "sector": "Real Estate",
+  "industry": "REIT - Retail"
+ },
+ "LOB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "GTY": {
+  "sector": "Real Estate",
+  "industry": "REIT - Retail"
+ },
+ "CASH": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "STC": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "TFIN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "HCSG": {
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities"
+ },
+ "OSBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "IART": {
+  "sector": "Healthcare",
+  "industry": "Medical Devices"
+ },
+ "WINA": {
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail"
+ },
+ "CTBI": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
  }
 }
