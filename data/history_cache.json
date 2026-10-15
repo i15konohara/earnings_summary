@@ -28509,5 +28509,1956 @@
     "surprise": -48.24
    }
   ]
+ },
+ "US:PG": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/29/2026",
+    "eps": 1.43,
+    "consensus": 1.41,
+    "surprise": 1.42
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/24/2026",
+    "eps": 1.59,
+    "consensus": 1.56,
+    "surprise": 1.92
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 1.88,
+    "consensus": 1.87,
+    "surprise": 0.53
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/24/2025",
+    "eps": 1.99,
+    "consensus": 1.9,
+    "surprise": 4.74
+   }
+  ]
+ },
+ "US:WDC": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "8/5/2026",
+    "eps": 3.47,
+    "consensus": 3.24,
+    "surprise": 7.1
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/30/2026",
+    "eps": 2.62,
+    "consensus": 2.28,
+    "surprise": 14.91
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 1.99,
+    "consensus": 1.83,
+    "surprise": 8.74
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 1.64,
+    "consensus": 1.47,
+    "surprise": 11.56
+   }
+  ]
+ },
+ "US:UNP": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 3.41,
+    "consensus": 3.2,
+    "surprise": 6.56
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.93,
+    "consensus": 2.85,
+    "surprise": 2.81
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/27/2026",
+    "eps": 2.86,
+    "consensus": 2.9,
+    "surprise": -1.38
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.08,
+    "consensus": 2.99,
+    "surprise": 3.01
+   }
+  ]
+ },
+ "US:VLO": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/30/2026",
+    "eps": 12.54,
+    "consensus": 9.87,
+    "surprise": 27.05
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/30/2026",
+    "eps": 4.22,
+    "consensus": 3.07,
+    "surprise": 37.46
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 3.82,
+    "consensus": 3.22,
+    "surprise": 18.63
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.66,
+    "consensus": 2.95,
+    "surprise": 24.07
+   }
+  ]
+ },
+ "US:LMT": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 7.94,
+    "consensus": 7.22,
+    "surprise": 9.97
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 6.44,
+    "consensus": 6.67,
+    "surprise": -3.45
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 7.43,
+    "consensus": 6.24,
+    "surprise": 19.07
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/21/2025",
+    "eps": 6.95,
+    "consensus": 6.33,
+    "surprise": 9.79
+   }
+  ]
+ },
+ "US:NEM": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 2.1,
+    "consensus": 2.05,
+    "surprise": 2.44
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.9,
+    "consensus": 2.07,
+    "surprise": 40.1
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/19/2026",
+    "eps": 2.52,
+    "consensus": 2.03,
+    "surprise": 24.14
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.71,
+    "consensus": 1.29,
+    "surprise": 32.56
+   }
+  ]
+ },
+ "US:BX": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.52,
+    "consensus": 1.33,
+    "surprise": 14.29
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.36,
+    "consensus": 1.35,
+    "surprise": 0.74
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 1.75,
+    "consensus": 1.52,
+    "surprise": 15.13
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.52,
+    "consensus": 1.21,
+    "surprise": 25.62
+   }
+  ]
+ },
+ "US:SPOT": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "8/4/2026",
+    "eps": 3.03,
+    "consensus": 3.27,
+    "surprise": -7.34
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/28/2026",
+    "eps": 4.04,
+    "consensus": 3.72,
+    "surprise": 8.6
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/10/2026",
+    "eps": 5.16,
+    "consensus": 3.16,
+    "surprise": 63.29
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "11/4/2025",
+    "eps": 3.83,
+    "consensus": 1.87,
+    "surprise": 104.81
+   }
+  ]
+ },
+ "US:BCS": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/28/2026",
+    "eps": 0.9,
+    "consensus": 0.89,
+    "surprise": 1.12
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/28/2026",
+    "eps": 0.76,
+    "consensus": 0.75,
+    "surprise": 1.33
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/10/2026",
+    "eps": 0.46,
+    "consensus": 0.42,
+    "surprise": 9.52
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/22/2025",
+    "eps": 0.56,
+    "consensus": 0.54,
+    "surprise": 3.7
+   }
+  ]
+ },
+ "US:CMCSA": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.04,
+    "consensus": 0.97,
+    "surprise": 7.22
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.79,
+    "consensus": 0.73,
+    "surprise": 8.22
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.84,
+    "consensus": 0.75,
+    "surprise": 12
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 1.12,
+    "consensus": 1.1,
+    "surprise": 1.82
+   }
+  ]
+ },
+ "US:BE": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/28/2026",
+    "eps": 0.61,
+    "consensus": 0.23,
+    "surprise": 165.22
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/28/2026",
+    "eps": 0.26,
+    "consensus": -0.02,
+    "surprise": 1400
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/5/2026",
+    "eps": 0.28,
+    "consensus": 0.15,
+    "surprise": 86.67
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/28/2025",
+    "eps": -0.01,
+    "consensus": -0.03,
+    "surprise": 66.67
+   }
+  ]
+ },
+ "US:NSC": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 3.52,
+    "consensus": 3.23,
+    "surprise": 8.98
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/24/2026",
+    "eps": 2.65,
+    "consensus": 2.51,
+    "surprise": 5.58
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 3.22,
+    "consensus": 2.78,
+    "surprise": 15.83
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.3,
+    "consensus": 3.18,
+    "surprise": 3.77
+   }
+  ]
+ },
+ "US:HON": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.95,
+    "consensus": 1.8,
+    "surprise": 8.33
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 4.9,
+    "consensus": 4.62,
+    "surprise": 6.06
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 5.18,
+    "consensus": 5.06,
+    "surprise": 2.37
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 5.64,
+    "consensus": 5.12,
+    "surprise": 10.16
+   }
+  ]
+ },
+ "US:FIX": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 12.53,
+    "consensus": 10.38,
+    "surprise": 20.71
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 10.51,
+    "consensus": 7.19,
+    "surprise": 46.18
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/19/2026",
+    "eps": 9.37,
+    "consensus": 6.77,
+    "surprise": 38.4
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 8.25,
+    "consensus": 6.2,
+    "surprise": 33.06
+   }
+  ]
+ },
+ "US:NOK": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.08,
+    "consensus": 0.07,
+    "surprise": 14.29
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.06,
+    "consensus": 0.06,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.21,
+    "consensus": 0.17,
+    "surprise": 23.53
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.07,
+    "consensus": 0.06,
+    "surprise": 16.67
+   }
+  ]
+ },
+ "US:NDAQ": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.07,
+    "consensus": 0.98,
+    "surprise": 9.18
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.96,
+    "consensus": 0.93,
+    "surprise": 3.23
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.96,
+    "consensus": 0.91,
+    "surprise": 5.49
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/21/2025",
+    "eps": 0.88,
+    "consensus": 0.84,
+    "surprise": 4.76
+   }
+  ]
+ },
+ "US:ARGX": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 7.32,
+    "consensus": 6.13,
+    "surprise": 19.41
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "5/7/2026",
+    "eps": 5.52,
+    "consensus": 5.16,
+    "surprise": 6.98
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/26/2026",
+    "eps": 8.02,
+    "consensus": 6.24,
+    "surprise": 28.53
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 5.18,
+    "consensus": 4.37,
+    "surprise": 18.54
+   }
+  ]
+ },
+ "US:BBD": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "8/5/2026",
+    "eps": 0.13,
+    "consensus": 0.13,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "5/6/2026",
+    "eps": 0.12,
+    "consensus": 0.12,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/6/2026",
+    "eps": 0.11,
+    "consensus": 0.11,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/29/2025",
+    "eps": 0.09,
+    "consensus": 0.11,
+    "surprise": -18.18
+   }
+  ]
+ },
+ "US:BBDO": {
+  "fetchedAt": "2026-10-15",
+  "surprises": []
+ },
+ "US:CBRE": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/29/2026",
+    "eps": 1.56,
+    "consensus": 1.47,
+    "surprise": 6.12
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.61,
+    "consensus": 1.13,
+    "surprise": 42.48
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/12/2026",
+    "eps": 2.73,
+    "consensus": 2.66,
+    "surprise": 2.63
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.61,
+    "consensus": 1.47,
+    "surprise": 9.52
+   }
+  ]
+ },
+ "US:ROP": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 5.38,
+    "consensus": 5.29,
+    "surprise": 1.7
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 5.16,
+    "consensus": 4.97,
+    "surprise": 3.82
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/27/2026",
+    "eps": 5.21,
+    "consensus": 5.14,
+    "surprise": 1.36
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 5.14,
+    "consensus": 5.11,
+    "surprise": 0.59
+   }
+  ]
+ },
+ "US:PCG": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.4,
+    "consensus": 0.37,
+    "surprise": 8.11
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.43,
+    "consensus": 0.39,
+    "surprise": 10.26
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/12/2026",
+    "eps": 0.36,
+    "consensus": 0.36,
+    "surprise": 0
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.5,
+    "consensus": 0.44,
+    "surprise": 13.64
+   }
+  ]
+ },
+ "US:HBAN": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.39,
+    "consensus": 0.39,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.37,
+    "consensus": 0.36,
+    "surprise": 2.78
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.37,
+    "consensus": 0.39,
+    "surprise": -5.13
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/17/2025",
+    "eps": 0.4,
+    "consensus": 0.38,
+    "surprise": 5.26
+   }
+  ]
+ },
+ "US:VRSN": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 2.38,
+    "consensus": 2.36,
+    "surprise": 0.85
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.34,
+    "consensus": 2.2,
+    "surprise": 6.36
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/5/2026",
+    "eps": 2.23,
+    "consensus": 2.29,
+    "surprise": -2.62
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 2.27,
+    "consensus": null,
+    "surprise": null
+   }
+  ]
+ },
+ "US:DOV": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 2.74,
+    "consensus": 2.72,
+    "surprise": 0.74
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.28,
+    "consensus": 2.27,
+    "surprise": 0.44
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 2.51,
+    "consensus": 2.48,
+    "surprise": 1.21
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 2.62,
+    "consensus": 2.5,
+    "surprise": 4.8
+   }
+  ]
+ },
+ "US:DGX": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 3.12,
+    "consensus": 2.81,
+    "surprise": 11.03
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/21/2026",
+    "eps": 2.5,
+    "consensus": 2.37,
+    "surprise": 5.49
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/10/2026",
+    "eps": 2.42,
+    "consensus": 2.35,
+    "surprise": 2.98
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/21/2025",
+    "eps": 2.6,
+    "consensus": 2.51,
+    "surprise": 3.59
+   }
+  ]
+ },
+ "US:PHM": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/22/2026",
+    "eps": 2.48,
+    "consensus": 2.38,
+    "surprise": 4.2
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.79,
+    "consensus": 1.8,
+    "surprise": -0.56
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 2.88,
+    "consensus": 2.78,
+    "surprise": 3.6
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/21/2025",
+    "eps": 2.96,
+    "consensus": 2.86,
+    "surprise": 3.5
+   }
+  ]
+ },
+ "US:DOW": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.44,
+    "consensus": 1.25,
+    "surprise": 15.2
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": -0.14,
+    "consensus": -0.39,
+    "surprise": 64.1
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": -0.34,
+    "consensus": -0.46,
+    "surprise": 26.09
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": -0.19,
+    "consensus": -0.31,
+    "surprise": 38.71
+   }
+  ]
+ },
+ "US:SSNC": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.56,
+    "consensus": 1.51,
+    "surprise": 3.31
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.5,
+    "consensus": 1.5,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/5/2026",
+    "eps": 1.44,
+    "consensus": 1.45,
+    "surprise": -0.69
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.39,
+    "consensus": 1.33,
+    "surprise": 4.51
+   }
+  ]
+ },
+ "US:CRS": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/30/2026",
+    "eps": 3.23,
+    "consensus": 3.03,
+    "surprise": 6.6
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/29/2026",
+    "eps": 2.77,
+    "consensus": 2.59,
+    "surprise": 6.95
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 2.33,
+    "consensus": 2.2,
+    "surprise": 5.91
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 2.43,
+    "consensus": 2.13,
+    "surprise": 14.08
+   }
+  ]
+ },
+ "US:TSCO": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.81,
+    "consensus": 0.83,
+    "surprise": -2.41
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/21/2026",
+    "eps": 0.31,
+    "consensus": 0.35,
+    "surprise": -11.43
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.43,
+    "consensus": 0.46,
+    "surprise": -6.52
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.49,
+    "consensus": 0.48,
+    "surprise": 2.08
+   }
+  ]
+ },
+ "US:ALLE": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 2.4,
+    "consensus": 2.23,
+    "surprise": 7.62
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/28/2026",
+    "eps": 1.8,
+    "consensus": 1.88,
+    "surprise": -4.26
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/17/2026",
+    "eps": 1.94,
+    "consensus": 2.01,
+    "surprise": -3.48
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 2.3,
+    "consensus": 2.21,
+    "surprise": 4.07
+   }
+  ]
+ },
+ "US:DECK": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.94,
+    "consensus": 0.88,
+    "surprise": 6.82
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "5/21/2026",
+    "eps": 0.96,
+    "consensus": 0.81,
+    "surprise": 18.52
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 3.33,
+    "consensus": 2.77,
+    "surprise": 20.22
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.82,
+    "consensus": 1.58,
+    "surprise": 15.19
+   }
+  ]
+ },
+ "US:BPOP": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 4.35,
+    "consensus": 3.69,
+    "surprise": 17.89
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 3.78,
+    "consensus": 3.3,
+    "surprise": 14.55
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/27/2026",
+    "eps": 3.38,
+    "consensus": 3.02,
+    "surprise": 11.92
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.14,
+    "consensus": 3.04,
+    "surprise": 3.29
+   }
+  ]
+ },
+ "US:FCFS": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 2.5,
+    "consensus": null,
+    "surprise": null
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.69,
+    "consensus": null,
+    "surprise": null
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/5/2026",
+    "eps": 2.64,
+    "consensus": 2.54,
+    "surprise": 3.94
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 2.26,
+    "consensus": 1.91,
+    "surprise": 18.32
+   }
+  ]
+ },
+ "US:ORI": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.76,
+    "consensus": 0.77,
+    "surprise": -1.3
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.68,
+    "consensus": 0.79,
+    "surprise": -13.92
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.74,
+    "consensus": 0.89,
+    "surprise": -16.85
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.11,
+    "consensus": 0.73,
+    "surprise": 52.05
+   }
+  ]
+ },
+ "US:REXR": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.63,
+    "consensus": 0.6,
+    "surprise": 5
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.61,
+    "consensus": 0.6,
+    "surprise": 1.67
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/4/2026",
+    "eps": 0.59,
+    "consensus": 0.58,
+    "surprise": 1.72
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/15/2025",
+    "eps": 0.6,
+    "consensus": 0.59,
+    "surprise": 1.69
+   }
+  ]
+ },
+ "US:R": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 3.73,
+    "consensus": 3.7,
+    "surprise": 0.81
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 2.54,
+    "consensus": 2.29,
+    "surprise": 10.92
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/11/2026",
+    "eps": 3.59,
+    "consensus": 3.66,
+    "surprise": -1.91
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.57,
+    "consensus": 3.56,
+    "surprise": 0.28
+   }
+  ]
+ },
+ "US:AAL": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.15,
+    "consensus": 0.03,
+    "surprise": 400
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": -0.4,
+    "consensus": -0.45,
+    "surprise": 11.11
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/27/2026",
+    "eps": 0.16,
+    "consensus": 0.38,
+    "surprise": -57.89
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": -0.17,
+    "consensus": -0.27,
+    "surprise": 37.04
+   }
+  ]
+ },
+ "US:COLB": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.76,
+    "consensus": 0.73,
+    "surprise": 4.11
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.72,
+    "consensus": 0.68,
+    "surprise": 5.88
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.82,
+    "consensus": 0.72,
+    "surprise": 13.89
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 0.85,
+    "consensus": 0.66,
+    "surprise": 28.79
+   }
+  ]
+ },
+ "US:MXL": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.13,
+    "consensus": 0.13,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": -0.01,
+    "consensus": -0.07,
+    "surprise": 85.71
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.08,
+    "consensus": -0.04,
+    "surprise": 300
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": -0.11,
+    "consensus": -0.07,
+    "surprise": -57.14
+   }
+  ]
+ },
+ "US:KNSL": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 5.54,
+    "consensus": 5.1,
+    "surprise": 8.63
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 5.11,
+    "consensus": 4.7,
+    "surprise": 8.72
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/12/2026",
+    "eps": 5.81,
+    "consensus": 5.3,
+    "surprise": 9.62
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 5.21,
+    "consensus": 4.79,
+    "surprise": 8.77
+   }
+  ]
+ },
+ "US:APPF": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.23,
+    "consensus": 1.24,
+    "surprise": -0.81
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.24,
+    "consensus": 1.03,
+    "surprise": 20.39
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 1.14,
+    "consensus": 0.84,
+    "surprise": 35.71
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/30/2025",
+    "eps": 0.98,
+    "consensus": 1.07,
+    "surprise": -8.41
+   }
+  ]
+ },
+ "US:MSM": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "May 2026",
+    "date": "7/1/2026",
+    "eps": 1.43,
+    "consensus": 1.28,
+    "surprise": 11.72
+   },
+   {
+    "quarter": "Feb 2026",
+    "date": "4/1/2026",
+    "eps": 0.82,
+    "consensus": 0.84,
+    "surprise": -2.38
+   },
+   {
+    "quarter": "Nov 2025",
+    "date": "1/7/2026",
+    "eps": 0.99,
+    "consensus": 0.95,
+    "surprise": 4.21
+   },
+   {
+    "quarter": "Aug 2025",
+    "date": "10/23/2025",
+    "eps": 1.09,
+    "consensus": 1.03,
+    "surprise": 5.83
+   }
+  ]
+ },
+ "US:VLY": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.3,
+    "consensus": 0.31,
+    "surprise": -3.23
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.29,
+    "consensus": 0.27,
+    "surprise": 7.41
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 0.31,
+    "consensus": 0.29,
+    "surprise": 6.9
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.28,
+    "consensus": 0.26,
+    "surprise": 7.69
+   }
+  ]
+ },
+ "US:RNG": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.54,
+    "consensus": 0.64,
+    "surprise": -15.62
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "5/7/2026",
+    "eps": 0.71,
+    "consensus": 0.61,
+    "surprise": 16.39
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/19/2026",
+    "eps": 0.62,
+    "consensus": 0.57,
+    "surprise": 8.77
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "11/3/2025",
+    "eps": 0.41,
+    "consensus": 0.47,
+    "surprise": -12.77
+   }
+  ]
+ },
+ "US:UBSI": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.95,
+    "consensus": 0.89,
+    "surprise": 6.74
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.89,
+    "consensus": 0.85,
+    "surprise": 4.71
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.91,
+    "consensus": 0.86,
+    "surprise": 5.81
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.92,
+    "consensus": 0.82,
+    "surprise": 12.2
+   }
+  ]
+ },
+ "US:POOL": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 5.38,
+    "consensus": 5.3,
+    "surprise": 1.51
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.43,
+    "consensus": 1.34,
+    "surprise": 6.72
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/19/2026",
+    "eps": 0.84,
+    "consensus": 0.99,
+    "surprise": -15.15
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.39,
+    "consensus": 3.38,
+    "surprise": 0.3
+   }
+  ]
+ },
+ "US:FSV": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.62,
+    "consensus": 1.56,
+    "surprise": 3.85
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.79,
+    "consensus": 0.79,
+    "surprise": 0
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/4/2026",
+    "eps": 1.26,
+    "consensus": 1.22,
+    "surprise": 3.28
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.63,
+    "consensus": 1.65,
+    "surprise": -1.21
+   }
+  ]
+ },
+ "US:GBCI": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.76,
+    "consensus": 0.76,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.7,
+    "consensus": 0.67,
+    "surprise": 4.48
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.49,
+    "consensus": 0.59,
+    "surprise": -16.95
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/16/2025",
+    "eps": 0.62,
+    "consensus": 0.61,
+    "surprise": 1.64
+   }
+  ]
+ },
+ "US:ASB": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.73,
+    "consensus": 0.72,
+    "surprise": 1.39
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.7,
+    "consensus": 0.69,
+    "surprise": 1.45
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.8,
+    "consensus": 0.69,
+    "surprise": 15.94
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.73,
+    "consensus": 0.66,
+    "surprise": 10.61
+   }
+  ]
+ },
+ "US:ABCB": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.6,
+    "consensus": 1.66,
+    "surprise": -3.61
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.63,
+    "consensus": 1.54,
+    "surprise": 5.84
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 1.59,
+    "consensus": 1.56,
+    "surprise": 1.92
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/27/2025",
+    "eps": 1.53,
+    "consensus": 1.47,
+    "surprise": 4.08
+   }
+  ]
+ },
+ "US:BYD": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.93,
+    "consensus": 1.86,
+    "surprise": 3.76
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 1.6,
+    "consensus": 1.76,
+    "surprise": -9.09
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/5/2026",
+    "eps": 2.21,
+    "consensus": 1.88,
+    "surprise": 17.55
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.72,
+    "consensus": 1.57,
+    "surprise": 9.55
+   }
+  ]
+ },
+ "US:SIGI": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 1.95,
+    "consensus": 1.72,
+    "surprise": 13.37
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/22/2026",
+    "eps": 1.69,
+    "consensus": 1.73,
+    "surprise": -2.31
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/29/2026",
+    "eps": 2.57,
+    "consensus": 2.24,
+    "surprise": 14.73
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/22/2025",
+    "eps": 1.75,
+    "consensus": 1.84,
+    "surprise": -4.89
+   }
+  ]
+ },
+ "US:IRDM": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/22/2026",
+    "eps": 0.19,
+    "consensus": 0.26,
+    "surprise": -26.92
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.2,
+    "consensus": 0.27,
+    "surprise": -25.93
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/12/2026",
+    "eps": 0.24,
+    "consensus": 0.23,
+    "surprise": 4.35
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.35,
+    "consensus": 0.26,
+    "surprise": 34.62
+   }
+  ]
+ },
+ "US:GTX": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/29/2026",
+    "eps": 0.53,
+    "consensus": 0.46,
+    "surprise": 15.22
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/30/2026",
+    "eps": 0.49,
+    "consensus": 0.42,
+    "surprise": 16.67
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/19/2026",
+    "eps": 0.42,
+    "consensus": 0.35,
+    "surprise": 20
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.38,
+    "consensus": 0.33,
+    "surprise": 15.15
+   }
+  ]
+ },
+ "US:EBC": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 0.49,
+    "consensus": 0.46,
+    "surprise": 6.52
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 0.4,
+    "consensus": 0.44,
+    "surprise": -9.09
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.44,
+    "consensus": 0.41,
+    "surprise": 7.32
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.37,
+    "consensus": 0.4,
+    "surprise": -7.5
+   }
+  ]
+ },
+ "US:FFIN": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/16/2026",
+    "eps": 0.5,
+    "consensus": 0.5,
+    "surprise": 0
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/16/2026",
+    "eps": 0.5,
+    "consensus": 0.47,
+    "surprise": 6.38
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/22/2026",
+    "eps": 0.51,
+    "consensus": 0.48,
+    "surprise": 6.25
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 0.36,
+    "consensus": 0.47,
+    "surprise": -23.4
+   }
+  ]
+ },
+ "US:ENVA": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/23/2026",
+    "eps": 4.05,
+    "consensus": 3.73,
+    "surprise": 8.58
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/23/2026",
+    "eps": 3.61,
+    "consensus": 3.41,
+    "surprise": 5.87
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "1/27/2026",
+    "eps": 3.2,
+    "consensus": 2.94,
+    "surprise": 8.84
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 3.11,
+    "consensus": 2.8,
+    "surprise": 11.07
+   }
+  ]
+ },
+ "US:OMAB": {
+  "fetchedAt": "2026-10-15",
+  "surprises": [
+   {
+    "quarter": "Jun 2026",
+    "date": "7/28/2026",
+    "eps": 1.74,
+    "consensus": 1.69,
+    "surprise": 2.96
+   },
+   {
+    "quarter": "Mar 2026",
+    "date": "4/28/2026",
+    "eps": 1.41,
+    "consensus": 1.49,
+    "surprise": -5.37
+   },
+   {
+    "quarter": "Dec 2025",
+    "date": "2/24/2026",
+    "eps": 1.4,
+    "consensus": 1.65,
+    "surprise": -15.15
+   },
+   {
+    "quarter": "Sep 2025",
+    "date": "10/23/2025",
+    "eps": 1.7,
+    "consensus": 1.58,
+    "surprise": 7.59
+   }
+  ]
  }
 }

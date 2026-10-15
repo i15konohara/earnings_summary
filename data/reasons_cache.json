@@ -3147,5 +3147,445 @@
   "summary": "外部要因: WTI原油 約3か月 +21.5%(追い風)",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-14T18:06:04.096Z"
+ },
+ "v3:JP:3994:25.12-08": {
+  "individual": [
+   {
+    "factor": "価格改定と機能強化",
+    "evidence": "2025年6月に実施しました価格改定、並びに継続的な機能強化"
+   },
+   {
+    "factor": "AI機能の開発・リリース",
+    "evidence": "AI機能の開発及びリリースに注力しており、これまでに『AI確定申告』や、各業務プロセスを担うAIエージェントを複数リリースしております"
+   },
+   {
+    "factor": "営業・マーケティング体制の拡充",
+    "evidence": "営業・マーケティング体制の拡充を進めた結果、複数プロダクトでの導入やより大規模な企業での導入が進みました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "SaaS市場の拡大",
+    "evidence": "国内SaaS市場は、2029年度には3兆3,975億円(2024年度比173.0%)に達すると見込まれております"
+   },
+   {
+    "factor": "労働力不足による需要喚起",
+    "evidence": "労働力不足の深刻化を背景に、AI等のテクノロジー活用による業務の自律化が市場の主要な成長要因となっております"
+   },
+   {
+    "factor": "資金管理ニーズの高まり",
+    "evidence": "個人・企業における資金管理の効率化ニーズを背景に、当社グループが提供するサービスへの需要は堅調に推移しております"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 価格改定と機能強化、AI機能の開発・リリース、営業・マーケティング体制の拡充 / 外部要因: SaaS市場の拡大、労働力不足による需要喚起、資金管理ニーズの高まり",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:18.216Z"
+ },
+ "v3:JP:6522:2026.08": {
+  "individual": [
+   {
+    "factor": "不採算案件原価発生",
+    "evidence": "一部不採算案件における原価の発生"
+   },
+   {
+    "factor": "新製品開発費用増加",
+    "evidence": "新製品システムの開発に係る費用の発生"
+   },
+   {
+    "factor": "販売遅延・受注減少",
+    "evidence": "販売が計画より遅延している案件が発生"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "米国通商・経済政策変更",
+    "evidence": "米国の通商・経済政策の変更"
+   },
+   {
+    "factor": "地政学的リスク",
+    "evidence": "地政学的リスク"
+   },
+   {
+    "factor": "政策金利上昇",
+    "evidence": "政策金利の上昇"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 不採算案件原価発生、新製品開発費用増加、販売遅延・受注減少 / 外部要因: 米国通商・経済政策変更、地政学的リスク、政策金利上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:24.568Z"
+ },
+ "v3:JP:6532:26.03-08": {
+  "individual": [
+   {
+    "factor": "人材の採用・育成",
+    "evidence": "優秀な人材の採用・育成"
+   },
+   {
+    "factor": "コアクライアント戦略",
+    "evidence": "コアクライアント戦略の推進"
+   },
+   {
+    "factor": "サービスの強化",
+    "evidence": "クライアントの経営課題を多面的に解決するサービスの強化"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "DX・生成AI需要の高まり",
+    "evidence": "生成AIを活用した企業変革支援の需要の高まり"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 人材の採用・育成、コアクライアント戦略、サービスの強化 / 外部要因: DX・生成AI需要の高まり",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:30.384Z"
+ },
+ "v3:JP:581A:26.06-08": {
+  "individual": [
+   {
+    "factor": "アプリ配車サービスの拡大",
+    "evidence": "実車数が前年同期比9.8%増"
+   },
+   {
+    "factor": "1実車当たり平均売上高の向上",
+    "evidence": "1実車当たり平均売上高が前年同期比29.1%増"
+   },
+   {
+    "factor": "MAUの増加",
+    "evidence": "平均MAUが前年同期比8.8%増"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "自動運転タクシー導入に向けた取り組み",
+    "evidence": "Waymo LLCと東京における自動運転タクシーの商用化に向けた戦略的パートナーシップを締結"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: アプリ配車サービスの拡大、1実車当たり平均売上高の向上、MAUの増加 / 外部要因: 自動運転タクシー導入に向けた取り組み",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:37.348Z"
+ },
+ "v3:JP:3697:2026.08": {
+  "individual": [
+   {
+    "factor": "採用活動の正常化",
+    "evidence": "前連結会計年度に戦略的に抑制していた採用活動の正常化に伴う採用費の増加"
+   },
+   {
+    "factor": "大型案件獲得に向けたリソース集中",
+    "evidence": "将来の大型案件獲得に営業リソースを戦略的に集中させたことによる稼働率の一時的な悪化"
+   },
+   {
+    "factor": "AI投資を背景とした顧客単価・顧客数の向上",
+    "evidence": "AI投資を背景にしたAI活用の推進による効果もあり、顧客単価・顧客数は上昇トレンドを継続"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "DX・生成AI需要の拡大",
+    "evidence": "ソフトウェア関連市場において、DXへの取り組みが引き続き進展するとともに、生成AIをはじめとする新技術の企業活動への導入が急速に拡大"
+   },
+   {
+    "factor": "品質保証需要の高まり",
+    "evidence": "重大なシステム障害を未然に防ぐための専門的な品質保証及びテスト業務に対する社会的需要は、今後ますます高まっていく"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 採用活動の正常化、大型案件獲得に向けたリソース集中、AI投資を背景とした顧客単価・顧客数の向上 / 外部要因: DX・生成AI需要の拡大、品質保証需要の高まり",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:46.285Z"
+ },
+ "v3:JP:9602:26.03-08": {
+  "individual": [
+   {
+    "factor": "映像作品のヒット減",
+    "evidence": "大型案件の反動減の影響"
+   },
+   {
+    "factor": "商品化権収入の減少",
+    "evidence": "前年同期に計上された価格スライド分の剥落等が影響"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "自然災害の影響",
+    "evidence": "中東情勢や自然災害の影響"
+   },
+   {
+    "factor": "資材価格・労務費の上昇",
+    "evidence": "資材価格や労務費の上昇"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 映像作品のヒット減、商品化権収入の減少 / 外部要因: 自然災害の影響、資材価格・労務費の上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:00:53.769Z"
+ },
+ "v3:JP:8233:26.03-08": {
+  "individual": [
+   {
+    "factor": "国内顧客売上高の堅調さ",
+    "evidence": "国内顧客売上高が堅調に推移したことにより、前年実績を上回りました"
+   },
+   {
+    "factor": "人的資本経営に基づく販管費の適切な投下",
+    "evidence": "人的資本経営の推進に向けた費用を継続的に配分するとともに、営業力強化につながる費用についても効果を見極めながら適切に投下しました"
+   },
+   {
+    "factor": "インバウンド需要の取り込み",
+    "evidence": "円安を背景としたインバウンド需要の増加"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "円安による利益計上効果",
+    "evidence": "円安の影響により、円貨ベースでは増収増益となっております"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 国内顧客売上高の堅調さ、人的資本経営に基づく販管費の適切な投下、インバウンド需要の取り込み / 外部要因: 円安による利益計上効果",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:02.700Z"
+ },
+ "v3:JP:402A:26.06-08": {
+  "individual": [
+   {
+    "factor": "Pale Blue社との契約解除に伴う売上取消処理",
+    "evidence": "当該契約の継続に不確実性が生じたことから、当該契約に係る売上高について取消処理を行っております"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "地政学的緊張による不透明感",
+    "evidence": "為替相場や金融資本市場の変動、エネルギー価格の高騰や給与の上昇の影響による物価の上昇、ウクライナ及び中東情勢の長期化といった地政学的な緊張などの影響により"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: Pale Blue社との契約解除に伴う売上取消処理 / 外部要因: 地政学的緊張による不透明感",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:09.040Z"
+ },
+ "v3:US:ASML:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:14.875Z"
+ },
+ "v3:US:BAC:Sep/2026": {
+  "individual": [
+   {
+    "factor": "規制費用の増加",
+    "evidence": "Regulatory Costs and Trading Slowdown Weigh on Results"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "取引の減速",
+    "evidence": "Regulatory Costs and Trading Slowdown Weigh on Results"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.62pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 規制費用の増加 / 外部要因: 取引の減速、米10年金利 約3か月 +0.62pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:25.922Z"
+ },
+ "v3:US:BLK:Sep/2026": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "AIデータセンターへの懸念",
+    "evidence": "Halting Data Centers Means Recession"
+   },
+   {
+    "factor": "景気後退リスク警告",
+    "evidence": "Data Center Moratorium Would Trigger a Recession"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "外部要因: AIデータセンターへの懸念、景気後退リスク警告",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:48.288Z"
+ },
+ "v3:US:PGR:Sep/2026": {
+  "individual": [
+   {
+    "factor": "値上げ",
+    "evidence": "Premiums higher"
+   },
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Net Premiums Earned Rise"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "CPI上昇",
+    "evidence": "CPI Jumps Back to Spring Levels"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 値上げ、販売数量の増加 / 外部要因: CPI上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:01:55.446Z"
+ },
+ "v3:US:FAST:Sep/2026": {
+  "individual": [
+   {
+    "factor": "デジタル展開の拡大",
+    "evidence": "Digital Expansion Fuel Growth"
+   },
+   {
+    "factor": "市場シェア獲得",
+    "evidence": "Market Share Gains and Digital Expansion Fuel Growth"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "株価下落要因",
+    "evidence": "Shares Are Plunging Today"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: デジタル展開の拡大、市場シェア獲得 / 外部要因: 株価下落要因",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:02.650Z"
+ },
+ "v3:US:STT:Sep/2026": {
+  "individual": [
+   {
+    "factor": "手数料収益の下降",
+    "evidence": "Fee revenue growth outlook trails views"
+   },
+   {
+    "factor": "預金の流出",
+    "evidence": "Cash outflows offset growth in ETFs"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "競合他社の好決算",
+    "evidence": "BlackRock Jumps On Across The Board Earnings Beat"
+   },
+   {
+    "factor": "株価下落要因",
+    "evidence": "State Street Stock Tumbles as Cash Outflows Offset Growth in ETFs"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 手数料収益の下降、預金の流出 / 外部要因: 競合他社の好決算、株価下落要因",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:14.819Z"
+ },
+ "v3:US:HOMB:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.62pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.62pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:27.128Z"
+ },
+ "v3:US:EQBK:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.62pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.62pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:32.471Z"
+ },
+ "v3:US:SOTK:Aug/2026": {
+  "individual": [
+   {
+    "factor": "医療分野の好調",
+    "evidence": "Strong Medical Sector"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 医療分野の好調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:37.657Z"
+ },
+ "v3:US:CMTL:Jul/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の減少",
+    "evidence": "Sales Decline"
+   },
+   {
+    "factor": "大型案件の不振",
+    "evidence": "Net Loss Widens"
+   },
+   {
+    "factor": "販管費の増加",
+    "evidence": "Leadership Updates"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向の悪化",
+    "evidence": "Sales Decline"
+   },
+   {
+    "factor": "市場環境の変化",
+    "evidence": "Net Loss Widens"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の減少、大型案件の不振、販管費の増加 / 外部要因: 需要動向の悪化、市場環境の変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:45.336Z"
+ },
+ "v3:US:EDUC:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-15T09:02:50.604Z"
  }
 }
