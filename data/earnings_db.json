@@ -18084,9 +18084,9 @@
   "industry": "Basic Materials",
   "subIndustry": "Gold",
   "period": "Aug/2026",
-  "date": "2026-10-09",
-  "marketCap": 192090784,
-  "eps": "$0",
+  "date": "2026-10-14",
+  "marketCap": 177698992,
+  "eps": "($0.04)",
   "epsForecast": null,
   "surprise": null,
   "rev": null,
@@ -18097,7 +18097,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-12T18:02:51.914Z"
+  "updatedAt": "2026-10-16T13:36:40.989Z"
  },
  "US:TORO:Jun/2026": {
   "key": "US:TORO:Jun/2026",
@@ -23477,9 +23477,9 @@
   "industry": "Communication Services",
   "subIndustry": "Telecom Services",
   "period": "Aug/2026",
-  "date": "2026-10-13",
-  "marketCap": 14928119,
-  "eps": "($0.03)",
+  "date": "2026-10-15",
+  "marketCap": 13694763,
+  "eps": "($0.08)",
   "epsForecast": null,
   "surprise": null,
   "rev": null,
@@ -23490,7 +23490,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-14T18:06:12.011Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "US:BMRA:Aug/2026": {
   "key": "US:BMRA:Aug/2026",
@@ -23500,9 +23500,9 @@
   "industry": "Healthcare",
   "subIndustry": "Medical Devices",
   "period": "Aug/2026",
-  "date": "2026-10-13",
-  "marketCap": 8508091,
-  "eps": "$0",
+  "date": "2026-10-15",
+  "marketCap": 8278142,
+  "eps": "($0.37)",
   "epsForecast": null,
   "surprise": null,
   "rev": null,
@@ -23513,7 +23513,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-14T18:06:12.011Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "US:TGL:Jun/2026": {
   "key": "US:TGL:Jun/2026",
@@ -23563,7 +23563,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6521:26.03-08": {
   "key": "JP:6521:26.03-08",
@@ -23590,7 +23590,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5869:26.06-08": {
   "key": "JP:5869:26.06-08",
@@ -23617,7 +23617,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7065:2026.08": {
   "key": "JP:7065:2026.08",
@@ -23644,7 +23644,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:1430:26.06-08": {
   "key": "JP:1430:26.06-08",
@@ -23671,7 +23671,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4439:2026.08": {
   "key": "JP:4439:2026.08",
@@ -23698,7 +23698,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4015:2026.08": {
   "key": "JP:4015:2026.08",
@@ -23725,7 +23725,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5817:26.03-08": {
   "key": "JP:5817:26.03-08",
@@ -23752,7 +23752,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5078:26.03-08": {
   "key": "JP:5078:26.03-08",
@@ -23779,7 +23779,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:1887:26.06-08": {
   "key": "JP:1887:26.06-08",
@@ -23806,7 +23806,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:8167:26.03-08": {
   "key": "JP:8167:26.03-08",
@@ -23833,7 +23833,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6150:26.06-08": {
   "key": "JP:6150:26.06-08",
@@ -23859,8 +23859,40 @@
   },
   "verdict": "悪い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "生産性向上投資",
+     "evidence": "基幹システムの更新(2027年６月稼働予定)"
+    },
+    {
+     "factor": "省人化・省段取り新製品",
+     "evidence": "省人化・省段取りに係る新製品開発"
+    },
+    {
+     "factor": "保守サービス充実",
+     "evidence": "保守サービスの充実"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "建設費用増加",
+     "evidence": "建設費用の増加"
+    },
+    {
+     "factor": "人手不足影響",
+     "evidence": "建設業を取り巻く 人手不足の影響"
+    },
+    {
+     "factor": "鉄骨需要低迷",
+     "evidence": "全体的な鉄骨需要量の低迷"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 生産性向上投資、省人化・省段取り新製品、保守サービス充実 / 外部要因: 建設費用増加、人手不足影響、鉄骨需要低迷"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9778:26.03-08": {
   "key": "JP:9778:26.03-08",
@@ -23887,7 +23919,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3223:26.03-08": {
   "key": "JP:3223:26.03-08",
@@ -23913,8 +23945,40 @@
   },
   "verdict": "悪い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "直営店舗閉鎖に伴う減損損失",
+     "evidence": "直営店舗の定期建物賃貸借契約の満了による閉鎖に伴い減損損失３百万円を計上"
+    },
+    {
+     "factor": "繰延税金資産の取崩し",
+     "evidence": "繰延税金資産の取崩しにより法人税等調整額43百万円を計上"
+    },
+    {
+     "factor": "一部食材価格の高騰",
+     "evidence": "一部食材価格の高騰によるコスト増加の影響を受けました"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "天候不良",
+     "evidence": "天候不良によるテラス店舗における営業縮小"
+    },
+    {
+     "factor": "人件費・求人費の増大",
+     "evidence": "人材確保に伴う人件費・求人費の増大"
+    },
+    {
+     "factor": "原材料費高騰の長期化",
+     "evidence": "原材料費高騰の長期化"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 直営店舗閉鎖に伴う減損損失、繰延税金資産の取崩し、一部食材価格の高騰 / 外部要因: 天候不良、人件費・求人費の増大、原材料費高騰の長期化"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:325A:2026.08": {
   "key": "JP:325A:2026.08",
@@ -23941,7 +24005,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3440:2026.08": {
   "key": "JP:3440:2026.08",
@@ -23968,7 +24032,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3558:26.03-08": {
   "key": "JP:3558:26.03-08",
@@ -23995,7 +24059,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:8887:26.06-08": {
   "key": "JP:8887:26.06-08",
@@ -24022,7 +24086,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6532:26.03-08": {
   "key": "JP:6532:26.03-08",
@@ -24047,7 +24111,7 @@
    "最終益": "+28.9"
   },
   "verdict": "良い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -24073,7 +24137,7 @@
    "source": "tdnet",
    "summary": "個別要因: 人材の採用・育成、コアクライアント戦略、サービスの強化 / 外部要因: DX・生成AI需要の高まり"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2484:2026.08": {
   "key": "JP:2484:2026.08",
@@ -24099,8 +24163,32 @@
   },
   "verdict": "悪い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販管費の増加",
+     "evidence": "営業損失は8,288百万円（前期は4,923百万円の営業損失）"
+    },
+    {
+     "factor": "サービス体験の改善",
+     "evidence": "ユーザー、配達員、加盟店の満足度向上・定着化を図ってきました"
+    },
+    {
+     "factor": "加盟店ラインナップの拡充",
+     "evidence": "加盟店ラインナップの拡充"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "フードデリバリー市場の成長",
+     "evidence": "フードデリバリー市場の成長や競争力向上を重点課題とし"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 販管費の増加、サービス体験の改善、加盟店ラインナップの拡充 / 外部要因: フードデリバリー市場の成長"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9250:25.12-08": {
   "key": "JP:9250:25.12-08",
@@ -24127,7 +24215,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7808:26.06-08": {
   "key": "JP:7808:26.06-08",
@@ -24154,7 +24242,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6578:26.03-08": {
   "key": "JP:6578:26.03-08",
@@ -24180,8 +24268,32 @@
   },
   "verdict": "悪い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "採用活動の影響",
+     "evidence": "将来の事業拡大に向けた採用活動等を先行して実施した影響により、前年同期を下回る結果となった"
+    },
+    {
+     "factor": "ストック型商材の好調",
+     "evidence": "ストック型商材の会員数が上期を通じて着実に増加したことで売上高は大きく伸長いたしました"
+    },
+    {
+     "factor": "収益性維持への取り組み",
+     "evidence": "収益性の高い多様なメディア運営に加え、SEOに頼らない広告集客モデルや人材プラットフォームビジネスにも注力し、収益性の維持に努めてまいりました"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "競合の参入等による厳しい競争",
+     "evidence": "需要の拡大に伴う競合の参入等により、依然として厳しい競争が続いております"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 採用活動の影響、ストック型商材の好調、収益性維持への取り組み / 外部要因: 競合の参入等による厳しい競争"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:618A:26.09-02": {
   "key": "JP:618A:26.09-02",
@@ -24207,8 +24319,40 @@
   },
   "verdict": "良い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "サービスの付加価値向上",
+     "evidence": "商品ラインナップの拡充や地産地消の取組み"
+    },
+    {
+     "factor": "利用機会の拡大",
+     "evidence": "地方の特産品等をオフィスワーカーへ届けるサンプリング施策"
+    },
+    {
+     "factor": "企業ニーズの拡大",
+     "evidence": "福利厚生制度の充実に対する企業ニーズが引き続き高まっている"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "国際情勢の不確実性",
+     "evidence": "中東情勢をはじめとする国際情勢の不確実性"
+    },
+    {
+     "factor": "原材料・エネルギー価格の上昇",
+     "evidence": "原材料・エネルギー価格や物流費の上昇"
+    },
+    {
+     "factor": "為替及び金融資本市場の変動",
+     "evidence": "為替及び金融資本市場の変動"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: サービスの付加価値向上、利用機会の拡大、企業ニーズの拡大 / 外部要因: 国際情勢の不確実性、原材料・エネルギー価格の上昇、為替及び金融資本市場の変動"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2404:2026.08": {
   "key": "JP:2404:2026.08",
@@ -24234,8 +24378,40 @@
   },
   "verdict": "良い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "既存事業の収益力向上",
+     "evidence": "収益力向上に努めた"
+    },
+    {
+     "factor": "店舗オペレーションの効率化",
+     "evidence": "店舗オペレーションの効率化"
+    },
+    {
+     "factor": "人材派遣事業の子会社化",
+     "evidence": "人材派遣事業を展開する企業を子会社化"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "インバウンド需要の拡大",
+     "evidence": "インバウンド需要の拡大"
+    },
+    {
+     "factor": "人手不足に起因する人件費の上昇",
+     "evidence": "人手不足に起因する人件費の上昇"
+    },
+    {
+     "factor": "物価高による生活防衛志向の継続",
+     "evidence": "物価高による生活防衛志向の継続"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 既存事業の収益力向上、店舗オペレーションの効率化、人材派遣事業の子会社化 / 外部要因: インバウンド需要の拡大、人手不足に起因する人件費の上昇、物価高による生活防衛志向の継続"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3021:26.06-08": {
   "key": "JP:3021:26.06-08",
@@ -24262,7 +24438,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9978:2026.08": {
   "key": "JP:9978:2026.08",
@@ -24289,7 +24465,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6182:26.03-08": {
   "key": "JP:6182:26.03-08",
@@ -24316,7 +24492,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:304A:26.03-08": {
   "key": "JP:304A:26.03-08",
@@ -24343,7 +24519,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4370:2026.08": {
   "key": "JP:4370:2026.08",
@@ -24370,7 +24546,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3994:25.12-08": {
   "key": "JP:3994:25.12-08",
@@ -24395,7 +24571,7 @@
    "最終益": "黒転"
   },
   "verdict": "良い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -24429,7 +24605,7 @@
    "source": "tdnet",
    "summary": "個別要因: 価格改定と機能強化、AI機能の開発・リリース、営業・マーケティング体制の拡充 / 外部要因: SaaS市場の拡大、労働力不足による需要喚起、資金管理ニーズの高まり"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7360:25.12-08": {
   "key": "JP:7360:25.12-08",
@@ -24456,7 +24632,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2930:26.03-08": {
   "key": "JP:2930:26.03-08",
@@ -24483,7 +24659,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7514:2026.08": {
   "key": "JP:7514:2026.08",
@@ -24510,7 +24686,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:198A:26.06-08": {
   "key": "JP:198A:26.06-08",
@@ -24537,7 +24713,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7352:2026.08": {
   "key": "JP:7352:2026.08",
@@ -24564,7 +24740,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:367A:2026.08": {
   "key": "JP:367A:2026.08",
@@ -24591,7 +24767,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3826:26.03-08": {
   "key": "JP:3826:26.03-08",
@@ -24618,7 +24794,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2449:2026.08": {
   "key": "JP:2449:2026.08",
@@ -24645,7 +24821,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6199:2026.08": {
   "key": "JP:6199:2026.08",
@@ -24672,7 +24848,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3479:26.03-08": {
   "key": "JP:3479:26.03-08",
@@ -24699,7 +24875,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3810:26.06-08": {
   "key": "JP:3810:26.06-08",
@@ -24726,7 +24902,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6866:26.01-09": {
   "key": "JP:6866:26.01-09",
@@ -24753,7 +24929,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7818:2026.08": {
   "key": "JP:7818:2026.08",
@@ -24780,7 +24956,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5574:2026.08": {
   "key": "JP:5574:2026.08",
@@ -24807,7 +24983,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:369A:2026.08": {
   "key": "JP:369A:2026.08",
@@ -24834,7 +25010,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4490:26.03-08": {
   "key": "JP:4490:26.03-08",
@@ -24861,7 +25037,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2934:26.06-08": {
   "key": "JP:2934:26.06-08",
@@ -24888,7 +25064,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2936:26.03-08": {
   "key": "JP:2936:26.03-08",
@@ -24915,7 +25091,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:623A:26.06-11": {
   "key": "JP:623A:26.06-11",
@@ -24942,7 +25118,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5575:26.06-08": {
   "key": "JP:5575:26.06-08",
@@ -24969,7 +25145,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:581A:26.06-08": {
   "key": "JP:581A:26.06-08",
@@ -24994,7 +25170,7 @@
    "最終益": "－"
   },
   "verdict": "中立",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -25020,7 +25196,7 @@
    "source": "tdnet",
    "summary": "個別要因: アプリ配車サービスの拡大、1実車当たり平均売上高の向上、MAUの増加 / 外部要因: 自動運転タクシー導入に向けた取り組み"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3791:26.06-08": {
   "key": "JP:3791:26.06-08",
@@ -25047,7 +25223,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7351:2026.08": {
   "key": "JP:7351:2026.08",
@@ -25074,7 +25250,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3697:2026.08": {
   "key": "JP:3697:2026.08",
@@ -25099,7 +25275,7 @@
    "最終益": "-16.8"
   },
   "verdict": "良い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -25129,7 +25305,7 @@
    "source": "tdnet",
    "summary": "個別要因: 採用活動の正常化、大型案件獲得に向けたリソース集中、AI投資を背景とした顧客単価・顧客数の向上 / 外部要因: DX・生成AI需要の拡大、品質保証需要の高まり"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3935:26.03-08": {
   "key": "JP:3935:26.03-08",
@@ -25156,7 +25332,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:274A:26.03-08": {
   "key": "JP:274A:26.03-08",
@@ -25183,7 +25359,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6058:26.03-08": {
   "key": "JP:6058:26.03-08",
@@ -25210,7 +25386,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5025:26.03-08": {
   "key": "JP:5025:26.03-08",
@@ -25237,7 +25413,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7083:25.12-08": {
   "key": "JP:7083:25.12-08",
@@ -25264,7 +25440,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5580:2026.08": {
   "key": "JP:5580:2026.08",
@@ -25291,7 +25467,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7719:26.03-08": {
   "key": "JP:7719:26.03-08",
@@ -25318,7 +25494,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7997:25.12-08": {
   "key": "JP:7997:25.12-08",
@@ -25345,7 +25521,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4412:2026.08": {
   "key": "JP:4412:2026.08",
@@ -25372,7 +25548,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9602:26.03-08": {
   "key": "JP:9602:26.03-08",
@@ -25397,7 +25573,7 @@
    "最終益": "-40.2"
   },
   "verdict": "悪い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -25423,7 +25599,7 @@
    "source": "tdnet",
    "summary": "個別要因: 映像作品のヒット減、商品化権収入の減少 / 外部要因: 自然災害の影響、資材価格・労務費の上昇"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4017:26.03-08": {
   "key": "JP:4017:26.03-08",
@@ -25450,7 +25626,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5026:2026.08": {
   "key": "JP:5026:2026.08",
@@ -25477,7 +25653,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3915:26.03-08": {
   "key": "JP:3915:26.03-08",
@@ -25504,7 +25680,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4270:26.03-08": {
   "key": "JP:4270:26.03-08",
@@ -25531,7 +25707,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:469A:25.12-08": {
   "key": "JP:469A:25.12-08",
@@ -25558,7 +25734,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3548:26.03-08": {
   "key": "JP:3548:26.03-08",
@@ -25585,7 +25761,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9252:2026.08": {
   "key": "JP:9252:2026.08",
@@ -25612,7 +25788,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4434:26.03-08": {
   "key": "JP:4434:26.03-08",
@@ -25639,7 +25815,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3645:26.06-08": {
   "key": "JP:3645:26.06-08",
@@ -25666,7 +25842,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7689:26.03-08": {
   "key": "JP:7689:26.03-08",
@@ -25693,7 +25869,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:353A:26.06-08": {
   "key": "JP:353A:26.06-08",
@@ -25720,7 +25896,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9238:26.03-08": {
   "key": "JP:9238:26.03-08",
@@ -25747,7 +25923,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7077:26.03-08": {
   "key": "JP:7077:26.03-08",
@@ -25774,7 +25950,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6224:26.03-08": {
   "key": "JP:6224:26.03-08",
@@ -25801,7 +25977,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7807:26.03-08": {
   "key": "JP:7807:26.03-08",
@@ -25828,7 +26004,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:372A:26.06-08": {
   "key": "JP:372A:26.06-08",
@@ -25855,7 +26031,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7388:25.12-08": {
   "key": "JP:7388:25.12-08",
@@ -25882,7 +26058,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:8233:26.03-08": {
   "key": "JP:8233:26.03-08",
@@ -25907,7 +26083,7 @@
    "最終益": "-24.5"
   },
   "verdict": "良い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -25933,7 +26109,7 @@
    "source": "tdnet",
    "summary": "個別要因: 国内顧客売上高の堅調さ、人的資本経営に基づく販管費の適切な投下、インバウンド需要の取り込み / 外部要因: 円安による利益計上効果"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:190A:2026.08": {
   "key": "JP:190A:2026.08",
@@ -25960,7 +26136,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:276A:2026.08": {
   "key": "JP:276A:2026.08",
@@ -25987,7 +26163,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:205A:26.06-08": {
   "key": "JP:205A:26.06-08",
@@ -26014,7 +26190,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:277A:26.06-08": {
   "key": "JP:277A:26.06-08",
@@ -26041,7 +26217,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2168:26.06-08": {
   "key": "JP:2168:26.06-08",
@@ -26068,7 +26244,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6543:26.03-08": {
   "key": "JP:6543:26.03-08",
@@ -26095,7 +26271,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6522:2026.08": {
   "key": "JP:6522:2026.08",
@@ -26120,7 +26296,7 @@
    "最終益": "赤拡"
   },
   "verdict": "悪い",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -26154,7 +26330,7 @@
    "source": "tdnet",
    "summary": "個別要因: 不採算案件原価発生、新製品開発費用増加、販売遅延・受注減少 / 外部要因: 米国通商・経済政策変更、地政学的リスク、政策金利上昇"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7730:2026.08": {
   "key": "JP:7730:2026.08",
@@ -26181,7 +26357,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4616:25.12-08": {
   "key": "JP:4616:25.12-08",
@@ -26208,7 +26384,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2798:26.03-08": {
   "key": "JP:2798:26.03-08",
@@ -26235,7 +26411,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7515:26.03-08": {
   "key": "JP:7515:26.03-08",
@@ -26262,7 +26438,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2927:2026.08": {
   "key": "JP:2927:2026.08",
@@ -26289,7 +26465,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9388:26.03-08": {
   "key": "JP:9388:26.03-08",
@@ -26316,7 +26492,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3174:2026.08": {
   "key": "JP:3174:2026.08",
@@ -26343,7 +26519,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7357:26.03-08": {
   "key": "JP:7357:26.03-08",
@@ -26370,7 +26546,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9628:2026.08": {
   "key": "JP:9628:2026.08",
@@ -26383,21 +26559,15 @@
   "url": "https://kabutan.jp/news/?&b=k202610150129",
   "title": "燦ＨＤ、今期経常は32億円へ",
   "values": {
-   "売上高": 57736000000,
-   "営業益": 3954000000,
-   "経常益": 3734000000,
-   "最終益": 4562000000
+   "売上高": 57736000000
   },
   "yoy": {
-   "売上高": "－",
-   "営業益": "－",
-   "経常益": "－",
-   "最終益": "－"
+   "売上高": null
   },
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9241:2026.08": {
   "key": "JP:9241:2026.08",
@@ -26424,7 +26594,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4885:26.06-08": {
   "key": "JP:4885:26.06-08",
@@ -26451,7 +26621,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:402A:26.06-08": {
   "key": "JP:402A:26.06-08",
@@ -26470,13 +26640,13 @@
    "最終益": -2784000000
   },
   "yoy": {
-   "売上高": "3.1 倍",
+   "売上高": "+208.3",
    "営業益": "赤縮",
    "経常益": "赤縮",
    "最終益": "赤拡"
   },
   "verdict": "中立",
-  "star": true,
+  "star": false,
   "reasons": {
    "individual": [
     {
@@ -26494,7 +26664,7 @@
    "source": "tdnet",
    "summary": "個別要因: Pale Blue社との契約解除に伴う売上取消処理 / 外部要因: 地政学的緊張による不透明感"
   },
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4197:25.12-08": {
   "key": "JP:4197:25.12-08",
@@ -26521,7 +26691,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2884:26.03-08": {
   "key": "JP:2884:26.03-08",
@@ -26548,7 +26718,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6044:26.06-08": {
   "key": "JP:6044:26.06-08",
@@ -26575,7 +26745,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7035:2026.08": {
   "key": "JP:7035:2026.08",
@@ -26602,7 +26772,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:245A:2026.08": {
   "key": "JP:245A:2026.08",
@@ -26629,7 +26799,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7610:26.03-08": {
   "key": "JP:7610:26.03-08",
@@ -26656,7 +26826,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9979:2026.08": {
   "key": "JP:9979:2026.08",
@@ -26683,7 +26853,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4413:26.03-08": {
   "key": "JP:4413:26.03-08",
@@ -26710,7 +26880,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:414A:2026.08": {
   "key": "JP:414A:2026.08",
@@ -26737,7 +26907,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3266:25.12-08": {
   "key": "JP:3266:25.12-08",
@@ -26764,7 +26934,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6572:26.03-08": {
   "key": "JP:6572:26.03-08",
@@ -26791,7 +26961,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9326:26.03-08": {
   "key": "JP:9326:26.03-08",
@@ -26818,7 +26988,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:373A:2026.08": {
   "key": "JP:373A:2026.08",
@@ -26845,7 +27015,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:4016:25.12-08": {
   "key": "JP:4016:25.12-08",
@@ -26872,7 +27042,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7074:25.12-08": {
   "key": "JP:7074:25.12-08",
@@ -26891,7 +27061,7 @@
    "最終益": -25000000
   },
   "yoy": {
-   "売上高": "+21.1",
+   "売上高": "+21.0",
    "営業益": "赤縮",
    "経常益": "赤縮",
    "最終益": "赤縮"
@@ -26899,7 +27069,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:1418:26.03-08": {
   "key": "JP:1418:26.03-08",
@@ -26926,7 +27096,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:280A:25.12-08": {
   "key": "JP:280A:25.12-08",
@@ -26953,7 +27123,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5018:26.03-08": {
   "key": "JP:5018:26.03-08",
@@ -26980,7 +27150,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:244A:2026.08": {
   "key": "JP:244A:2026.08",
@@ -27007,7 +27177,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:6555:26.03-08": {
   "key": "JP:6555:26.03-08",
@@ -27034,7 +27204,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7815:26.03-08": {
   "key": "JP:7815:26.03-08",
@@ -27053,15 +27223,15 @@
    "最終益": 3916000000
   },
   "yoy": {
-   "売上高": "－",
-   "営業益": "－",
-   "経常益": "－",
-   "最終益": "－"
+   "売上高": "-46.4",
+   "営業益": "赤拡",
+   "経常益": "赤拡",
+   "最終益": "黒転"
   },
-  "verdict": "中立",
+  "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:7049:26.03-08": {
   "key": "JP:7049:26.03-08",
@@ -27088,7 +27258,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:5527:25.12-08": {
   "key": "JP:5527:25.12-08",
@@ -27115,7 +27285,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:2437:26.06-08": {
   "key": "JP:2437:26.06-08",
@@ -27142,7 +27312,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3557:26.03-08": {
   "key": "JP:3557:26.03-08",
@@ -27169,7 +27339,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3547:25.12-08": {
   "key": "JP:3547:25.12-08",
@@ -27196,7 +27366,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:589A:2026.08": {
   "key": "JP:589A:2026.08",
@@ -27223,7 +27393,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:9215:25.12-08": {
   "key": "JP:9215:25.12-08",
@@ -27250,7 +27420,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:8783:2026.08": {
   "key": "JP:8783:2026.08",
@@ -27277,7 +27447,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:8254:2026.08": {
   "key": "JP:8254:2026.08",
@@ -27304,7 +27474,7 @@
   "verdict": "良い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "JP:3189:2026.08": {
   "key": "JP:3189:2026.08",
@@ -27331,7 +27501,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-15T09:02:59.676Z"
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  },
  "US:ASML:Sep/2026": {
   "key": "US:ASML:Sep/2026",
@@ -27798,5 +27968,1031 @@
   "verdict": "中立",
   "reasons": null,
   "updatedAt": "2026-10-15T09:02:59.676Z"
+ },
+ "US:CHRN:Aug/2026": {
+  "key": "US:CHRN:Aug/2026",
+  "market": "US",
+  "code": "CHRN",
+  "name": "ChronoScale Holdings Corporation",
+  "industry": "Technology",
+  "subIndustry": "Information Technology Services",
+  "period": "Aug/2026",
+  "date": "2026-10-14",
+  "marketCap": 2167085310,
+  "eps": "($0.18)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 41482000,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:40.989Z"
+ },
+ "US:WINA:Sep/2026": {
+  "key": "US:WINA:Sep/2026",
+  "market": "US",
+  "code": "WINA",
+  "name": "Winmark Corporation",
+  "industry": "Consumer Cyclical",
+  "subIndustry": "Specialty Retail",
+  "period": "Sep/2026",
+  "date": "2026-10-14",
+  "marketCap": 1070358590,
+  "eps": "$3.21",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 27890500,
+  "op": null,
+  "net": 11818100,
+  "revYoY": 23.229899836079333,
+  "opYoY": null,
+  "netYoY": 6.1204148520630355,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:40.989Z"
+ },
+ "US:ETS:Aug/2026": {
+  "key": "US:ETS:Aug/2026",
+  "market": "US",
+  "code": "ETS",
+  "name": "Elite Express Holding Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Trucking",
+  "period": "Aug/2026",
+  "date": "2026-10-14",
+  "marketCap": 92561680,
+  "eps": "($0.02)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:40.989Z"
+ },
+ "JP:6085:26.03-08": {
+  "key": "JP:6085:26.03-08",
+  "market": "JP",
+  "code": "6085",
+  "name": "アーキテクツ・スタジオ・ジャパン",
+  "industry": "サービス業",
+  "period": "26.03-08",
+  "date": "2026-10-16",
+  "url": "https://kabutan.jp/news/?&b=k202610160001",
+  "title": "アーキテクツ、上期最終は3.2億円の赤字で着地",
+  "values": {
+   "売上高": 196000000,
+   "営業益": -318000000,
+   "経常益": -321000000,
+   "最終益": -323000000
+  },
+  "yoy": {
+   "売上高": "－",
+   "営業益": "－",
+   "経常益": "－",
+   "最終益": "－"
+  },
+  "verdict": "中立",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "JP:2411:26.04-09": {
+  "key": "JP:2411:26.04-09",
+  "market": "JP",
+  "code": "2411",
+  "name": "ゲンダイエージェンシー",
+  "industry": "情報・通信業",
+  "period": "26.04-09",
+  "date": "2026-10-16",
+  "url": "https://kabutan.jp/news/?&b=k202610160009",
+  "title": "ゲンダイ、上期経常が33％減益で着地・7-9月期も31％減益",
+  "values": {
+   "売上高": 3645000000,
+   "営業益": 266000000,
+   "経常益": 267000000,
+   "最終益": 154000000
+  },
+  "yoy": {
+   "売上高": "-7.0",
+   "営業益": "-33.2",
+   "経常益": "-32.9",
+   "最終益": "-41.0"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:TSM:Sep/2026": {
+  "key": "US:TSM:Sep/2026",
+  "market": "US",
+  "code": "TSM",
+  "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+  "industry": "Technology",
+  "subIndustry": "Semiconductors",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 2230197160000,
+  "eps": "$4.60",
+  "epsForecast": "$4.45",
+  "surprise": 3.37,
+  "rev": 1494243000000,
+  "op": null,
+  "net": 763064000000,
+  "revYoY": 50.94609048339683,
+  "opYoY": null,
+  "netYoY": 68.70697021731795,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "AIチップ需要の拡大",
+     "evidence": "Unprecedented Demand for AI Chips"
+    },
+    {
+     "factor": "Nvidia供給 chain への貢献",
+     "evidence": "Supercharge Nvidia's AI Supply Chain"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "米国政府の支援策",
+     "evidence": "Taiwan to Invest Billions in US Production Facilities"
+    },
+    {
+     "factor": "中国規制の影響",
+     "evidence": "Mulling Greater Curbs On AI Chip Sales To China"
+    },
+    {
+     "factor": "市場の楽観的見通し",
+     "evidence": "TSMC Record Quarter Highlights"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: AIチップ需要の拡大、Nvidia供給 chain への貢献 / 外部要因: 米国政府の支援策、中国規制の影響、市場の楽観的見通し"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:SCHW:Sep/2026": {
+  "key": "US:SCHW:Sep/2026",
+  "market": "US",
+  "code": "SCHW",
+  "name": "The Charles Schwab Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Capital Markets",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 167399703000,
+  "eps": "$1.69",
+  "epsForecast": "$1.66",
+  "surprise": 1.81,
+  "rev": 7171000000,
+  "op": null,
+  "net": 2811000000,
+  "revYoY": 16.88671556642217,
+  "opYoY": null,
+  "netYoY": 19.21119592875318,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "sp500",
+     "effect": "追い風",
+     "reason": "株式市場の上昇は売買・運用関連の収入を押し上げる",
+     "change": "S&P500 約3か月 +3.8%"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: S&P500 約3か月 +3.8%(追い風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:PLD:Sep/2026": {
+  "key": "US:PLD:Sep/2026",
+  "market": "US",
+  "code": "PLD",
+  "name": "Prologis, Inc.",
+  "industry": "Real Estate",
+  "subIndustry": "REIT - Industrial",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 123685994000,
+  "eps": "$1.60",
+  "epsForecast": "$1.58",
+  "surprise": 1.27,
+  "rev": 2205269000,
+  "op": null,
+  "net": 815734000,
+  "revYoY": -0.3890001314433793,
+  "opYoY": null,
+  "netYoY": 6.7343045484163895,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [],
+   "cited": [
+    {
+     "factor": "需要動向",
+     "evidence": "Record Leasing"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "逆風",
+     "reason": "金利上昇は借入コストを押し上げ、資産価値の重荷になる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 需要動向、米10年金利 約3か月 +0.50pt(逆風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:BNY:Sep/2026": {
+  "key": "US:BNY:Sep/2026",
+  "market": "US",
+  "code": "BNY",
+  "name": "The Bank Of New York Mellon Corporation ",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Diversified",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 93389308000,
+  "eps": "$2.37",
+  "epsForecast": "$2.26",
+  "surprise": 4.87,
+  "rev": 5676000000,
+  "op": null,
+  "net": 1608000000,
+  "revYoY": 13.49730053989202,
+  "opYoY": null,
+  "netYoY": 11.280276816608996,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "手数料収入増",
+     "evidence": "Fee Income & NII Growth"
+    },
+    {
+     "factor": "AI導入による業務効率化",
+     "evidence": "embedding AI 'everywhere'"
+    },
+    {
+     "factor": "金利上昇による利益拡大",
+     "evidence": "NII Growth"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利上昇トレンド",
+     "evidence": "NII Growth"
+    },
+    {
+     "factor": "市場環境の好転",
+     "evidence": "Fee Income & NII Growth"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 手数料収入増、AI導入による業務効率化、金利上昇による利益拡大 / 外部要因: 金利上昇トレンド、市場環境の好転、米10年金利 約3か月 +0.50pt(追い風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:USB:Sep/2026": {
+  "key": "US:USB:Sep/2026",
+  "market": "US",
+  "code": "USB",
+  "name": "U.S. Bancorp",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 87655973000,
+  "eps": "$1.34",
+  "epsForecast": "$1.32",
+  "surprise": 1.52,
+  "rev": 7970000000,
+  "op": null,
+  "net": 2095000000,
+  "revYoY": 9.178082191780822,
+  "opYoY": null,
+  "netYoY": 4.697651174412794,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:PNC:Sep/2026": {
+  "key": "US:PNC:Sep/2026",
+  "market": "US",
+  "code": "PNC",
+  "name": "PNC Financial Services Group, Inc. (The)",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 86092046000,
+  "eps": "$5.09",
+  "epsForecast": "$4.97",
+  "surprise": 2.41,
+  "rev": 6562000000,
+  "op": null,
+  "net": 1994000000,
+  "revYoY": 11.220338983050846,
+  "opYoY": null,
+  "netYoY": 10.287610619469026,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "強力なローン成長",
+     "evidence": "Strong Loan Growth"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利環境の影響",
+     "evidence": "AI and rate fears hit tech"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 強力なローン成長 / 外部要因: 金利環境の影響、米10年金利 約3か月 +0.50pt(追い風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:MRSH:Sep/2026": {
+  "key": "US:MRSH:Sep/2026",
+  "market": "US",
+  "code": "MRSH",
+  "name": "Marsh",
+  "industry": "Financial Services",
+  "subIndustry": "Insurance Brokers",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 85134492000,
+  "eps": "$2.03",
+  "epsForecast": "$1.96",
+  "surprise": 3.57,
+  "rev": 6863000000,
+  "op": null,
+  "net": 808000000,
+  "revYoY": 8.061722563375847,
+  "opYoY": null,
+  "netYoY": 8.165997322623829,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:IBKR:Sep/2026": {
+  "key": "US:IBKR:Sep/2026",
+  "market": "US",
+  "code": "IBKR",
+  "name": "Interactive Brokers Group, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Capital Markets",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 38121996000,
+  "eps": "$0.67",
+  "epsForecast": "$0.67",
+  "surprise": null,
+  "rev": 1872000000,
+  "op": null,
+  "net": 314000000,
+  "revYoY": -30.76923076923077,
+  "opYoY": null,
+  "netYoY": 19.39163498098859,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:ERIC:Sep/2026": {
+  "key": "US:ERIC:Sep/2026",
+  "market": "US",
+  "code": "ERIC",
+  "name": "Ericsson",
+  "industry": "Technology",
+  "subIndustry": "Communication Equipment",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 32297549800,
+  "eps": "$0.18",
+  "epsForecast": "$0.14",
+  "surprise": 28.57,
+  "rev": 59478000000,
+  "op": null,
+  "net": 5806000000,
+  "revYoY": 5.759348494816765,
+  "opYoY": null,
+  "netYoY": -47.923580590187456,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:JBHT:Sep/2026": {
+  "key": "US:JBHT:Sep/2026",
+  "market": "US",
+  "code": "JBHT",
+  "name": "J.B. Hunt Transport Services, Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Integrated Freight & Logistics",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 21803292700,
+  "eps": "$1.82",
+  "epsForecast": "$1.81",
+  "surprise": 0.55,
+  "rev": 3676807000,
+  "op": null,
+  "net": 172418000,
+  "revYoY": 20.436654102644145,
+  "opYoY": null,
+  "netYoY": 0.9183548045349987,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:WIT:Sep/2026": {
+  "key": "US:WIT:Sep/2026",
+  "market": "US",
+  "code": "WIT",
+  "name": "Wipro Limited",
+  "industry": "Technology",
+  "subIndustry": "Information Technology Services",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 17826390000,
+  "eps": "$0.03",
+  "epsForecast": "$0.04",
+  "surprise": -25,
+  "rev": 247527000000,
+  "op": null,
+  "net": 32006000000,
+  "revYoY": 9.05570266066889,
+  "opYoY": null,
+  "netYoY": -1.4047193641796563,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:FHN:Sep/2026": {
+  "key": "US:FHN:Sep/2026",
+  "market": "US",
+  "code": "FHN",
+  "name": "First Horizon Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 10740528100,
+  "eps": "$0.53",
+  "epsForecast": "$0.53",
+  "surprise": null,
+  "rev": 883000000,
+  "op": null,
+  "net": -94000000,
+  "revYoY": 2.0809248554913293,
+  "opYoY": null,
+  "netYoY": -135.87786259541986,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:AA:Sep/2026": {
+  "key": "US:AA:Sep/2026",
+  "market": "US",
+  "code": "AA",
+  "name": "Alcoa Corporation",
+  "industry": "Basic Materials",
+  "subIndustry": "Aluminum",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 10577490900,
+  "eps": "$1.82",
+  "epsForecast": "$1.65",
+  "surprise": 10.3,
+  "rev": 3704000000,
+  "op": null,
+  "net": 483000000,
+  "revYoY": 23.67278797996661,
+  "opYoY": null,
+  "netYoY": 108.1896551724138,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "販売数量の増加",
+     "evidence": "Increased Production"
+    },
+    {
+     "factor": "原価低減効果",
+     "evidence": "Cost Pressures"
+    },
+    {
+     "factor": "新規案件の効果",
+     "evidence": "AliGroup Deal"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "アルミニウム需要の引き締まり",
+     "evidence": "Alumina Market Tightens"
+    },
+    {
+     "factor": "為替相場の影響",
+     "evidence": "Stock Rises Overnight"
+    },
+    {
+     "factor": "市場の好調さ",
+     "evidence": "Stocks to Watch"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 販売数量の増加、原価低減効果、新規案件の効果 / 外部要因: アルミニウム需要の引き締まり、為替相場の影響、市場の好調さ"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:CMC:Aug/2026": {
+  "key": "US:CMC:Aug/2026",
+  "market": "US",
+  "code": "CMC",
+  "name": "Commercial Metals Company",
+  "industry": "Industrials",
+  "subIndustry": "Metal Fabrication",
+  "period": "Aug/2026",
+  "date": "2026-10-15",
+  "marketCap": 7222662700,
+  "eps": "$2.09",
+  "epsForecast": "$1.97",
+  "surprise": 6.09,
+  "rev": 2658334000,
+  "op": null,
+  "net": 212520000,
+  "revYoY": 25.71820150029463,
+  "opYoY": null,
+  "netYoY": 40.01752525019601,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:FFIN:Sep/2026": {
+  "key": "US:FFIN:Sep/2026",
+  "market": "US",
+  "code": "FFIN",
+  "name": "First Financial Bankshares, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 4427386900,
+  "eps": "$0.52",
+  "epsForecast": "$0.52",
+  "surprise": null,
+  "rev": 177767000,
+  "op": null,
+  "net": 74308000,
+  "revYoY": 12.844292941796324,
+  "opYoY": null,
+  "netYoY": 42.17001167084394,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:INDB:Sep/2026": {
+  "key": "US:INDB:Sep/2026",
+  "market": "US",
+  "code": "INDB",
+  "name": "Independent Bank Corp.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 3601946370,
+  "eps": "$1.90",
+  "epsForecast": "$1.84",
+  "surprise": 3.26,
+  "rev": 261948000,
+  "op": null,
+  "net": 89749000,
+  "revYoY": 7.4693733537921245,
+  "opYoY": null,
+  "netYoY": 161.94909812620395,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:CNS:Sep/2026": {
+  "key": "US:CNS:Sep/2026",
+  "market": "US",
+  "code": "CNS",
+  "name": "Cohen & Steers Inc",
+  "industry": "Financial Services",
+  "subIndustry": "Asset Management",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 3413875460,
+  "eps": "$0.89",
+  "epsForecast": "$0.87",
+  "surprise": 2.3,
+  "rev": 157427000,
+  "op": null,
+  "net": 42244000,
+  "revYoY": 7.220110879544494,
+  "opYoY": null,
+  "netYoY": 1.2778403778379803,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:SFNC:Sep/2026": {
+  "key": "US:SFNC:Sep/2026",
+  "market": "US",
+  "code": "SFNC",
+  "name": "Simmons First National Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 3186529020,
+  "eps": "$0.54",
+  "epsForecast": "$0.53",
+  "surprise": 1.89,
+  "rev": 251167000,
+  "op": null,
+  "net": 47113000,
+  "revYoY": 143.85335132860638,
+  "opYoY": null,
+  "netYoY": 108.37129881021764,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:MAN:Sep/2026": {
+  "key": "US:MAN:Sep/2026",
+  "market": "US",
+  "code": "MAN",
+  "name": "ManpowerGroup",
+  "industry": "Industrials",
+  "subIndustry": "Staffing & Employment Services",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 2416429310,
+  "eps": "$1.01",
+  "epsForecast": "$1.01",
+  "surprise": null,
+  "rev": 4840000000,
+  "op": null,
+  "net": 34100000,
+  "revYoY": 4.436388745037114,
+  "opYoY": null,
+  "netYoY": 89.44444444444444,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:WAFD:Sep/2026": {
+  "key": "US:WAFD:Sep/2026",
+  "market": "US",
+  "code": "WAFD",
+  "name": "WaFd, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 2139202300,
+  "eps": "$0.72",
+  "epsForecast": "$0.83",
+  "surprise": null,
+  "rev": 220437000,
+  "op": null,
+  "net": 56335000,
+  "revYoY": 17.49371055773495,
+  "opYoY": null,
+  "netYoY": -7.033351486047164,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:WABC:Sep/2026": {
+  "key": "US:WABC:Sep/2026",
+  "market": "US",
+  "code": "WABC",
+  "name": "Westamerica Bancorporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 1356624640,
+  "eps": "$1.22",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 64225000,
+  "op": null,
+  "net": 28152000,
+  "revYoY": 0.7609036711641042,
+  "opYoY": null,
+  "netYoY": -0.39273962424371084,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:NBBK:Sep/2026": {
+  "key": "US:NBBK:Sep/2026",
+  "market": "US",
+  "code": "NBBK",
+  "name": "NB Bancorp, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 969703170,
+  "eps": "$0.60",
+  "epsForecast": "$0.59",
+  "surprise": 1.69,
+  "rev": 76545000,
+  "op": null,
+  "net": 23133000,
+  "revYoY": 47.981672659784245,
+  "opYoY": null,
+  "netYoY": 50.58586121598751,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:CWBC:Sep/2026": {
+  "key": "US:CWBC:Sep/2026",
+  "market": "US",
+  "code": "CWBC",
+  "name": "Community West Bancshares",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 693199040,
+  "eps": "$0.57",
+  "epsForecast": "$0.65",
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:NRIM:Sep/2026": {
+  "key": "US:NRIM:Sep/2026",
+  "market": "US",
+  "code": "NRIM",
+  "name": "Northrim BanCorp Inc",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 536321312,
+  "eps": "$0.60",
+  "epsForecast": "$0.71",
+  "surprise": -15.49,
+  "rev": 59649000,
+  "op": null,
+  "net": 14408000,
+  "revYoY": 13.890480009164852,
+  "opYoY": null,
+  "netYoY": -46.765194901163866,
+  "verdict": "悪い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:BSVN:Sep/2026": {
+  "key": "US:BSVN:Sep/2026",
+  "market": "US",
+  "code": "BSVN",
+  "name": "Bank7 Corp.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 524112608,
+  "eps": "$1.06",
+  "epsForecast": "$1",
+  "surprise": 6,
+  "rev": 23370000,
+  "op": null,
+  "net": 10203000,
+  "revYoY": -7.394198763670946,
+  "opYoY": null,
+  "netYoY": -5.9111029140538545,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:ALOY:Sep/2026": {
+  "key": "US:ALOY:Sep/2026",
+  "market": "US",
+  "code": "ALOY",
+  "name": "REalloys Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Other Industrial Metals & Mining",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 428314816,
+  "eps": "($0.21)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:ADUR:Aug/2026": {
+  "key": "US:ADUR:Aug/2026",
+  "market": "US",
+  "code": "ADUR",
+  "name": "Aduro Clean Technologies Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Pollution & Treatment Controls",
+  "period": "Aug/2026",
+  "date": "2026-10-15",
+  "marketCap": 356856640,
+  "eps": "($0.07)",
+  "epsForecast": "($0.11)",
+  "surprise": 36.36,
+  "rev": null,
+  "op": null,
+  "net": 1202140,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": 119.0061119193653,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:LCNB:Sep/2026": {
+  "key": "US:LCNB:Sep/2026",
+  "market": "US",
+  "code": "LCNB",
+  "name": "LCNB Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 264572576,
+  "eps": "$0.51",
+  "epsForecast": "$0.48",
+  "surprise": 6.25,
+  "rev": 19679000,
+  "op": null,
+  "net": 7309000,
+  "revYoY": -17.41921947125472,
+  "opYoY": null,
+  "netYoY": 5.377739331026529,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:NTRP:Aug/2026": {
+  "key": "US:NTRP:Aug/2026",
+  "market": "US",
+  "code": "NTRP",
+  "name": "NextTrip, Inc.",
+  "industry": "Consumer Cyclical",
+  "subIndustry": "Travel Services",
+  "period": "Aug/2026",
+  "date": "2026-10-15",
+  "marketCap": 25797232,
+  "eps": "($0.25)",
+  "epsForecast": "($0.24)",
+  "surprise": -4.17,
+  "rev": 546690,
+  "op": null,
+  "net": -3752000,
+  "revYoY": -27.843800815154268,
+  "opYoY": null,
+  "netYoY": -29.461674755145946,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:LOOP:Aug/2026": {
+  "key": "US:LOOP:Aug/2026",
+  "market": "US",
+  "code": "LOOP",
+  "name": "Loop Industries, Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Specialty Chemicals",
+  "period": "Aug/2026",
+  "date": "2026-10-15",
+  "marketCap": 16546087,
+  "eps": "($0.06)",
+  "epsForecast": "($0.05)",
+  "surprise": -20,
+  "rev": 117000,
+  "op": null,
+  "net": -2988000,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": 6.741573033707865,
+  "verdict": "悪い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "売上高の不足",
+     "evidence": "Misses Revenue Estimates"
+    },
+    {
+     "factor": "インド工場開発の加速",
+     "evidence": "Announces Plan to Expedite Development of India Facility"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 売上高の不足、インド工場開発の加速"
+  },
+  "updatedAt": "2026-10-16T13:36:41.030Z"
+ },
+ "US:PULM:Sep/2026": {
+  "key": "US:PULM:Sep/2026",
+  "market": "US",
+  "code": "PULM",
+  "name": "Pulmatrix, Inc.",
+  "industry": "Healthcare",
+  "subIndustry": "Biotechnology",
+  "period": "Sep/2026",
+  "date": "2026-10-15",
+  "marketCap": 5003630,
+  "eps": "($0.24)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-16T13:36:41.030Z"
  }
 }

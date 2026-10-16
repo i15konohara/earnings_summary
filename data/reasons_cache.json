@@ -3587,5 +3587,425 @@
   "summary": "材料から要因を特定できませんでした",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-15T09:02:50.604Z"
+ },
+ "v3:JP:6150:26.06-08": {
+  "individual": [
+   {
+    "factor": "生産性向上投資",
+    "evidence": "基幹システムの更新(2027年６月稼働予定)"
+   },
+   {
+    "factor": "省人化・省段取り新製品",
+    "evidence": "省人化・省段取りに係る新製品開発"
+   },
+   {
+    "factor": "保守サービス充実",
+    "evidence": "保守サービスの充実"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "建設費用増加",
+    "evidence": "建設費用の増加"
+   },
+   {
+    "factor": "人手不足影響",
+    "evidence": "建設業を取り巻く 人手不足の影響"
+   },
+   {
+    "factor": "鉄骨需要低迷",
+    "evidence": "全体的な鉄骨需要量の低迷"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 生産性向上投資、省人化・省段取り新製品、保守サービス充実 / 外部要因: 建設費用増加、人手不足影響、鉄骨需要低迷",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:11:26.291Z"
+ },
+ "v3:JP:3223:26.03-08": {
+  "individual": [
+   {
+    "factor": "直営店舗閉鎖に伴う減損損失",
+    "evidence": "直営店舗の定期建物賃貸借契約の満了による閉鎖に伴い減損損失３百万円を計上"
+   },
+   {
+    "factor": "繰延税金資産の取崩し",
+    "evidence": "繰延税金資産の取崩しにより法人税等調整額43百万円を計上"
+   },
+   {
+    "factor": "一部食材価格の高騰",
+    "evidence": "一部食材価格の高騰によるコスト増加の影響を受けました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "天候不良",
+    "evidence": "天候不良によるテラス店舗における営業縮小"
+   },
+   {
+    "factor": "人件費・求人費の増大",
+    "evidence": "人材確保に伴う人件費・求人費の増大"
+   },
+   {
+    "factor": "原材料費高騰の長期化",
+    "evidence": "原材料費高騰の長期化"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 直営店舗閉鎖に伴う減損損失、繰延税金資産の取崩し、一部食材価格の高騰 / 外部要因: 天候不良、人件費・求人費の増大、原材料費高騰の長期化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:14:11.643Z"
+ },
+ "v3:JP:2484:2026.08": {
+  "individual": [
+   {
+    "factor": "販管費の増加",
+    "evidence": "営業損失は8,288百万円（前期は4,923百万円の営業損失）"
+   },
+   {
+    "factor": "サービス体験の改善",
+    "evidence": "ユーザー、配達員、加盟店の満足度向上・定着化を図ってきました"
+   },
+   {
+    "factor": "加盟店ラインナップの拡充",
+    "evidence": "加盟店ラインナップの拡充"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "フードデリバリー市場の成長",
+    "evidence": "フードデリバリー市場の成長や競争力向上を重点課題とし"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 販管費の増加、サービス体験の改善、加盟店ラインナップの拡充 / 外部要因: フードデリバリー市場の成長",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:23:06.536Z"
+ },
+ "v3:JP:6578:26.03-08": {
+  "individual": [
+   {
+    "factor": "採用活動の影響",
+    "evidence": "将来の事業拡大に向けた採用活動等を先行して実施した影響により、前年同期を下回る結果となった"
+   },
+   {
+    "factor": "ストック型商材の好調",
+    "evidence": "ストック型商材の会員数が上期を通じて着実に増加したことで売上高は大きく伸長いたしました"
+   },
+   {
+    "factor": "収益性維持への取り組み",
+    "evidence": "収益性の高い多様なメディア運営に加え、SEOに頼らない広告集客モデルや人材プラットフォームビジネスにも注力し、収益性の維持に努めてまいりました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "競合の参入等による厳しい競争",
+    "evidence": "需要の拡大に伴う競合の参入等により、依然として厳しい競争が続いております"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 採用活動の影響、ストック型商材の好調、収益性維持への取り組み / 外部要因: 競合の参入等による厳しい競争",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:23:34.294Z"
+ },
+ "v3:JP:618A:26.09-02": {
+  "individual": [
+   {
+    "factor": "サービスの付加価値向上",
+    "evidence": "商品ラインナップの拡充や地産地消の取組み"
+   },
+   {
+    "factor": "利用機会の拡大",
+    "evidence": "地方の特産品等をオフィスワーカーへ届けるサンプリング施策"
+   },
+   {
+    "factor": "企業ニーズの拡大",
+    "evidence": "福利厚生制度の充実に対する企業ニーズが引き続き高まっている"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "国際情勢の不確実性",
+    "evidence": "中東情勢をはじめとする国際情勢の不確実性"
+   },
+   {
+    "factor": "原材料・エネルギー価格の上昇",
+    "evidence": "原材料・エネルギー価格や物流費の上昇"
+   },
+   {
+    "factor": "為替及び金融資本市場の変動",
+    "evidence": "為替及び金融資本市場の変動"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: サービスの付加価値向上、利用機会の拡大、企業ニーズの拡大 / 外部要因: 国際情勢の不確実性、原材料・エネルギー価格の上昇、為替及び金融資本市場の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:23:47.649Z"
+ },
+ "v3:JP:2404:2026.08": {
+  "individual": [
+   {
+    "factor": "既存事業の収益力向上",
+    "evidence": "収益力向上に努めた"
+   },
+   {
+    "factor": "店舗オペレーションの効率化",
+    "evidence": "店舗オペレーションの効率化"
+   },
+   {
+    "factor": "人材派遣事業の子会社化",
+    "evidence": "人材派遣事業を展開する企業を子会社化"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の拡大",
+    "evidence": "インバウンド需要の拡大"
+   },
+   {
+    "factor": "人手不足に起因する人件費の上昇",
+    "evidence": "人手不足に起因する人件費の上昇"
+   },
+   {
+    "factor": "物価高による生活防衛志向の継続",
+    "evidence": "物価高による生活防衛志向の継続"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 既存事業の収益力向上、店舗オペレーションの効率化、人材派遣事業の子会社化 / 外部要因: インバウンド需要の拡大、人手不足に起因する人件費の上昇、物価高による生活防衛志向の継続",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:24:40.191Z"
+ },
+ "v3:US:AA:Sep/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Increased Production"
+   },
+   {
+    "factor": "原価低減効果",
+    "evidence": "Cost Pressures"
+   },
+   {
+    "factor": "新規案件の効果",
+    "evidence": "AliGroup Deal"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "アルミニウム需要の引き締まり",
+    "evidence": "Alumina Market Tightens"
+   },
+   {
+    "factor": "為替相場の影響",
+    "evidence": "Stock Rises Overnight"
+   },
+   {
+    "factor": "市場の好調さ",
+    "evidence": "Stocks to Watch"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加、原価低減効果、新規案件の効果 / 外部要因: アルミニウム需要の引き締まり、為替相場の影響、市場の好調さ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:34:52.492Z"
+ },
+ "v3:US:NRIM:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:35:14.413Z"
+ },
+ "v3:US:ADUR:Aug/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:35:32.592Z"
+ },
+ "v3:US:LOOP:Aug/2026": {
+  "individual": [
+   {
+    "factor": "売上高の不足",
+    "evidence": "Misses Revenue Estimates"
+   },
+   {
+    "factor": "インド工場開発の加速",
+    "evidence": "Announces Plan to Expedite Development of India Facility"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 売上高の不足、インド工場開発の加速",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:35:39.735Z"
+ },
+ "v3:US:TSM:Sep/2026": {
+  "individual": [
+   {
+    "factor": "AIチップ需要の拡大",
+    "evidence": "Unprecedented Demand for AI Chips"
+   },
+   {
+    "factor": "Nvidia供給 chain への貢献",
+    "evidence": "Supercharge Nvidia's AI Supply Chain"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "米国政府の支援策",
+    "evidence": "Taiwan to Invest Billions in US Production Facilities"
+   },
+   {
+    "factor": "中国規制の影響",
+    "evidence": "Mulling Greater Curbs On AI Chip Sales To China"
+   },
+   {
+    "factor": "市場の楽観的見通し",
+    "evidence": "TSMC Record Quarter Highlights"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: AIチップ需要の拡大、Nvidia供給 chain への貢献 / 外部要因: 米国政府の支援策、中国規制の影響、市場の楽観的見通し",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:35:53.764Z"
+ },
+ "v3:US:SCHW:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "sp500",
+    "effect": "追い風",
+    "reason": "株式市場の上昇は売買・運用関連の収入を押し上げる",
+    "change": "S&P500 約3か月 +3.8%"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: S&P500 約3か月 +3.8%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:36:02.413Z"
+ },
+ "v3:US:PLD:Sep/2026": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "需要動向",
+    "evidence": "Record Leasing"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "逆風",
+    "reason": "金利上昇は借入コストを押し上げ、資産価値の重荷になる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 需要動向、米10年金利 約3か月 +0.50pt(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:36:08.906Z"
+ },
+ "v3:US:BNY:Sep/2026": {
+  "individual": [
+   {
+    "factor": "手数料収入増",
+    "evidence": "Fee Income & NII Growth"
+   },
+   {
+    "factor": "AI導入による業務効率化",
+    "evidence": "embedding AI 'everywhere'"
+   },
+   {
+    "factor": "金利上昇による利益拡大",
+    "evidence": "NII Growth"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利上昇トレンド",
+    "evidence": "NII Growth"
+   },
+   {
+    "factor": "市場環境の好転",
+    "evidence": "Fee Income & NII Growth"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 手数料収入増、AI導入による業務効率化、金利上昇による利益拡大 / 外部要因: 金利上昇トレンド、市場環境の好転、米10年金利 約3か月 +0.50pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:36:19.645Z"
+ },
+ "v3:US:USB:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:36:26.610Z"
+ },
+ "v3:US:PNC:Sep/2026": {
+  "individual": [
+   {
+    "factor": "強力なローン成長",
+    "evidence": "Strong Loan Growth"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利環境の影響",
+    "evidence": "AI and rate fears hit tech"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 強力なローン成長 / 外部要因: 金利環境の影響、米10年金利 約3か月 +0.50pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-16T13:36:33.900Z"
  }
 }

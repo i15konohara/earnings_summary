@@ -2222,5 +2222,145 @@
  "ORC": {
   "sector": "Real Estate",
   "industry": "REIT - Mortgage"
+ },
+ "NBBK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CWBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "NRIM": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BSVN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "ALOY": {
+  "sector": "Basic Materials",
+  "industry": "Other Industrial Metals & Mining"
+ },
+ "ADUR": {
+  "sector": "Industrials",
+  "industry": "Pollution & Treatment Controls"
+ },
+ "LCNB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "NTRP": {
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services"
+ },
+ "LOOP": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals"
+ },
+ "PULM": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology"
+ },
+ "AXP": {
+  "sector": "Financial Services",
+  "industry": "Credit Services"
+ },
+ "E": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated"
+ },
+ "KMI": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream"
+ },
+ "SLB": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services"
+ },
+ "LVS": {
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos"
+ },
+ "TDY": {
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments"
+ },
+ "FCNCA": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "TTMI": {
+  "sector": "Technology",
+  "industry": "Electronic Components"
+ },
+ "RDY": {
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic"
+ },
+ "SF": {
+  "sector": "Financial Services",
+  "industry": "Capital Markets"
+ },
+ "RCI": {
+  "sector": "Communication Services",
+  "industry": "Telecom Services"
+ },
+ "BCPC": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals"
+ },
+ "ALV": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts"
+ },
+ "RITM": {
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage"
+ },
+ "FLG": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BAH": {
+  "sector": "Industrials",
+  "industry": "Consulting Services"
+ },
+ "GNTX": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts"
+ },
+ "FHB": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "TV": {
+  "sector": "Communication Services",
+  "industry": "Telecom Services"
+ },
+ "TMP": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "ASIC": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "GRC": {
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery"
+ },
+ "PFBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CHRN": {
+  "sector": "Technology",
+  "industry": "Information Technology Services"
+ },
+ "ETS": {
+  "sector": "Industrials",
+  "industry": "Trucking"
  }
 }
