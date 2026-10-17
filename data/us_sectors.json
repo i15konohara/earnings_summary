@@ -2362,5 +2362,25 @@
  "ETS": {
   "sector": "Industrials",
   "industry": "Trucking"
+ },
+ "MCBS": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "PBAM": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "ATLO": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "BVFL": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "HOST": {
+  "sector": "Technology",
+  "industry": "Software - Infrastructure"
  }
 }
