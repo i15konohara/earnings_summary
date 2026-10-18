@@ -18073,8 +18073,21 @@
   "opYoY": null,
   "netYoY": null,
   "verdict": "中立",
-  "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.50pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)"
+  },
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:GLDG:Aug/2026": {
   "key": "US:GLDG:Aug/2026",
@@ -28063,7 +28076,7 @@
   "verdict": "中立",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "JP:2411:26.04-09": {
   "key": "JP:2411:26.04-09",
@@ -28090,7 +28103,7 @@
   "verdict": "悪い",
   "star": false,
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:TSM:Sep/2026": {
   "key": "US:TSM:Sep/2026",
@@ -29008,15 +29021,15 @@
   "eps": "$0.44",
   "epsForecast": "$0.40",
   "surprise": null,
-  "rev": null,
+  "rev": 484502000000,
   "op": null,
-  "net": null,
+  "net": 195099600000,
   "revYoY": null,
   "opYoY": null,
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:IBN:Sep/2026": {
   "key": "US:IBN:Sep/2026",
@@ -29031,15 +29044,15 @@
   "eps": "$0.39",
   "epsForecast": "$0.40",
   "surprise": null,
-  "rev": null,
+  "rev": 333861800000,
   "op": null,
-  "net": null,
-  "revYoY": null,
+  "net": 148430300000,
+  "revYoY": -3.5217297449752016,
   "opYoY": null,
-  "netYoY": null,
+  "netYoY": 11.124978101468438,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:TRV:Sep/2026": {
   "key": "US:TRV:Sep/2026",
@@ -29062,7 +29075,7 @@
   "netYoY": 1.5360169491525424,
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:TFC:Sep/2026": {
   "key": "US:TFC:Sep/2026",
@@ -29085,7 +29098,7 @@
   "netYoY": -52.892561983471076,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:MTB:Sep/2026": {
   "key": "US:MTB:Sep/2026",
@@ -29108,7 +29121,7 @@
   "netYoY": -7.575757575757576,
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:CFG:Sep/2026": {
   "key": "US:CFG:Sep/2026",
@@ -29131,7 +29144,7 @@
   "netYoY": 21.25506072874494,
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:RF:Sep/2026": {
   "key": "US:RF:Sep/2026",
@@ -29154,7 +29167,7 @@
   "netYoY": 7.381370826010544,
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:BANF:Sep/2026": {
   "key": "US:BANF:Sep/2026",
@@ -29177,7 +29190,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:RBCAA:Sep/2026": {
   "key": "US:RBCAA:Sep/2026",
@@ -29200,7 +29213,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:LADR:Sep/2026": {
   "key": "US:LADR:Sep/2026",
@@ -29223,7 +29236,7 @@
   "netYoY": 243.24352493616135,
   "verdict": "良い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:MCBS:Sep/2026": {
   "key": "US:MCBS:Sep/2026",
@@ -29246,7 +29259,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:PBAM:Sep/2026": {
   "key": "US:PBAM:Sep/2026",
@@ -29269,7 +29282,7 @@
   "netYoY": null,
   "verdict": "悪い",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:ATLO:Sep/2026": {
   "key": "US:ATLO:Sep/2026",
@@ -29292,7 +29305,7 @@
   "netYoY": 54.595305988155296,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:BVFL:Sep/2026": {
   "key": "US:BVFL:Sep/2026",
@@ -29315,7 +29328,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  },
  "US:HOST:Sep/2026": {
   "key": "US:HOST:Sep/2026",
@@ -29338,6 +29351,6 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-17T09:33:23.777Z"
+  "updatedAt": "2026-10-18T12:29:49.043Z"
  }
 }

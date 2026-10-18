@@ -4007,5 +4007,21 @@
   "summary": "個別要因: 強力なローン成長 / 外部要因: 金利環境の影響、米10年金利 約3か月 +0.50pt(追い風)",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-16T13:36:33.900Z"
+ },
+ "v3:US:HIFS:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.50pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-18T12:29:43.006Z"
  }
 }
