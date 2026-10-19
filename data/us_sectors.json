@@ -2382,5 +2382,185 @@
  "HOST": {
   "sector": "Technology",
   "industry": "Software - Infrastructure"
+ },
+ "VZ": {
+  "sector": "Communication Services",
+  "industry": "Telecom Services"
+ },
+ "CDNS": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "WELL": {
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities"
+ },
+ "NUE": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "PSA": {
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial"
+ },
+ "CLS": {
+  "sector": "Technology",
+  "industry": "Electronic Components"
+ },
+ "HIG": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Diversified"
+ },
+ "CINF": {
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty"
+ },
+ "PFG": {
+  "sector": "Financial Services",
+  "industry": "Asset Management"
+ },
+ "BRO": {
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers"
+ },
+ "CX": {
+  "sector": "Basic Materials",
+  "industry": "Building Materials"
+ },
+ "PKX": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "BMRN": {
+  "sector": "Healthcare",
+  "industry": "Biotechnology"
+ },
+ "AMKR": {
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials"
+ },
+ "GGB": {
+  "sector": "Basic Materials",
+  "industry": "Steel"
+ },
+ "RMBS": {
+  "sector": "Technology",
+  "industry": "Semiconductors"
+ },
+ "BRX": {
+  "sector": "Real Estate",
+  "industry": "REIT - Retail"
+ },
+ "ARE": {
+  "sector": "Real Estate",
+  "industry": "REIT - Office"
+ },
+ "SSD": {
+  "sector": "Basic Materials",
+  "industry": "Lumber & Wood Production"
+ },
+ "NE": {
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling"
+ },
+ "PSMT": {
+  "sector": "Consumer Defensive",
+  "industry": "Discount Stores"
+ },
+ "PECO": {
+  "sector": "Real Estate",
+  "industry": "REIT - Retail"
+ },
+ "MMYT": {
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services"
+ },
+ "DORM": {
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts"
+ },
+ "RHI": {
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services"
+ },
+ "ARLP": {
+  "sector": "Energy",
+  "industry": "Thermal Coal"
+ },
+ "PRK": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "AGYS": {
+  "sector": "Technology",
+  "industry": "Software - Application"
+ },
+ "HWKN": {
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals"
+ },
+ "BOH": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "HTO": {
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Water"
+ },
+ "NWBI": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "CTOS": {
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services"
+ },
+ "BLX": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "GABC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "WHR": {
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances"
+ },
+ "FSUN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "LKFN": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "GBX": {
+  "sector": "Industrials",
+  "industry": "Railroads"
+ },
+ "CRI": {
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail"
+ },
+ "NPK": {
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense"
+ },
+ "FSBC": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "DEA": {
+  "sector": "Real Estate",
+  "industry": "REIT - Office"
+ },
+ "BFST": {
+  "sector": "Financial Services",
+  "industry": "Banks - Regional"
+ },
+ "PDM": {
+  "sector": "Real Estate",
+  "industry": "REIT - Office"
  }
 }

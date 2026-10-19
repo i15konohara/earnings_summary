@@ -18062,8 +18062,8 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 631228220,
-  "eps": "$3.86",
+  "marketCap": 630218940,
+  "eps": "$5.37",
   "epsForecast": null,
   "surprise": null,
   "rev": null,
@@ -18087,7 +18087,7 @@
    "source": "news",
    "summary": "外部要因: 米10年金利 約3か月 +0.50pt(追い風)"
   },
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:GLDG:Aug/2026": {
   "key": "US:GLDG:Aug/2026",
@@ -28075,8 +28075,40 @@
   },
   "verdict": "中立",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "セグメント刷新に伴う組織体制の変更",
+     "evidence": "前期まで設定しておりましたセグメントを見直し、2026年６月５日発表いたしました「事業計画及び成長可能性に関する事項」において、当社の既存事業である建築家提案事"
+    },
+    {
+     "factor": "新規事業の収益化遅れ",
+     "evidence": "建築家提案事業において契約のずれ込み等もあり売り上げが減少し、契約ロイヤリティ売上は、退会スタジオの影響から減少したこともあり、セグメント損益は赤字となっており"
+    },
+    {
+     "factor": "環境関連事業の本格営業開始前",
+     "evidence": "ALIN事業およびコルゲートarchitecture事業において、具体的な案件及び国内外からの引き合いも多数ありますが、今期からの営業体制で営業がいまだ本格化で"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "住宅市場の需要減少",
+     "evidence": "国土交通省の建築着工統計調査報告（2026年４月30日発表）の2025年度の新設住宅着工戸数では、新設住宅の着工戸数は71万1,171戸（前年度比12.9％減）"
+    },
+    {
+     "factor": "資材価格・人件費の上昇",
+     "evidence": "資材価格や人件費の上昇に伴う建設コストの増加を背景に住宅販売価格が上昇するなか、住宅ローン金利も上昇傾向にあり"
+    },
+    {
+     "factor": "地政学リスクの影響",
+     "evidence": "ウクライナ情勢の長期化に伴う資源価格上昇、中東地域でのホルムズ海峡の封鎖の長期化"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: セグメント刷新に伴う組織体制の変更、新規事業の収益化遅れ、環境関連事業の本格営業開始前 / 外部要因: 住宅市場の需要減少、資材価格・人件費の上昇、地政学リスクの影響"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "JP:2411:26.04-09": {
   "key": "JP:2411:26.04-09",
@@ -28102,8 +28134,40 @@
   },
   "verdict": "悪い",
   "star": false,
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "紙媒体広告の減少",
+     "evidence": "折込広告等の紙媒体広告の減少は、期初の想定を大きく上回って進行"
+    },
+    {
+     "factor": "住宅関連広告需要の減退",
+     "evidence": "ナフサ不足等によるクライアントの塗料調達の不安定化が長期化"
+    },
+    {
+     "factor": "原状回復費用の一括計上",
+     "evidence": "賃借事務所の原状回復義務に係る資産除去債務について見積りの見直し"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "デジタルシフトの進展",
+     "evidence": "集客手法のデジタルシフトがさらに進んだことにより"
+    },
+    {
+     "factor": "中東情勢によるエネルギー問題",
+     "evidence": "中東情勢によるエネルギー問題や日中関係の不安定化"
+    },
+    {
+     "factor": "住宅関連広告分野の不安定化",
+     "evidence": "ナフサ不足等によるクライアントの塗料調達の不安定化"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 紙媒体広告の減少、住宅関連広告需要の減退、原状回復費用の一括計上 / 外部要因: デジタルシフトの進展、中東情勢によるエネルギー問題、住宅関連広告分野の不安定化"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:TSM:Sep/2026": {
   "key": "US:TSM:Sep/2026",
@@ -29063,7 +29127,7 @@
   "subIndustry": "Insurance - Property & Casualty",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 80069861000,
+  "marketCap": 81248313000,
   "eps": "$9.18",
   "epsForecast": "$7.07",
   "surprise": 29.84,
@@ -29074,8 +29138,27 @@
   "opYoY": null,
   "netYoY": 1.5360169491525424,
   "verdict": "良い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "引受け強化",
+     "evidence": "Underwriting Strength"
+    },
+    {
+     "factor": "投資収益の好調",
+     "evidence": "Investment Strength"
+    },
+    {
+     "factor": "価格改定の効果",
+     "evidence": "pricing softens"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 引受け強化、投資収益の好調、価格改定の効果"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:TFC:Sep/2026": {
   "key": "US:TFC:Sep/2026",
@@ -29086,7 +29169,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 56891130000,
+  "marketCap": 57501946000,
   "eps": "$1.16",
   "epsForecast": "$1.17",
   "surprise": -0.85,
@@ -29097,8 +29180,26 @@
   "opYoY": null,
   "netYoY": -52.892561983471076,
   "verdict": "中立",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "戦略的再編",
+     "evidence": "Strategic Refocus and Portfolio Realignment Drive Business Transformation"
+    }
+   ],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 戦略的再編 / 外部要因: 米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:MTB:Sep/2026": {
   "key": "US:MTB:Sep/2026",
@@ -29109,7 +29210,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 31576614900,
+  "marketCap": 31089932300,
   "eps": "$5.08",
   "epsForecast": "$4.98",
   "surprise": 2.01,
@@ -29120,8 +29221,39 @@
   "opYoY": null,
   "netYoY": -7.575757575757576,
   "verdict": "良い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "金利収入の増加",
+     "evidence": "Higher NII"
+    },
+    {
+     "factor": "費用の増加",
+     "evidence": "Rising Costs"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利動向",
+     "evidence": "Higher NII"
+    },
+    {
+     "factor": "アナリスト評価の変動",
+     "evidence": "Adjusts Price Target on M&T Bank"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 金利収入の増加、費用の増加 / 外部要因: 金利動向、アナリスト評価の変動、米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:CFG:Sep/2026": {
   "key": "US:CFG:Sep/2026",
@@ -29132,7 +29264,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 26715244500,
+  "marketCap": 26685761500,
   "eps": "$1.41",
   "epsForecast": "$1.38",
   "surprise": 2.17,
@@ -29143,8 +29275,31 @@
   "opYoY": null,
   "netYoY": 21.25506072874494,
   "verdict": "良い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "預金の維持",
+     "evidence": "Deposit Discipline Offset Mixed Fee Trends"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利環境",
+     "evidence": "Morgan Stanley Adjusts Price Target"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 預金の維持 / 外部要因: 金利環境、米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:RF:Sep/2026": {
   "key": "US:RF:Sep/2026",
@@ -29155,7 +29310,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 23266195500,
+  "marketCap": 23385464800,
   "eps": "$0.73",
   "epsForecast": "$0.67",
   "surprise": 8.96,
@@ -29166,8 +29321,39 @@
   "opYoY": null,
   "netYoY": 7.381370826010544,
   "verdict": "良い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "預金成長",
+     "evidence": "Deposit Growth and Technology Investments Support Steady Results"
+    },
+    {
+     "factor": "資本市場収益",
+     "evidence": "Record Capital Markets Revenue"
+    },
+    {
+     "factor": "テクノロジー投資",
+     "evidence": "Deposit Growth and Technology Investments Support Steady Results"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利環境",
+     "evidence": "Record Capital Markets Revenue"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 預金成長、資本市場収益、テクノロジー投資 / 外部要因: 金利環境、米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:BANF:Sep/2026": {
   "key": "US:BANF:Sep/2026",
@@ -29178,7 +29364,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 3633704190,
+  "marketCap": 3663271170,
   "eps": "$1.85",
   "epsForecast": "$1.93",
   "surprise": null,
@@ -29190,7 +29376,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:RBCAA:Sep/2026": {
   "key": "US:RBCAA:Sep/2026",
@@ -29201,7 +29387,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 1801629700,
+  "marketCap": 1813999230,
   "eps": "$1.52",
   "epsForecast": "$1.66",
   "surprise": null,
@@ -29213,7 +29399,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:LADR:Sep/2026": {
   "key": "US:LADR:Sep/2026",
@@ -29224,7 +29410,7 @@
   "subIndustry": "REIT - Mortgage",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 1118951940,
+  "marketCap": 1155742850,
   "eps": "$0.35",
   "epsForecast": "$0.21",
   "surprise": 66.67,
@@ -29235,8 +29421,35 @@
   "opYoY": null,
   "netYoY": 243.24352493616135,
   "verdict": "良い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [
+    {
+     "factor": "貸出金残高の増加",
+     "evidence": "Loan Growth"
+    },
+    {
+     "factor": "ポートフォリオの戦略的転換",
+     "evidence": "Strategic Portfolio Shifts"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "アナリストの質疑応答",
+     "evidence": "Interest Rate Questions"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "逆風",
+     "reason": "金利上昇は借入コストを押し上げ、資産価値の重荷になる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 貸出金残高の増加、ポートフォリオの戦略的転換 / 外部要因: アナリストの質疑応答、米10年金利 約3か月 +0.47pt(逆風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:MCBS:Sep/2026": {
   "key": "US:MCBS:Sep/2026",
@@ -29247,7 +29460,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 1000723330,
+  "marketCap": 1011084540,
   "eps": "$0.67",
   "epsForecast": null,
   "surprise": null,
@@ -29259,7 +29472,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:PBAM:Sep/2026": {
   "key": "US:PBAM:Sep/2026",
@@ -29270,7 +29483,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 482390848,
+  "marketCap": 471561536,
   "eps": "$1.97",
   "epsForecast": "$2.07",
   "surprise": -4.83,
@@ -29281,8 +29494,21 @@
   "opYoY": null,
   "netYoY": null,
   "verdict": "悪い",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:ATLO:Sep/2026": {
   "key": "US:ATLO:Sep/2026",
@@ -29293,19 +29519,32 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 284759616,
-  "eps": "$0.51",
+  "marketCap": 284936768,
+  "eps": "$0.80",
   "epsForecast": "$0.68",
-  "surprise": null,
+  "surprise": 17.65,
   "rev": null,
   "op": null,
   "net": 7048000,
   "revYoY": null,
   "opYoY": null,
   "netYoY": 54.595305988155296,
-  "verdict": "中立",
-  "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "verdict": "良い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.47pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.47pt(追い風)"
+  },
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:BVFL:Sep/2026": {
   "key": "US:BVFL:Sep/2026",
@@ -29316,7 +29555,7 @@
   "subIndustry": "Banks - Regional",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 184235632,
+  "marketCap": 183557984,
   "eps": "$0.49",
   "epsForecast": null,
   "surprise": null,
@@ -29328,7 +29567,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  },
  "US:HOST:Sep/2026": {
   "key": "US:HOST:Sep/2026",
@@ -29339,7 +29578,7 @@
   "subIndustry": "Software - Infrastructure",
   "period": "Sep/2026",
   "date": "2026-10-16",
-  "marketCap": 71357960,
+  "marketCap": 54232052,
   "eps": "($3.15)",
   "epsForecast": null,
   "surprise": null,
@@ -29351,6 +29590,6 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-18T12:29:49.043Z"
+  "updatedAt": "2026-10-19T13:29:40.699Z"
  }
 }
