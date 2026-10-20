@@ -20032,9 +20032,9 @@
   "industry": "Consumer Defensive",
   "subIndustry": "Confectioners",
   "period": "Aug/2026",
-  "date": "2026-10-12",
-  "marketCap": 9156399,
-  "eps": "($0.09)",
+  "date": "2026-10-19",
+  "marketCap": 8807135,
+  "eps": "($0.14)",
   "epsForecast": null,
   "surprise": null,
   "rev": null,
@@ -20045,7 +20045,7 @@
   "netYoY": null,
   "verdict": "中立",
   "reasons": null,
-  "updatedAt": "2026-10-13T18:04:38.728Z"
+  "updatedAt": "2026-10-20T18:04:15.998Z"
  },
  "JP:2459:26.06-08": {
   "key": "JP:2459:26.06-08",
@@ -29591,5 +29591,994 @@
   "verdict": "中立",
   "reasons": null,
   "updatedAt": "2026-10-19T13:29:40.699Z"
+ },
+ "JP:5933:26.04-09": {
+  "key": "JP:5933:26.04-09",
+  "market": "JP",
+  "code": "5933",
+  "name": "アルインコ",
+  "industry": "金属製品",
+  "period": "26.04-09",
+  "date": "2026-10-20",
+  "url": "https://kabutan.jp/news/?&b=k202610200007",
+  "title": "アルインコ、上期経常は一転7％減益で下振れ着地",
+  "values": {
+   "売上高": 33024000000,
+   "営業益": 1407000000,
+   "経常益": 1317000000,
+   "最終益": 897000000
+  },
+  "yoy": {
+   "売上高": "+4.0",
+   "営業益": "+12.0",
+   "経常益": "-7.3",
+   "最終益": "-2.3"
+  },
+  "verdict": "良い",
+  "star": false,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "レンタル資産への投資",
+     "evidence": "積極的なレンタル資産への投資を継続"
+    },
+    {
+     "factor": "販売価格の改定",
+     "evidence": "原材料価格の上昇に対応した販売価格の改定"
+    },
+    {
+     "factor": "仮設機材の需給調整",
+     "evidence": "機材需給の状況に応じた機動的な調達を行う動向"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "為替差損",
+     "evidence": "外貨建て資産の評価による為替差損"
+    },
+    {
+     "factor": "中東情勢の影響",
+     "evidence": "中東情勢の影響による供給制約への懸念"
+    },
+    {
+     "factor": "原材料価格の高止まり",
+     "evidence": "建設資材価格の高止まり"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: レンタル資産への投資、販売価格の改定、仮設機材の需給調整 / 外部要因: 為替差損、中東情勢の影響、原材料価格の高止まり"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "JP:5990:26.04-09": {
+  "key": "JP:5990:26.04-09",
+  "market": "JP",
+  "code": "5990",
+  "name": "スーパーツール",
+  "industry": "金属製品",
+  "period": "26.04-09",
+  "date": "2026-10-20",
+  "url": "https://kabutan.jp/news/?&b=k202610200013",
+  "title": "スーパツール、上期最終は一転赤字転落で下振れ着地",
+  "values": {
+   "売上高": 2968000000,
+   "営業益": 133000000,
+   "経常益": 143000000,
+   "最終益": -16000000
+  },
+  "yoy": {
+   "売上高": "+7.7",
+   "営業益": "-34.8",
+   "経常益": "-33.2",
+   "最終益": "赤転"
+  },
+  "verdict": "悪い",
+  "star": false,
+  "reasons": {
+   "individual": [
+    {
+     "factor": "生産体制の改善",
+     "evidence": "全社的な生産管理能力の向上を図り、資材価格等が高騰する中、低コスト体質の確立に向けた一気通貫の生産体制の構築に努めてまいりました"
+    },
+    {
+     "factor": "新工場建設に伴う費用",
+     "evidence": "新工場の建設を通じて、今後の生産性向上及び競争力強化を図ってまいりますが、既存施設の取壊費用につきましては、当中間連結会計期間において特別損失として計上しており"
+    },
+    {
+     "factor": "環境関連事業の撤退",
+     "evidence": "既に公表しております撤退方針に基づき、受注済み案件である太陽光発電所の施工等を計画に沿って進めてまいりました"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "原材料価格の高騰",
+     "evidence": "国際情勢の不安定化を背景とした原材料価格・エネルギー価格の高騰"
+    },
+    {
+     "factor": "為替・金利の影響",
+     "evidence": "金利上昇や円安の進行、米国の通商政策の動向による影響"
+    },
+    {
+     "factor": "海外市場の低迷",
+     "evidence": "韓国において、不動産関連及び建設業界等の内需産業の低迷が続いており"
+    }
+   ],
+   "external": [],
+   "source": "tdnet",
+   "summary": "個別要因: 生産体制の改善、新工場建設に伴う費用、環境関連事業の撤退 / 外部要因: 原材料価格の高騰、為替・金利の影響、海外市場の低迷"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:FITB:Sep/2026": {
+  "key": "US:FITB:Sep/2026",
+  "market": "US",
+  "code": "FITB",
+  "name": "Fifth Third Bancorp",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 45807145000,
+  "eps": "$1.13",
+  "epsForecast": "$1.09",
+  "surprise": 3.67,
+  "rev": 3284000000,
+  "op": null,
+  "net": 828000000,
+  "revYoY": 44.09828872312418,
+  "opYoY": null,
+  "netYoY": 27.5808936825886,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "預金成長",
+     "evidence": "Deposit Growth Drive Steady Performance"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "金利環境",
+     "evidence": "Goldman Sachs Adjusts Price Target"
+    }
+   ],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "個別要因: 預金成長 / 外部要因: 金利環境、米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:STLD:Sep/2026": {
+  "key": "US:STLD:Sep/2026",
+  "market": "US",
+  "code": "STLD",
+  "name": "Steel Dynamics, Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Steel",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 35139748000,
+  "eps": "$5.26",
+  "epsForecast": "$5.42",
+  "surprise": -2.95,
+  "rev": 6509419000,
+  "op": null,
+  "net": 756000000,
+  "revYoY": 34.82040464229534,
+  "opYoY": null,
+  "netYoY": 87.27473153572711,
+  "verdict": "悪い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "原材料価格上昇",
+     "evidence": "Despite Strong Steel Pricing"
+    }
+   ],
+   "cited": [],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 原材料価格上昇"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:WRB:Sep/2026": {
+  "key": "US:WRB:Sep/2026",
+  "market": "US",
+  "code": "WRB",
+  "name": "W.R. Berkley Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Insurance - Property & Casualty",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 27500535800,
+  "eps": "$1.17",
+  "epsForecast": "$1.14",
+  "surprise": 2.63,
+  "rev": 3213604000,
+  "op": null,
+  "net": 446005000,
+  "revYoY": -14.98953110182012,
+  "opYoY": null,
+  "netYoY": -12.724643466553953,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "損失率の改善",
+     "evidence": "Stronger Underlying Loss Ratio"
+    },
+    {
+     "factor": "販売保険料の増加",
+     "evidence": "Premiums Rise Y/Y"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "アナリストの好意的評価",
+     "evidence": "UBS Says"
+    },
+    {
+     "factor": "価格目標の引上げ",
+     "evidence": "Mizuho Securities Adjusts"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 損失率の改善、販売保険料の増加 / 外部要因: アナリストの好意的評価、価格目標の引上げ"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:CCK:Sep/2026": {
+  "key": "US:CCK:Sep/2026",
+  "market": "US",
+  "code": "CCK",
+  "name": "Crown Holdings, Inc.",
+  "industry": "Consumer Cyclical",
+  "subIndustry": "Packaging & Containers",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 12495495200,
+  "eps": "$2.39",
+  "epsForecast": "$2.25",
+  "surprise": 6.22,
+  "rev": 3711000000,
+  "op": null,
+  "net": 225000000,
+  "revYoY": 15.896314803247972,
+  "opYoY": null,
+  "netYoY": 5.14018691588785,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:SMMT:Sep/2026": {
+  "key": "US:SMMT:Sep/2026",
+  "market": "US",
+  "code": "SMMT",
+  "name": "Summit Therapeutics Inc. ",
+  "industry": "Healthcare",
+  "subIndustry": "Biotechnology",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 12451740700,
+  "eps": "($0.31)",
+  "epsForecast": "($0.28)",
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": {
+   "individual": [],
+   "cited": [
+    {
+     "factor": "競合他社の動向",
+     "evidence": "Akeso Announces Opening of Global Phase II Study of Ivonescimab in First-Line Cl"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "外部要因: 競合他社の動向"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:PAC:Sep/2026": {
+  "key": "US:PAC:Sep/2026",
+  "market": "US",
+  "code": "PAC",
+  "name": "Grupo Aeroportuario Del Pacifico, S.A. de C.V.",
+  "industry": "Industrials",
+  "subIndustry": "Airports & Air Services",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 12084225000,
+  "eps": "$2.84",
+  "epsForecast": "$2.72",
+  "surprise": 4.41,
+  "rev": 11667818000,
+  "op": null,
+  "net": 2914101000,
+  "revYoY": 21.83696418649533,
+  "opYoY": null,
+  "netYoY": 8.09060156232613,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:AGNC:Sep/2026": {
+  "key": "US:AGNC:Sep/2026",
+  "market": "US",
+  "code": "AGNC",
+  "name": "AGNC Investment Corp.",
+  "industry": "Real Estate",
+  "subIndustry": "REIT - Mortgage",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 10005463000,
+  "eps": "$0.37",
+  "epsForecast": "$0.39",
+  "surprise": -5.13,
+  "rev": 402000000,
+  "op": null,
+  "net": -1402000000,
+  "revYoY": -51.91387559808612,
+  "opYoY": null,
+  "netYoY": -273.9454094292804,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:WTFC:Sep/2026": {
+  "key": "US:WTFC:Sep/2026",
+  "market": "US",
+  "code": "WTFC",
+  "name": "Wintrust Financial Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 9609851900,
+  "eps": "$3.37",
+  "epsForecast": "$3.29",
+  "surprise": 2.43,
+  "rev": 757877000,
+  "op": null,
+  "net": 230687000,
+  "revYoY": 8.604039636876912,
+  "opYoY": null,
+  "netYoY": 6.674096201688755,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:ZION:Sep/2026": {
+  "key": "US:ZION:Sep/2026",
+  "market": "US",
+  "code": "ZION",
+  "name": "Zions Bancorporation N.A.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 9215495200,
+  "eps": "$1.78",
+  "epsForecast": "$1.64",
+  "surprise": 8.54,
+  "rev": 893000000,
+  "op": null,
+  "net": 262000000,
+  "revYoY": 3.7166085946573753,
+  "opYoY": null,
+  "netYoY": 18.01801801801802,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:CLF:Sep/2026": {
+  "key": "US:CLF:Sep/2026",
+  "market": "US",
+  "code": "CLF",
+  "name": "Cleveland-Cliffs Inc.",
+  "industry": "Basic Materials",
+  "subIndustry": "Steel",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 8044614700,
+  "eps": "$0.28",
+  "epsForecast": "$0.24",
+  "surprise": 16.67,
+  "rev": 5612000000,
+  "op": null,
+  "net": 152000000,
+  "revYoY": 18.54668356569497,
+  "opYoY": null,
+  "netYoY": 160.5577689243028,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:WAL:Sep/2026": {
+  "key": "US:WAL:Sep/2026",
+  "market": "US",
+  "code": "WAL",
+  "name": "Western Alliance Bancorporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 8033096700,
+  "eps": "$2.45",
+  "epsForecast": "$2.43",
+  "surprise": 0.82,
+  "rev": 1014200000,
+  "op": null,
+  "net": 266900000,
+  "revYoY": 9.857019064124783,
+  "opYoY": null,
+  "netYoY": 5.327545382794002,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:BOKF:Sep/2026": {
+  "key": "US:BOKF:Sep/2026",
+  "market": "US",
+  "code": "BOKF",
+  "name": "BOK Financial Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 7465817100,
+  "eps": "$2.64",
+  "epsForecast": "$2.54",
+  "surprise": 3.94,
+  "rev": 564155000,
+  "op": null,
+  "net": 159853000,
+  "revYoY": 4.92256647454746,
+  "opYoY": null,
+  "netYoY": 13.456215310801028,
+  "verdict": "良い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:VFS:Jun/2026": {
+  "key": "US:VFS:Jun/2026",
+  "market": "US",
+  "code": "VFS",
+  "name": "VinFast Auto Ltd.",
+  "industry": "Consumer Cyclical",
+  "subIndustry": "Auto Manufacturers",
+  "period": "Jun/2026",
+  "date": "2026-10-19",
+  "marketCap": 6784654300,
+  "eps": "($0.53)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 31172619397110,
+  "op": null,
+  "net": -1429321053000,
+  "revYoY": 87.6816151539477,
+  "opYoY": null,
+  "netYoY": 92.9645852439702,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:FNB:Sep/2026": {
+  "key": "US:FNB:Sep/2026",
+  "market": "US",
+  "code": "FNB",
+  "name": "F.N.B. Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 5986896400,
+  "eps": "$0.43",
+  "epsForecast": "$0.43",
+  "surprise": null,
+  "rev": 469121000,
+  "op": null,
+  "net": 152862000,
+  "revYoY": 2.652297592997812,
+  "opYoY": null,
+  "netYoY": 1.908,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:RLI:Sep/2026": {
+  "key": "US:RLI:Sep/2026",
+  "market": "US",
+  "code": "RLI",
+  "name": "RLI Corp.",
+  "industry": "Financial Services",
+  "subIndustry": "Insurance - Property & Casualty",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 5616505900,
+  "eps": "$0.86",
+  "epsForecast": "$0.58",
+  "surprise": 48.28,
+  "rev": 476963000,
+  "op": null,
+  "net": 81009000,
+  "revYoY": -6.342682773571272,
+  "opYoY": null,
+  "netYoY": -34.989968702351334,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [
+    {
+     "factor": "値上げ",
+     "evidence": "Revenue Falls"
+    },
+    {
+     "factor": "大型案件",
+     "evidence": "Operating Earnings Rise"
+    }
+   ],
+   "cited": [
+    {
+     "factor": "為替",
+     "evidence": "Revenue Falls"
+    },
+    {
+     "factor": "金利",
+     "evidence": "Operating Earnings Rise"
+    }
+   ],
+   "external": [],
+   "source": "news",
+   "summary": "個別要因: 値上げ、大型案件 / 外部要因: 為替、金利"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:SFBS:Sep/2026": {
+  "key": "US:SFBS:Sep/2026",
+  "market": "US",
+  "code": "SFBS",
+  "name": "ServisFirst Bancshares, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 4237119490,
+  "eps": "$0.80",
+  "epsForecast": "$0.83",
+  "surprise": -3.61,
+  "rev": 172778000,
+  "op": null,
+  "net": 87308000,
+  "revYoY": 26.78069576830226,
+  "opYoY": null,
+  "netYoY": 33.150325601256654,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:CBZ:Sep/2026": {
+  "key": "US:CBZ:Sep/2026",
+  "market": "US",
+  "code": "CBZ",
+  "name": "CBIZ, Inc.",
+  "industry": "Industrials",
+  "subIndustry": "Specialty Business Services",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 2972575230,
+  "eps": "$1.21",
+  "epsForecast": "$1.28",
+  "surprise": -5.47,
+  "rev": 702240000,
+  "op": null,
+  "net": 47236000,
+  "revYoY": 1.213863001536426,
+  "opYoY": null,
+  "netYoY": 56.690771578318845,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:CLBK:Sep/2026": {
+  "key": "US:CLBK:Sep/2026",
+  "market": "US",
+  "code": "CLBK",
+  "name": "Columbia Financial, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 2849092100,
+  "eps": "$0.07",
+  "epsForecast": "$0.13",
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:DX:Sep/2026": {
+  "key": "US:DX:Sep/2026",
+  "market": "US",
+  "code": "DX",
+  "name": "Dynex Capital, Inc.",
+  "industry": "Real Estate",
+  "subIndustry": "REIT - Mortgage",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 2620642560,
+  "eps": "$0.38",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": 101562000,
+  "op": null,
+  "net": -338305000,
+  "revYoY": -37.45643097311345,
+  "opYoY": null,
+  "netYoY": -324.95478362635316,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:AERO:Sep/2026": {
+  "key": "US:AERO:Sep/2026",
+  "market": "US",
+  "code": "AERO",
+  "name": "Grupo Aeromexico, S.A.B. de C.V.",
+  "industry": "Industrials",
+  "subIndustry": "Airlines",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 2318405120,
+  "eps": "$0.28",
+  "epsForecast": "$0.29",
+  "surprise": -3.45,
+  "rev": 29834608200,
+  "op": null,
+  "net": null,
+  "revYoY": 1993.82128279556,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:KARO:Aug/2026": {
+  "key": "US:KARO:Aug/2026",
+  "market": "US",
+  "code": "KARO",
+  "name": "Karooooo Ltd.",
+  "industry": "Technology",
+  "subIndustry": "Software - Application",
+  "period": "Aug/2026",
+  "date": "2026-10-19",
+  "marketCap": 1918473980,
+  "eps": "$0.57",
+  "epsForecast": "$0.57",
+  "surprise": null,
+  "rev": 1640213000,
+  "op": null,
+  "net": 286770000,
+  "revYoY": 22.049283648859213,
+  "opYoY": null,
+  "netYoY": 17.733274214208297,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:SMBK:Sep/2026": {
+  "key": "US:SMBK:Sep/2026",
+  "market": "US",
+  "code": "SMBK",
+  "name": "SmartFinancial, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 863643840,
+  "eps": "$1.10",
+  "epsForecast": "$0.96",
+  "surprise": 14.58,
+  "rev": 57844000,
+  "op": null,
+  "net": 18627000,
+  "revYoY": 22.779758872474105,
+  "opYoY": null,
+  "netYoY": 36.102586584831215,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:WASH:Sep/2026": {
+  "key": "US:WASH:Sep/2026",
+  "market": "US",
+  "code": "WASH",
+  "name": "Washington Trust Bancorp, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 697929410,
+  "eps": "$1.01",
+  "epsForecast": "$0.87",
+  "surprise": 16.09,
+  "rev": 65189000,
+  "op": null,
+  "net": 19381000,
+  "revYoY": 15.44210097575661,
+  "opYoY": null,
+  "netYoY": 78.69260556887332,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:HBCP:Sep/2026": {
+  "key": "US:HBCP:Sep/2026",
+  "market": "US",
+  "code": "HBCP",
+  "name": "Home Bancorp, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 517737920,
+  "eps": "$1.28",
+  "epsForecast": "$1.51",
+  "surprise": -15.23,
+  "rev": 35915000,
+  "op": null,
+  "net": 10097000,
+  "revYoY": -5.097241306415812,
+  "opYoY": null,
+  "netYoY": -18.289228777211296,
+  "verdict": "悪い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:RBB:Sep/2026": {
+  "key": "US:RBB:Sep/2026",
+  "market": "US",
+  "code": "RBB",
+  "name": "RBB Bancorp",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 430511296,
+  "eps": "$0.74",
+  "epsForecast": "$0.57",
+  "surprise": 29.82,
+  "rev": 36866000,
+  "op": null,
+  "net": 12637000,
+  "revYoY": 13.190052195271724,
+  "opYoY": null,
+  "netYoY": 24.527000394166336,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:ISTR:Sep/2026": {
+  "key": "US:ISTR:Sep/2026",
+  "market": "US",
+  "code": "ISTR",
+  "name": "Investar Holding Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 393747392,
+  "eps": "$0.54",
+  "epsForecast": "$0.75",
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:COSO:Sep/2026": {
+  "key": "US:COSO:Sep/2026",
+  "market": "US",
+  "code": "COSO",
+  "name": "CoastalSouth Bancshares, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 317151456,
+  "eps": "$0.71",
+  "epsForecast": "$0.59",
+  "surprise": 20.34,
+  "rev": 24856000,
+  "op": null,
+  "net": 8772000,
+  "revYoY": 16.749647721935183,
+  "opYoY": null,
+  "netYoY": 30.129060970182465,
+  "verdict": "良い",
+  "reasons": {
+   "individual": [],
+   "cited": [],
+   "external": [
+    {
+     "metric": "us10y",
+     "effect": "追い風",
+     "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+     "change": "米10年金利 約3か月 +0.46pt"
+    }
+   ],
+   "source": "news",
+   "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)"
+  },
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:FUNC:Sep/2026": {
+  "key": "US:FUNC:Sep/2026",
+  "market": "US",
+  "code": "FUNC",
+  "name": "First United Corporation",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 281580864,
+  "eps": "$1.11",
+  "epsForecast": "$1.16",
+  "surprise": -4.31,
+  "rev": 25221000,
+  "op": null,
+  "net": 7181000,
+  "revYoY": 11.135101789019124,
+  "opYoY": null,
+  "netYoY": 3.353483016695452,
+  "verdict": "悪い",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:PEBK:Sep/2026": {
+  "key": "US:PEBK:Sep/2026",
+  "market": "US",
+  "code": "PEBK",
+  "name": "Peoples Bancorp of North Carolina, Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Banks - Regional",
+  "period": "Sep/2026",
+  "date": "2026-10-19",
+  "marketCap": 239677488,
+  "eps": "$1.05",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:NCPL:Jul/2026": {
+  "key": "US:NCPL:Jul/2026",
+  "market": "US",
+  "code": "NCPL",
+  "name": "Netcapital Inc.",
+  "industry": "Financial Services",
+  "subIndustry": "Capital Markets",
+  "period": "Jul/2026",
+  "date": "2026-10-19",
+  "marketCap": 12792075,
+  "eps": "($1.27)",
+  "epsForecast": null,
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
+ },
+ "US:MSS:Jul/2026": {
+  "key": "US:MSS:Jul/2026",
+  "market": "US",
+  "code": "MSS",
+  "name": "Maison Solutions Inc.",
+  "industry": "Consumer Defensive",
+  "subIndustry": "Grocery Stores",
+  "period": "Jul/2026",
+  "date": "2026-10-19",
+  "marketCap": 1086281,
+  "eps": "$2",
+  "epsForecast": "$0.64",
+  "surprise": null,
+  "rev": null,
+  "op": null,
+  "net": null,
+  "revYoY": null,
+  "opYoY": null,
+  "netYoY": null,
+  "verdict": "中立",
+  "reasons": null,
+  "updatedAt": "2026-10-20T18:04:15.998Z"
  }
 }

@@ -4292,5 +4292,281 @@
   "summary": "外部要因: 米10年金利 約3か月 +0.47pt(追い風)",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-19T13:29:33.215Z"
+ },
+ "v3:JP:5990:26.04-09": {
+  "individual": [
+   {
+    "factor": "生産体制の改善",
+    "evidence": "全社的な生産管理能力の向上を図り、資材価格等が高騰する中、低コスト体質の確立に向けた一気通貫の生産体制の構築に努めてまいりました"
+   },
+   {
+    "factor": "新工場建設に伴う費用",
+    "evidence": "新工場の建設を通じて、今後の生産性向上及び競争力強化を図ってまいりますが、既存施設の取壊費用につきましては、当中間連結会計期間において特別損失として計上しており"
+   },
+   {
+    "factor": "環境関連事業の撤退",
+    "evidence": "既に公表しております撤退方針に基づき、受注済み案件である太陽光発電所の施工等を計画に沿って進めてまいりました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "原材料価格の高騰",
+    "evidence": "国際情勢の不安定化を背景とした原材料価格・エネルギー価格の高騰"
+   },
+   {
+    "factor": "為替・金利の影響",
+    "evidence": "金利上昇や円安の進行、米国の通商政策の動向による影響"
+   },
+   {
+    "factor": "海外市場の低迷",
+    "evidence": "韓国において、不動産関連及び建設業界等の内需産業の低迷が続いており"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 生産体制の改善、新工場建設に伴う費用、環境関連事業の撤退 / 外部要因: 原材料価格の高騰、為替・金利の影響、海外市場の低迷",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:02:43.705Z"
+ },
+ "v3:JP:5933:26.04-09": {
+  "individual": [
+   {
+    "factor": "レンタル資産への投資",
+    "evidence": "積極的なレンタル資産への投資を継続"
+   },
+   {
+    "factor": "販売価格の改定",
+    "evidence": "原材料価格の上昇に対応した販売価格の改定"
+   },
+   {
+    "factor": "仮設機材の需給調整",
+    "evidence": "機材需給の状況に応じた機動的な調達を行う動向"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替差損",
+    "evidence": "外貨建て資産の評価による為替差損"
+   },
+   {
+    "factor": "中東情勢の影響",
+    "evidence": "中東情勢の影響による供給制約への懸念"
+   },
+   {
+    "factor": "原材料価格の高止まり",
+    "evidence": "建設資材価格の高止まり"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: レンタル資産への投資、販売価格の改定、仮設機材の需給調整 / 外部要因: 為替差損、中東情勢の影響、原材料価格の高止まり",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:02:50.521Z"
+ },
+ "v3:US:CLF:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:02:55.661Z"
+ },
+ "v3:US:RLI:Sep/2026": {
+  "individual": [
+   {
+    "factor": "値上げ",
+    "evidence": "Revenue Falls"
+   },
+   {
+    "factor": "大型案件",
+    "evidence": "Operating Earnings Rise"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替",
+    "evidence": "Revenue Falls"
+   },
+   {
+    "factor": "金利",
+    "evidence": "Operating Earnings Rise"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 値上げ、大型案件 / 外部要因: 為替、金利",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:01.387Z"
+ },
+ "v3:US:SMBK:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:06.763Z"
+ },
+ "v3:US:WASH:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:13.025Z"
+ },
+ "v3:US:HBCP:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:18.825Z"
+ },
+ "v3:US:RBB:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:24.907Z"
+ },
+ "v3:US:COSO:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: 米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:29.569Z"
+ },
+ "v3:US:FITB:Sep/2026": {
+  "individual": [
+   {
+    "factor": "預金成長",
+    "evidence": "Deposit Growth Drive Steady Performance"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利環境",
+    "evidence": "Goldman Sachs Adjusts Price Target"
+   }
+  ],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.46pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 預金成長 / 外部要因: 金利環境、米10年金利 約3か月 +0.46pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:35.496Z"
+ },
+ "v3:US:STLD:Sep/2026": {
+  "individual": [
+   {
+    "factor": "原材料価格上昇",
+    "evidence": "Despite Strong Steel Pricing"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 原材料価格上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:40.707Z"
+ },
+ "v3:US:WRB:Sep/2026": {
+  "individual": [
+   {
+    "factor": "損失率の改善",
+    "evidence": "Stronger Underlying Loss Ratio"
+   },
+   {
+    "factor": "販売保険料の増加",
+    "evidence": "Premiums Rise Y/Y"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "アナリストの好意的評価",
+    "evidence": "UBS Says"
+   },
+   {
+    "factor": "価格目標の引上げ",
+    "evidence": "Mizuho Securities Adjusts"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 損失率の改善、販売保険料の増加 / 外部要因: アナリストの好意的評価、価格目標の引上げ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:03:54.114Z"
+ },
+ "v3:US:CCK:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:04:00.901Z"
+ },
+ "v3:US:SMMT:Sep/2026": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "競合他社の動向",
+    "evidence": "Akeso Announces Opening of Global Phase II Study of Ivonescimab in First-Line Cl"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "外部要因: 競合他社の動向",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-20T18:04:06.322Z"
  }
 }
