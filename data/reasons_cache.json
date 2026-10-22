@@ -4568,5 +4568,391 @@
   "summary": "外部要因: 競合他社の動向",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-20T18:04:06.322Z"
+ },
+ "v3:JP:296A:26.04-09": {
+  "individual": [
+   {
+    "factor": "案件消化スピード向上",
+    "evidence": "案件の消化スピードが向上しております"
+   },
+   {
+    "factor": "AIソリューションの拡大",
+    "evidence": "AI資産判定ソリューション「ミラクルX」は大企業クライアントを中心に順調にサービス提供を拡大し始めております"
+   },
+   {
+    "factor": "生産性向上による事業展開",
+    "evidence": "コンサルティングに係る実務知見とAIを融合した新たな事業展開が、生産性向上と外部へのサービス提供の両面で本格的に機能し始めております"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の増加",
+    "evidence": "インバウンド需要の増加等により緩やかな回復が続くことが期待される"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 案件消化スピード向上、AIソリューションの拡大、生産性向上による事業展開 / 外部要因: インバウンド需要の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:16.255Z"
+ },
+ "v3:JP:4929:26.04-09": {
+  "individual": [
+   {
+    "factor": "重点商品の拡販",
+    "evidence": "第１四半期は、６年ぶりとなるサロン様ご招待イベントを開催し、関係先のモチベーション向上を図るとともに、営業本部全体で重点商品の拡販に注力した"
+   },
+   {
+    "factor": "新商品の好調",
+    "evidence": "スキンケア商品の売上高は、2026年５月に上市したメイクブランド「rafuna」のカバーファンデーションを活用し、サロンでのタッチアップを強化したことなどが寄与"
+   },
+   {
+    "factor": "販売費及び一般管理費の削減",
+    "evidence": "利益面におきましては、売上減等による粗利益減少を広告宣伝費等の販売費及び一般管理費の削減により補った"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要の底堅さ",
+    "evidence": "物価高の環境下においても美容への支出意欲は底堅く、美容は心豊かな生活を支えるサービスとして、その重要性が高まっている"
+   }
+  ],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "逆風",
+    "reason": "原油高は燃料・原料コストを押し上げる",
+    "change": "WTI原油 約3か月 +12.9%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 重点商品の拡販、新商品の好調、販売費及び一般管理費の削減 / 外部要因: 需要の底堅さ、WTI原油 約3か月 +12.9%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:24.402Z"
+ },
+ "v3:JP:5576:26.04-09": {
+  "individual": [
+   {
+    "factor": "採用活動の積極化",
+    "evidence": "新卒採用への積極的な取組みを継続"
+   },
+   {
+    "factor": "DX人材の教育・育成",
+    "evidence": "DX人材の教育・育成に注力し、早期の戦力化を図ってまいりました"
+   },
+   {
+    "factor": "技術力向上のための資格取得推進",
+    "evidence": "技術力向上を目的とした各種資格取得の推進にも引き続き力を入れ"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AI・DX関連需要の拡大",
+    "evidence": "生成AIの活用やデータセンター関連投資などAI関連需要の拡大"
+   },
+   {
+    "factor": "円安基調の継続",
+    "evidence": "円安基調の継続に伴う海外クラウドサービス利用料や機器調達コストの上昇"
+   },
+   {
+    "factor": "長期金利の上昇",
+    "evidence": "長期金利の上昇による顧客企業の設備投資への影響"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 採用活動の積極化、DX人材の教育・育成、技術力向上のための資格取得推進 / 外部要因: AI・DX関連需要の拡大、円安基調の継続、長期金利の上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:32.747Z"
+ },
+ "v3:US:SPCX:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新規事業の拡大",
+    "evidence": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year"
+   },
+   {
+    "factor": "関連会社との連携",
+    "evidence": "SpaceX shares soar on possible tie-up with Tesla"
+   },
+   {
+    "factor": "政府案件の拡大",
+    "evidence": "How Does the Ukrainian Military Use Starlink?"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "AI需要の高まり",
+    "evidence": "Review & Preview: Here We Go Ag-AI-n"
+   },
+   {
+    "factor": "地政学的リスクへの対応",
+    "evidence": "How Does the Ukrainian Military Use Starlink?"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規事業の拡大、関連会社との連携、政府案件の拡大 / 外部要因: AI需要の高まり、地政学的リスクへの対応",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:43.658Z"
+ },
+ "v3:US:GE:Sep/2026": {
+  "individual": [
+   {
+    "factor": "サービス需要の拡大",
+    "evidence": "Higher Services Outlook"
+   },
+   {
+    "factor": "新規案件の受注",
+    "evidence": "Aftermarket Growth Outlook"
+   },
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Strong Growth"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: サービス需要の拡大、新規案件の受注、販売数量の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:50.115Z"
+ },
+ "v3:US:RTX:Sep/2026": {
+  "individual": [
+   {
+    "factor": "ミサイル契約の獲得",
+    "evidence": "Missile Agreements"
+   },
+   {
+    "factor": "プラット事業の利益率改善",
+    "evidence": "Pratt Margins Improve"
+   },
+   {
+    "factor": "大型防衛受注の拡大",
+    "evidence": "Defense Backlog"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: ミサイル契約の獲得、プラット事業の利益率改善、大型防衛受注の拡大",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:30:57.572Z"
+ },
+ "v3:US:ISRG:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新商品の好調",
+    "evidence": "strong adoption and international growth"
+   },
+   {
+    "factor": "販売数量の増加",
+    "evidence": "strong adoption and international growth"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替影響",
+    "evidence": "Pricing and Growth Strategy"
+   },
+   {
+    "factor": "需要動向",
+    "evidence": "Procedure Outlook Stays Restrained"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新商品の好調、販売数量の増加 / 外部要因: 為替影響、需要動向",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:04.211Z"
+ },
+ "v3:US:CB:Sep/2026": {
+  "individual": [
+   {
+    "factor": "引受け規律",
+    "evidence": "underwriting discipline"
+   },
+   {
+    "factor": "投資収益の強み",
+    "evidence": "investment strength"
+   },
+   {
+    "factor": "グローバル分散",
+    "evidence": "global diversification"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利環境",
+    "evidence": "investment and life income growth"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 引受け規律、投資収益の強み、グローバル分散 / 外部要因: 金利環境",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:09.690Z"
+ },
+ "v3:US:COF:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新規顧客獲得",
+    "evidence": "New cardholders"
+   },
+   {
+    "factor": "統合効果",
+    "evidence": "Integration meets credit test"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "金利上昇",
+    "evidence": "Higher rates"
+   },
+   {
+    "factor": "景気後退懸念",
+    "evidence": "Borrowers handling higher rates"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新規顧客獲得、統合効果 / 外部要因: 金利上昇、景気後退懸念",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:14.887Z"
+ },
+ "v3:US:KEY:Sep/2026": {
+  "individual": [
+   {
+    "factor": "預金増加",
+    "evidence": "Deposit Growth and Commercial Lending Drive Revenue Momentum"
+   },
+   {
+    "factor": "商業貸出増加",
+    "evidence": "Deposit Growth and Commercial Lending Drive Revenue Momentum"
+   },
+   {
+    "factor": "記録的売上高",
+    "evidence": "Record Revenue"
+   }
+  ],
+  "cited": [],
+  "external": [
+   {
+    "metric": "us10y",
+    "effect": "追い風",
+    "reason": "金利上昇は預貸の利ざや(純金利収入)を広げる",
+    "change": "米10年金利 約3か月 +0.44pt"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 預金増加、商業貸出増加、記録的売上高 / 外部要因: 米10年金利 約3か月 +0.44pt(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:20.999Z"
+ },
+ "v3:US:HAS:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新商品の好調",
+    "evidence": "Magic Momentum"
+   },
+   {
+    "factor": "コスト管理",
+    "evidence": "Cost Discipline"
+   },
+   {
+    "factor": "ライセンス拡大",
+    "evidence": "Licensing Expansion"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "アナリストの好感",
+    "evidence": "UBS Says"
+   },
+   {
+    "factor": "価格目標の引き上げ",
+    "evidence": "Citigroup Adjusts Price Target"
+   },
+   {
+    "factor": "好決算への反応",
+    "evidence": "Stocks Surged Following Strong Quarterly Results"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新商品の好調、コスト管理、ライセンス拡大 / 外部要因: アナリストの好感、価格目標の引き上げ、好決算への反応",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:27.331Z"
+ },
+ "v3:US:PEGA:Sep/2026": {
+  "individual": [
+   {
+    "factor": "営業体制の不調",
+    "evidence": "execution challenges persist"
+   },
+   {
+    "factor": "市場開拓の遅れ",
+    "evidence": "go-to-market changes"
+   },
+   {
+    "factor": "AI導入の遅れ",
+    "evidence": "AI adoption"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "市場環境の変化",
+    "evidence": "go-to-market changes"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 営業体制の不調、市場開拓の遅れ、AI導入の遅れ / 外部要因: 市場環境の変化",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:33.041Z"
+ },
+ "v3:US:WFRD:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "追い風",
+    "reason": "原油高は販売価格と採算を押し上げる",
+    "change": "WTI原油 約3か月 +12.9%"
+   }
+  ],
+  "source": "news",
+  "summary": "外部要因: WTI原油 約3か月 +12.9%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:39.346Z"
+ },
+ "v3:US:IRDM:Sep/2026": {
+  "individual": [],
+  "cited": [
+   {
+    "factor": "競合他社の動向",
+    "evidence": "Rocket Lab Stock Rising"
+   },
+   {
+    "factor": "市場関心の高まり",
+    "evidence": "AST SpaceMobile Stock"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "外部要因: 競合他社の動向、市場関心の高まり",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:45.918Z"
+ },
+ "v3:US:NP:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-22T00:31:51.739Z"
  }
 }
