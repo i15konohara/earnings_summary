@@ -4954,5 +4954,600 @@
   "summary": "材料から要因を特定できませんでした",
   "model": "nvidia/nemotron-3.5-lightning:free",
   "generatedAt": "2026-10-22T00:31:51.739Z"
+ },
+ "v3:JP:8617:26.04-09": {
+  "individual": [
+   {
+    "factor": "コンサルティング需要の拡大",
+    "evidence": "お客様の売買が増加し、受入手数料は１億53百万円（前年同期比136.7％）となりました"
+   },
+   {
+    "factor": "ディーリングの好調",
+    "evidence": "活況な株式市場を背景にディーリングが好調な成績となりました"
+   },
+   {
+    "factor": "有価証券評価益の増加",
+    "evidence": "保有有価証券の評価益も増加して４億88百万円（同227.7％）となりました"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "株式市場の活況",
+    "evidence": "史上最高値が更新される活況相場となりました"
+   },
+   {
+    "factor": "日経平均株価の上昇",
+    "evidence": "期初４月の５万円台から、５月は６万６千円台に、６月には７万２千円台まで大きく上昇しました"
+   },
+   {
+    "factor": "中東情勢の変動",
+    "evidence": "米国・イランの終戦交渉の進展期待が生じるたびに投資家のリスク選好が強まりました"
+   }
+  ],
+  "external": [
+   {
+    "metric": "nikkei",
+    "effect": "逆風",
+    "reason": "株式市場の下落は売買・運用関連の収入を押し下げる",
+    "change": "日経平均 約3か月 -5.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: コンサルティング需要の拡大、ディーリングの好調、有価証券評価益の増加 / 外部要因: 株式市場の活況、日経平均株価の上昇、中東情勢の変動、日経平均 約3か月 -5.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:14.139Z"
+ },
+ "v3:JP:3111:26.04-06": {
+  "individual": [
+   {
+    "factor": "セグメント損失の縮小",
+    "evidence": "セグメント損失30百万円(前年同四半期は43百万円のセグメント損失）"
+   },
+   {
+    "factor": "不動産部門の売上増",
+    "evidence": "売上高263百万円(前年同四半期比0.7%増）"
+   },
+   {
+    "factor": "事業撤退損の計上",
+    "evidence": "事業撤退損28百万円の計上等"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "インバウンド需要の拡大",
+    "evidence": "インバウンド需要の継続的な拡大"
+   },
+   {
+    "factor": "雇用・所得環境の改善",
+    "evidence": "雇用・所得環境の改善"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: セグメント損失の縮小、不動産部門の売上増、事業撤退損の計上 / 外部要因: インバウンド需要の拡大、雇用・所得環境の改善",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:20.914Z"
+ },
+ "v3:JP:9478:26.04-09": {
+  "individual": [
+   {
+    "factor": "セグメント利益の増加",
+    "evidence": "セグメント利益(営業利益)595百万円(前年同期比219.0％増)"
+   },
+   {
+    "factor": "投資運用量の増加",
+    "evidence": "安定的な投資運用量増加に伴う配当金収入の増加"
+   },
+   {
+    "factor": "保有株の売却",
+    "evidence": "割高となっている保有株の一部売却を進めた"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "国際情勢の不安定化",
+    "evidence": "中東や欧州などの不安定な国際情勢"
+   },
+   {
+    "factor": "物価の上昇",
+    "evidence": "それに伴う物価の上昇"
+   },
+   {
+    "factor": "金融資本市場の変動",
+    "evidence": "金融資本市場の変動"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: セグメント利益の増加、投資運用量の増加、保有株の売却 / 外部要因: 国際情勢の不安定化、物価の上昇、金融資本市場の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:29.483Z"
+ },
+ "v3:JP:3091:26.01-09": {
+  "individual": [
+   {
+    "factor": "新商品投入",
+    "evidence": "新鮮サラダバーをブロンコビュッフェへ進化させ"
+   },
+   {
+    "factor": "メニュー拡充",
+    "evidence": "炭焼きうながんこハンバーグを提供"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "為替相場の動向",
+    "evidence": "米国の通商政策や為替相場の動向"
+   },
+   {
+    "factor": "原材料価格高騰",
+    "evidence": "原材料の価格高騰により"
+   },
+   {
+    "factor": "人手不足",
+    "evidence": "人手不足の常態化とともに"
+   }
+  ],
+  "external": [
+   {
+    "metric": "fx_usdjpy",
+    "effect": "追い風",
+    "reason": "円高は輸入する原材料・商品の仕入れコストを押し下げる",
+    "change": "ドル円 約3か月 -4.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 新商品投入、メニュー拡充 / 外部要因: 為替相場の動向、原材料価格高騰、人手不足、ドル円 約3か月 -4.3%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:35.996Z"
+ },
+ "v3:JP:6146:26.04-09": {
+  "individual": [
+   {
+    "factor": "高付加価値製品の出荷増加",
+    "evidence": "精密加工装置の出荷は、高性能半導体向けの高付加価値製品を中心に好調に推移しました"
+   },
+   {
+    "factor": "消耗品の出荷好調",
+    "evidence": "精密加工ツールの出荷も、顧客の設備稼働率等に連動して高水準で推移しました"
+   },
+   {
+    "factor": "為替影響による粗利率上昇",
+    "evidence": "損益については、為替の影響と高付加価値製品の増加などによりＧＰ率が上昇したことで"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "データセンター向け投資の継続",
+    "evidence": "生成AIの需要拡大を背景にデータセンタ向け投資が継続しました"
+   },
+   {
+    "factor": "半導体向け需要の高水準",
+    "evidence": "先端ロジックやHBMなどの高性能半導体向け需要が高水準で推移しました"
+   }
+  ],
+  "external": [
+   {
+    "metric": "fx_usdjpy",
+    "effect": "逆風",
+    "reason": "円高は海外売上の円換算額と輸出採算を押し下げる",
+    "change": "ドル円 約3か月 -4.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 高付加価値製品の出荷増加、消耗品の出荷好調、為替影響による粗利率上昇 / 外部要因: データセンター向け投資の継続、半導体向け需要の高水準、ドル円 約3か月 -4.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:43.931Z"
+ },
+ "v3:JP:9353:26.04-09": {
+  "individual": [
+   {
+    "factor": "設備投資に伴う減価償却費の増加",
+    "evidence": "設備投資に重点を置いたことに伴い減価償却費が増加したこと"
+   },
+   {
+    "factor": "液体貨物セグメントの荷役関係諸払費用の増加",
+    "evidence": "液体貨物セグメントにおけるタンク運営に係る特別作業により荷役関係諸払費が増加したこと"
+   },
+   {
+    "factor": "新システム稼働に伴うランニングコストの増加",
+    "evidence": "新システム稼働に伴うランニングコストや減価償却費が増加したこと"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "中東情勢の緊迫化",
+    "evidence": "中東情勢の緊迫化に伴うエネルギーコストや原材料価格の上昇"
+   },
+   {
+    "factor": "米国の通商政策の動向",
+    "evidence": "米国の通商政策の動向や為替相場の変動"
+   },
+   {
+    "factor": "為替相場の変動",
+    "evidence": "米国の通商政策の動向や為替相場の変動"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 設備投資に伴う減価償却費の増加、液体貨物セグメントの荷役関係諸払費用の増加、新システム稼働に伴うランニングコストの増加 / 外部要因: 中東情勢の緊迫化、米国の通商政策の動向、為替相場の変動",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:16:56.712Z"
+ },
+ "v3:JP:5423:26.04-09": {
+  "individual": [
+   {
+    "factor": "原材料価格の低減",
+    "evidence": "主原料である鉄スクラップの購入価格が想定を下回った"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 原材料価格の低減",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:08.768Z"
+ },
+ "v3:JP:8707:26.04-09": {
+  "individual": [
+   {
+    "factor": "テレビCM放映",
+    "evidence": "各部店の営業担当者が力強くメッセージを発信するテレビCMを放映いたしました"
+   },
+   {
+    "factor": "顧客サービス向上施策",
+    "evidence": "顧客サービスの向上と収益拡大に向けた施策に注力した結果"
+   },
+   {
+    "factor": "販売費・一般管理費の変動費増加",
+    "evidence": "業績に連動する賞与等の変動費の増加を主因として"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "米国とイランの停戦合意",
+    "evidence": "米国とイランによる停戦交渉に関する報道を受けて投資家心理が改善した"
+   },
+   {
+    "factor": "AI・半導体関連銘柄の株価上昇",
+    "evidence": "AI（人工知能）・半導体関連銘柄の株価上昇が市場を牽引し"
+   },
+   {
+    "factor": "米国主要企業の良好な業績",
+    "evidence": "米国主要企業の良好な業績を背景に"
+   }
+  ],
+  "external": [
+   {
+    "metric": "nikkei",
+    "effect": "逆風",
+    "reason": "株式市場の下落は売買・運用関連の収入を押し下げる",
+    "change": "日経平均 約3か月 -5.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: テレビCM放映、顧客サービス向上施策、販売費・一般管理費の変動費増加 / 外部要因: 米国とイランの停戦合意、AI・半導体関連銘柄の株価上昇、米国主要企業の良好な業績、日経平均 約3か月 -5.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:16.729Z"
+ },
+ "v3:JP:6999:26.04-09": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "中国の自動車向け、欧米・中国のディストリビューター向け、アジアのAI関連機器向け、日本の産業機器向け需要が拡大したこと"
+   },
+   {
+    "factor": "為替の円安影響",
+    "evidence": "為替の円安影響"
+   },
+   {
+    "factor": "技術戦略・企業体質の強化",
+    "evidence": "2030ビジョンの実現に向けた取組みを３つのフェーズに分けて進めており、2025年度からはフェーズ２である「2027中期経営計画」の目標達成に向けて"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "需要動向",
+    "evidence": "AI関連機器向け需要が引き続き拡大したほか、自動車の電動化や高度運転支援システム（ADAS）の普及を背景として、自動車向け需要は総じて堅調に推移しました"
+   },
+   {
+    "factor": "地政学リスク",
+    "evidence": "中東情勢をはじめとする地政学的リスクの高まり"
+   },
+   {
+    "factor": "原材料価格",
+    "evidence": "原材料価格の上昇"
+   }
+  ],
+  "external": [
+   {
+    "metric": "fx_usdjpy",
+    "effect": "逆風",
+    "reason": "円高は海外売上の円換算額と輸出採算を押し下げる",
+    "change": "ドル円 約3か月 -4.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 販売数量の増加、為替の円安影響、技術戦略・企業体質の強化 / 外部要因: 需要動向、地政学リスク、原材料価格、ドル円 約3か月 -4.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:23.760Z"
+ },
+ "v3:JP:7422:26.01-09": {
+  "individual": [
+   {
+    "factor": "婦人靴販売数量減少",
+    "evidence": "販売足数が減少（前年同期比12.5％減）したことにより"
+   },
+   {
+    "factor": "紳士靴販売数量大幅減少",
+    "evidence": "販売足数は減少（前年同期比27.6％減）したことにより"
+   },
+   {
+    "factor": "販売費及び一般管理費の削減幅不足",
+    "evidence": "販売費及び一般管理費の減少幅が売上総利益の減少幅を下回ったことが影響し"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "円安による売上原価増加",
+    "evidence": "円安による売上原価の増加"
+   },
+   {
+    "factor": "全国的な天候不順",
+    "evidence": "全国的な天候不順の影響"
+   },
+   {
+    "factor": "支払利息・暗号資産評価損・特別調査費用の増加",
+    "evidence": "前年を上回る支払利息、暗号資産評価損、特別調査費用を計上した"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 婦人靴販売数量減少、紳士靴販売数量大幅減少、販売費及び一般管理費の削減幅不足 / 外部要因: 円安による売上原価増加、全国的な天候不順、支払利息・暗号資産評価損・特別調査費用の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:31.790Z"
+ },
+ "v3:JP:6954:26.04-09": {
+  "individual": [
+   {
+    "factor": "経費削減",
+    "evidence": "経費削減等に取り組んだ"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "工作機械業界の需要",
+    "evidence": "工作機械業界の需要が好調に推移"
+   },
+   {
+    "factor": "中国・インドの需要",
+    "evidence": "中国やインドで需要が好調に推移"
+   }
+  ],
+  "external": [
+   {
+    "metric": "fx_usdjpy",
+    "effect": "逆風",
+    "reason": "円高は海外売上の円換算額と輸出採算を押し下げる",
+    "change": "ドル円 約3か月 -4.3%"
+   }
+  ],
+  "source": "tdnet",
+  "summary": "個別要因: 経費削減 / 外部要因: 工作機械業界の需要、中国・インドの需要、ドル円 約3か月 -4.3%(逆風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:37.473Z"
+ },
+ "v3:JP:5204:26.04-09": {
+  "individual": [
+   {
+    "factor": "プラスチック容器関連事業の減収",
+    "evidence": "ＰＥＴボトル用プリフォームは、長引く天候不順の影響で受注が減少したことに加え、費用の変化に伴う販売単価の見直しもあり"
+   },
+   {
+    "factor": "抗菌剤の出荷量減少",
+    "evidence": "抗菌剤は、原材料価格の高騰に伴う販売価格の改定等により出荷量が減少"
+   },
+   {
+    "factor": "調理器具向けガラストッププレートの減収",
+    "evidence": "調理器具向けガラストッププレートは品種構成の変化により減収"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "天候不順の影響",
+    "evidence": "長引く天候不順の影響で受注が減少"
+   },
+   {
+    "factor": "原材料価格の高騰",
+    "evidence": "原材料価格の高騰に伴う販売価格の改定等"
+   },
+   {
+    "factor": "地政学リスク・エネルギー価格上昇",
+    "evidence": "中東情勢をはじめとする地政学リスクの高まりにより引き続きエネルギー価格の上昇が見込まれ"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: プラスチック容器関連事業の減収、抗菌剤の出荷量減少、調理器具向けガラストッププレートの減収 / 外部要因: 天候不順の影響、原材料価格の高騰、地政学リスク・エネルギー価格上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:46.467Z"
+ },
+ "v3:JP:3912:26.01-09": {
+  "individual": [
+   {
+    "factor": "新商材投入",
+    "evidence": "新規商材の投入"
+   },
+   {
+    "factor": "好調な販売施策",
+    "evidence": "バトルイベント等の販売が好調"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "他社IPとのコラボ",
+    "evidence": "親和性の高い他社IPとのコラボイベント"
+   }
+  ],
+  "external": [],
+  "source": "tdnet",
+  "summary": "個別要因: 新商材投入、好調な販売施策 / 外部要因: 他社IPとのコラボ",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:52.384Z"
+ },
+ "v3:US:VLO:Sep/2026": {
+  "individual": [
+   {
+    "factor": "精製マージンの拡大",
+    "evidence": "Refining Margins Nearly Tripled"
+   }
+  ],
+  "cited": [],
+  "external": [
+   {
+    "metric": "oil_wti",
+    "effect": "追い風",
+    "reason": "原油高は販売価格と採算を押し上げる",
+    "change": "WTI原油 約3か月 +23.9%"
+   }
+  ],
+  "source": "news",
+  "summary": "個別要因: 精製マージンの拡大 / 外部要因: WTI原油 約3か月 +23.9%(追い風)",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:17:58.467Z"
+ },
+ "v3:US:NEM:Sep/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Higher gold sales"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:04.290Z"
+ },
+ "v3:US:BE:Sep/2026": {
+  "individual": [
+   {
+    "factor": "生産増加",
+    "evidence": "Morgan Stanley Sees A Production Ramp Ahead"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 生産増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:10.156Z"
+ },
+ "v3:US:NOK:Sep/2026": {
+  "individual": [
+   {
+    "factor": "エージェントAIへの新規投資",
+    "evidence": "What Is Nokia (HLSE:NOKIA) Building With Its New Push Into Agentic AI?"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: エージェントAIへの新規投資",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:18.636Z"
+ },
+ "v3:US:DOW:Sep/2026": {
+  "individual": [
+   {
+    "factor": "販売数量の増加",
+    "evidence": "Double-Digit Sales Growth"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 販売数量の増加",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:24.114Z"
+ },
+ "v3:US:NVR:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:29.003Z"
+ },
+ "v3:US:DECK:Sep/2026": {
+  "individual": [
+   {
+    "factor": "新商品の好調",
+    "evidence": "Hoka and Ugg Shoes Owner"
+   }
+  ],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 新商品の好調",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:18:34.217Z"
+ },
+ "v3:US:KNSL:Sep/2026": {
+  "individual": [
+   {
+    "factor": "損害保険料率低下",
+    "evidence": "Property Competition Cuts Premiums"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "競合他社の参入",
+    "evidence": "Property Competition Cuts Premiums"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: 損害保険料率低下 / 外部要因: 競合他社の参入",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:19:09.999Z"
+ },
+ "v3:US:ASR:Sep/2026": {
+  "individual": [],
+  "cited": [],
+  "external": [],
+  "source": "news",
+  "summary": "材料から要因を特定できませんでした",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:19:15.943Z"
+ },
+ "v3:US:MXL:Sep/2026": {
+  "individual": [
+   {
+    "factor": "AI需要の拡大",
+    "evidence": "AI Growth and Optical Demand"
+   },
+   {
+    "factor": "データセンター需要の増加",
+    "evidence": "Data Center Surge"
+   }
+  ],
+  "cited": [
+   {
+    "factor": "競合の影響",
+    "evidence": "competition"
+   },
+   {
+    "factor": "原材料価格の上昇",
+    "evidence": "Rising Oil Prices"
+   }
+  ],
+  "external": [],
+  "source": "news",
+  "summary": "個別要因: AI需要の拡大、データセンター需要の増加 / 外部要因: 競合の影響、原材料価格の上昇",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "generatedAt": "2026-10-23T14:19:22.447Z"
  }
 }
